@@ -517,6 +517,8 @@ shunt9917 = pp.create_shunt(net, bus9917, q_mvar=175, p_mw=0, in_service=True)
 shunt1631 = pp.create_shunt(net, bus1631, q_mvar=172, p_mw=0, in_service=True)
 
 print(net)
-
+pp.to_json(net, "wacs_scheme_init.json")
 pp.runpp(net, max_iteration=20)
-print(net.res_line7209_465)
+print(net.res_bus)
+pp.to_json(net, "wacs_scheme_pp.json")
+#print(net.res_line(7209_465))

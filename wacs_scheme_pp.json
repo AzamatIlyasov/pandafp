@@ -1,0 +1,1775 @@
+{
+  "_module": "pandapower.auxiliary",
+  "_class": "pandapowerNet",
+  "_object": {
+    "bus": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"vn_kv\",\"type\",\"zone\",\"in_service\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122],\"data\":[[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,510.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,20.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,110.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,110.0,\"b\",null,true],[null,110.0,\"b\",null,true],[null,110.0,\"b\",null,true],[null,110.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,220.0,\"b\",null,true],[null,20.0,\"b\",null,true],[null,20.0,\"b\",null,true],[null,20.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true],[null,500.0,\"b\",null,true]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "vn_kv": "float64",
+        "type": "object",
+        "zone": "object",
+        "in_service": "bool"
+      }
+    },
+    "load": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_mw\",\"q_mvar\",\"const_z_percent\",\"const_i_percent\",\"sn_mva\",\"scaling\",\"in_service\",\"type\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95],\"data\":[[null,3,10.0,0.0,0.0,0.0,null,1.0,true,\"wye\"],[null,15,2500.0,0.0,0.0,0.0,null,1.0,true,\"wye\"],[null,17,430.0,120.0,0.0,0.0,null,1.0,true,\"wye\"],[null,18,175.0,79.0,0.0,0.0,null,1.0,true,\"wye\"],[null,20,840.0,183.0,0.0,0.0,null,1.0,true,\"wye\"],[null,21,180.0,50.0,0.0,0.0,null,1.0,true,\"wye\"],[null,22,522.799999999999954,302.0,0.0,0.0,null,1.0,true,\"wye\"],[null,23,360.0,50.0,0.0,0.0,null,1.0,true,\"wye\"],[null,24,1050.0,98.0,0.0,0.0,null,1.0,true,\"wye\"],[null,25,20.5,5.1,0.0,0.0,null,1.0,true,\"wye\"],[null,26,67.0,20.0,0.0,0.0,null,1.0,true,\"wye\"],[null,28,3.0,2.0,0.0,0.0,null,1.0,true,\"wye\"],[null,29,12.0,2.0,0.0,0.0,null,1.0,true,\"wye\"],[null,30,825.0,102.0,0.0,0.0,null,1.0,true,\"wye\"],[null,31,202.0,27.0,0.0,0.0,null,1.0,true,\"wye\"],[null,32,81.400000000000006,12.199999999999999,0.0,0.0,null,1.0,true,\"wye\"],[null,33,420.0,76.200000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,34,195.0,25.0,0.0,0.0,null,1.0,true,\"wye\"],[null,35,660.0,70.0,0.0,0.0,null,1.0,true,\"wye\"],[null,36,368.0,60.0,0.0,0.0,null,1.0,true,\"wye\"],[null,37,255.0,60.0,0.0,0.0,null,1.0,true,\"wye\"],[null,38,154.0,55.0,0.0,0.0,null,1.0,true,\"wye\"],[null,39,304.0,-25.0,0.0,0.0,null,1.0,true,\"wye\"],[null,40,103.5,-99.400000000000006,0.0,0.0,null,1.0,true,\"wye\"],[null,41,2754.0,200.0,0.0,0.0,null,1.0,true,\"wye\"],[null,42,280.0,66.700000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,44,2295.0,25.0,0.0,0.0,null,1.0,true,\"wye\"],[null,46,130.0,32.0,0.0,0.0,null,1.0,true,\"wye\"],[null,48,6.4,2.1,0.0,0.0,null,1.0,true,\"wye\"],[null,50,25.0,15.0,0.0,0.0,null,1.0,true,\"wye\"],[null,51,33.0,3.2,0.0,0.0,null,1.0,true,\"wye\"],[null,52,6964.0,3359.0,0.0,0.0,null,1.0,false,\"wye\"],[null,53,232.0,10.0,0.0,0.0,null,1.0,true,\"wye\"],[null,54,385.0,114.0,0.0,0.0,null,1.0,true,\"wye\"],[null,55,174.0,11.0,0.0,0.0,null,1.0,true,\"wye\"],[null,56,135.0,40.0,0.0,0.0,null,1.0,true,\"wye\"],[null,57,24.0,9.0,0.0,0.0,null,1.0,true,\"wye\"],[null,58,173.0,49.700000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,59,38.0,18.800000000000001,0.0,0.0,null,1.0,true,\"wye\"],[null,60,9.1,1.3,0.0,0.0,null,1.0,true,\"wye\"],[null,61,54.0,30.399999999999999,0.0,0.0,null,1.0,true,\"wye\"],[null,62,1183.400000000000091,452.199999999999989,0.0,0.0,null,1.0,true,\"wye\"],[null,63,7.4,2.4,0.0,0.0,null,1.0,true,\"wye\"],[null,64,20.300000000000001,7.9,0.0,0.0,null,1.0,true,\"wye\"],[null,65,18.0,5.3,0.0,0.0,null,1.0,true,\"wye\"],[null,66,15.0,4.6,0.0,0.0,null,1.0,true,\"wye\"],[null,67,305.0,90.0,0.0,0.0,null,1.0,true,\"wye\"],[null,68,320.0,15.0,0.0,0.0,null,1.0,true,\"wye\"],[null,70,55.100000000000001,16.199999999999999,0.0,0.0,null,1.0,true,\"wye\"],[null,71,175.0,30.0,0.0,0.0,null,1.0,true,\"wye\"],[null,72,38.899999999999999,5.0,0.0,0.0,null,1.0,true,\"wye\"],[null,73,13.0,4.2,0.0,0.0,null,1.0,true,\"wye\"],[null,74,207.0,42.899999999999999,0.0,0.0,null,1.0,true,\"wye\"],[null,52,30.0,9.1,0.0,0.0,null,1.0,true,\"wye\"],[null,76,18.0,6.0,0.0,0.0,null,1.0,true,\"wye\"],[null,77,154.0,44.0,0.0,0.0,null,1.0,true,\"wye\"],[null,79,40.0,12.0,0.0,0.0,null,1.0,true,\"wye\"],[null,80,12.0,2.0,0.0,0.0,null,1.0,true,\"wye\"],[null,81,93.0,-10.0,0.0,0.0,null,1.0,true,\"wye\"],[null,82,8.0,2.0,0.0,0.0,null,1.0,true,\"wye\"],[null,83,14.0,2.0,0.0,0.0,null,1.0,true,\"wye\"],[null,84,11.300000000000001,4.5,0.0,0.0,null,1.0,true,\"wye\"],[null,85,43.0,6.3,0.0,0.0,null,1.0,true,\"wye\"],[null,86,18.0,3.0,0.0,0.0,null,1.0,true,\"wye\"],[null,87,29.899999999999999,7.7,0.0,0.0,null,1.0,true,\"wye\"],[null,88,20.0,3.0,0.0,0.0,null,1.0,true,\"wye\"],[null,89,20.0,3.4,0.0,0.0,null,1.0,true,\"wye\"],[null,90,24.0,19.300000000000001,0.0,0.0,null,1.0,true,\"wye\"],[null,91,670.0,279.0,0.0,0.0,null,1.0,true,\"wye\"],[null,92,50.0,15.0,0.0,0.0,null,1.0,true,\"wye\"],[null,94,222.0,44.700000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,95,80.599999999999994,35.100000000000001,0.0,0.0,null,1.0,true,\"wye\"],[null,96,220.0,50.0,0.0,0.0,null,1.0,true,\"wye\"],[null,97,394.0,152.0,0.0,0.0,null,1.0,true,\"wye\"],[null,98,80.0,67.200000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,100,55.700000000000003,14.0,0.0,0.0,null,1.0,true,\"wye\"],[null,103,265.0,20.0,0.0,0.0,null,1.0,true,\"wye\"],[null,104,322.0,88.0,0.0,0.0,null,1.0,true,\"wye\"],[null,105,20.0,4.0,0.0,0.0,null,1.0,true,\"wye\"],[null,106,386.300000000000011,59.799999999999997,0.0,0.0,null,1.0,true,\"wye\"],[null,107,195.300000000000011,45.299999999999997,0.0,0.0,null,1.0,true,\"wye\"],[null,108,12.0,3.0,0.0,0.0,null,1.0,true,\"wye\"],[null,109,80.0,15.0,0.0,0.0,null,1.0,true,\"wye\"],[null,110,22.0,8.0,0.0,0.0,null,1.0,true,\"wye\"],[null,111,16.0,55.0,0.0,0.0,null,1.0,true,\"wye\"],[null,112,140.0,-35.0,0.0,0.0,null,1.0,true,\"wye\"],[null,113,-52.600000000000001,95.0,0.0,0.0,null,1.0,true,\"wye\"],[null,114,716.0,-196.0,0.0,0.0,null,1.0,true,\"wye\"],[null,115,-30.0,135.0,0.0,0.0,null,1.0,true,\"wye\"],[null,116,256.0,-33.799999999999997,0.0,0.0,null,1.0,true,\"wye\"],[null,117,100000.0,40000.0,0.0,0.0,null,1.0,true,\"wye\"],[null,118,584.799999999999954,40.0,0.0,0.0,null,1.0,true,\"wye\"],[null,119,1.0,1.0,0.0,0.0,null,1.0,true,\"wye\"],[null,120,178.0,40.0,0.0,0.0,null,1.0,true,\"wye\"],[null,121,146.300000000000011,-42.200000000000003,0.0,0.0,null,1.0,true,\"wye\"],[null,122,5.0,165.0,0.0,0.0,null,1.0,true,\"wye\"]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "const_z_percent": "float64",
+        "const_i_percent": "float64",
+        "sn_mva": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "type": "object"
+      }
+    },
+    "sgen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_mw\",\"q_mvar\",\"sn_mva\",\"scaling\",\"in_service\",\"type\",\"current_source\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "int64",
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "sn_mva": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "type": "object",
+        "current_source": "bool"
+      }
+    },
+    "motor": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"pn_mech_mw\",\"loading_percent\",\"cos_phi\",\"cos_phi_n\",\"efficiency_percent\",\"efficiency_n_percent\",\"lrc_pu\",\"vn_kv\",\"scaling\",\"in_service\",\"rx\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "int64",
+        "pn_mech_mw": "float64",
+        "loading_percent": "float64",
+        "cos_phi": "float64",
+        "cos_phi_n": "float64",
+        "efficiency_percent": "float64",
+        "efficiency_n_percent": "float64",
+        "lrc_pu": "float64",
+        "vn_kv": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "rx": "float64"
+      }
+    },
+    "asymmetric_load": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\",\"sn_mva\",\"scaling\",\"in_service\",\"type\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64",
+        "sn_mva": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "type": "object"
+      }
+    },
+    "asymmetric_sgen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\",\"sn_mva\",\"scaling\",\"in_service\",\"type\",\"current_source\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "int64",
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64",
+        "sn_mva": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "type": "object",
+        "current_source": "bool"
+      }
+    },
+    "storage": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_mw\",\"q_mvar\",\"sn_mva\",\"soc_percent\",\"min_e_mwh\",\"max_e_mwh\",\"scaling\",\"in_service\",\"type\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "int64",
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "sn_mva": "float64",
+        "soc_percent": "float64",
+        "min_e_mwh": "float64",
+        "max_e_mwh": "float64",
+        "scaling": "float64",
+        "in_service": "bool",
+        "type": "object"
+      }
+    },
+    "gen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"p_mw\",\"vm_pu\",\"sn_mva\",\"min_q_mvar\",\"max_q_mvar\",\"scaling\",\"slack\",\"in_service\",\"slack_weight\",\"type\",\"power_station_trafo\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49],\"data\":[[null,3,0.0,1.038,1000.0,-360.0,null,1.0,false,true,0.0,null,null],[null,4,0.0,1.042,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,6,0.0,1.042,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,8,0.0,1.02,1000.0,null,null,1.0,false,true,0.0,null,null],[null,10,0.0,1.006,1000.0,null,null,1.0,false,true,0.0,null,null],[null,11,0.0,1.02,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,12,0.0,1.02,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,13,0.0,1.02,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,15,2934.0,1.02,4000.0,-1000.0,1000.0,1.0,false,true,0.0,null,null],[null,17,0.0,1.016,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,20,1301.0,1.05,3000.0,-383.0,896.0,1.0,false,true,0.0,null,null],[null,21,10.0,1.077,1000.0,null,null,1.0,false,true,0.0,null,null],[null,22,1120.0,1.07,1500.0,-150.0,804.0,1.0,false,true,0.0,null,null],[null,24,468.0,1.081,1000.0,40.0,250.0,1.0,false,true,0.0,null,null],[null,26,0.0,1.05,1000.0,null,null,1.0,false,true,0.0,null,null],[null,28,0.0,1.0,1000.0,null,null,1.0,false,true,0.0,null,null],[null,29,0.0,1.0,1000.0,null,18.0,1.0,false,true,0.0,null,null],[null,30,430.0,1.004,1000.0,-100.0,100.0,1.0,false,true,0.0,null,null],[null,31,36.0,1.045,1000.0,null,null,1.0,false,true,0.0,null,null],[null,33,450.300000000000011,1.045,1000.0,-160.0,300.0,1.0,false,true,0.0,null,null],[null,35,776.0,1.045,1000.0,-500.0,920.0,1.0,false,true,0.0,null,null],[null,36,203.0,1.01,1000.0,null,null,1.0,false,true,0.0,null,null],[null,41,3107.0,1.016,1000.0,-1000.0,1000.0,1.0,false,true,0.0,null,null],[null,42,46.0,0.99,1000.0,-500.0,500.0,1.0,false,true,0.0,null,null],[null,44,2520.0,1.02,4000.0,-800.0,800.0,1.0,false,true,0.0,null,null],[null,46,206.0,1.068,1000.0,-25.0,232.5,1.0,false,true,0.0,null,null],[null,48,0.0,1.045,1000.0,null,null,1.0,false,true,0.0,null,null],[null,50,501.0,1.0,1000.0,-130.0,340.0,1.0,false,true,0.0,null,null],[null,52,7018.0,1.014,15000.0,-2300.0,11500.0,1.0,false,false,0.0,null,null],[null,53,250.0,1.01,1000.0,-64.0,152.0,1.0,false,true,0.0,null,null],[null,54,0.0,1.032,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,62,946.0,1.059,2000.0,113.900000000000006,718.799999999999954,1.0,false,true,0.0,null,null],[null,77,53.0,1.0,250.0,-24.0,76.0,1.0,false,true,0.0,null,null],[null,91,579.0,1.1,1000.0,92.0,437.0,1.0,false,true,0.0,null,null],[null,93,78.0,1.11,1000.0,-12.0,101.0,1.0,false,true,0.0,null,null],[null,94,143.0,1.1,1000.0,-30.0,88.0,1.0,false,true,0.0,null,null],[null,95,96.0,1.1,1000.0,-16.199999999999999,60.600000000000001,1.0,false,true,0.0,null,null],[null,96,182.0,1.1,1000.0,20.0,160.0,1.0,false,true,0.0,null,null],[null,97,577.0,1.1,1000.0,35.0,140.0,1.0,false,true,0.0,null,null],[null,99,15.0,1.022,1000.0,-10.0,10.0,1.0,false,true,0.0,null,null],[null,100,177.0,1.072,1000.0,null,168.0,1.0,false,true,0.0,null,null],[null,104,470.0,1.054,1000.0,120.0,422.0,1.0,false,true,0.0,null,null],[null,106,127.0,1.077,1000.0,null,100.0,1.0,false,true,0.0,null,null],[null,108,809.0,1.0,2000.0,-163.0,573.0,1.0,false,true,0.0,null,null],[null,109,2896.0,1.0,4000.0,-430.0,1880.0,1.0,false,true,0.0,null,null],[null,110,961.0,1.0,2000.0,-500.0,800.0,1.0,false,true,0.0,null,null],[null,115,550.0,1.02,1000.0,-300.0,300.0,1.0,false,true,0.0,null,null],[null,120,0.0,1.02,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,121,0.0,1.034,1000.0,-180.0,null,1.0,false,true,0.0,null,null],[null,122,190.0,1.0,1000.0,null,null,1.0,false,true,0.0,null,null]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "p_mw": "float64",
+        "vm_pu": "float64",
+        "sn_mva": "float64",
+        "min_q_mvar": "float64",
+        "max_q_mvar": "float64",
+        "scaling": "float64",
+        "slack": "bool",
+        "in_service": "bool",
+        "slack_weight": "float64",
+        "type": "object",
+        "power_station_trafo": "float64"
+      }
+    },
+    "switch": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"bus\",\"element\",\"et\",\"type\",\"closed\",\"name\",\"z_ohm\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "bus": "int64",
+        "element": "int64",
+        "et": "object",
+        "type": "object",
+        "closed": "bool",
+        "name": "object",
+        "z_ohm": "float64"
+      }
+    },
+    "shunt": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"bus\",\"name\",\"q_mvar\",\"p_mw\",\"vn_kv\",\"step\",\"max_step\",\"in_service\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],\"data\":[[0,null,1026.0,0.0,500.0,1,1,true],[1,null,521.0,0.0,500.0,1,1,true],[3,null,352.0,0.0,500.0,1,1,true],[4,null,355.0,0.0,500.0,1,1,true],[5,null,176.0,0.0,500.0,1,1,true],[6,null,177.0,0.0,500.0,1,1,true],[7,null,175.0,0.0,500.0,1,1,true],[8,null,174.0,0.0,500.0,1,1,true],[9,null,173.0,0.0,500.0,1,1,true],[11,null,169.0,0.0,500.0,1,1,true],[12,null,168.0,0.0,500.0,1,1,true],[16,null,174.0,0.0,500.0,1,1,true],[17,null,169.0,0.0,500.0,1,1,true],[18,null,333.0,0.0,500.0,1,1,true],[19,null,498.0,0.0,500.0,1,1,true],[36,null,505.0,0.0,500.0,1,1,true],[37,null,341.0,0.0,500.0,1,1,true],[38,null,343.0,0.0,500.0,1,1,true],[39,null,171.0,0.0,500.0,1,1,true],[40,null,329.0,0.0,500.0,1,1,true],[43,null,180.0,0.0,500.0,1,1,true],[44,null,170.0,0.0,500.0,1,1,true],[53,null,345.0,0.0,500.0,1,1,true],[54,null,174.0,0.0,500.0,1,1,true],[55,null,171.0,0.0,500.0,1,1,true],[76,null,20.0,0.0,220.0,1,1,true],[81,null,35.0,0.0,220.0,1,1,true],[111,null,356.0,0.0,500.0,1,1,true],[112,null,174.0,0.0,500.0,1,1,true],[114,null,176.0,0.0,500.0,1,1,true],[116,null,172.0,0.0,500.0,1,1,true],[117,null,174.0,0.0,500.0,1,1,true],[119,null,186.0,0.0,500.0,1,1,true],[120,null,175.0,0.0,500.0,1,1,true],[121,null,175.0,0.0,500.0,1,1,true],[122,null,172.0,0.0,500.0,1,1,true]]}",
+      "orient": "split",
+      "dtype": {
+        "bus": "uint32",
+        "name": "object",
+        "q_mvar": "float64",
+        "p_mw": "float64",
+        "vn_kv": "float64",
+        "step": "uint32",
+        "max_step": "uint32",
+        "in_service": "bool"
+      }
+    },
+    "ext_grid": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"vm_pu\",\"va_degree\",\"slack_weight\",\"in_service\"],\"index\":[0],\"data\":[[null,117,1.032,0.0,1.0,true]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "vm_pu": "float64",
+        "va_degree": "float64",
+        "slack_weight": "float64",
+        "in_service": "bool"
+      }
+    },
+    "line": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"std_type\",\"from_bus\",\"to_bus\",\"length_km\",\"r_ohm_per_km\",\"x_ohm_per_km\",\"c_nf_per_km\",\"g_us_per_km\",\"max_i_ka\",\"df\",\"parallel\",\"type\",\"in_service\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146],\"data\":[[null,null,0,1,1.0,0.31,3.81,48.100000000000001,0.0,10.0,1.0,1,\"ol\",true],[null,null,0,1,1.0,0.25,3.15,39.700000000000003,0.0,10.0,1.0,1,\"ol\",true],[null,null,1,2,1.0,8.300000000000001,78.299999999999997,1050.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,2,3,1.0,6.86,79.400000000000006,1001.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,0,3,1.0,11.6,138.300000000000011,1757.400000000000091,0.0,10.0,1.0,1,\"ol\",true],[null,null,3,4,1.0,12.699999999999999,115.599999999999994,1526.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,3,4,1.0,11.5,118.409999999999997,1447.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,4,5,1.0,9.35,85.0,1125.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,4,6,1.0,9.199999999999999,98.200000000000003,1148.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,4,7,1.0,5.2,63.600000000000001,788.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,5,7,1.0,7.1,72.409999999999997,911.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,5,6,1.0,1.8,19.5,277.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,7,8,1.0,2.82,28.850000000000001,362.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,8,9,1.0,6.0,69.0,811.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,9,10,1.0,4.1,51.600000000000001,612.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,11,0,1.0,10.1,122.519999999999996,1523.799999999999954,0.0,10.0,1.0,1,\"ol\",true],[null,null,11,12,1.0,9.84,120.420000000000002,1424.599999999999909,0.0,10.0,1.0,1,\"ol\",true],[null,null,12,13,1.0,8.33,88.519999999999996,1034.700000000000046,0.0,10.0,1.0,1,\"ol\",true],[null,null,13,6,1.0,5.91,62.759999999999998,733.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,11,14,1.0,5.72,58.549999999999997,720.799999999999954,0.0,10.0,1.0,1,\"ol\",true],[null,null,15,10,1.0,3.0,32.5,455.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,1,16,1.0,7.3,89.75,1061.700000000000046,0.0,10.0,1.0,1,\"ol\",true],[null,null,1,17,1.0,3.05,36.640000000000001,462.800000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,17,18,1.0,10.25,98.5,1290.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,18,14,1.0,4.34,44.020000000000003,560.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,0,19,1.0,14.789999999999999,212.330000000000012,2866.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,29,30,1.0,16.800000000000001,72.0,470.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,30,98,1.0,19.0,82.0,525.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,32,33,1.0,9.27,40.579999999999998,249.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,19,36,1.0,0.26,2.64,33.100000000000001,0.0,10.0,1.0,1,\"ol\",true],[null,null,36,18,1.0,10.300000000000001,105.0,1371.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,0,37,1.0,6.05,132.699999999999989,2188.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,37,38,1.0,5.02,106.959999999999994,1747.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,38,39,1.0,1.3,13.6,159.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,16,40,1.0,11.119999999999999,113.359999999999999,1429.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,40,39,1.0,8.800000000000001,80.0,1068.0,0.0,10.0,1.0,1,\"ol\",false],[null,null,39,116,1.0,4.7,53.5,668.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,19,122,1.0,5.46,50.119999999999997,662.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,3,43,1.0,12.6,123.0,1536.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,19,36,1.0,0.19,1.97,24.699999999999999,0.0,10.0,1.0,1,\"ol\",true],[null,null,45,0,1.0,0.81,11.75,103.700000000000003,0.0,10.0,1.0,1,\"ol\",true],[null,null,45,0,1.0,0.93,11.27,98.299999999999997,0.0,10.0,1.0,1,\"ol\",true],[null,null,102,99,1.0,0.75,5.35,142.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,101,80,1.0,0.57,3.15,81.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,32,101,1.0,5.0,20.0,154.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,99,100,1.0,2.1,14.199999999999999,93.900000000000006,0.0,10.0,1.0,1,\"ol\",true],[null,null,98,102,1.0,7.0,30.149999999999999,194.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,27,49,1.0,23.670000000000002,99.680000000000007,640.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,49,48,1.0,16.460000000000001,70.140000000000001,446.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,48,27,1.0,12.800000000000001,54.200000000000003,349.800000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,15,52,1.0,0.45,5.81,65.0,0.0,10.0,1.0,1,\"ol\",false],[null,null,37,53,1.0,5.0,49.899999999999999,613.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,53,54,1.0,11.470000000000001,87.780000000000001,1080.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,1,54,1.0,11.800000000000001,108.200000000000003,1440.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,17,55,1.0,7.62,76.799999999999997,953.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,54,55,1.0,3.42,35.280000000000001,438.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,20,56,1.0,3.08,24.27,598.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,21,56,1.0,3.08,24.27,598.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,21,57,1.0,4.95,52.490000000000002,634.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,22,57,1.0,4.94,52.479999999999997,634.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,22,58,1.0,4.43,18.780000000000001,549.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,23,58,1.0,4.43,18.780000000000001,549.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,23,59,1.0,13.619999999999999,60.630000000000002,643.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,24,59,1.0,13.619999999999999,60.630000000000002,643.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,24,60,1.0,2.87,11.529999999999999,648.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,25,60,1.0,2.86,11.52,648.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,23,61,1.0,17.399999999999999,68.480000000000004,441.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,25,61,1.0,17.399999999999999,68.480000000000004,441.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,26,62,1.0,2.68,10.529999999999999,269.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,47,62,1.0,2.68,10.52,269.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,47,63,1.0,12.800000000000001,51.649999999999999,313.300000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,51,63,1.0,12.800000000000001,51.649999999999999,313.300000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,47,64,1.0,9.01,36.57,230.199999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,27,64,1.0,9.01,36.560000000000002,230.199999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,47,65,1.0,20.280000000000001,81.25,498.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,49,65,1.0,20.280000000000001,81.25,498.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,28,66,1.0,11.970000000000001,53.210000000000001,328.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,29,66,1.0,11.970000000000001,53.210000000000001,328.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,98,67,1.0,3.98,16.949999999999999,1900.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,99,67,1.0,3.98,16.949999999999999,1900.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,30,68,1.0,5.82,25.07,161.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,33,68,1.0,5.82,25.07,161.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,33,69,1.0,10.83,46.630000000000002,598.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,34,69,1.0,10.83,46.630000000000002,598.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,103,70,1.0,5.4,21.460000000000001,554.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,106,70,1.0,5.4,21.460000000000001,554.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,34,71,1.0,5.55,23.350000000000001,213.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,30,71,1.0,5.55,23.350000000000001,213.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,100,72,1.0,5.0,22.18,561.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,31,72,1.0,5.0,22.18,561.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,48,73,1.0,13.25,57.57,367.699999999999989,0.0,10.0,1.0,1,\"ol\",false],[null,null,28,73,1.0,13.24,57.560000000000002,367.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,51,27,1.0,16.399999999999999,71.769999999999996,441.699999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,51,74,1.0,7.68,29.920000000000002,862.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,46,74,1.0,7.68,29.920000000000002,862.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,98,100,1.0,7.71,33.810000000000002,208.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,106,89,1.0,4.15,18.149999999999999,111.700000000000003,0.0,10.0,1.0,1,\"ol\",true],[null,null,105,76,1.0,21.969999999999999,85.810000000000002,567.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,76,88,1.0,3.86,15.06,424.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,77,81,1.0,27.390000000000001,107.650000000000006,719.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,46,78,1.0,11.609999999999999,48.979999999999997,1258.299999999999954,0.0,10.0,1.0,1,\"ol\",true],[null,null,79,102,1.0,0.33,1.49,9.199999999999999,0.0,10.0,1.0,1,\"ol\",true],[null,null,98,79,1.0,7.01,31.309999999999999,193.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,80,102,1.0,0.43,2.38,61.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,78,81,1.0,27.390000000000001,107.650000000000006,719.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,103,104,1.0,1.45,5.71,324.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,29,82,1.0,1.3,6.0,37.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,82,104,1.0,21.899999999999999,86.359999999999999,571.200000000000045,0.0,10.0,1.0,1,\"ol\",true],[null,null,83,104,1.0,9.890000000000001,37.130000000000003,258.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,83,34,1.0,9.890000000000001,37.130000000000003,258.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,84,107,1.0,6.55,41.399999999999999,279.300000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,84,87,1.0,9.98,39.670000000000002,259.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,84,35,1.0,5.02,31.850000000000001,212.900000000000006,0.0,10.0,1.0,1,\"ol\",false],[null,null,35,107,1.0,8.58,52.039999999999999,361.199999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,106,107,1.0,1.72,10.75,76.599999999999994,0.0,10.0,1.0,1,\"ol\",true],[null,null,75,107,1.0,19.699999999999999,79.299999999999997,474.199999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,75,105,1.0,2.16,8.4,54.100000000000001,0.0,10.0,1.0,1,\"ol\",true],[null,null,105,85,1.0,13.390000000000001,52.289999999999999,488.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,85,103,1.0,13.390000000000001,52.289999999999999,488.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,8,44,1.0,7.1,64.200000000000003,812.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,86,75,1.0,12.529999999999999,48.140000000000001,317.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,86,76,1.0,7.21,28.309999999999999,185.800000000000011,0.0,10.0,1.0,1,\"ol\",true],[null,null,106,87,1.0,9.98,39.68,259.899999999999977,0.0,10.0,1.0,1,\"ol\",true],[null,null,77,88,1.0,3.86,15.06,424.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,89,105,1.0,20.27,88.719999999999999,546.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,25,90,1.0,8.880000000000001,38.869999999999998,239.199999999999989,0.0,10.0,1.0,1,\"ol\",true],[null,null,47,90,1.0,3.53,15.44,95.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,99,92,1.0,12.0,52.700000000000003,324.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,93,92,1.0,7.3,40.899999999999999,263.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,93,100,1.0,17.100000000000001,95.700000000000003,615.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,42,39,1.0,4.92,50.0,622.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,117,116,1.0,5.05,57.899999999999999,724.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,117,118,1.0,6.8,66.0,850.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,118,42,1.0,6.2,54.600000000000001,765.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,115,42,1.0,1.29,18.640000000000001,303.100000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,113,115,1.0,1.78,25.870000000000001,401.5,0.0,10.0,1.0,1,\"ol\",true],[null,null,113,114,1.0,1.5,19.0,230.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,38,114,1.0,4.0,75.299999999999997,1420.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,112,113,1.0,1.96,16.199999999999999,218.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,112,111,1.0,9.02,84.650000000000006,1066.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,53,111,1.0,9.369999999999999,84.099999999999994,1004.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,111,119,1.0,9.4,87.420000000000002,1114.299999999999954,0.0,10.0,1.0,1,\"ol\",true],[null,null,119,120,1.0,8.56,102.650000000000006,1303.799999999999954,0.0,10.0,1.0,1,\"ol\",true],[null,null,120,54,1.0,2.1,21.850000000000001,273.600000000000023,0.0,10.0,1.0,1,\"ol\",true],[null,null,120,121,1.0,8.43,86.950000000000003,1087.599999999999909,0.0,10.0,1.0,1,\"ol\",true],[null,null,122,121,1.0,10.800000000000001,110.0,1375.0,0.0,10.0,1.0,1,\"ol\",true],[null,null,19,41,1.0,5.0,120.0,1900.0,0.0,10.0,1.0,1,\"ol\",true]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "std_type": "object",
+        "from_bus": "uint32",
+        "to_bus": "uint32",
+        "length_km": "float64",
+        "r_ohm_per_km": "float64",
+        "x_ohm_per_km": "float64",
+        "c_nf_per_km": "float64",
+        "g_us_per_km": "float64",
+        "max_i_ka": "float64",
+        "df": "float64",
+        "parallel": "uint32",
+        "type": "object",
+        "in_service": "bool"
+      }
+    },
+    "trafo": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"std_type\",\"hv_bus\",\"lv_bus\",\"sn_mva\",\"vn_hv_kv\",\"vn_lv_kv\",\"vk_percent\",\"vkr_percent\",\"pfe_kw\",\"i0_percent\",\"shift_degree\",\"tap_side\",\"tap_neutral\",\"tap_min\",\"tap_max\",\"tap_step_percent\",\"tap_step_degree\",\"tap_pos\",\"tap_phase_shifter\",\"parallel\",\"df\",\"in_service\",\"pt_percent\",\"oltc\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45],\"data\":[[null,null,14,20,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,14,20,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,11,21,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,17,22,801.0,500.0,220.0,11.9,0.0,273.300000000000011,0.291,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,23,801.0,500.0,220.0,8.6,0.0,297.449999999999989,0.15,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,16,24,501.0,500.0,220.0,11.0,0.0,172.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,16,24,501.0,500.0,220.0,11.0,0.0,172.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,2,26,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,3,27,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,4,28,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,7,29,501.0,500.0,220.0,9.5,0.0,105.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,5,98,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,5,98,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,6,99,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,6,99,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,13,31,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,9,103,501.0,500.0,220.0,10.5,0.0,206.490000000000009,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,8,34,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,8,34,501.0,500.0,220.0,11.0,0.0,270.0,0.246,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,15,35,501.0,500.0,220.0,11.5,0.0,230.0,0.3,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,10,106,501.0,500.0,220.0,11.800000000000001,0.0,168.900000000000006,0.3,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,10,106,501.0,500.0,220.0,11.800000000000001,0.0,168.900000000000006,0.3,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,45,110,630.0,500.0,20.0,14.699999999999999,0.0,380.0,0.21,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,45,110,630.0,500.0,20.0,14.699999999999999,0.0,380.0,0.21,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.199999999999999,0.0,270.970000000000027,0.058,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.0,0.0,460.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.0,0.0,460.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.0,0.0,460.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.199999999999999,0.0,275.629999999999996,0.06,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,1,109,630.0,500.0,20.0,14.199999999999999,0.0,275.629999999999996,0.06,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,43,46,501.0,500.0,220.0,11.0,0.0,270.0,0.55,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,23,50,630.0,242.0,20.0,12.5,0.0,380.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,23,50,630.0,242.0,20.0,12.5,0.0,380.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,false,null,false],[null,null,17,108,400.0,525.0,20.0,12.6,0.0,370.0,0.54,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,17,108,400.0,525.0,20.0,12.6,0.0,385.0,0.35,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,17,108,400.0,525.0,20.0,14.800000000000001,0.0,155.0,0.3,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,17,108,400.0,525.0,20.0,14.800000000000001,0.0,155.0,0.3,0.0,null,null,null,null,null,null,null,false,1,1.0,false,null,false],[null,null,101,91,250.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,101,91,250.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,49,94,125.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,49,94,125.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,78,95,125.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,78,95,125.0,230.0,121.0,11.0,0.0,65.0,0.4,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,47,97,240.0,242.0,121.0,12.300000000000001,0.0,452.0,3.0,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,47,97,240.0,242.0,121.0,12.300000000000001,0.0,452.0,3.0,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false],[null,null,102,96,240.0,220.0,110.0,12.699999999999999,0.0,450.0,3.0,0.0,null,null,null,null,null,null,null,false,1,1.0,true,null,false]]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "std_type": "object",
+        "hv_bus": "uint32",
+        "lv_bus": "uint32",
+        "sn_mva": "float64",
+        "vn_hv_kv": "float64",
+        "vn_lv_kv": "float64",
+        "vk_percent": "float64",
+        "vkr_percent": "float64",
+        "pfe_kw": "float64",
+        "i0_percent": "float64",
+        "shift_degree": "float64",
+        "tap_side": "object",
+        "tap_neutral": "float64",
+        "tap_min": "float64",
+        "tap_max": "float64",
+        "tap_step_percent": "float64",
+        "tap_step_degree": "float64",
+        "tap_pos": "float64",
+        "tap_phase_shifter": "bool",
+        "parallel": "uint32",
+        "df": "float64",
+        "in_service": "bool",
+        "pt_percent": "float64",
+        "oltc": "object"
+      }
+    },
+    "trafo3w": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"std_type\",\"hv_bus\",\"mv_bus\",\"lv_bus\",\"sn_hv_mva\",\"sn_mv_mva\",\"sn_lv_mva\",\"vn_hv_kv\",\"vn_mv_kv\",\"vn_lv_kv\",\"vk_hv_percent\",\"vk_mv_percent\",\"vk_lv_percent\",\"vkr_hv_percent\",\"vkr_mv_percent\",\"vkr_lv_percent\",\"pfe_kw\",\"i0_percent\",\"shift_mv_degree\",\"shift_lv_degree\",\"tap_side\",\"tap_neutral\",\"tap_min\",\"tap_max\",\"tap_step_percent\",\"tap_step_degree\",\"tap_pos\",\"tap_at_star_point\",\"in_service\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "std_type": "object",
+        "hv_bus": "uint32",
+        "mv_bus": "uint32",
+        "lv_bus": "uint32",
+        "sn_hv_mva": "float64",
+        "sn_mv_mva": "float64",
+        "sn_lv_mva": "float64",
+        "vn_hv_kv": "float64",
+        "vn_mv_kv": "float64",
+        "vn_lv_kv": "float64",
+        "vk_hv_percent": "float64",
+        "vk_mv_percent": "float64",
+        "vk_lv_percent": "float64",
+        "vkr_hv_percent": "float64",
+        "vkr_mv_percent": "float64",
+        "vkr_lv_percent": "float64",
+        "pfe_kw": "float64",
+        "i0_percent": "float64",
+        "shift_mv_degree": "float64",
+        "shift_lv_degree": "float64",
+        "tap_side": "object",
+        "tap_neutral": "int32",
+        "tap_min": "int32",
+        "tap_max": "int32",
+        "tap_step_percent": "float64",
+        "tap_step_degree": "float64",
+        "tap_pos": "int32",
+        "tap_at_star_point": "bool",
+        "in_service": "bool"
+      }
+    },
+    "impedance": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"from_bus\",\"to_bus\",\"rft_pu\",\"xft_pu\",\"rtf_pu\",\"xtf_pu\",\"sn_mva\",\"in_service\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "from_bus": "uint32",
+        "to_bus": "uint32",
+        "rft_pu": "float64",
+        "xft_pu": "float64",
+        "rtf_pu": "float64",
+        "xtf_pu": "float64",
+        "sn_mva": "float64",
+        "in_service": "bool"
+      }
+    },
+    "dcline": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"from_bus\",\"to_bus\",\"p_mw\",\"loss_percent\",\"loss_mw\",\"vm_from_pu\",\"vm_to_pu\",\"max_p_mw\",\"min_q_from_mvar\",\"min_q_to_mvar\",\"max_q_from_mvar\",\"max_q_to_mvar\",\"in_service\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "from_bus": "uint32",
+        "to_bus": "uint32",
+        "p_mw": "float64",
+        "loss_percent": "float64",
+        "loss_mw": "float64",
+        "vm_from_pu": "float64",
+        "vm_to_pu": "float64",
+        "max_p_mw": "float64",
+        "min_q_from_mvar": "float64",
+        "min_q_to_mvar": "float64",
+        "max_q_from_mvar": "float64",
+        "max_q_to_mvar": "float64",
+        "in_service": "bool"
+      }
+    },
+    "ward": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"ps_mw\",\"qs_mvar\",\"qz_mvar\",\"pz_mw\",\"in_service\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "ps_mw": "float64",
+        "qs_mvar": "float64",
+        "qz_mvar": "float64",
+        "pz_mw": "float64",
+        "in_service": "bool"
+      }
+    },
+    "xward": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"bus\",\"ps_mw\",\"qs_mvar\",\"qz_mvar\",\"pz_mw\",\"r_ohm\",\"x_ohm\",\"vm_pu\",\"slack_weight\",\"in_service\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "bus": "uint32",
+        "ps_mw": "float64",
+        "qs_mvar": "float64",
+        "qz_mvar": "float64",
+        "pz_mw": "float64",
+        "r_ohm": "float64",
+        "x_ohm": "float64",
+        "vm_pu": "float64",
+        "slack_weight": "float64",
+        "in_service": "bool"
+      }
+    },
+    "measurement": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"name\",\"measurement_type\",\"element_type\",\"element\",\"value\",\"std_dev\",\"side\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "name": "object",
+        "measurement_type": "object",
+        "element_type": "object",
+        "element": "uint32",
+        "value": "float64",
+        "std_dev": "float64",
+        "side": "object"
+      }
+    },
+    "pwl_cost": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"power_type\",\"element\",\"et\",\"points\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "power_type": "object",
+        "element": "uint32",
+        "et": "object",
+        "points": "object"
+      }
+    },
+    "poly_cost": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"element\",\"et\",\"cp0_eur\",\"cp1_eur_per_mw\",\"cp2_eur_per_mw2\",\"cq0_eur\",\"cq1_eur_per_mvar\",\"cq2_eur_per_mvar2\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "element": "uint32",
+        "et": "object",
+        "cp0_eur": "float64",
+        "cp1_eur_per_mw": "float64",
+        "cp2_eur_per_mw2": "float64",
+        "cq0_eur": "float64",
+        "cq1_eur_per_mvar": "float64",
+        "cq2_eur_per_mvar2": "float64"
+      }
+    },
+    "characteristic": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"object\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "object": "object"
+      }
+    },
+    "controller": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"object\",\"in_service\",\"order\",\"level\",\"initial_run\",\"recycle\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "object": "object",
+        "in_service": "bool",
+        "order": "float64",
+        "level": "object",
+        "initial_run": "bool",
+        "recycle": "object"
+      }
+    },
+    "line_geodata": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"coords\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "coords": "object"
+      }
+    },
+    "bus_geodata": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"x\",\"y\",\"coords\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "x": "float64",
+        "y": "float64",
+        "coords": "object"
+      }
+    },
+    "version": "2.9.0",
+    "converged": true,
+    "name": "WACS",
+    "f_hz": 50.0,
+    "sn_mva": 1,
+    "std_types": {
+      "line": {
+        "NAYY 4x50 SE": {
+          "c_nf_per_km": 210,
+          "r_ohm_per_km": 0.642,
+          "x_ohm_per_km": 0.083,
+          "max_i_ka": 0.142,
+          "type": "cs",
+          "q_mm2": 50,
+          "alpha": 0.00403
+        },
+        "NAYY 4x120 SE": {
+          "c_nf_per_km": 264,
+          "r_ohm_per_km": 0.225,
+          "x_ohm_per_km": 0.08,
+          "max_i_ka": 0.242,
+          "type": "cs",
+          "q_mm2": 120,
+          "alpha": 0.00403
+        },
+        "NAYY 4x150 SE": {
+          "c_nf_per_km": 261,
+          "r_ohm_per_km": 0.208,
+          "x_ohm_per_km": 0.08,
+          "max_i_ka": 0.27,
+          "type": "cs",
+          "q_mm2": 150,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x95 RM/25 12/20 kV": {
+          "c_nf_per_km": 216,
+          "r_ohm_per_km": 0.313,
+          "x_ohm_per_km": 0.132,
+          "max_i_ka": 0.252,
+          "type": "cs",
+          "q_mm2": 95,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x185 RM/25 12/20 kV": {
+          "c_nf_per_km": 273,
+          "r_ohm_per_km": 0.161,
+          "x_ohm_per_km": 0.117,
+          "max_i_ka": 0.362,
+          "type": "cs",
+          "q_mm2": 185,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x240 RM/25 12/20 kV": {
+          "c_nf_per_km": 304,
+          "r_ohm_per_km": 0.122,
+          "x_ohm_per_km": 0.112,
+          "max_i_ka": 0.421,
+          "type": "cs",
+          "q_mm2": 240,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x95 RM/25 6/10 kV": {
+          "c_nf_per_km": 315,
+          "r_ohm_per_km": 0.313,
+          "x_ohm_per_km": 0.123,
+          "max_i_ka": 0.249,
+          "type": "cs",
+          "q_mm2": 95,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x185 RM/25 6/10 kV": {
+          "c_nf_per_km": 406,
+          "r_ohm_per_km": 0.161,
+          "x_ohm_per_km": 0.11,
+          "max_i_ka": 0.358,
+          "type": "cs",
+          "q_mm2": 185,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x240 RM/25 6/10 kV": {
+          "c_nf_per_km": 456,
+          "r_ohm_per_km": 0.122,
+          "x_ohm_per_km": 0.105,
+          "max_i_ka": 0.416,
+          "type": "cs",
+          "q_mm2": 240,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x150 RM/25 12/20 kV": {
+          "c_nf_per_km": 250,
+          "r_ohm_per_km": 0.206,
+          "x_ohm_per_km": 0.116,
+          "max_i_ka": 0.319,
+          "type": "cs",
+          "q_mm2": 150,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x120 RM/25 12/20 kV": {
+          "c_nf_per_km": 230,
+          "r_ohm_per_km": 0.253,
+          "x_ohm_per_km": 0.119,
+          "max_i_ka": 0.283,
+          "type": "cs",
+          "q_mm2": 120,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x70 RM/25 12/20 kV": {
+          "c_nf_per_km": 190,
+          "r_ohm_per_km": 0.443,
+          "x_ohm_per_km": 0.132,
+          "max_i_ka": 0.22,
+          "type": "cs",
+          "q_mm2": 70,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x150 RM/25 6/10 kV": {
+          "c_nf_per_km": 360,
+          "r_ohm_per_km": 0.206,
+          "x_ohm_per_km": 0.11,
+          "max_i_ka": 0.315,
+          "type": "cs",
+          "q_mm2": 150,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x120 RM/25 6/10 kV": {
+          "c_nf_per_km": 340,
+          "r_ohm_per_km": 0.253,
+          "x_ohm_per_km": 0.113,
+          "max_i_ka": 0.28,
+          "type": "cs",
+          "q_mm2": 120,
+          "alpha": 0.00403
+        },
+        "NA2XS2Y 1x70 RM/25 6/10 kV": {
+          "c_nf_per_km": 280,
+          "r_ohm_per_km": 0.443,
+          "x_ohm_per_km": 0.123,
+          "max_i_ka": 0.217,
+          "type": "cs",
+          "q_mm2": 70,
+          "alpha": 0.00403
+        },
+        "N2XS(FL)2Y 1x120 RM/35 64/110 kV": {
+          "c_nf_per_km": 112,
+          "r_ohm_per_km": 0.153,
+          "x_ohm_per_km": 0.166,
+          "max_i_ka": 0.366,
+          "type": "cs",
+          "q_mm2": 120,
+          "alpha": 0.00393
+        },
+        "N2XS(FL)2Y 1x185 RM/35 64/110 kV": {
+          "c_nf_per_km": 125,
+          "r_ohm_per_km": 0.099,
+          "x_ohm_per_km": 0.156,
+          "max_i_ka": 0.457,
+          "type": "cs",
+          "q_mm2": 185,
+          "alpha": 0.00393
+        },
+        "N2XS(FL)2Y 1x240 RM/35 64/110 kV": {
+          "c_nf_per_km": 135,
+          "r_ohm_per_km": 0.075,
+          "x_ohm_per_km": 0.149,
+          "max_i_ka": 0.526,
+          "type": "cs",
+          "q_mm2": 240,
+          "alpha": 0.00393
+        },
+        "N2XS(FL)2Y 1x300 RM/35 64/110 kV": {
+          "c_nf_per_km": 144,
+          "r_ohm_per_km": 0.06,
+          "x_ohm_per_km": 0.144,
+          "max_i_ka": 0.588,
+          "type": "cs",
+          "q_mm2": 300,
+          "alpha": 0.00393
+        },
+        "15-AL1/3-ST1A 0.4": {
+          "c_nf_per_km": 11,
+          "r_ohm_per_km": 1.8769,
+          "x_ohm_per_km": 0.35,
+          "max_i_ka": 0.105,
+          "type": "ol",
+          "q_mm2": 16,
+          "alpha": 0.00403
+        },
+        "24-AL1/4-ST1A 0.4": {
+          "c_nf_per_km": 11.25,
+          "r_ohm_per_km": 1.2012,
+          "x_ohm_per_km": 0.335,
+          "max_i_ka": 0.14,
+          "type": "ol",
+          "q_mm2": 24,
+          "alpha": 0.00403
+        },
+        "48-AL1/8-ST1A 0.4": {
+          "c_nf_per_km": 12.2,
+          "r_ohm_per_km": 0.5939,
+          "x_ohm_per_km": 0.3,
+          "max_i_ka": 0.21,
+          "type": "ol",
+          "q_mm2": 48,
+          "alpha": 0.00403
+        },
+        "94-AL1/15-ST1A 0.4": {
+          "c_nf_per_km": 13.2,
+          "r_ohm_per_km": 0.306,
+          "x_ohm_per_km": 0.29,
+          "max_i_ka": 0.35,
+          "type": "ol",
+          "q_mm2": 94,
+          "alpha": 0.00403
+        },
+        "34-AL1/6-ST1A 10.0": {
+          "c_nf_per_km": 9.7,
+          "r_ohm_per_km": 0.8342,
+          "x_ohm_per_km": 0.36,
+          "max_i_ka": 0.17,
+          "type": "ol",
+          "q_mm2": 34,
+          "alpha": 0.00403
+        },
+        "48-AL1/8-ST1A 10.0": {
+          "c_nf_per_km": 10.1,
+          "r_ohm_per_km": 0.5939,
+          "x_ohm_per_km": 0.35,
+          "max_i_ka": 0.21,
+          "type": "ol",
+          "q_mm2": 48,
+          "alpha": 0.00403
+        },
+        "70-AL1/11-ST1A 10.0": {
+          "c_nf_per_km": 10.4,
+          "r_ohm_per_km": 0.4132,
+          "x_ohm_per_km": 0.339,
+          "max_i_ka": 0.29,
+          "type": "ol",
+          "q_mm2": 70,
+          "alpha": 0.00403
+        },
+        "94-AL1/15-ST1A 10.0": {
+          "c_nf_per_km": 10.75,
+          "r_ohm_per_km": 0.306,
+          "x_ohm_per_km": 0.33,
+          "max_i_ka": 0.35,
+          "type": "ol",
+          "q_mm2": 94,
+          "alpha": 0.00403
+        },
+        "122-AL1/20-ST1A 10.0": {
+          "c_nf_per_km": 11.1,
+          "r_ohm_per_km": 0.2376,
+          "x_ohm_per_km": 0.323,
+          "max_i_ka": 0.41,
+          "type": "ol",
+          "q_mm2": 122,
+          "alpha": 0.00403
+        },
+        "149-AL1/24-ST1A 10.0": {
+          "c_nf_per_km": 11.25,
+          "r_ohm_per_km": 0.194,
+          "x_ohm_per_km": 0.315,
+          "max_i_ka": 0.47,
+          "type": "ol",
+          "q_mm2": 149,
+          "alpha": 0.00403
+        },
+        "34-AL1/6-ST1A 20.0": {
+          "c_nf_per_km": 9.15,
+          "r_ohm_per_km": 0.8342,
+          "x_ohm_per_km": 0.382,
+          "max_i_ka": 0.17,
+          "type": "ol",
+          "q_mm2": 34,
+          "alpha": 0.00403
+        },
+        "48-AL1/8-ST1A 20.0": {
+          "c_nf_per_km": 9.5,
+          "r_ohm_per_km": 0.5939,
+          "x_ohm_per_km": 0.372,
+          "max_i_ka": 0.21,
+          "type": "ol",
+          "q_mm2": 48,
+          "alpha": 0.00403
+        },
+        "70-AL1/11-ST1A 20.0": {
+          "c_nf_per_km": 9.7,
+          "r_ohm_per_km": 0.4132,
+          "x_ohm_per_km": 0.36,
+          "max_i_ka": 0.29,
+          "type": "ol",
+          "q_mm2": 70,
+          "alpha": 0.00403
+        },
+        "94-AL1/15-ST1A 20.0": {
+          "c_nf_per_km": 10,
+          "r_ohm_per_km": 0.306,
+          "x_ohm_per_km": 0.35,
+          "max_i_ka": 0.35,
+          "type": "ol",
+          "q_mm2": 94,
+          "alpha": 0.00403
+        },
+        "122-AL1/20-ST1A 20.0": {
+          "c_nf_per_km": 10.3,
+          "r_ohm_per_km": 0.2376,
+          "x_ohm_per_km": 0.344,
+          "max_i_ka": 0.41,
+          "type": "ol",
+          "q_mm2": 122,
+          "alpha": 0.00403
+        },
+        "149-AL1/24-ST1A 20.0": {
+          "c_nf_per_km": 10.5,
+          "r_ohm_per_km": 0.194,
+          "x_ohm_per_km": 0.337,
+          "max_i_ka": 0.47,
+          "type": "ol",
+          "q_mm2": 149,
+          "alpha": 0.00403
+        },
+        "184-AL1/30-ST1A 20.0": {
+          "c_nf_per_km": 10.75,
+          "r_ohm_per_km": 0.1571,
+          "x_ohm_per_km": 0.33,
+          "max_i_ka": 0.535,
+          "type": "ol",
+          "q_mm2": 184,
+          "alpha": 0.00403
+        },
+        "243-AL1/39-ST1A 20.0": {
+          "c_nf_per_km": 11,
+          "r_ohm_per_km": 0.1188,
+          "x_ohm_per_km": 0.32,
+          "max_i_ka": 0.645,
+          "type": "ol",
+          "q_mm2": 243,
+          "alpha": 0.00403
+        },
+        "48-AL1/8-ST1A 110.0": {
+          "c_nf_per_km": 8,
+          "r_ohm_per_km": 0.5939,
+          "x_ohm_per_km": 0.46,
+          "max_i_ka": 0.21,
+          "type": "ol",
+          "q_mm2": 48,
+          "alpha": 0.00403
+        },
+        "70-AL1/11-ST1A 110.0": {
+          "c_nf_per_km": 8.4,
+          "r_ohm_per_km": 0.4132,
+          "x_ohm_per_km": 0.45,
+          "max_i_ka": 0.29,
+          "type": "ol",
+          "q_mm2": 70,
+          "alpha": 0.00403
+        },
+        "94-AL1/15-ST1A 110.0": {
+          "c_nf_per_km": 8.65,
+          "r_ohm_per_km": 0.306,
+          "x_ohm_per_km": 0.44,
+          "max_i_ka": 0.35,
+          "type": "ol",
+          "q_mm2": 94,
+          "alpha": 0.00403
+        },
+        "122-AL1/20-ST1A 110.0": {
+          "c_nf_per_km": 8.5,
+          "r_ohm_per_km": 0.2376,
+          "x_ohm_per_km": 0.43,
+          "max_i_ka": 0.41,
+          "type": "ol",
+          "q_mm2": 122,
+          "alpha": 0.00403
+        },
+        "149-AL1/24-ST1A 110.0": {
+          "c_nf_per_km": 8.75,
+          "r_ohm_per_km": 0.194,
+          "x_ohm_per_km": 0.41,
+          "max_i_ka": 0.47,
+          "type": "ol",
+          "q_mm2": 149,
+          "alpha": 0.00403
+        },
+        "184-AL1/30-ST1A 110.0": {
+          "c_nf_per_km": 8.8,
+          "r_ohm_per_km": 0.1571,
+          "x_ohm_per_km": 0.4,
+          "max_i_ka": 0.535,
+          "type": "ol",
+          "q_mm2": 184,
+          "alpha": 0.00403
+        },
+        "243-AL1/39-ST1A 110.0": {
+          "c_nf_per_km": 9,
+          "r_ohm_per_km": 0.1188,
+          "x_ohm_per_km": 0.39,
+          "max_i_ka": 0.645,
+          "type": "ol",
+          "q_mm2": 243,
+          "alpha": 0.00403
+        },
+        "305-AL1/39-ST1A 110.0": {
+          "c_nf_per_km": 9.2,
+          "r_ohm_per_km": 0.0949,
+          "x_ohm_per_km": 0.38,
+          "max_i_ka": 0.74,
+          "type": "ol",
+          "q_mm2": 305,
+          "alpha": 0.00403
+        },
+        "490-AL1/64-ST1A 110.0": {
+          "c_nf_per_km": 9.75,
+          "r_ohm_per_km": 0.059,
+          "x_ohm_per_km": 0.37,
+          "max_i_ka": 0.96,
+          "type": "ol",
+          "q_mm2": 490,
+          "alpha": 0.00403
+        },
+        "679-AL1/86-ST1A 110.0": {
+          "c_nf_per_km": 9.95,
+          "r_ohm_per_km": 0.042,
+          "x_ohm_per_km": 0.36,
+          "max_i_ka": 1.15,
+          "type": "ol",
+          "q_mm2": 679,
+          "alpha": 0.00403
+        },
+        "490-AL1/64-ST1A 220.0": {
+          "c_nf_per_km": 10,
+          "r_ohm_per_km": 0.059,
+          "x_ohm_per_km": 0.285,
+          "max_i_ka": 0.96,
+          "type": "ol",
+          "q_mm2": 490,
+          "alpha": 0.00403
+        },
+        "679-AL1/86-ST1A 220.0": {
+          "c_nf_per_km": 11.7,
+          "r_ohm_per_km": 0.042,
+          "x_ohm_per_km": 0.275,
+          "max_i_ka": 1.15,
+          "type": "ol",
+          "q_mm2": 679,
+          "alpha": 0.00403
+        },
+        "490-AL1/64-ST1A 380.0": {
+          "c_nf_per_km": 11,
+          "r_ohm_per_km": 0.059,
+          "x_ohm_per_km": 0.253,
+          "max_i_ka": 0.96,
+          "type": "ol",
+          "q_mm2": 490,
+          "alpha": 0.00403
+        },
+        "679-AL1/86-ST1A 380.0": {
+          "c_nf_per_km": 14.6,
+          "r_ohm_per_km": 0.042,
+          "x_ohm_per_km": 0.25,
+          "max_i_ka": 1.15,
+          "type": "ol",
+          "q_mm2": 679,
+          "alpha": 0.00403
+        }
+      },
+      "trafo": {
+        "160 MVA 380/110 kV": {
+          "i0_percent": 0.06,
+          "pfe_kw": 60,
+          "vkr_percent": 0.25,
+          "sn_mva": 160,
+          "vn_lv_kv": 110.0,
+          "vn_hv_kv": 380.0,
+          "vk_percent": 12.2,
+          "shift_degree": 0,
+          "vector_group": "Yy0",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "100 MVA 220/110 kV": {
+          "i0_percent": 0.06,
+          "pfe_kw": 55,
+          "vkr_percent": 0.26,
+          "sn_mva": 100,
+          "vn_lv_kv": 110.0,
+          "vn_hv_kv": 220.0,
+          "vk_percent": 12.0,
+          "shift_degree": 0,
+          "vector_group": "Yy0",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "63 MVA 110/20 kV": {
+          "i0_percent": 0.04,
+          "pfe_kw": 22,
+          "vkr_percent": 0.32,
+          "sn_mva": 63,
+          "vn_lv_kv": 20.0,
+          "vn_hv_kv": 110.0,
+          "vk_percent": 18,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "40 MVA 110/20 kV": {
+          "i0_percent": 0.05,
+          "pfe_kw": 18,
+          "vkr_percent": 0.34,
+          "sn_mva": 40,
+          "vn_lv_kv": 20.0,
+          "vn_hv_kv": 110.0,
+          "vk_percent": 16.2,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "25 MVA 110/20 kV": {
+          "i0_percent": 0.07,
+          "pfe_kw": 14,
+          "vkr_percent": 0.41,
+          "sn_mva": 25,
+          "vn_lv_kv": 20.0,
+          "vn_hv_kv": 110.0,
+          "vk_percent": 12,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "63 MVA 110/10 kV": {
+          "sn_mva": 63,
+          "vn_hv_kv": 110,
+          "vn_lv_kv": 10,
+          "vk_percent": 18,
+          "vkr_percent": 0.32,
+          "pfe_kw": 22,
+          "i0_percent": 0.04,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "40 MVA 110/10 kV": {
+          "sn_mva": 40,
+          "vn_hv_kv": 110,
+          "vn_lv_kv": 10,
+          "vk_percent": 16.2,
+          "vkr_percent": 0.34,
+          "pfe_kw": 18,
+          "i0_percent": 0.05,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "25 MVA 110/10 kV": {
+          "sn_mva": 25,
+          "vn_hv_kv": 110,
+          "vn_lv_kv": 10,
+          "vk_percent": 12,
+          "vkr_percent": 0.41,
+          "pfe_kw": 14,
+          "i0_percent": 0.07,
+          "shift_degree": 150,
+          "vector_group": "YNd5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -9,
+          "tap_max": 9,
+          "tap_step_degree": 0,
+          "tap_step_percent": 1.5,
+          "tap_phase_shifter": false
+        },
+        "0.25 MVA 20/0.4 kV": {
+          "sn_mva": 0.25,
+          "vn_hv_kv": 20,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 6,
+          "vkr_percent": 1.44,
+          "pfe_kw": 0.8,
+          "i0_percent": 0.32,
+          "shift_degree": 150,
+          "vector_group": "Yzn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        },
+        "0.4 MVA 20/0.4 kV": {
+          "sn_mva": 0.4,
+          "vn_hv_kv": 20,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 6,
+          "vkr_percent": 1.425,
+          "pfe_kw": 1.35,
+          "i0_percent": 0.3375,
+          "shift_degree": 150,
+          "vector_group": "Dyn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        },
+        "0.63 MVA 20/0.4 kV": {
+          "sn_mva": 0.63,
+          "vn_hv_kv": 20,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 6,
+          "vkr_percent": 1.206,
+          "pfe_kw": 1.65,
+          "i0_percent": 0.2619,
+          "shift_degree": 150,
+          "vector_group": "Dyn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        },
+        "0.25 MVA 10/0.4 kV": {
+          "sn_mva": 0.25,
+          "vn_hv_kv": 10,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 4,
+          "vkr_percent": 1.2,
+          "pfe_kw": 0.6,
+          "i0_percent": 0.24,
+          "shift_degree": 150,
+          "vector_group": "Dyn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        },
+        "0.4 MVA 10/0.4 kV": {
+          "sn_mva": 0.4,
+          "vn_hv_kv": 10,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 4,
+          "vkr_percent": 1.325,
+          "pfe_kw": 0.95,
+          "i0_percent": 0.2375,
+          "shift_degree": 150,
+          "vector_group": "Dyn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        },
+        "0.63 MVA 10/0.4 kV": {
+          "sn_mva": 0.63,
+          "vn_hv_kv": 10,
+          "vn_lv_kv": 0.4,
+          "vk_percent": 4,
+          "vkr_percent": 1.0794,
+          "pfe_kw": 1.18,
+          "i0_percent": 0.1873,
+          "shift_degree": 150,
+          "vector_group": "Dyn5",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -2,
+          "tap_max": 2,
+          "tap_step_degree": 0,
+          "tap_step_percent": 2.5,
+          "tap_phase_shifter": false
+        }
+      },
+      "trafo3w": {
+        "63/25/38 MVA 110/20/10 kV": {
+          "sn_hv_mva": 63,
+          "sn_mv_mva": 25,
+          "sn_lv_mva": 38,
+          "vn_hv_kv": 110,
+          "vn_mv_kv": 20,
+          "vn_lv_kv": 10,
+          "vk_hv_percent": 10.4,
+          "vk_mv_percent": 10.4,
+          "vk_lv_percent": 10.4,
+          "vkr_hv_percent": 0.28,
+          "vkr_mv_percent": 0.32,
+          "vkr_lv_percent": 0.35,
+          "pfe_kw": 35,
+          "i0_percent": 0.89,
+          "shift_mv_degree": 0,
+          "shift_lv_degree": 0,
+          "vector_group": "YN0yn0yn0",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -10,
+          "tap_max": 10,
+          "tap_step_percent": 1.2
+        },
+        "63/25/38 MVA 110/10/10 kV": {
+          "sn_hv_mva": 63,
+          "sn_mv_mva": 25,
+          "sn_lv_mva": 38,
+          "vn_hv_kv": 110,
+          "vn_mv_kv": 10,
+          "vn_lv_kv": 10,
+          "vk_hv_percent": 10.4,
+          "vk_mv_percent": 10.4,
+          "vk_lv_percent": 10.4,
+          "vkr_hv_percent": 0.28,
+          "vkr_mv_percent": 0.32,
+          "vkr_lv_percent": 0.35,
+          "pfe_kw": 35,
+          "i0_percent": 0.89,
+          "shift_mv_degree": 0,
+          "shift_lv_degree": 0,
+          "vector_group": "YN0yn0yn0",
+          "tap_side": "hv",
+          "tap_neutral": 0,
+          "tap_min": -10,
+          "tap_max": 10,
+          "tap_step_percent": 1.2
+        }
+      }
+    },
+    "res_bus": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"vm_pu\",\"va_degree\",\"p_mw\",\"q_mvar\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122],\"data\":[[0.980649794273208,-6.7191307997845,0.0,986.677543502295976],[0.985325206209207,-6.465050193914288,0.0,505.821061997423385],[1.008417331233457,-25.039361106901008,0.0,0.0],[1.038,-37.04565627440482,10.0,-365.459182443288682],[1.042,-53.669649740464003,0.0,-423.384304848319516],[1.027245210327991,-59.457452570661907,0.0,185.720959096956449],[1.042,-58.383470639948861,0.0,-471.255833707176862],[1.011631373210049,-62.440610450453057,0.0,179.09465617099886],[1.02,-66.482391260144851,0.0,-145.27305581607834],[1.009885045588582,-70.400377044094782,0.0,176.437130317497122],[1.006,-71.165761424254185,0.0,705.840883135795593],[1.02,-17.216221976125269,0.0,173.199538008921081],[1.02,-37.607884206857498,0.0,-119.002875759474591],[1.02,-52.081152208483751,0.0,126.237066763307439],[1.028507976307322,-12.008773819378174,0.0,0.0],[1.02,-68.136673734569015,-434.0,47.212930191658643],[1.025817196860593,-20.613532601736079,0.0,183.100360319236643],[1.016,-6.238587038743231,430.0,454.066738116714077],[0.991594969849817,-10.369421848170571,175.0,406.425774549075868],[1.008406875992578,-7.194935596646707,0.0,506.408444919456997],[1.05,-10.461452645993589,-461.0,-191.421980963192709],[1.077,-17.280423459713706,170.0,-363.321386218070984],[1.07,-4.035918693312273,-597.199999999999818,-460.761472822498945],[1.020023814577846,-7.373886730355421,360.0,50.0],[1.081,-23.804068981960952,582.0,-650.465185669212133],[1.05854585217967,-25.118841455118442,20.5,5.100000000000023],[1.05,-28.552000190155127,67.0,-111.843583106994629],[1.042626780166364,-37.505837540413076,0.0,0.0],[1.0,-54.860142988789598,3.0,202.22685718536377],[1.0,-64.63108931843756,12.0,99.811983823776245],[1.004,-81.622480953151182,395.0,-185.063621874611272],[1.045,-55.202984997705393,166.0,-75.483191490173454],[1.022230180321375,-70.528180423535005,81.399999999999636,12.200000000000045],[1.045,-77.7271527005,-30.300000000000182,-143.567789208846762],[1.020417940133109,-69.997212857507236,195.0,25.0],[1.045,-68.250668661811673,-115.99999999999909,-87.91732931837123],[1.01,-7.279844118298756,165.0,-363.258772909164691],[0.959165971204919,-16.344556187591653,255.0,373.719781868258906],[0.943360161791858,-17.905633392623336,154.0,360.245439435594562],[0.950863823933254,-16.952448367535993,304.0,129.608283994710291],[0.94998643892529,-22.98940074332117,103.5,197.51402303270288],[1.016,2.289814358217905,-352.99999999999909,46.476597548238715],[0.99,-16.241802313289629,234.0,238.60125650195755],[1.035388850400148,-41.854901183960635,0.0,192.96541287592936],[1.02,-63.269751239032175,-225.0,51.691503017232208],[0.984128805313575,-5.446361238565254,0.0,0.0],[1.068,-43.913262563958852,-76.0,-213.33520811539529],[1.069397809272834,-31.383275762328481,0.0,0.0],[1.045,-38.930869576542243,6.399999999999636,1.330964303016572],[1.04354505214031,-40.190727765058405,0.0,0.0],[1.0,-1.529823831803576,-476.0,-391.779029308804638],[1.03165211602692,-42.382806206272988,33.0,3.200000000000045],[null,null,0.0,0.0],[1.01,-16.420431173538756,-18.0,-261.654474409159775],[1.032,-15.291292484285863,385.0,-416.073117936963172],[1.009977191235974,-13.340396845496457,174.0,185.429221485691414],[1.049905545401492,-15.605416167760989,135.0,40.0],[1.066122402228276,-11.340033379734617,24.0,9.0],[1.028711657170912,-7.35512520177274,172.999999999998181,49.700000000000046],[1.029180005698594,-17.039967345773999,38.0,18.799999999999954],[1.070553118912146,-24.523726847892838,9.099999999998545,1.299999999999954],[0.999817316461522,-18.306712038916618,54.0,30.400000000000091],[1.059,-31.384144109322548,237.400000000001455,-55.218800539960966],[1.046182251972003,-37.01021545416485,7.400000000001455,2.400000000000091],[1.051236678907114,-34.78307270822971,20.299999999999272,7.900000000000091],[1.052130630866978,-36.547641094300374,18.0,5.300000000000182],[0.994651920583529,-60.224706368797996,15.0,4.599999999999909],[0.998992998549678,-64.147267505388783,305.0,90.0],[0.998060390260458,-84.245038115632539,320.0,15.0],[1.034899861807261,-73.966884486092397,0.0,0.0],[1.052600886922167,-74.012865650254128,55.099999999998545,16.199999999999818],[0.98948675266316,-78.102107887407797,175.0,30.0],[1.056842269417897,-57.78924108180675,38.900000000001455,5.0],[0.994594274450188,-55.728194273911136,13.0,4.199999999999818],[1.023134661619866,-46.452851102162299,207.0,42.900000000000091],[1.032221224183337,-79.28083204410855,0.0,0.0],[1.003491317262415,-83.322100693697166,18.0,26.1398964764212],[1.0,-85.202675450729657,101.0,-52.627624369059049],[1.030354998810054,-52.43378654063627,0.0,0.0],[1.03093031800736,-63.028689614237777,40.0,12.0],[1.031965849337307,-63.951968887564469,12.0,2.0],[0.926720210326707,-74.953290096159051,93.0,20.058362187979583],[1.003398380993477,-65.142668321383596,8.0,2.0],[1.03655176968938,-71.034265566460192,14.0,2.0],[1.059436177523728,-75.759140819902314,11.299999999999272,4.5],[1.027880866192473,-77.129563307596072,43.0,6.300000000000182],[1.012070288172114,-82.173618147293197,18.0,3.0],[1.063920977411491,-75.581164055197718,29.900000000001455,7.699999999999818],[1.001347563104215,-84.446398702276255,20.0,3.0],[1.068192769568551,-75.348161388447565,20.0,3.400000000000091],[1.06029481994528,-29.85082165313732,24.0,19.300000000000182],[1.1,-66.301880662068797,91.0,-57.010216189924904],[1.062896803450232,-60.519962404440179,50.0,15.0],[1.11,-58.301341595279581,-78.0,-62.20957767931759],[1.1,-42.188235032776397,79.0,-6.023555727967505],[1.1,-52.041465289592928,-15.400000000001455,-33.369948316562386],[1.1,-64.04559978050095,38.0,-146.335473370079853],[1.1,-28.622683904180846,-183.0,-120.055182899173815],[1.025161566630516,-61.837351461510103,80.0,67.199999999999818],[1.022,-60.74971950271815,-15.0,491.743841823470575],[1.072,-59.384473415743024,-121.299999999999272,-240.656660199165344],[1.032782569932626,-65.139713682060687,0.0,0.0],[1.031791675854082,-63.022428270538114,0.0,0.0],[1.037273444379434,-72.562614873276274,265.0,20.0],[1.054,-71.45122446817301,-148.0,-161.36578900809036],[1.03238905294839,-79.182264652514505,20.0,4.0],[1.077,-74.213443682765487,259.299999999999272,-813.495757532119569],[1.056542612588717,-75.468843812053493,195.299999999999272,45.300000000000182],[1.0,-1.020041170111079,-797.0,-331.723881966310728],[1.0,-0.347637392552578,-2816.0,-547.491511558673665],[1.0,0.942769529364028,-939.0,-189.704661314253826],[0.9516015996084,-17.335767168710934,16.0,377.374235158306874],[0.974067731316707,-19.315263447592994,140.0,130.092582463490544],[0.984994089163211,-19.182145301961569,-52.599999999998545,95.0],[0.977902948058354,-21.555290262813536,716.0,-27.692225055465315],[1.02,-16.163797569244906,-580.0,-700.228567689448028],[0.96732963190421,-10.142638388644853,256.0,127.144978082707894],[1.032,0.0,-1658.99931627852493,-382.765989085528418],[0.992234064763204,-12.783907928046537,584.80000000000291,40.0],[0.966336262439284,-16.552025393842982,1.0,174.687873611552277],[1.02,-15.819665791516737,178.0,136.817157593126467],[1.034,-14.057438195317301,146.30000000000291,-47.851003025380123],[1.0,-7.843645132891908,-185.0,202.580526947975159]]}",
+      "orient": "split",
+      "dtype": {
+        "vm_pu": "float64",
+        "va_degree": "float64",
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_line": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_from_mw\",\"q_from_mvar\",\"p_to_mw\",\"q_to_mvar\",\"pl_mw\",\"ql_mvar\",\"i_from_ka\",\"i_to_ka\",\"i_ka\",\"vm_from_pu\",\"va_from_degree\",\"vm_to_pu\",\"va_to_degree\",\"loading_percent\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146],\"data\":[[-303.579664979513609,-277.341565383594343,303.796383534601205,276.354765601616066,0.216718555087596,-0.986799781978277,0.484172597968103,0.481283784560508,0.484172597968103,0.980649794273208,-6.7191307997845,0.985325206209207,-6.465050193914288,4.841725979681026],[-366.58249088249255,-335.535649730559726,366.83825637513894,335.745435746468615,0.25576549264639,0.20978601590889,0.585160223905994,0.582770702022456,0.585160223905994,0.980649794273208,-6.7191307997845,0.985325206209207,-6.465050193914288,5.851602239059935],[1009.020246443746146,-54.388502001386399,-974.197215568645561,300.937169834501958,34.823030875100585,246.548667833115559,1.184185266204101,1.167527420590933,1.184185266204101,0.985325206209207,-6.465050193914288,1.008417331233457,-25.039361106901008,11.841852662041015],[678.631708273325558,-120.438750140266819,-666.029840801046703,183.969941599939006,12.601867472278855,63.531191459672186,0.789218256688177,0.768655481395473,0.789218256688177,1.008417331233457,-25.039361106901008,1.038,-37.04565627440482,7.892182566881766],[935.103622810584966,5.324433434452544,-892.665626729811038,359.913393788751478,42.437996080773928,365.237827223204022,1.101088448114294,1.070702566515953,1.101088448114294,0.980649794273208,-6.7191307997845,1.038,-37.04565627440482,11.010884481142934],[670.847498070142819,-49.479035647861508,-649.618170616521638,113.083920757600652,21.229327453621181,63.604885109739144,0.748296799523658,0.730705358491382,0.748296799523658,1.038,-37.04565627440482,1.042,-53.669649740464003,7.482967995236575],[655.544489234446019,-38.218180913483366,-637.174774230825278,104.424187639647471,18.36971500362074,66.206006726164105,0.730484476839154,0.715509768848225,0.730484476839154,1.038,-37.04565627440482,1.042,-53.669649740464003,7.304844768391538],[320.342452260030825,-21.93724417614331,-316.784310009111607,-40.302345842545591,3.558142250919218,-62.239590018688901,0.355821426949255,0.358959507634402,0.358959507634402,1.042,-53.669649740464003,1.027245210327991,-59.457452570661907,3.589595076344016],[226.047949597355398,-60.776331017170136,-224.311344862152907,-18.583810558641318,1.736604735202491,-79.360141575811454,0.259392848516282,0.24942401181596,0.259392848516282,1.042,-53.669649740464003,1.042,-58.383470639948861,2.593928485162816],[641.671796453040201,86.78043061197792,-633.50642783596993,-52.179051731264821,8.165368617070271,34.601378880713099,0.717547037452525,0.725548205405819,0.725548205405819,1.042,-53.669649740464003,1.011631373210049,-62.440610450453057,7.255482054058191],[190.794084538213497,3.779771574537222,-189.767949062987242,-67.677414083166184,1.026135475226255,-63.897642508628962,0.214508919296248,0.22996824742792,0.22996824742792,1.027245210327991,-59.457452570661907,1.011631373210049,-62.440610450453057,2.299682474279201],[-272.606609576625544,-178.24263206163215,273.303372915670991,162.459604921889508,0.696763339045447,-15.783027139742643,0.366118625472688,0.352331233287517,0.366118625472688,1.027245210327991,-59.457452570661907,1.042,-58.383470639948861,3.661186254726884],[619.326329756088512,-126.208948118238396,-614.961210506044154,141.527937450680128,4.365119250044358,15.318989332441731,0.721443128708579,0.714371114570319,0.721443128708579,1.011631373210049,-62.440610450453057,1.02,-66.482391260144851,7.214431287085794],[257.079564466863303,-9.385376405612007,-255.541988325297694,-38.547691784786167,1.537576141565609,-47.933068190398174,0.291223203830407,0.295491811847814,0.295491811847814,1.02,-66.482391260144851,1.009885045588582,-70.400377044094782,2.954918118478136],[66.874377585553248,-10.376196638647912,-66.799249968508334,-37.511412431825505,0.075127617044913,-47.887609070473417,0.077378971248362,0.08793515606372,0.08793515606372,1.009885045588582,-70.400377044094782,1.006,-71.165761424254185,0.879351560637198],[-359.831821573572938,83.463402132185649,365.684205639440961,-132.273007675483171,5.852384065868023,-48.809605543297522,0.41816543869407,0.457890469484003,0.457890469484003,1.02,-17.216221976125269,0.980649794273208,-6.7191307997845,4.578904694840026],[758.595503307312811,15.165692876710125,-736.621006882688221,137.345816280377107,21.97449642462459,152.511509157087232,0.858946730559812,0.848270119330333,0.858946730559812,1.02,-17.216221976125269,1.02,-37.607884206857498,8.58946730559812],[736.621006882688789,-18.342940520901323,-719.224943306961904,118.65657105930336,17.396063575726885,100.313630538402038,0.834157202315504,0.825211401642986,0.834157202315504,1.02,-37.607884206857498,1.02,-52.081152208483751,8.341572023155045],[454.717297720106444,-136.593753192967228,-449.760805832595736,127.976781829307896,4.956491887510708,-8.616971363659332,0.537490614597825,0.518190134797603,0.537490614597825,1.02,-52.081152208483751,1.042,-58.383470639948861,5.374906145978249],[-404.513562289662957,-8.496737098057054,408.12171964207738,-13.962049194953821,3.608157352414423,-22.458786293010874,0.4580343705223,0.458464173574617,0.458464173574617,1.02,-17.216221976125269,1.028507976307322,-12.008773819378174,4.584641735746167],[424.640823824809786,63.087006716871599,-422.484065942486836,-76.394662484639298,2.15675788232295,-13.307655767767699,0.485994806331821,0.492797095116523,0.492797095116523,1.02,-68.136673734569015,1.006,-71.165761424254185,4.927970951165225],[681.605752302850874,-121.647216783159777,-667.434581426737282,211.523359978980722,14.171170876113592,89.876143195820944,0.811393912896632,0.788117447829552,0.811393912896632,0.985325206209207,-6.465050193914288,1.025817196860593,-20.613532601736079,8.113939128966317],[-43.856499020120708,-220.167676438916601,44.396074690556766,190.24469862759824,0.539575670436058,-29.922977811318361,0.263083112957533,0.222025535983959,0.263083112957533,0.985325206209207,-6.465050193914288,1.016,-6.238587038743231,2.630831129575332],[189.381307492272128,-2.423944352541653,-187.858006031269497,-85.039905163300688,1.523301461002632,-87.463849515842341,0.215252568041299,0.24012867181309,0.24012867181309,1.016,-6.238587038743231,0.991594969849817,-10.369421848170571,2.401286718130903],[144.038750734001013,-241.32905133268315,-142.820202240047365,208.802717862272971,1.218548493953648,-32.526333470410179,0.327274759973171,0.284013345332881,0.327274759973171,0.991594969849817,-10.369421848170571,1.028507976307322,-12.008773819378174,3.272747599731708],[7.40342546270767,-140.758745830378757,-7.334976790713339,-80.940502180418761,0.06844867199433,-221.699248010797532,0.165970423289089,0.093062660457517,0.165970423289089,0.980649794273208,-6.7191307997845,1.008406875992578,-7.194935596646707,1.659704232890889],[192.968640006918065,-21.827386333405968,-179.927775513758348,70.541667469585406,13.040864493159717,48.714281136179437,0.509640739477501,0.505160105357871,0.509640739477501,1.0,-64.63108931843756,1.004,-81.622480953151182,5.096407394775014],[-190.033789159257765,63.330856064612874,205.864314607726328,-3.227809308233304,15.830525448468563,60.10304675637957,0.523580101140056,0.527058502152304,0.527058502152304,1.004,-81.622480953151182,1.025161566630516,-61.837351461510103,5.270585021523037],[147.897250768462499,-53.486765880961656,-143.40186947252073,69.108771225305674,4.495381295941769,15.622005344344018,0.403755967435847,0.399764956880626,0.403755967435847,1.022230180321375,-70.528180423535005,1.045,-77.7271527005,4.037559674358469],[126.72799052599197,-165.828972808432468,-126.683887673647689,163.629044850292331,0.044102852344281,-2.199927958140137,0.238986668965254,0.23658538722028,0.238986668965254,1.008406875992578,-7.194935596646707,1.01,-7.279844118298756,2.389866689652539],[131.932616323691519,-20.137490092234209,-131.180744702731658,-80.056818053093309,0.751871620959861,-100.194308145327511,0.152581223114334,0.178958301358853,0.178958301358853,1.01,-7.279844118298756,0.991594969849817,-10.369421848170571,1.789583013588528],[298.624677011771439,-31.605942525303536,-296.315081051363677,-79.413839001326806,2.309595960407762,-111.019781526630339,0.353590043341017,0.369310463082714,0.369310463082714,0.980649794273208,-6.7191307997845,0.959165971204919,-16.344556187591653,3.693104630827135],[59.184857088683934,-29.674202506114089,-59.083994100858632,-92.345974921797264,0.100862987825302,-122.020177427911349,0.079704241797882,0.13419011884951,0.13419011884951,0.959165971204919,-16.344556187591653,0.943360161791858,-17.905633392623336,1.3419011884951],[-283.92936135767485,-106.256942979069407,284.459666332985648,100.60272503643894,0.530304975310798,-5.654217942630467,0.371077619142031,0.366406271596792,0.371077619142031,0.943360161791858,-17.905633392623336,0.950863823933254,-16.952448367535993,3.710776191420312],[105.091127823037368,104.038840682978901,-103.499999999999886,-197.514023032702227,1.591127823037482,-93.475182349723326,0.166458572121856,0.271041107376702,0.271041107376702,1.025817196860593,-20.613532601736079,0.94998643892529,-22.98940074332117,2.710411073767016],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.94998643892529,-22.98940074332117,0.950863823933254,-16.952448367535993,0.0],[-509.477303593456099,-21.799923082344776,514.874609539566563,34.973358479264533,5.397305946110464,13.173435396919757,0.619260091399275,0.616021616308905,0.619260091399275,0.950863823933254,-16.952448367535993,0.96732963190421,-10.142638388644853,6.192600913992753],[60.867977038097003,9.542176326704354,-60.760604972633189,-60.988853291867372,0.107372065463814,-51.446676965163022,0.070549606967376,0.099408191094412,0.099408191094412,1.008406875992578,-7.194935596646707,1.0,-7.843645132891908,0.994081910944117],[182.574853946250528,-70.493209096907592,-181.014180040495461,-43.924862353143979,1.560673905755067,-114.418071450051571,0.217714659206616,0.207731629584806,0.217714659206616,1.038,-37.04565627440482,1.035388850400148,-41.854901183960635,2.177146592066157],[170.306630608540729,-221.142673447272102,-170.248728650039112,219.767218204888593,0.057901958501617,-1.375455242383509,0.319614002309302,0.317824886744385,0.319614002309302,1.008406875992578,-7.194935596646707,1.01,-7.279844118298756,3.196140023093023],[459.287739213452142,42.30722113147992,-458.574898010914239,-39.826889496080994,0.712841202537902,2.480331635398926,0.541174132188075,0.541997714776939,0.541997714776939,0.984128805313575,-5.446361238565254,0.980649794273208,-6.7191307997845,5.419977147769392],[478.966707969440847,37.968203413727132,-478.078877051582936,-34.660176295381874,0.887830917857912,3.308027118345258,0.563745404648278,0.564408230027178,0.564408230027178,0.984128805313575,-5.446361238565254,0.980649794273208,-6.7191307997845,5.644082300271782],[-357.415774601354258,147.858480960861527,359.59838627129659,-134.566096337261513,2.182611669942332,13.292384623600014,0.983789814890769,0.985922041911594,0.985922041911594,1.031791675854082,-63.022428270538114,1.022,-60.74971950271815,9.859220419115935],[-325.802157143128738,74.776743920652791,327.036961814207473,-69.265490512231494,1.234804671078734,5.511253408421297,0.849394449113066,0.850113371296571,0.850113371296571,1.032782569932626,-65.139713682060687,1.031965849337307,-63.951968887564469,8.501133712965709],[-229.297250768461993,41.286765880961241,234.673769496788509,-22.252964142535205,5.376518728326516,19.033801738426035,0.598129494005277,0.598985293708668,0.598985293708668,1.022230180321375,-70.528180423535005,1.032782569932626,-65.139713682060687,5.989852937086681],[-112.120188915610001,-157.276266260510027,113.66021189192638,166.12371899500053,1.540022976316379,8.847452734490503,0.495974749422711,0.492758087394074,0.495974749422711,1.022,-60.74971950271815,1.072,-59.384473415743024,4.959747494227107],[30.99855084748819,-19.295045201622024,-30.822981501635624,16.930990756078266,0.175569345852566,-2.364054445543758,0.093470266668717,0.089445690769272,0.093470266668717,1.025161566630516,-61.837351461510103,1.031791675854082,-63.022428270538114,0.934702666687168],[23.451921293706743,-10.74402091604977,-23.191110163045309,1.252667112129837,0.260811130661434,-9.491353803919933,0.064928877404616,0.058406294976487,0.064928877404616,1.042626780166364,-37.505837540413076,1.04354505214031,-40.190727765058405,0.649288774046159],[-15.87412989837847,-0.838867306149192,15.955377392635015,-6.221862369371083,0.081247494256544,-7.060729675520275,0.039976150897066,0.043007658679367,0.043007658679367,1.04354505214031,-40.190727765058405,1.045,-38.930869576542243,0.43007658679367],[-22.355377392634395,4.890898222657338,22.491123511956438,-10.111203500794277,0.135746119322043,-5.220305278136939,0.057469175220442,0.062068421635696,0.062068421635696,1.045,-38.930869576542243,1.042626780166364,-37.505837540413076,0.620684216356956],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,null,null,1.02,-68.136673734569015,null,null,null],[-17.869776037108956,-264.631740360641288,19.154958491931566,230.754909219353351,1.28518245482261,-33.876831141287937,0.31930480603034,0.26472203878668,0.31930480603034,0.959165971204919,-16.344556187591653,1.01,-16.420431173538756,3.193048060303399],[-65.572298275733004,-97.402571048595121,65.897506753252458,11.458155835797106,0.325208477519453,-85.94441521279802,0.134240227624191,0.074838751365336,0.134240227624191,1.01,-16.420431173538756,1.032,-15.291292484285863,1.34240227624191],[347.809756102873507,-171.271495199188564,-341.270184980917008,116.109183425649235,6.539571121956499,-55.162311773539329,0.454336142271549,0.403340904476716,0.454336142271549,0.985325206209207,-6.465050193914288,1.032,-15.291292484285863,4.543361422715487],[413.418525879918263,-34.104474822050427,-408.371221635972006,8.168839481337912,5.047304243946257,-25.935635340712516,0.471452915814015,0.46698163692664,0.471452915814015,1.016,-6.238587038743231,1.009977191235974,-13.340396845496457,4.714529158140148],[-233.218883431473785,169.621540690763936,234.371221635972063,-193.59806096702934,1.152338204498278,-23.976520276265404,0.322666202251492,0.347550143711994,0.347550143711994,1.032,-15.291292484285863,1.009977191235974,-13.340396845496457,3.475501437119945],[195.115538044659871,-20.72178353757753,-192.903886779343395,28.125426207175497,2.211651265316476,7.403642669597968,0.49040483440089,0.487276102090883,0.49040483440089,1.05,-10.461452645993589,1.049905545401492,-15.605416167760989,4.904048344008896],[-57.480363022193799,61.177761864849934,57.903886779343552,-68.125426207174002,0.423523757149752,-6.947664342324067,0.204547515571407,0.223484154388613,0.223484154388613,1.077,-17.280423459713706,1.049905545401492,-15.605416167760989,2.23484154388613],[-107.066492098903041,20.993490663576303,108.139536790723398,-20.684423103213806,1.073044691820357,0.309067560362497,0.265856158375916,0.271017196221984,0.271017196221984,1.077,-17.280423459713706,1.066122402228276,-11.340033379734617,2.710171962219843],[133.733941427629418,-5.743395173893891,-132.139536790723554,11.684423103213342,1.594404636905864,5.941027929319452,0.328302881912801,0.326537952240897,0.328302881912801,1.07,-4.035918693312273,1.066122402228276,-11.340033379734617,3.283028819128008],[182.094286791957103,70.881675995260878,-178.985782723005912,-66.902837826414228,3.108504068951191,3.97883816884665,0.479253539563584,0.487461418567143,0.487461418567143,1.07,-4.035918693312273,1.028711657170912,-7.35512520177274,4.874614185671426],[-5.942250452703671,-25.781141988695666,5.985782723007994,17.202837826415511,0.043532270304324,-8.578304162280155,0.068068857090874,0.046466479544652,0.068068857090874,1.020023814577846,-7.373886730355421,1.028711657170912,-7.35512520177274,0.680688570908738],[134.900323078219003,-30.9525077996962,-129.79747112106341,43.395883119668795,5.102851957155593,12.443375319972596,0.356090633748197,0.348980399855982,0.356090633748197,1.020023814577846,-7.373886730355421,1.029180005698594,-17.039967345773999,3.560906337481974],[-88.695100145170898,65.107268226063638,91.797471121063353,-62.195883119668736,3.102370975892455,2.911385106394903,0.267108270664643,0.28274273023322,0.28274273023322,1.081,-23.804068981960952,1.029180005698594,-17.039967345773999,2.8274273023322],[68.657174118592849,24.936530032046594,-68.370154398720871,-35.197153916229389,0.287019719871978,-10.260623884182795,0.177330802683774,0.188505521427826,0.188505521427826,1.081,-23.804068981960952,1.070553118912146,-24.523726847892838,1.885055214278264],[-59.00838734605891,-44.019569222400619,59.270154398722397,33.897153916230664,0.261767052663487,-10.122415306169955,0.182513558065963,0.16737597747046,0.182513558065963,1.05854585217967,-25.118841455118442,1.070553118912146,-24.523726847892838,1.825135580659629],[135.013638274103272,-10.144899149612579,-128.699811383362572,28.152317502226126,6.3138268907407,18.007418352613549,0.34834259619938,0.345798647910528,0.34834259619938,1.020023814577846,-7.373886730355421,0.999817316461522,-18.306712038916618,3.483425961993798],[-71.597198669020202,63.653058305662029,74.699811383362388,-58.552317502226252,3.102612714342186,5.100740803435777,0.23750785874367,0.249126960363308,0.249126960363308,1.05854585217967,-25.118841455118442,0.999817316461522,-18.306712038916618,2.491269603633083],[228.279858812090026,-97.551890690581871,-225.206532866218055,105.070560699515084,3.073325945871972,7.518670008933213,0.62046410217122,0.61583824803631,0.62046410217122,1.05,-28.552000190155127,1.059,-31.384144109322548,6.204641021712201],[12.312461113395782,45.677872864749766,-12.19346713378302,-49.851760159553138,0.118993979612762,-4.173887294803372,0.116095056443495,0.1271799386593,0.1271799386593,1.069397809272834,-31.383275762328481,1.059,-31.384144109322548,1.271799386593],[103.458628094596506,-0.047058647605731,-100.981718742552474,4.71079723386957,2.476909352044032,4.66373858626384,0.253889161823395,0.253585343640404,0.253889161823395,1.069397809272834,-31.383275762328481,1.046182251972003,-37.01021545416485,2.538891618233951],[-91.460738139019128,10.527206598632013,93.581718742550947,-7.110797233869036,2.12098060353182,3.416409364762977,0.23419414924474,0.235423872666458,0.235423872666458,1.03165211602692,-42.382806206272988,1.046182251972003,-37.01021545416485,2.354238726664578],[89.763222390548805,4.205628633226006,-88.445361934560793,-2.792203092865492,1.317860455988011,1.413425540360514,0.22052203206477,0.220906025709466,0.220906025709466,1.069397809272834,-31.383275762328481,1.051236678907114,-34.78307270822971,2.209060257094655],[-67.361405363690096,4.452284982613001,68.145361934560896,-5.107796907134603,0.783956570870799,-0.655511924521601,0.169920399976881,0.17059607858581,0.17059607858581,1.042626780166364,-37.505837540413076,1.051236678907114,-34.78307270822971,1.705960785858103],[60.016148623391899,-5.595430586822797,-58.69585210633128,2.352092863561861,1.320296517060619,-3.243337723260936,0.147919305776623,0.146522006259163,0.147919305776623,1.069397809272834,-31.383275762328481,1.052130630866978,-36.547641094300374,1.479193057766228],[-40.064454887854659,1.855851046153784,40.695852106331223,-7.652092863562055,0.631397218476565,-5.796241817408271,0.100862600001124,0.103286122934735,0.103286122934735,1.04354505214031,-40.190727765058405,1.052130630866978,-36.547641094300374,1.032861229347346],[82.402098886917457,-12.203251695274332,-80.699494528658235,14.811064772748932,1.702604358259222,2.607813077474599,0.218607936993246,0.216476319894245,0.218607936993246,1.0,-54.860142988789598,0.994651920583529,-60.224706368797996,2.186079369932462],[-64.548702581726587,19.565917248153962,65.699494528657709,-19.411064772748652,1.150791946931122,0.15485247540531,0.177007574092546,0.180750996188887,0.180750996188887,1.0,-64.63108931843756,0.994651920583529,-60.224706368797996,1.807509961888866],[129.282484520385282,33.43791339463084,-127.789726093157824,-56.685424887446374,1.492758427227457,-23.247511492815534,0.3418417250907,0.367244144475228,0.367244144475228,1.025161566630516,-61.837351461510103,0.998992998549678,-64.147267505388783,3.67244144475228],[179.827252001531747,14.948399915379127,-177.210273906840342,-33.314575112554024,2.616978094691404,-18.366175197174897,0.463357964092949,0.473680006582706,0.473680006582706,1.022,-60.74971950271815,0.998992998549678,-64.147267505388783,4.736800065827057],[86.973880598083241,-7.885787862917228,-86.066225387250938,9.342444470959864,0.907655210832303,1.456656608042636,0.228270424667472,0.227633572963099,0.228270424667472,1.004,-81.622480953151182,0.998060390260458,-84.245038115632539,2.282704246674721],[240.604490414002527,50.521001836112312,-233.933774612748607,-24.342444470959592,6.67071580125392,26.17855736515272,0.617409092254061,0.618431213239428,0.618431213239428,1.045,-77.7271527005,0.998060390260458,-84.245038115632539,6.184312132394285],[-66.902620941482155,23.938016147428897,67.991022751240351,-29.10058812551862,1.088401809758196,-5.162571978089723,0.178444278153342,0.187541366215623,0.187541366215623,1.045,-77.7271527005,1.034899861807261,-73.966884486092397,1.875413662156225],[69.198019021633229,-33.521358329723583,-67.991022751240422,29.100588125518847,1.206996270392807,-4.420770204204736,0.197745931285943,0.187541366215623,0.197745931285943,1.020417940133109,-69.997212857507236,1.034899861807261,-73.966884486092397,1.977459312859427],[50.312717180462826,-52.260535907020724,-49.814000649395453,45.044148167469444,0.498716531067373,-7.21638773955128,0.183535827190252,0.167440675827971,0.183535827190252,1.037273444379434,-72.562614873276274,1.052600886922167,-74.012865650254128,1.835358271902519],[5.611149075755263,52.98422628633778,-5.285999350603857,-61.24414816746885,0.325149725151405,-8.259921881131071,0.129828308471902,0.15326013145746,0.15326013145746,1.077,-74.213443682765487,1.052600886922167,-74.012865650254128,1.532601314574602],[298.711198118238258,13.637997339963562,-288.858923328021433,24.533220785967281,9.852274790216825,38.171218125930842,0.769028223259094,0.768870564166792,0.769028223259094,1.020417940133109,-69.997212857507236,0.98948675266316,-78.102107887407797,7.690282232590944],[-112.012315925067483,59.076886203329423,113.858923328021902,-54.533220785967281,1.846607402954419,4.543665417362142,0.331010935733905,0.334826554458637,0.334826554458637,1.004,-81.622480953151182,0.98948675266316,-78.102107887407797,3.34826554458637],[-57.682548409620239,44.513570668749971,58.201201075887653,-51.886558070504862,0.518652666267414,-7.372987401754891,0.178368189427454,0.193617153620706,0.193617153620706,1.072,-59.384473415743024,1.056842269417897,-57.78924108180675,1.936171536207062],[98.220061909266718,-51.353016539702537,-97.10120107588898,46.886558070505444,1.118860833377738,-4.466458469197093,0.278340136478678,0.26775661836694,0.278340136478678,1.045,-55.202984997705393,1.056842269417897,-57.78924108180675,2.783401364786776],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.045,-38.930869576542243,0.994594274450188,-55.728194273911136,0.0],[13.047303647833759,-1.155200842950077,-12.999999999999828,-4.199999999999639,0.047303647833932,-5.355200842949715,0.034374238931352,0.036047329795186,0.036047329795186,1.0,-54.860142988789598,0.994594274450188,-55.728194273911136,0.360473297951855],[-59.69658038880452,5.057972862250431,60.854871470388282,-7.213558481409308,1.158291081583762,-2.155585619158877,0.15240042159107,0.154245702428106,0.154245702428106,1.03165211602692,-42.382806206272988,1.042626780166364,-37.505837540413076,1.542457024281056],[118.157318527824032,-18.785179460881693,-116.055056812625139,13.136892703009543,2.102261715198892,-5.64828675787215,0.304343796756304,0.299579875615592,0.304343796756304,1.03165211602692,-42.382806206272988,1.023134661619866,-46.452851102162299,3.043437967563044],[92.565238946394444,48.010682351248718,-90.944943187375159,-56.036892703009528,1.620295759019285,-8.02621035176081,0.256228305563721,0.273998354528419,0.273998354528419,1.068,-43.913262563958852,1.023134661619866,-46.452851102162299,2.739983545284193],[-78.589281430157712,-51.036743557112715,79.894961191653564,53.283232399884902,1.305679761495853,2.246488842772187,0.239881616307705,0.235094089187428,0.239881616307705,1.025161566630516,-61.837351461510103,1.072,-59.384473415743024,2.398816163077049],[63.361942289737208,10.423235394238889,-63.055545833910791,-11.037229554614367,0.306396455826416,-0.613994160375478,0.156468761773053,0.157269178565974,0.157269178565974,1.077,-74.213443682765487,1.068192769568551,-75.348161388447565,1.572691785659736],[43.998418824964837,2.485238066793468,-43.152563575647712,-8.13102004772152,0.845855249317125,-5.645781980928052,0.112021679823506,0.114837983253179,0.114837983253179,1.03238905294839,-79.182264652514505,1.003491317262415,-83.322100693697166,1.148379832531786],[61.271287215462742,-11.415774069796864,-60.96867906623973,6.116595894345633,0.302608149223012,-5.299178175451231,0.162993432792474,0.160588061221395,0.162993432792474,1.003491317262415,-83.322100693697166,1.001347563104215,-84.446398702276255,1.629934327924736],[-60.167572714301308,49.436701762943521,63.922178236034306,-44.843758354553827,3.754605521732998,4.592943408389694,0.20436227972443,0.221119184114074,0.221119184114074,1.0,-85.202675450729657,0.926720210326707,-74.953290096159051,2.21119184114074],[164.150490756378304,1.909253161852831,-158.449241508972477,1.075345653569954,5.701249247405826,2.984598815422785,0.403382449537427,0.403580315350388,0.403580315350388,1.068,-43.913262563958852,1.030354998810054,-52.43378654063627,4.035803153503884],[-9.689138037166451,-26.77331337708128,9.694313270222152,26.647879785627914,0.0051752330557,-0.125433591453366,0.072479419957448,0.072123499071073,0.072479419957448,1.03093031800736,-63.028689614237777,1.031791675854082,-63.022428270538114,0.724794199574484],[30.472416351718113,-17.1533003688264,-30.31086196283746,14.773313377077439,0.161554388880653,-2.379986991748961,0.089516435057006,0.08583560022739,0.089516435057006,1.025161566630516,-61.837351461510103,1.03093031800736,-63.028689614237777,0.895164350570058],[-339.036961814210315,67.265490512221547,340.034193864990812,-62.733530114625793,0.997232050780497,4.531960397595753,0.878986256074716,0.879458504025419,0.879458504025419,1.031965849337307,-63.951968887564469,1.031791675854082,-63.022428270538114,8.794585040254191],[173.721141771327666,30.738360745640648,-156.922178236032607,24.785396166576341,16.798963535295059,55.523756912216989,0.449341663611736,0.449886692866209,0.449886692866209,1.030354998810054,-52.43378654063627,0.926720210326707,-74.953290096159051,4.49886692866209],[-203.524839864859985,-96.296020190444665,204.922358632583126,96.397603948238753,1.397518767723142,0.101583757794089,0.569648833335759,0.563863655381115,0.569648833335759,1.037273444379434,-72.562614873276274,1.054,-71.45122446817301,5.69648833335759],[63.421943825849482,-41.113688593788289,-63.269123264229606,41.254502684736124,0.152820561619876,0.140814090947835,0.198351997207975,0.197545854787594,0.198351997207975,1.0,-64.63108931843756,1.003398380993477,-65.142668321383596,1.983519972079752],[55.269123264228426,-43.254502684735648,-53.216844712951129,42.150908792064641,2.052278551277297,-1.103593892671007,0.183558330929538,0.169031168123571,0.183558330929538,1.003398380993477,-65.142668321383596,1.054,-71.45122446817301,1.835583309295384],[3.822974252530905,-26.664498422917919,-3.705513919633127,22.817276267786319,0.117460332897778,-3.8472221551316,0.068198921392535,0.057556266735069,0.068198921392535,1.03655176968938,-71.034265566460192,1.054,-71.45122446817301,0.681989213925352],[-17.822974252530322,24.664498422917227,18.019706263303057,-28.077414810655853,0.196732010772735,-3.412916387738626,0.077042474764429,0.085801749965027,0.085801749965027,1.03655176968938,-71.034265566460192,1.020417940133109,-69.997212857507236,0.85801749965027],[-5.912504826148345,2.152766808535,5.919200665680202,-6.864121378203586,0.006695839531858,-4.711354569668586,0.01558641594063,0.022513429096541,0.022513429096541,1.059436177523728,-75.759140819902314,1.056542612588717,-75.468843812053493,0.225134290965413],[-5.387495173850669,-6.652766808535831,5.396440822849903,2.233921764474577,0.008945648999234,-4.418845044061253,0.021205459712761,0.014406576312035,0.021205459712761,1.059436177523728,-75.759140819902314,1.063920977411491,-75.581164055197718,0.212054597127607],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.059436177523728,-75.759140819902314,1.045,-68.250668661811673,0.0],[125.114025272579156,-26.707092744591222,-122.481682436146187,36.608772058274738,2.632342836432969,9.901679313683516,0.321278846231259,0.317527839504886,0.321278846231259,1.045,-68.250668661811673,1.056542612588717,-75.468843812053493,3.212788462312586],[125.109945706659957,79.734609696685993,-124.432299339977476,-76.824901855009756,0.677646366682481,2.909707841676237,0.361503128828988,0.363236095984516,0.363236095984516,1.077,-74.213443682765487,1.056542612588717,-75.468843812053493,3.632360959845159],[-44.921153020274026,-6.531748743136263,45.694781110443088,1.780251174941689,0.773628090169062,-4.751497568194574,0.115408550539392,0.113586213658272,0.115408550539392,1.032221224183337,-79.28083204410855,1.056542612588717,-75.468843812053493,1.154085505393925],[-10.146552485282916,1.181791773231132,10.150974622444846,-2.041209134985058,0.00442213716193,-0.859417361753926,0.025970982767162,0.026320162122057,0.026320162122057,1.032221224183337,-79.28083204410855,1.03238905294839,-79.182264652514505,0.263201621220571],[-31.830448935930342,9.129958374792356,32.13790610762851,-15.813153314503108,0.307457171698168,-6.683194939710752,0.084175223228451,0.091447208430632,0.091447208430632,1.03238905294839,-79.182264652514505,1.027880866192473,-77.129563307596072,0.914472084306317],[-75.137906107628524,9.513153314502585,76.663507324191215,-11.476860883257501,1.525601216562691,-1.963707568754916,0.193368728985585,0.196121387368348,0.196121387368348,1.027880866192473,-77.129563307596072,1.037273444379434,-72.562614873276274,1.961213873683478],[-223.608720856267098,-2.079012081414533,224.999999999999943,-51.691503017231639,1.391279143732845,-53.770515098646172,0.253149284441036,0.261348869194356,0.261348869194356,1.02,-66.482391260144851,1.02,-63.269751239032175,2.613488691943564],[-54.315665429542754,-7.497059381181061,55.067705505556269,5.349956969904285,0.752040076013515,-2.147102411276776,0.142176955713788,0.140663311615984,0.142176955713788,1.012070288172114,-82.173618147293197,1.032221224183337,-79.28083204410855,1.421769557137883],[36.315665429542896,4.497059381181211,-36.118723639814675,-6.593102358903314,0.196941789728221,-2.096042977722103,0.09488653586935,0.096018085887285,0.096018085887285,1.012070288172114,-82.173618147293197,1.003491317262415,-83.322100693697166,0.960180858872848],[35.534182878497766,6.350624429706844,-35.296440822851665,-9.933921764474249,0.237742055646102,-3.583297334767405,0.087957854393941,0.090446382479499,0.090446382479499,1.077,-74.213443682765487,1.063920977411491,-75.581164055197718,0.904463824794992],[-40.832427285699147,3.190922606115985,40.968679066240576,-9.116595894344831,0.136251780541428,-5.925673288228846,0.107484033830032,0.109996461825479,0.109996461825479,1.0,-85.202675450729657,1.001347563104215,-84.446398702276255,1.09996461825479],[43.05554583391082,7.637229554614623,-42.318944511478477,-13.573987306600934,0.736601322432342,-5.936757751986311,0.107429409326342,0.112972548087834,0.112972548087834,1.068192769568551,-75.348161388447565,1.03238905294839,-79.182264652514505,1.129725480878345],[110.105586015078487,-24.733489083262476,-108.036215715538091,29.709453934682191,2.069370299540395,4.975964851419715,0.279773287052664,0.277325203229605,0.279773287052664,1.05854585217967,-25.118841455118442,1.06029481994528,-29.85082165313732,2.79773287052664],[-83.427360311901651,50.034599532147283,84.036215715537722,-49.009453934681822,0.60885540363607,1.02514559746546,0.238729044104923,0.240784039556565,0.240784039556565,1.069397809272834,-31.383275762328481,1.06029481994528,-29.85082165313732,2.40784039556565],[-12.111463485946569,-38.193175753031682,12.447466206700726,34.313085077674074,0.336002720754157,-3.880090675357607,0.102886469983557,0.090122045774564,0.102886469983557,1.022,-60.74971950271815,1.062896803450232,-60.519962404440179,1.028864699835572],[63.263682118129019,49.163616666160983,-62.44746620670017,-49.313085077674742,0.816215911428848,-0.149468411513759,0.189425917257302,0.196461630441231,0.196461630441231,1.11,-58.301341595279581,1.062896803450232,-60.519962404440179,1.964616304412312],[14.736317881870912,13.045961013156445,-14.572624673959687,-23.263861907203157,0.163693207911225,-10.217900894046712,0.046531703100724,0.067202173704746,0.067202173704746,1.11,-58.301341595279581,1.072,-59.384473415743024,0.672021737047462],[79.832271300830314,169.164712680245543,-78.982362739523211,-208.41108594855902,0.849908561307103,-39.246373268313476,0.213897298834011,0.270653073051621,0.270653073051621,0.99,-16.241802313289629,0.950863823933254,-16.952448367535993,2.706530730516212],[784.099367661316478,256.860603135462782,-770.874609539883636,-162.118336561731553,13.224758121432842,94.742266573731229,0.923200425293116,0.940321301720491,0.940321301720491,1.032,0.0,0.96732963190421,-10.142638388644853,9.403213017204912],[874.899948617210384,125.905385950065025,-854.685115793231489,1.884527556078552,20.214832823978895,127.789913506143577,0.989006538975152,0.994632010167685,0.994632010167685,1.032,0.0,0.992234064763204,-12.783907928046537,9.946320101676846],[269.885115793262514,-41.884527555944501,-268.046531451607677,-0.944413877737688,1.838584341654837,-42.828941433682189,0.317835354008343,0.306511581787762,0.317835354008343,0.992234064763204,-12.783907928046537,0.99,-16.241802313289629,3.17835354008343],[46.618859882700562,394.810393003723902,-45.785739849172074,-406.821555304467324,0.833120033528488,-12.011162300743422,0.450053842907119,0.468135044974847,0.468135044974847,1.02,-16.163797569244906,0.99,-16.241802313289629,4.681350449748466],[-530.725409845871127,-298.52164239246838,533.381140117269524,305.41817468572566,2.655730271398397,6.89653229325728,0.713832975822007,0.695802856304809,0.713832975822007,0.984994089163211,-19.182145301961569,1.02,-16.163797569244906,7.138329758220068],[529.612145324309154,52.19977632635576,-527.854559810457886,-47.33739446993863,1.757585513851268,4.86238185641713,0.623868389411417,0.625788053727738,0.625788053727738,0.984994089163211,-19.182145301961569,0.977902948058354,-21.555290262813536,6.257880537277381],[189.013355458736726,-161.642521534464549,-188.145440189495673,75.029619525399738,0.867915269241052,-86.612902009064811,0.304422656648915,0.239174339186215,0.304422656648915,0.943360161791858,-17.905633392623336,0.977902948058354,-21.555290262813536,3.044226566489152],[-53.484046507264921,-165.855743286840379,53.713264521485577,151.321866066139364,0.229218014220656,-14.533877220701015,0.20658229787784,0.188237446042922,0.20658229787784,0.974067731316707,-19.315263447592994,0.984994089163211,-19.182145301961569,2.065822978778401],[-86.515953492752814,35.763160823432088,87.017240994655424,-108.685160654956462,0.50128750190261,-72.921999831524374,0.110976683082318,0.168943352305463,0.168943352305463,0.974067731316707,-19.315263447592994,0.9516015996084,-17.335767168710934,1.68943352305463],[64.417339783831423,128.302136238403278,-63.221436220928105,-193.490765084921406,1.195903562903318,-65.188628846518128,0.16413373845881,0.247002391424441,0.247002391424441,1.01,-16.420431173538756,0.9516015996084,-17.335767168710934,2.470023914244413],[-39.795804773669722,-75.198309418329387,39.914106831696536,-4.188662636219042,0.118302058026813,-79.386972054548423,0.10323768296066,0.047956318365705,0.10323768296066,0.9516015996084,-17.335767168710934,0.966336262439284,-16.552025393842982,1.032376829606595],[-40.914106831671234,-170.499210975326179,41.527415301515667,76.774351906117801,0.613308469844434,-93.724859069208378,0.209517782569568,0.098812812808739,0.209517782569568,0.966336262439284,-16.552025393842982,1.02,-15.819665791516737,2.095177825695678],[-123.33712207017291,-138.858049875544481,123.591561659138946,118.884237984751081,0.254439588966036,-19.9738118907934,0.210251199044668,0.191877874065186,0.210251199044668,1.02,-15.819665791516737,1.032,-15.291292484285863,2.102511990446678],[-96.190293231340348,-74.733459623703183,96.519926742623397,-11.965619581846099,0.329633511283049,-86.699079205549282,0.137896086387943,0.108611970637158,0.137896086387943,1.02,-15.819665791516737,1.034,-14.057438195317301,1.378960863879429],[245.760604972633558,-141.591673664627081,-242.81992674262645,59.816622607223749,2.940678230007109,-81.775051057403331,0.327508731705818,0.279271224174503,0.327508731705818,1.0,-7.843645132891908,1.034,-14.057438195317301,3.27508731705818],[-350.567621381914421,-48.038472810057193,353.000000000000057,-46.476597548238644,2.432378618085636,-94.515070358295844,0.405177216699078,0.404652585426056,0.405177216699078,1.008406875992578,-7.194935596646707,1.016,2.289814358217905,4.051772166990785]]}",
+      "orient": "split",
+      "dtype": {
+        "p_from_mw": "float64",
+        "q_from_mvar": "float64",
+        "p_to_mw": "float64",
+        "q_to_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_from_ka": "float64",
+        "i_to_ka": "float64",
+        "i_ka": "float64",
+        "vm_from_pu": "float64",
+        "va_from_degree": "float64",
+        "vm_to_pu": "float64",
+        "va_to_degree": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_trafo": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_hv_mw\",\"q_hv_mvar\",\"p_lv_mw\",\"q_lv_mvar\",\"pl_mw\",\"ql_mvar\",\"i_hv_ka\",\"i_lv_ka\",\"vm_hv_pu\",\"va_hv_degree\",\"vm_lv_pu\",\"va_lv_degree\",\"loading_percent\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45],\"data\":[[-132.650758701014951,-97.420334333657195,132.942230977670363,106.071882250384903,0.291472276655412,8.651547916727708,0.184774365565574,0.425072670104372,1.028507976307322,-12.008773819378174,1.05,-10.461452645993589,32.330227851605173],[-132.650758701014951,-97.420334333657195,132.942230977670363,106.071882250384903,0.291472276655412,8.651547916727708,0.184774365565574,0.425072670104372,1.028507976307322,-12.008773819378174,1.05,-10.461452645993589,32.330227851605173],[5.749880555923809,-263.331895919758551,-5.45314487890289,281.150133677569613,0.296735677020919,17.818237757811062,0.298178391427544,0.685205685770587,1.02,-17.216221976125269,1.077,-17.280423459713706,52.11545578956904],[-281.07462350895554,-362.664875566285104,281.371771780413098,395.623192001131713,0.297148271457559,32.958316434846608,0.521472454021043,1.19069752437771,1.016,-6.238587038743231,1.07,-4.035918693312273,56.643782010874965],[148.622599128320758,-316.68479685782836,-148.323593424727335,331.424234086949639,0.299005703593423,14.739437229121279,0.409959863861784,0.934185507570303,0.985325206209207,-6.465050193914288,1.020023814577846,-7.373886730355421,44.441009715029033],[281.171726801849388,-249.331280490600022,-280.981036986711786,280.210693705550625,0.190689815137603,30.879413214950603,0.42301237648474,0.963357919970157,1.025817196860593,-20.613532601736079,1.081,-23.804068981960952,73.271191600335442],[281.171726801849388,-249.331280490600022,-280.981036986711786,280.210693705550625,0.190689815137603,30.879413214950603,0.42301237648474,0.963357919970157,1.025817196860593,-20.613532601736079,1.081,-23.804068981960952,73.271191600335442],[295.565507295321311,-180.498419694235253,-295.279858812090026,209.395473862807194,0.285648483231284,28.897054168571941,0.39655975976685,0.904740016078831,1.008417331233457,-25.039361106901008,1.05,-28.552000190155127,68.812824073378849],[39.728626280017259,-20.233727287150224,-39.436510912360724,23.616497915637929,0.292115367656535,3.382770628487705,0.049596931022509,0.115700500772825,1.038,-37.04565627440482,1.042626780166364,-37.505837540413076,8.799962490206186],[98.730746536919995,201.809341032404888,-98.449402534750817,-188.868404691225606,0.281344002169178,12.940936341179281,0.248965302777441,0.558946514675257,1.042,-53.669649740464003,1.0,-54.860142988789598,43.035983406416854],[203.948047142867722,66.970757761666221,-203.841881251040434,-56.436826165115789,0.106165891827288,10.533931596550431,0.245020706526939,0.55507071435162,1.011631373210049,-62.440610450453057,1.0,-64.63108931843756,42.354123015077946],[199.298417523763931,14.522123616342014,-199.01424244857958,-4.962507479419244,0.284175075184351,9.55961613692277,0.224620290256947,0.50961653250229,1.027245210327991,-59.457452570661907,1.025161566630516,-61.837351461510103,38.827720073443224],[199.298417523763931,14.522123616342014,-199.01424244857958,-4.962507479419244,0.284175075184351,9.55961613692277,0.224620290256947,0.50961653250229,1.027245210327991,-59.457452570661907,1.025161566630516,-61.837351461510103,38.827720073443224],[200.3843888895384,99.701628757309706,-200.096992935638241,-88.328351694023851,0.287395953900159,11.373277063285855,0.24802524305614,0.561648467610861,1.042,-58.383470639948861,1.022,-60.74971950271815,42.873485282720054],[200.3843888895384,99.701628757309706,-200.096992935638241,-88.328351694023851,0.287395953900159,11.373277063285855,0.24802524305614,0.561648467610861,1.042,-58.383470639948861,1.022,-60.74971950271815,42.873485282720054],[264.507645586854778,-108.299884629641042,-264.220061909266633,126.836208060977086,0.287583677588145,18.536323431336044,0.323565376461494,0.736031050266291,1.02,-52.081152208483751,1.045,-55.202984997705393,55.981137425566772],[188.667610739745385,-127.513241894065416,-188.45138463979356,140.033416980722393,0.216226099951825,12.520175086656977,0.260371317630094,0.594006184817914,1.009885045588582,-70.400377044094782,1.037273444379434,-72.562614873276274,45.178993266517132],[290.745183447723775,7.604753394202916,-290.464461701586401,11.480387900207219,0.280721746137374,19.085141294410136,0.3292533737868,0.747602191528169,1.02,-66.482391260144851,1.020417940133109,-69.997212857507236,56.914528139940479],[290.745183447723775,7.604753394202916,-290.464461701586401,11.480387900207219,0.280721746137374,19.085141294410136,0.3292533737868,0.747602191528169,1.02,-66.482391260144851,1.020417940133109,-69.997212857507236,56.914528139940479],[9.35917617518961,-110.299936908530256,-9.114025272578967,114.624422062962694,0.245150902610643,4.324485154432438,0.125314778645207,0.288766015634966,1.02,-68.136673734569015,1.045,-68.250668661811673,21.963000065344826],[244.641657955496953,-295.967404098500538,-244.458609975323498,332.001530815318688,0.183047980173455,36.03412671681815,0.440745864649766,1.004630420678939,1.006,-71.165761424254185,1.077,-74.213443682765487,76.410300382823934],[244.641657955496953,-295.967404098500538,-244.458609975323498,332.001530815318688,0.183047980173455,36.03412671681815,0.440745864649766,1.004630420678939,1.006,-71.165761424254185,1.077,-74.213443682765487,76.410300382823934],[-469.127223591446921,-40.137712272607978,469.499999999999943,94.85233065712714,0.372776408553022,54.714618384519163,0.552448547015737,13.82712354489926,0.984128805313575,-5.446361238565254,1.0,0.942769529364028,76.029461912055226],[-469.127223591446921,-40.137712272607978,469.499999999999943,94.85233065712714,0.372776408553022,54.714618384519163,0.552448547015737,13.82712354489926,0.984128805313575,-5.446361238565254,1.0,0.942769529364028,76.029461912055226],[-465.717232025409146,-39.145497769752843,465.983472645776032,90.128048397023107,0.266240620366887,50.982550627270264,0.547697625819603,13.701084564335071,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,75.336427251511225],[-472.230017920280659,-38.779346534404162,472.681893508457506,92.364574362270105,0.451875588176847,53.585227827865943,0.555268211010667,13.903218663552458,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,76.44787655242132],[-472.230017920280659,-38.779346534404162,472.681893508457506,92.364574362270105,0.451875588176847,53.585227827865943,0.555268211010667,13.903218663552458,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,76.44787655242132],[-472.230017920280659,-38.779346534404162,472.681893508457506,92.364574362270105,0.451875588176847,53.585227827865943,0.555268211010667,13.903218663552458,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,76.44787655242132],[-465.714604540583252,-39.139019346031873,465.985423414425952,90.134870037418807,0.2708188738427,50.995850691386934,0.547693921642837,13.701177249643681,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,75.336936888538617],[-465.714604540583252,-39.139019346031873,465.985423414425952,90.134870037418807,0.2708188738427,50.995850691386934,0.547693921642837,13.701177249643681,0.985325206209207,-6.465050193914288,1.0,-0.347637392552578,75.336936888538617],[181.014180040495916,-149.040550522785026,-180.715729702772194,163.415272602294323,0.298450337723722,14.374722079509297,0.261496070889551,0.598690488039355,1.035388850400148,-41.854901183960635,1.068,-43.913262563958852,45.535272559744797],[-475.648117474890967,-314.545685148946973,475.999999999999886,391.779029308804184,0.35188252510892,77.233344159857211,1.467129243456982,17.796694632387702,1.020023814577846,-7.373886730355421,1.0,-1.529823831803576,97.856442254234338],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.020023814577846,-7.373886730355421,1.0,-1.529823831803576,0.0],[-279.173447860470731,-85.732935562876747,279.530702152185995,116.581926209495975,0.357254291715265,30.848990646619228,0.331909359176189,8.743033367793018,1.016,-6.238587038743231,1.0,-1.020041170111079,75.716890026437682],[-279.18350545303997,-86.104618812092184,279.555288811504511,116.198451520394428,0.37178335846454,30.093832708302244,0.332044536433247,8.739433602843931,1.016,-6.238587038743231,1.0,-1.020041170111079,75.685715147502066],[-237.764331240280654,-73.280587628472205,237.914009036309523,98.94350423641886,0.149677796028868,25.662916607946656,0.282766350224254,7.438239751800121,1.016,-6.238587038743231,1.0,-1.020041170111079,64.417045844981629],[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.016,-6.238587038743231,1.0,-1.020041170111079,0.0],[45.564193823170029,-26.26188988905858,-45.500000000000412,28.505108094962377,0.064193823169617,2.243218205903798,0.13363395243875,0.256189068858277,1.032782569932626,-65.139713682060687,1.1,-66.301880662068797,21.476652206544763],[45.564193823170029,-26.26188988905858,-45.500000000000412,28.505108094962377,0.064193823169617,2.243218205903798,0.13363395243875,0.256189068858277,1.032782569932626,-65.139713682060687,1.1,-66.301880662068797,21.476652206544763],[39.564847474638988,-1.134825426067373,-39.499999999999943,3.011777863983507,0.064847474639045,1.876952437916135,0.099539065007993,0.189020918261746,1.04354505214031,-40.190727765058405,1.1,-42.188235032776397,31.72283609944111],[39.564847474638988,-1.134825426067373,-39.499999999999943,3.011777863983507,0.064847474639045,1.876952437916135,0.099539065007993,0.189020918261746,1.04354505214031,-40.190727765058405,1.1,-42.188235032776397,31.72283609944111],[-7.635950131178074,-15.906853199605262,7.700000000000751,16.68497415828125,0.064049868822677,0.778120958675988,0.044941160200925,0.087681025177277,1.030354998810054,-52.43378654063627,1.1,-52.041465289592928,14.700821477183364],[-7.635950131178074,-15.906853199605262,7.700000000000751,16.68497415828125,0.064049868822677,0.778120958675988,0.044941160200925,0.087681025177277,1.030354998810054,-52.43378654063627,1.1,-52.041465289592928,14.700821477183364],[-91.061549955015735,-47.137805897845951,91.499999999999801,60.027591449587327,0.438450044984066,12.889785551741376,0.251631540978724,0.52215801569777,1.069397809272834,-31.383275762328481,1.1,-28.622683904180846,45.597045727047572],[-91.061549955015735,-47.137805897845951,91.499999999999801,60.027591449587327,0.438450044984066,12.889785551741376,0.251631540978724,0.52215801569777,1.069397809272834,-31.383275762328481,1.1,-28.622683904180846,45.597045727047572],[38.510248967778658,-128.703821387922574,-37.999999999999865,146.335473370080507,0.510248967778793,17.631651982157933,0.341692746024418,0.721396097789309,1.031791675854082,-63.022428270538114,1.1,-64.04559978050095,57.268506797012932]]}",
+      "orient": "split",
+      "dtype": {
+        "p_hv_mw": "float64",
+        "q_hv_mvar": "float64",
+        "p_lv_mw": "float64",
+        "q_lv_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_hv_ka": "float64",
+        "i_lv_ka": "float64",
+        "vm_hv_pu": "float64",
+        "va_hv_degree": "float64",
+        "vm_lv_pu": "float64",
+        "va_lv_degree": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_trafo3w": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_hv_mw\",\"q_hv_mvar\",\"p_mv_mw\",\"q_mv_mvar\",\"p_lv_mw\",\"q_lv_mvar\",\"pl_mw\",\"ql_mvar\",\"i_hv_ka\",\"i_mv_ka\",\"i_lv_ka\",\"vm_hv_pu\",\"va_hv_degree\",\"vm_mv_pu\",\"va_mv_degree\",\"vm_lv_pu\",\"va_lv_degree\",\"va_internal_degree\",\"vm_internal_pu\",\"loading_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_hv_mw": "float64",
+        "q_hv_mvar": "float64",
+        "p_mv_mw": "float64",
+        "q_mv_mvar": "float64",
+        "p_lv_mw": "float64",
+        "q_lv_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_hv_ka": "float64",
+        "i_mv_ka": "float64",
+        "i_lv_ka": "float64",
+        "vm_hv_pu": "float64",
+        "va_hv_degree": "float64",
+        "vm_mv_pu": "float64",
+        "va_mv_degree": "float64",
+        "vm_lv_pu": "float64",
+        "va_lv_degree": "float64",
+        "va_internal_degree": "float64",
+        "vm_internal_pu": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_impedance": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_from_mw\",\"q_from_mvar\",\"p_to_mw\",\"q_to_mvar\",\"pl_mw\",\"ql_mvar\",\"i_from_ka\",\"i_to_ka\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_from_mw": "float64",
+        "q_from_mvar": "float64",
+        "p_to_mw": "float64",
+        "q_to_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_from_ka": "float64",
+        "i_to_ka": "float64"
+      }
+    },
+    "res_ext_grid": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[0],\"data\":[[101658.99931627852493,40568.080165085528279]]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_load": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95],\"data\":[[10.0,0.0],[2500.0,0.0],[430.0,120.0],[175.0,79.0],[840.0,183.0],[180.0,50.0],[522.799999999999954,302.0],[360.0,50.0],[1050.0,98.0],[20.5,5.1],[67.0,20.0],[3.0,2.0],[12.0,2.0],[825.0,102.0],[202.0,27.0],[81.400000000000006,12.199999999999999],[420.0,76.200000000000003],[195.0,25.0],[660.0,70.0],[368.0,60.0],[255.0,60.0],[154.0,55.0],[304.0,-25.0],[103.5,-99.400000000000006],[2754.0,200.0],[280.0,66.700000000000003],[2295.0,25.0],[130.0,32.0],[6.4,2.1],[25.0,15.0],[33.0,3.2],[0.0,0.0],[232.0,10.0],[385.0,114.0],[174.0,11.0],[135.0,40.0],[24.0,9.0],[173.0,49.700000000000003],[38.0,18.800000000000001],[9.1,1.3],[54.0,30.399999999999999],[1183.400000000000091,452.199999999999989],[7.4,2.4],[20.300000000000001,7.9],[18.0,5.3],[15.0,4.6],[305.0,90.0],[320.0,15.0],[55.100000000000001,16.199999999999999],[175.0,30.0],[38.899999999999999,5.0],[13.0,4.2],[207.0,42.899999999999999],[0.0,0.0],[18.0,6.0],[154.0,44.0],[40.0,12.0],[12.0,2.0],[93.0,-10.0],[8.0,2.0],[14.0,2.0],[11.300000000000001,4.5],[43.0,6.3],[18.0,3.0],[29.899999999999999,7.7],[20.0,3.0],[20.0,3.4],[24.0,19.300000000000001],[670.0,279.0],[50.0,15.0],[222.0,44.700000000000003],[80.599999999999994,35.100000000000001],[220.0,50.0],[394.0,152.0],[80.0,67.200000000000003],[55.700000000000003,14.0],[265.0,20.0],[322.0,88.0],[20.0,4.0],[386.300000000000011,59.799999999999997],[195.300000000000011,45.299999999999997],[12.0,3.0],[80.0,15.0],[22.0,8.0],[16.0,55.0],[140.0,-35.0],[-52.600000000000001,95.0],[716.0,-196.0],[-30.0,135.0],[256.0,-33.799999999999997],[100000.0,40000.0],[584.799999999999954,40.0],[1.0,1.0],[178.0,40.0],[146.300000000000011,-42.200000000000003],[5.0,165.0]]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_motor": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_sgen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_storage": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_shunt": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\",\"vm_pu\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],\"data\":[[0.0,986.677543502295976,0.980649794273208],[0.0,505.821061997423442,0.985325206209207],[0.0,379.260288000000003,1.038],[0.0,385.446220000000039,1.042],[0.0,185.720959096956619,1.027245210327991],[0.0,192.180228000000028,1.042],[0.0,179.094656170998832,1.011631373210049],[0.0,181.029599999999988,1.02],[0.0,176.43713031749715,1.009885045588582],[0.0,175.82759999999999,1.02],[0.0,174.787199999999984,1.02],[0.0,183.100360319236756,1.025817196860593],[0.0,174.451264000000094,1.016],[0.0,327.425774549076323,0.991594969849817],[0.0,506.408444919456997,1.008406875992578],[0.0,515.150499999999738,1.01],[0.0,313.719781868259247,0.959165971204919],[0.0,305.245439435594164,0.943360161791858],[0.0,154.608283994709893,0.950863823933254],[0.0,296.914023032702858,0.94998643892529],[0.0,192.965412875929417,1.035388850400148],[0.0,176.867999999999995,1.02],[0.0,351.934500000000014,1.01],[0.0,185.314176000000003,1.032],[0.0,174.429221485691215,1.009977191235974],[0.0,20.13989647642115,1.003491317262415],[0.0,30.058362187979153,0.926720210326707],[0.0,322.37423515830659,0.9516015996084],[0.0,165.092582463490828,0.974067731316707],[0.0,168.307774944534884,0.977902948058354],[0.0,160.94497808270873,0.96732963190421],[0.0,185.314176000000003,1.032],[0.0,173.687873611553186,0.966336262439284],[0.0,182.069999999999993,1.02],[0.0,187.102299999999929,1.034],[0.0,171.999999999999972,1.0]]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "vm_pu": "float64"
+      }
+    },
+    "res_gen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\",\"va_degree\",\"vm_pu\"],\"index\":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49],\"data\":[[0.0,744.719470443288628,-37.04565627440482,1.038],[0.0,808.830524848319442,-53.669649740464003,1.042],[0.0,663.436061707177032,-58.383470639948861,1.042],[0.0,326.302655816078186,-66.482391260144851,1.02],[0.0,-705.840883135795593,-71.165761424254185,1.006],[0.0,2.628061991079022,-17.216221976125269,1.02],[0.0,293.790075759474917,-37.607884206857498,1.02],[0.0,-126.237066763307467,-52.081152208483751,1.02],[2934.0,-47.212930191658643,-68.136673734569015,1.02],[0.0,-159.615474116713756,-6.238587038743231,1.016],[1301.0,374.421980963192823,-10.461452645993589,1.05],[10.0,413.321386218070984,-17.280423459713706,1.077],[1120.0,762.761472822498831,-4.035918693312273,1.07],[468.0,748.465185669211905,-23.804068981960952,1.081],[0.0,131.843583106994629,-28.552000190155127,1.05],[0.0,-200.22685718536377,-54.860142988789598,1.0],[0.0,-97.811983823776245,-64.63108931843756,1.0],[430.0,287.063621874611499,-81.622480953151182,1.004],[36.0,102.48319149017334,-55.202984997705393,1.045],[450.300000000000011,219.767789208846693,-77.7271527005,1.045],[776.0,157.917329318371344,-68.250668661811673,1.045],[203.0,938.409272909164429,-7.279844118298756,1.01],[3107.0,153.523402451761285,2.289814358217905,1.016],[46.0,-171.901256501957676,-16.241802313289629,0.99],[2520.0,150.176496982768299,-63.269751239032175,1.02],[206.0,245.335208115395687,-43.913262563958852,1.068],[0.0,0.769035696983337,-38.930869576542243,1.045],[501.0,406.779029308804184,-1.529823831803576,1.0],[0.0,0.0,0.0,0.0],[250.0,623.58897440915996,-16.420431173538756,1.01],[0.0,715.387293936962806,-15.291292484285863,1.032],[946.0,507.418800539960898,-31.384144109322548,1.059],[53.0,96.627624369059475,-85.202675450729657,1.0],[579.0,336.010216189924733,-66.301880662068797,1.1],[78.0,62.209577679317533,-58.301341595279581,1.11],[143.0,50.72355572796684,-42.188235032776397,1.1],[96.0,68.469948316562409,-52.041465289592928,1.1],[182.0,196.335473370080507,-64.04559978050095,1.1],[577.0,272.055182899174611,-28.622683904180846,1.1],[15.0,-491.743841823471257,-60.74971950271815,1.022],[177.0,254.656660199165344,-59.384473415743024,1.072],[470.0,249.36578900808999,-71.45122446817301,1.054],[127.0,873.295757532119751,-74.213443682765487,1.077],[809.0,334.723881966310557,-1.020041170111079,1.0],[2896.0,562.491511558672869,-0.347637392552578,1.0],[961.0,197.704661314254395,0.942769529364028,1.0],[550.0,835.228567689447573,-16.163797569244906,1.02],[0.0,85.252842406870343,-15.819665791516737,1.02],[0.0,192.753303025380376,-14.057438195317301,1.034],[190.0,134.419473052024841,-7.843645132891908,1.0]]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "va_degree": "float64",
+        "vm_pu": "float64"
+      }
+    },
+    "res_ward": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\",\"vm_pu\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "vm_pu": "float64"
+      }
+    },
+    "res_xward": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\",\"vm_pu\",\"va_internal_degree\",\"vm_internal_pu\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64",
+        "vm_pu": "float64",
+        "va_internal_degree": "float64",
+        "vm_internal_pu": "float64"
+      }
+    },
+    "res_dcline": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_from_mw\",\"q_from_mvar\",\"p_to_mw\",\"q_to_mvar\",\"pl_mw\",\"vm_from_pu\",\"va_from_degree\",\"vm_to_pu\",\"va_to_degree\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_from_mw": "float64",
+        "q_from_mvar": "float64",
+        "p_to_mw": "float64",
+        "q_to_mvar": "float64",
+        "pl_mw": "float64",
+        "vm_from_pu": "float64",
+        "va_from_degree": "float64",
+        "vm_to_pu": "float64",
+        "va_to_degree": "float64"
+      }
+    },
+    "res_asymmetric_load": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_asymmetric_sgen": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_bus_est": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"vm_pu\",\"va_degree\",\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "vm_pu": "float64",
+        "va_degree": "float64",
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_line_est": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_from_mw\",\"q_from_mvar\",\"p_to_mw\",\"q_to_mvar\",\"pl_mw\",\"ql_mvar\",\"i_from_ka\",\"i_to_ka\",\"i_ka\",\"vm_from_pu\",\"va_from_degree\",\"vm_to_pu\",\"va_to_degree\",\"loading_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_from_mw": "float64",
+        "q_from_mvar": "float64",
+        "p_to_mw": "float64",
+        "q_to_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_from_ka": "float64",
+        "i_to_ka": "float64",
+        "i_ka": "float64",
+        "vm_from_pu": "float64",
+        "va_from_degree": "float64",
+        "vm_to_pu": "float64",
+        "va_to_degree": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_trafo_est": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_hv_mw\",\"q_hv_mvar\",\"p_lv_mw\",\"q_lv_mvar\",\"pl_mw\",\"ql_mvar\",\"i_hv_ka\",\"i_lv_ka\",\"vm_hv_pu\",\"va_hv_degree\",\"vm_lv_pu\",\"va_lv_degree\",\"loading_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_hv_mw": "float64",
+        "q_hv_mvar": "float64",
+        "p_lv_mw": "float64",
+        "q_lv_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_hv_ka": "float64",
+        "i_lv_ka": "float64",
+        "vm_hv_pu": "float64",
+        "va_hv_degree": "float64",
+        "vm_lv_pu": "float64",
+        "va_lv_degree": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_trafo3w_est": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_hv_mw\",\"q_hv_mvar\",\"p_mv_mw\",\"q_mv_mvar\",\"p_lv_mw\",\"q_lv_mvar\",\"pl_mw\",\"ql_mvar\",\"i_hv_ka\",\"i_mv_ka\",\"i_lv_ka\",\"vm_hv_pu\",\"va_hv_degree\",\"vm_mv_pu\",\"va_mv_degree\",\"vm_lv_pu\",\"va_lv_degree\",\"va_internal_degree\",\"vm_internal_pu\",\"loading_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_hv_mw": "float64",
+        "q_hv_mvar": "float64",
+        "p_mv_mw": "float64",
+        "q_mv_mvar": "float64",
+        "p_lv_mw": "float64",
+        "q_lv_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_hv_ka": "float64",
+        "i_mv_ka": "float64",
+        "i_lv_ka": "float64",
+        "vm_hv_pu": "float64",
+        "va_hv_degree": "float64",
+        "vm_mv_pu": "float64",
+        "va_mv_degree": "float64",
+        "vm_lv_pu": "float64",
+        "va_lv_degree": "float64",
+        "va_internal_degree": "float64",
+        "vm_internal_pu": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_impedance_est": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_from_mw\",\"q_from_mvar\",\"p_to_mw\",\"q_to_mvar\",\"pl_mw\",\"ql_mvar\",\"i_from_ka\",\"i_to_ka\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_from_mw": "float64",
+        "q_from_mvar": "float64",
+        "p_to_mw": "float64",
+        "q_to_mvar": "float64",
+        "pl_mw": "float64",
+        "ql_mvar": "float64",
+        "i_from_ka": "float64",
+        "i_to_ka": "float64"
+      }
+    },
+    "res_bus_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_line_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_trafo_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_trafo3w_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_ext_grid_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_gen_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_sgen_sc": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_bus_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"vm_a_pu\",\"va_a_degree\",\"vm_b_pu\",\"va_b_degree\",\"vm_c_pu\",\"va_c_degree\",\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "vm_a_pu": "float64",
+        "va_a_degree": "float64",
+        "vm_b_pu": "float64",
+        "va_b_degree": "float64",
+        "vm_c_pu": "float64",
+        "va_c_degree": "float64",
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64"
+      }
+    },
+    "res_line_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_a_from_mw\",\"q_a_from_mvar\",\"p_b_from_mw\",\"q_b_from_mvar\",\"q_c_from_mvar\",\"p_a_to_mw\",\"q_a_to_mvar\",\"p_b_to_mw\",\"q_b_to_mvar\",\"p_c_to_mw\",\"q_c_to_mvar\",\"p_a_l_mw\",\"q_a_l_mvar\",\"p_b_l_mw\",\"q_b_l_mvar\",\"p_c_l_mw\",\"q_c_l_mvar\",\"i_a_from_ka\",\"i_a_to_ka\",\"i_b_from_ka\",\"i_b_to_ka\",\"i_c_from_ka\",\"i_c_to_ka\",\"i_a_ka\",\"i_b_ka\",\"i_c_ka\",\"i_n_from_ka\",\"i_n_to_ka\",\"i_n_ka\",\"loading_a_percent\",\"loading_b_percent\",\"loading_c_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_a_from_mw": "float64",
+        "q_a_from_mvar": "float64",
+        "p_b_from_mw": "float64",
+        "q_b_from_mvar": "float64",
+        "q_c_from_mvar": "float64",
+        "p_a_to_mw": "float64",
+        "q_a_to_mvar": "float64",
+        "p_b_to_mw": "float64",
+        "q_b_to_mvar": "float64",
+        "p_c_to_mw": "float64",
+        "q_c_to_mvar": "float64",
+        "p_a_l_mw": "float64",
+        "q_a_l_mvar": "float64",
+        "p_b_l_mw": "float64",
+        "q_b_l_mvar": "float64",
+        "p_c_l_mw": "float64",
+        "q_c_l_mvar": "float64",
+        "i_a_from_ka": "float64",
+        "i_a_to_ka": "float64",
+        "i_b_from_ka": "float64",
+        "i_b_to_ka": "float64",
+        "i_c_from_ka": "float64",
+        "i_c_to_ka": "float64",
+        "i_a_ka": "float64",
+        "i_b_ka": "float64",
+        "i_c_ka": "float64",
+        "i_n_from_ka": "float64",
+        "i_n_to_ka": "float64",
+        "i_n_ka": "float64",
+        "loading_a_percent": "float64",
+        "loading_b_percent": "float64",
+        "loading_c_percent": "float64"
+      }
+    },
+    "res_trafo_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_a_hv_mw\",\"q_a_hv_mvar\",\"p_b_hv_mw\",\"q_b_hv_mvar\",\"p_c_hv_mw\",\"q_c_hv_mvar\",\"p_a_lv_mw\",\"q_a_lv_mvar\",\"p_b_lv_mw\",\"q_b_lv_mvar\",\"p_c_lv_mw\",\"q_c_lv_mvar\",\"p_a_l_mw\",\"q_a_l_mvar\",\"p_b_l_mw\",\"q_b_l_mvar\",\"p_c_l_mw\",\"q_c_l_mvar\",\"i_a_hv_ka\",\"i_a_lv_ka\",\"i_b_hv_ka\",\"i_b_lv_ka\",\"i_c_hv_ka\",\"i_c_lv_ka\",\"loading_a_percent\",\"loading_b_percent\",\"loading_c_percent\",\"loading_percent\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_a_hv_mw": "float64",
+        "q_a_hv_mvar": "float64",
+        "p_b_hv_mw": "float64",
+        "q_b_hv_mvar": "float64",
+        "p_c_hv_mw": "float64",
+        "q_c_hv_mvar": "float64",
+        "p_a_lv_mw": "float64",
+        "q_a_lv_mvar": "float64",
+        "p_b_lv_mw": "float64",
+        "q_b_lv_mvar": "float64",
+        "p_c_lv_mw": "float64",
+        "q_c_lv_mvar": "float64",
+        "p_a_l_mw": "float64",
+        "q_a_l_mvar": "float64",
+        "p_b_l_mw": "float64",
+        "q_b_l_mvar": "float64",
+        "p_c_l_mw": "float64",
+        "q_c_l_mvar": "float64",
+        "i_a_hv_ka": "float64",
+        "i_a_lv_ka": "float64",
+        "i_b_hv_ka": "float64",
+        "i_b_lv_ka": "float64",
+        "i_c_hv_ka": "float64",
+        "i_c_lv_ka": "float64",
+        "loading_a_percent": "float64",
+        "loading_b_percent": "float64",
+        "loading_c_percent": "float64",
+        "loading_percent": "float64"
+      }
+    },
+    "res_ext_grid_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64"
+      }
+    },
+    "res_shunt_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[],\"index\":[],\"data\":[]}",
+      "orient": "split"
+    },
+    "res_load_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_sgen_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_storage_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_mw\",\"q_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_mw": "float64",
+        "q_mvar": "float64"
+      }
+    },
+    "res_asymmetric_load_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64"
+      }
+    },
+    "res_asymmetric_sgen_3ph": {
+      "_module": "pandas.core.frame",
+      "_class": "DataFrame",
+      "_object": "{\"columns\":[\"p_a_mw\",\"q_a_mvar\",\"p_b_mw\",\"q_b_mvar\",\"p_c_mw\",\"q_c_mvar\"],\"index\":[],\"data\":[]}",
+      "orient": "split",
+      "dtype": {
+        "p_a_mw": "float64",
+        "q_a_mvar": "float64",
+        "p_b_mw": "float64",
+        "q_b_mvar": "float64",
+        "p_c_mw": "float64",
+        "q_c_mvar": "float64"
+      }
+    },
+    "user_pf_options": {},
+    "OPF_converged": false
+  }
+}
