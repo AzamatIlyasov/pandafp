@@ -1,0 +1,54 @@
+
+{
+    "status": "SIM_REQUEST",
+    "3phase": false,
+    "elements": {
+        "bus1": {
+            "etype": "bus",
+            "vn_kv": 20.0
+        },
+        "bus2": {
+            "etype": "bus",
+            "vn_kv": 0.4
+        },
+        "bus3": {
+            "etype": "bus",
+            "vn_kv": 0.4
+        },
+        "ExtGrid": {
+            "etype": "ext_grid",
+            "bus": "bus1",   
+            "vm_pu": 1.02
+        },
+        "load1_0.1MW": {
+            "etype": "load",
+            "bus": "bus3",
+            "p_mw":0.100,
+            "q_mvar":0.05
+        },
+        "trafo1": {
+            "etype": "trafoParam",
+            "hv_bus": "bus1",
+            "lv_bus": "bus2",
+            "sn_mva": "0.4",
+            "vn_hv_kv": 20.0,
+            "vn_lv_kv": 0.4,
+            "vk_percent": 6.0,
+            "vkr_percent": 1.425,
+            "pfe_kw": 1.35,
+            "i0_percent": 0.3375            
+        },  
+        "line1": {
+            "etype": "lineParam",
+            "from_bus": "bus2",
+            "to_bus": "bus3",
+            "length_km": 0.1,
+            "r_ohm_per_km": 0.6420, 
+            "x_ohm_per_km": 0.083, 
+            "c_nf_per_km": 210, 
+            "max_i_ka": 0.142,
+            "type":"ol"
+        }
+        
+    }
+}
