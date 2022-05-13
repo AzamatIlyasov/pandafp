@@ -106,17 +106,17 @@ def sim_request(data):
             pp.create_gen(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "ext_grid":
             pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)
+        # elif element_type == "line":
+        #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
+        # elif element_type == "lineStd":
+        #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            pp.create_line(net, *positional_args, **optional_args, name=uuid)
-        elif element_type == "lineStd":
-            pp.create_line(net, *positional_args, **optional_args, name=uuid)
-        elif element_type == "lineParam":
             pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)
+        # elif element_type == "trafo":
+        #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
+        # elif element_type == "trafoStd":
+        #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
-        elif element_type == "trafoStd":
-            pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
-        elif element_type == "trafoParam":
             pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "storage":
             pp.create_storage(net, *positional_args, **optional_args, name=uuid)
@@ -133,16 +133,16 @@ def sim_request(data):
             pass # This is handled by process_potential_buses
         if et == "l":
             positional_args[1] = pp.get_element_index(net, "line", positional_args[1])
-        elif et == "l":
-            positional_args[1] = pp.get_element_index(net, "lineStd", positional_args[1])
-        elif et == "l":
-            positional_args[1] = pp.get_element_index(net, "lineParam", positional_args[1])
+        # elif et == "l":
+        #     positional_args[1] = pp.get_element_index(net, "lineStd", positional_args[1])
+        # elif et == "l":
+        #     positional_args[1] = pp.get_element_index(net, "lineParam", positional_args[1])
         elif et == "t":
             positional_args[1] = pp.get_element_index(net, "trafo", positional_args[1])
-        elif et == "t":
-            positional_args[1] = pp.get_element_index(net, "trafoStd", positional_args[1])
-        elif et == "t":
-            positional_args[1] = pp.get_element_index(net, "trafoParam", positional_args[1])
+        # elif et == "t":
+        #     positional_args[1] = pp.get_element_index(net, "trafoStd", positional_args[1])
+        # elif et == "t":
+        #     positional_args[1] = pp.get_element_index(net, "trafoParam", positional_args[1])
         elif et == "t3":
             positional_args[1] = pp.get_element_index(net, "trafo3w", positional_args[1])
         else:

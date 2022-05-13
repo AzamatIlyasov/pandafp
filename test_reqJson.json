@@ -27,27 +27,35 @@
             "q_mvar":0.05
         },
         "trafo1": {
-            "etype": "trafoParam",
+            "etype": "trafo",
             "hv_bus": "bus1",
             "lv_bus": "bus2",
             "sn_mva": "0.4",
             "vn_hv_kv": 20.0,
             "vn_lv_kv": 0.4,
-            "vk_percent": 6.0,
             "vkr_percent": 1.425,
+            "vk_percent": 6.0,
             "pfe_kw": 1.35,
-            "i0_percent": 0.3375            
+            "i0_percent": 0.3375
         },  
         "line1": {
-            "etype": "lineParam",
+            "etype": "line",
             "from_bus": "bus2",
             "to_bus": "bus3",
             "length_km": 0.1,
             "r_ohm_per_km": 0.6420, 
             "x_ohm_per_km": 0.083, 
             "c_nf_per_km": 210, 
-            "max_i_ka": 0.142,
-            "type":"ol"
+            "max_i_ka": 0.142
+        },
+        "gen1": {
+            "etype": "gen",
+            "bus", 
+            "p_mw"
+            vm_pu=1.038, sn_mva=1000, min_q_mvar=-360,
+
+            net, bus, p_mw, vm_pu=1.0, sn_mva=nan, name=None, index=None, max_q_mvar=nan, min_q_mvar=nan, min_p_mw=nan, max_p_mw=nan, min_vm_pu=nan, max_vm_pu=nan, scaling=1.0, type=None, slack=False, controllable=nan, vn_kv=nan, 
+
         }
         
     }
