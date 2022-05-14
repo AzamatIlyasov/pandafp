@@ -98,28 +98,31 @@ def sim_request(data):
         element_type = utils.get_or_error("etype", element)
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype")}
+        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
         
+        in_service_val = utils.get_or_error("in_service", element)
+
         if element_type == "load":
-            pp.create_load(net, *positional_args, **optional_args, name=uuid)
-        elif element_type == "gen":
-            pp.create_gen(net, *positional_args, **optional_args, name=uuid)
+            pp.create_load(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+        elif element_type == "gen":            
+            #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
+            pp.create_gen(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
         elif element_type == "ext_grid":
-            pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)
+            pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
         # elif element_type == "line":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "lineStd":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)
+            pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)      
         # elif element_type == "trafo":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)
+            pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
         elif element_type == "storage":
-            pp.create_storage(net, *positional_args, **optional_args, name=uuid)
+            pp.create_storage(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
         else:
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
 
@@ -127,7 +130,10 @@ def sim_request(data):
         element_type = "switch"
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype")}
+        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
+        
+        in_service_val = bool(utils.get_or_error("in_service", element))
+        
         et = positional_args[2]
         if et == "b":
             pass # This is handled by process_potential_buses
@@ -147,7 +153,7 @@ def sim_request(data):
             positional_args[1] = pp.get_element_index(net, "trafo3w", positional_args[1])
         else:
             raise InvalidError(f"Invalid element type {et}. Must be b,l,t, or t3.")
-        pp.create_switch(net, *positional_args, **optional_args, name=uuid)
+        pp.create_switch(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
             
     try:
         if is_three_phase:

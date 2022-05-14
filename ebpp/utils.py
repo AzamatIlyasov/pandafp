@@ -6,7 +6,7 @@ from errors import InvalidError
 required_props = {
     "bus": ["vn_kv"],
     "load": ["bus", "p_mw"],
-    "ext_grid": ["bus"],
+    "ext_grid": ["bus"],# "vm_pu"],
     # "line": ["from_bus", "to_bus", "length_km", "std_type"],
     # "lineStd": ["from_bus", "to_bus", "length_km", "std_type"],
     "line": ["from_bus", "to_bus", "length_km", "r_ohm_per_km", "x_ohm_per_km", "c_nf_per_km", "max_i_ka"],

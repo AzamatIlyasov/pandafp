@@ -24,7 +24,9 @@
         "ExtGrid": {
             "etype": "ext_grid",
             "bus": "bus1",   
-            "vm_pu": 1.02
+            "vm_pu": 1.02,
+
+            "in_service":"True"
         },
         "load1_0.1MW": {
             "etype": "load",
@@ -62,15 +64,13 @@
         },
         "gen1": {
             "etype": "gen",
-            "bus": "",
-            "p_mw": "",
+            "bus": "bus3",
+            "p_mw": 1,
             "vm_pu":1.038, 
             "sn_mva":1000, 
-            
             "min_q_mvar":-360,
-
-            net, bus, p_mw, vm_pu=1.0, sn_mva=nan, name=None, index=None, max_q_mvar=nan, min_q_mvar=nan, min_p_mw=nan, max_p_mw=nan, min_vm_pu=nan, max_vm_pu=nan, scaling=1.0, type=None, slack=False, controllable=nan, vn_kv=nan, 
-
+                        
+            "in_service":"False"
         }
         
     }
