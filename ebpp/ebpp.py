@@ -1,4 +1,5 @@
 import json
+from logging.config import valid_ident
 import os
 import sys
 
@@ -12,6 +13,7 @@ from pandapower import LoadflowNotConverged
 
 import utils
 from errors import ConvError, InvalidError, JsonError, PPError
+
 
 app = Flask(__name__)
 
@@ -71,23 +73,27 @@ def sim_request(data):
     is_estimate = utils.get_or_error("is_estimate", data)
     elements_dict = utils.get_or_error("elements", data)
     measurements_dict = utils.get_or_error("measurements", data)
+
     buses = {} # Used for matching bus UUIDs to index
+    elements = {} # Used for matching ELEMENT UUIDs to index
 
     def process_potential_bus(key, value):
-        """ Inner method for processing a positional argument that could be a bus
+        """ Inner method for processing a positional argument that could be a BUS
             This function checks if the value is in the bus keys. This should never cause issues so long as UUID's aren't used for
             any other purpose except for bus identification and as long as there are no UUID collisions. Both of those cases seem
             exceptionally unlikely, so this should work fine.
         """
         if value in buses.keys():
             return buses[value]
+        elif value == "None":
+            return None
         else:
-            return value
+            return value   
 
     bus_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "bus"]
     element_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) != "bus" and utils.get_or_error("etype", element) != "switch"]
     switch_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "switch"]
-    measurements_list = [(uuid, element) for uuid, element in measurements_dict.items() if utils.get_or_error("etype", element) == "measurements"]
+    measurements_list = [(uuid, element) for uuid, element in measurements_dict.items() ] # ifutils.get_or_error("meas_type", element) == "measurements"
     
     net = pp.create_empty_network()
 
@@ -105,40 +111,51 @@ def sim_request(data):
         element_type = utils.get_or_error("etype", element)
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
+        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") } #and (not key == "in_service")
         
         #in_service_val = utils.get_or_error("in_service", element)
+        index = None
 
         if element_type == "load":
-            pp.create_load(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_load(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
         elif element_type == "gen":            
             #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
-            pp.create_gen(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_gen(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
         elif element_type == "ext_grid":
-            pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
         # elif element_type == "line":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "lineStd":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)      
+            index = pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)  
+
         # elif element_type == "trafo":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
         elif element_type == "storage":
-            pp.create_storage(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_storage(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
         else:
+            index = "INVALID"
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
+        
+        elements[uuid] = index
+        
 
     #create_switches
     for uuid, switch in switch_list:
         element_type = "switch"
         req_props = utils.required_props[element_type]
-        positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
+        positional_args = [process_potential_bus(key, value) for key, value in switch.items() if key in req_props]
+        optional_args = { key: value for key, value in switch.items() if (not key in req_props) and (not key == "etype") }
         
         #in_service_val = bool(utils.get_or_error("in_service", element))
         
@@ -163,15 +180,34 @@ def sim_request(data):
             raise InvalidError(f"Invalid element type {et}. Must be b,l,t, or t3.")
         pp.create_switch(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
 
+
+
+    def process_potential_element(key, value):
+        """ Inner method for processing a positional argument that could be a ELEMENT or a BUS
+            This function checks if the value is in the ELEMENT/BUS keys. This should never cause issues so long as UUID's aren't used for
+            any other purpose except for bus identification and as long as there are no UUID collisions. Both of those cases seem
+            exceptionally unlikely, so this should work fine.
+        """
+        if value in buses.keys():
+            return buses[value]
+        elif value in elements.keys():
+            return elements[value]
+        elif value == "None":
+            return None
+        else:
+            return value
+
+
     #for state_estimation - create measurements
     for uuid, measurement in measurements_list:
-        ttype = "measurement"
-        req_props = utils.required_props[element_type]
-        positional_args = [value for key, value in measurement.items() if key in req_props ]
-        optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "etype")}
+        prop_type = "measurement"
+        req_props = utils.required_props[prop_type] 
+        positional_args = [ process_potential_element(key, value) for key, value in measurement.items() if key in req_props ]        
+        optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "meas_type")}
         
-        index = pp.create_measurement(net, *positional_args, name=uuid)
-
+        msrmt_index = pp.create_measurement(net, *positional_args, name=uuid)
+            #pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
+    
     #run (runpp, runpp_3ph, estimate)
     try:
         if is_three_phase:
@@ -181,15 +217,25 @@ def sim_request(data):
             res_est = est.estimate(net, init="flat")
             print("isRemovedBadData: ", res_rn_max)
             print("isEstimated: ", res_est)
+            pp.runpp(net)            
         else:
-            pp.runpp(net)
+            pp.runpp(net)                
     except LoadflowNotConverged:
         report = pp.diagnostic(net, report_style="compact", warnings_only=True)
         raise ConvError("Load flow did not converge.")
     except (KeyError, ValueError) as e:
+        print("ERR: " + str(e))
         raise PPError(str(e))
     except Exception as e:
+        print("Unknown exception has occured: " + str(e))
         raise PPError("Unknown exception has occured: " + str(e))
+
+    print("RESULT RUNPP:")
+    print(net.res_bus)
+    print(net.res_line)
+    print("RESULT RUNEST:")
+    print(net.res_bus_est)
+    print(net.res_line_est)
 
     message = {}
     message["status"] = "SIM_RESULT"

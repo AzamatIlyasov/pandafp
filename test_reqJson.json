@@ -4,19 +4,19 @@
     "3phase": false,
     "is_estimate": true,
     "elements": {
-        "bus1": {
+        "b1": {
             "etype": "bus",
             "vn_kv": 20.0,
 
             "in_service":true
         },
-        "bus2": {
+        "b2": {
             "etype": "bus",
             "vn_kv": 0.4,
 
             "in_service":true
         },
-        "bus3": {
+        "b3": {
             "etype": "bus",
             "vn_kv": 0.4,
 
@@ -24,14 +24,14 @@
         },
         "ExtGrid": {
             "etype": "ext_grid",
-            "bus": "bus1",   
+            "bus": "b1",   
             "vm_pu": 1.02,
 
             "in_service":true
         },
         "load1_0.1MW": {
             "etype": "load",
-            "bus": "bus3",
+            "bus": "b3",
             "p_mw":0.100,
             "q_mvar":0.05,
 
@@ -39,8 +39,8 @@
         },
         "trafo1": {
             "etype": "trafo",
-            "hv_bus": "bus1",
-            "lv_bus": "bus2",
+            "hv_bus": "b1",
+            "lv_bus": "b2",
             "sn_mva": "0.4",
             "vn_hv_kv": 20.0,
             "vn_lv_kv": 0.4,
@@ -51,10 +51,10 @@
 
             "in_service":true
         },  
-        "line1": {
+        "l1": {
             "etype": "line",
-            "from_bus": "bus2",
-            "to_bus": "bus3",
+            "from_bus": "b2",
+            "to_bus": "b3",
             "length_km": 0.1,
             "r_ohm_per_km": 0.6420, 
             "x_ohm_per_km": 0.083, 
@@ -63,9 +63,9 @@
 
             "in_service":true
         },
-        "gen1": {
+        "g1": {
             "etype": "gen",
-            "bus": "bus3",
+            "bus": "b3",
             "p_mw": 1,
             "vm_pu":1.038, 
             "sn_mva":1000, 
@@ -87,7 +87,51 @@
             "side":"None", 
             "check_existing":true, 
             "index":"None"
-        }
+        },
+
+        "b2_v_pu":{
+            "meas_type":"v", 
+            "element_type":"bus", 
+            "value":1.006, 
+            "std_dev":0.004, 
+            "element":"b2", 
+            "side":"None", 
+            "check_existing":true, 
+            "index":"None"
+        },
+
+        "b3_v_pu":{
+            "meas_type":"v", 
+            "element_type":"bus", 
+            "value":1.006, 
+            "std_dev":0.004, 
+            "element":"b3", 
+            "side":"None", 
+            "check_existing":true, 
+            "index":"None"
+        },
+
+        "l1_p_mw":{
+            "meas_type":"p", 
+            "element_type":"line", 
+            "value":0.1, 
+            "std_dev":0.004, 
+            "element":"l1", 
+            "side":"b2", 
+            "check_existing":true, 
+            "index":"None"
+        },
+        
+        "l1_q_mvar":{
+            "meas_type":"q", 
+            "element_type":"line", 
+            "value":0.1, 
+            "std_dev":0.004, 
+            "element":"l1", 
+            "side":"b2", 
+            "check_existing":true, 
+            "index":"None"
+        }   
 
         
     }
