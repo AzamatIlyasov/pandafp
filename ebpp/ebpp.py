@@ -3,6 +3,8 @@ import os
 import sys
 
 import pandapower as pp
+import pandapower.estimation as est
+from pandapower.estimation import remove_bad_data
 import pandas as pd
 from flask import Flask, request
 from dotenv import load_dotenv
@@ -66,7 +68,9 @@ def keep_alive():
 
 def sim_request(data):
     is_three_phase = utils.get_or_error("3phase", data)
+    is_estimate = utils.get_or_error("is_estimate", data)
     elements_dict = utils.get_or_error("elements", data)
+    measurements_dict = utils.get_or_error("measurements", data)
     buses = {} # Used for matching bus UUIDs to index
 
     def process_potential_bus(key, value):
@@ -83,7 +87,8 @@ def sim_request(data):
     bus_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "bus"]
     element_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) != "bus" and utils.get_or_error("etype", element) != "switch"]
     switch_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "switch"]
-
+    measurements_list = [(uuid, element) for uuid, element in measurements_dict.items() if utils.get_or_error("etype", element) == "measurements"]
+    
     net = pp.create_empty_network()
 
     for uuid, bus in bus_list:
@@ -100,29 +105,29 @@ def sim_request(data):
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
         optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
         
-        in_service_val = utils.get_or_error("in_service", element)
+        #in_service_val = utils.get_or_error("in_service", element)
 
         if element_type == "load":
-            pp.create_load(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+            pp.create_load(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
         elif element_type == "gen":            
             #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
-            pp.create_gen(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+            pp.create_gen(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
         elif element_type == "ext_grid":
-            pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+            pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
         # elif element_type == "line":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "lineStd":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)      
+            pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)      
         # elif element_type == "trafo":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+            pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
         elif element_type == "storage":
-            pp.create_storage(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
+            pp.create_storage(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
         else:
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
 
@@ -132,7 +137,7 @@ def sim_request(data):
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
         optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") and (not key == "in_service")}
         
-        in_service_val = bool(utils.get_or_error("in_service", element))
+        #in_service_val = bool(utils.get_or_error("in_service", element))
         
         et = positional_args[2]
         if et == "b":
@@ -153,11 +158,25 @@ def sim_request(data):
             positional_args[1] = pp.get_element_index(net, "trafo3w", positional_args[1])
         else:
             raise InvalidError(f"Invalid element type {et}. Must be b,l,t, or t3.")
-        pp.create_switch(net, *positional_args, **optional_args, name=uuid, in_service=in_service_val)
-            
+        pp.create_switch(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+
+    for uuid, measurement in measurements_list:
+        ttype = "measurement"
+        req_props = utils.required_props[element_type]
+        positional_args = [value for key, value in measurement.items() if key in req_props ]
+        optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "etype")}
+        
+        index = pp.create_measurement(net, *positional_args, name=uuid)
+
+
     try:
         if is_three_phase:
             pp.runpp_3ph(net)
+        elif is_estimate: #go estimate run
+            res_rn_max = remove_bad_data(net, init="flat", rn_max_threshold=3.0)
+            res_est = est.estimate(net, init="flat")
+            print("isRemovedBadData: ", res_rn_max)
+            print("isEstimated: ", res_est)
         else:
             pp.runpp(net)
     except LoadflowNotConverged:

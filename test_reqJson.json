@@ -2,31 +2,32 @@
 {
     "status": "SIM_REQUEST",
     "3phase": false,
+    "is_estimate": true,
     "elements": {
         "bus1": {
             "etype": "bus",
             "vn_kv": 20.0,
 
-            "in_service":"True"
+            "in_service":true
         },
         "bus2": {
             "etype": "bus",
             "vn_kv": 0.4,
 
-            "in_service":"True"
+            "in_service":true
         },
         "bus3": {
             "etype": "bus",
             "vn_kv": 0.4,
 
-            "in_service":"True"
+            "in_service":true
         },
         "ExtGrid": {
             "etype": "ext_grid",
             "bus": "bus1",   
             "vm_pu": 1.02,
 
-            "in_service":"True"
+            "in_service":true
         },
         "load1_0.1MW": {
             "etype": "load",
@@ -34,7 +35,7 @@
             "p_mw":0.100,
             "q_mvar":0.05,
 
-            "in_service":"True"
+            "in_service":true
         },
         "trafo1": {
             "etype": "trafo",
@@ -48,7 +49,7 @@
             "pfe_kw": 1.35,
             "i0_percent": 0.3375,
 
-            "in_service":"True"
+            "in_service":true
         },  
         "line1": {
             "etype": "line",
@@ -60,7 +61,7 @@
             "c_nf_per_km": 210, 
             "max_i_ka": 0.142,
 
-            "in_service":"True"
+            "in_service":true
         },
         "gen1": {
             "etype": "gen",
@@ -70,8 +71,24 @@
             "sn_mva":1000, 
             "min_q_mvar":-360,
                         
-            "in_service":"False"
+            "in_service":false
         }
+        
+    },
+
+
+    "measurements": {
+        "b1_v_pu":{
+            "meas_type":"v", 
+            "element_type":"bus", 
+            "value":1.006, 
+            "std_dev":0.004, 
+            "element":"b1", 
+            "side":"None", 
+            "check_existing":true, 
+            "index":"None"
+        }
+
         
     }
 }
