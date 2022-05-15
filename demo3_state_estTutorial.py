@@ -29,7 +29,7 @@ print(net)
 
 #create measure
  # V at bus 1 and 2 (in pu)
-msrnt_index_vb = pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side='None', check_existing=True, index='None', name="b1_v_pu")
+msrnt_index_vb = pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
 pp.create_measurement(net, meas_type="v", element_type="bus", value=0.968, std_dev=0.004, element=b2, side=None, check_existing=True, index=None, name="b2_v_pu")
 
  # P and Q at bus2 (in MW, Mvar)
