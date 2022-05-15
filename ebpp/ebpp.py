@@ -4,7 +4,7 @@ import sys
 
 import pandapower as pp
 import pandapower.estimation as est
-from pandapower.estimation import remove_bad_data
+
 import pandas as pd
 from flask import Flask, request
 from dotenv import load_dotenv
@@ -91,6 +91,7 @@ def sim_request(data):
     
     net = pp.create_empty_network()
 
+    #create_buses
     for uuid, bus in bus_list:
         element_type = "bus"
         req_props = utils.required_props[element_type]
@@ -99,6 +100,7 @@ def sim_request(data):
         index = pp.create_bus(net, *positional_args, **optional_args, name=uuid)
         buses[uuid] = index
     
+    #create_elements
     for uuid, element in element_list:
         element_type = utils.get_or_error("etype", element)
         req_props = utils.required_props[element_type]
@@ -131,6 +133,7 @@ def sim_request(data):
         else:
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
 
+    #create_switches
     for uuid, switch in switch_list:
         element_type = "switch"
         req_props = utils.required_props[element_type]
@@ -160,6 +163,7 @@ def sim_request(data):
             raise InvalidError(f"Invalid element type {et}. Must be b,l,t, or t3.")
         pp.create_switch(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
 
+    #for state_estimation - create measurements
     for uuid, measurement in measurements_list:
         ttype = "measurement"
         req_props = utils.required_props[element_type]
@@ -168,12 +172,12 @@ def sim_request(data):
         
         index = pp.create_measurement(net, *positional_args, name=uuid)
 
-
+    #run (runpp, runpp_3ph, estimate)
     try:
         if is_three_phase:
             pp.runpp_3ph(net)
         elif is_estimate: #go estimate run
-            res_rn_max = remove_bad_data(net, init="flat", rn_max_threshold=3.0)
+            res_rn_max = est.remove_bad_data(net, init="flat", rn_max_threshold=3.0)
             res_est = est.estimate(net, init="flat")
             print("isRemovedBadData: ", res_rn_max)
             print("isEstimated: ", res_est)
