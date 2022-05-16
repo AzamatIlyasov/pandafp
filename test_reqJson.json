@@ -2,45 +2,50 @@
 {
     "status": "SIM_REQUEST",
     "3phase": false,
-    "is_estimate": true,
+    "is_estimate": false,
     "elements": {
         "b1": {
             "etype": "bus",
             "vn_kv": 20.0,
 
+            "index":1,
             "in_service":true
         },
         "b2": {
             "etype": "bus",
             "vn_kv": 0.4,
 
+            "index":2,
             "in_service":true
         },
         "b3": {
             "etype": "bus",
             "vn_kv": 0.4,
 
+            "index":3,
             "in_service":true
         },
         "ExtGrid": {
             "etype": "ext_grid",
-            "bus": "b1",   
+            "bus": 1,   
             "vm_pu": 1.02,
 
+            "index":4,
             "in_service":true
         },
         "load1_0.1MW": {
             "etype": "load",
-            "bus": "b3",
+            "bus": 3,
             "p_mw":0.100,
             "q_mvar":0.05,
 
+            "index":5,
             "in_service":true
         },
         "trafo1": {
             "etype": "trafo",
-            "hv_bus": "b1",
-            "lv_bus": "b2",
+            "hv_bus": 1,
+            "lv_bus": 2,
             "sn_mva": "0.4",
             "vn_hv_kv": 20.0,
             "vn_lv_kv": 0.4,
@@ -49,28 +54,32 @@
             "pfe_kw": 1.35,
             "i0_percent": 0.3375,
 
+            "index":6,
             "in_service":true
         },  
         "l1": {
             "etype": "line",
-            "from_bus": "b2",
-            "to_bus": "b3",
+            "from_bus": 2,
+            "to_bus": 3,
             "length_km": 0.1,
             "r_ohm_per_km": 0.6420, 
             "x_ohm_per_km": 0.083, 
             "c_nf_per_km": 210, 
             "max_i_ka": 0.142,
 
+            "parallel":1,
+            "index":7,
             "in_service":true
         },
         "g1": {
             "etype": "gen",
-            "bus": "b3",
+            "bus": 3,
             "p_mw": 1,
             "vm_pu":1.038, 
             "sn_mva":1000, 
             "min_q_mvar":-360,
-                        
+             
+            "index":8,
             "in_service":false
         }
         
@@ -83,7 +92,7 @@
             "element_type":"bus", 
             "value":1.006, 
             "std_dev":0.004, 
-            "element":"b1", 
+            "element":1, 
             "side":"None", 
             "check_existing":true, 
             "index":"None"
@@ -94,7 +103,7 @@
             "element_type":"bus", 
             "value":1.006, 
             "std_dev":0.004, 
-            "element":"b2", 
+            "element":2, 
             "side":"None", 
             "check_existing":true, 
             "index":"None"
@@ -105,7 +114,7 @@
             "element_type":"bus", 
             "value":1.006, 
             "std_dev":0.004, 
-            "element":"b3", 
+            "element":3, 
             "side":"None", 
             "check_existing":true, 
             "index":"None"
@@ -116,8 +125,8 @@
             "element_type":"line", 
             "value":0.1, 
             "std_dev":0.004, 
-            "element":"l1", 
-            "side":"b2", 
+            "element":7, 
+            "side":2, 
             "check_existing":true, 
             "index":"None"
         },

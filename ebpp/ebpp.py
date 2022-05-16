@@ -104,7 +104,7 @@ def sim_request(data):
         positional_args = [value for key, value in bus.items() if key in req_props ]
         optional_args = { key: value for key, value in bus.items() if (not key in req_props) and (not key == "etype")}
         index = pp.create_bus(net, *positional_args, **optional_args, name=uuid)
-        buses[uuid] = index
+        buses[index] = uuid
     
     #create_elements
     for uuid, element in element_list:
@@ -147,7 +147,7 @@ def sim_request(data):
             index = "INVALID"
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
         
-        elements[uuid] = index
+        elements[index] = uuid
         
 
     #create_switches
