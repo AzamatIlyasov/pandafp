@@ -4771,60 +4771,60 @@
 
 
 
-    "measurements": {
-        "b26_v_pu":{
-            "meas_type":"v", 
-            "element_type":"bus", 
-            "value":1.006, 
-            "std_dev":0.004, 
-            "element":26, 
-            "side":"None", 
-            "check_existing":true, 
-            "index":"None"
-        },
-        "b26_p":{
-            "meas_type":"p", 
-            "element_type":"bus", 
-            "value":0.1,  // Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
-            "std_dev":0.004, 
-            "element":26, 
-            "side":"None", 
-            "check_existing":true, 
-            "index":"None"
-        },
-        "b26_q":{
-            "meas_type":"q", 
-            "element_type":"bus", 
-            "value":-0.1, // Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
-            "std_dev":0.004, 
-            "element":26, 
-            "side":"None", 
-            "check_existing":true, 
-            "index":"None"
-        },
+    // "measurements": {
+    //     "b26_v_pu":{
+    //         "meas_type":"v", 
+    //         "element_type":"bus", 
+    //         "value":1.006, 
+    //         "std_dev":0.004, 
+    //         "element":26, 
+    //         "side":"None", 
+    //         "check_existing":true, 
+    //         "index":"None"
+    //     },
+    //     "b26_p":{
+    //         "meas_type":"p", 
+    //         "element_type":"bus", 
+    //         "value":0.1,  // Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
+    //         "std_dev":0.004, 
+    //         "element":26, 
+    //         "side":"None", 
+    //         "check_existing":true, 
+    //         "index":"None"
+    //     },
+    //     "b26_q":{
+    //         "meas_type":"q", 
+    //         "element_type":"bus", 
+    //         "value":-0.1, // Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
+    //         "std_dev":0.004, 
+    //         "element":26, 
+    //         "side":"None", 
+    //         "check_existing":true, 
+    //         "index":"None"
+    //     },
 
-        "l26_25_1_p":{
-            "meas_type":"p", 
-            "element_type":"line", 
-            "value":0.1, 
-            "std_dev":0.004, 
-            "element":"line26_25_1",  //элемент линия, название указывается
-            "side":26,  //с какой стороны - шин-bus указывается
-            "check_existing":true, 
-            "index":"None"
-        },
-        "l26_25_1_q":{
-            "meas_type":"q", 
-            "element_type":"line", 
-            "value":0.1, 
-            "std_dev":0.004, 
-            "element":"line26_25_1",  //элемент линия, название указывается
-            "side":26,  //с какой стороны - шин-bus указывается
-            "check_existing":true, 
-            "index":"None"
-        },
+    //     "l26_25_1_p":{
+    //         "meas_type":"p", 
+    //         "element_type":"line", 
+    //         "value":0.1, 
+    //         "std_dev":0.004, 
+    //         "element":"line26_25_1",  //элемент линия, название указывается
+    //         "side":26,  //с какой стороны - шин-bus указывается
+    //         "check_existing":true, 
+    //         "index":"None"
+    //     },
+    //     "l26_25_1_q":{
+    //         "meas_type":"q", 
+    //         "element_type":"line", 
+    //         "value":0.1, 
+    //         "std_dev":0.004, 
+    //         "element":"line26_25_1",  //элемент линия, название указывается
+    //         "side":26,  //с какой стороны - шин-bus указывается
+    //         "check_existing":true, 
+    //         "index":"None"
+    //     },
 
-        
 
-    }    
+
+    // }    
 }

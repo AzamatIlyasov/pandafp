@@ -117,31 +117,34 @@ def sim_request(data):
         index = None
 
         if element_type == "load":
-            index = pp.create_load(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_load(net, *positional_args, **optional_args, name=uuid)
 
         elif element_type == "gen":            
             #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
-            index = pp.create_gen(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_gen(net, *positional_args, **optional_args, name=uuid)
 
         elif element_type == "ext_grid":
-            index = pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)
 
         # elif element_type == "line":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "lineStd":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            index = pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)  
+            index = pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)  
 
         # elif element_type == "trafo":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)
 
         elif element_type == "storage":
-            index = pp.create_storage(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            index = pp.create_storage(net, *positional_args, **optional_args, name=uuid)
+
+        elif element_type == "shunt":            
+            index = pp.create_shunt(net, *positional_args, **optional_args, name=uuid)
 
         else:
             index = "INVALID"
@@ -176,9 +179,11 @@ def sim_request(data):
         #     positional_args[1] = pp.get_element_index(net, "trafoParam", positional_args[1])
         elif et == "t3":
             positional_args[1] = pp.get_element_index(net, "trafo3w", positional_args[1])
+        elif et == "sh":
+            positional_args[1] = pp.get_element_index(net, "shunt", positional_args[1])
         else:
-            raise InvalidError(f"Invalid element type {et}. Must be b,l,t, or t3.")
-        pp.create_switch(net, *positional_args, **optional_args, name=uuid)#, in_service=in_service_val)
+            raise InvalidError(f"Invalid element type {et}. Must be b,l,t,t3,sh.")
+        pp.create_switch(net, *positional_args, **optional_args, name=uuid)
 
 
 

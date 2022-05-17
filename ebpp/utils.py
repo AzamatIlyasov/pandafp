@@ -17,6 +17,7 @@ required_props = {
     
     "storage":  [ "bus", "p_mw", "max_e_mwh" ],
     "gen":      [ "bus", "p_mw" ],
+    "shunt":      [ "bus", "q_mvar", "p_mw" ],
 
     "measurement": [ "meas_type", "element_type", "value", "std_dev", "element", "side", "check_existing", "index" ]
     
