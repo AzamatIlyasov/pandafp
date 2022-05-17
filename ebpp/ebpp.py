@@ -1,5 +1,5 @@
 import json
-from logging.config import valid_ident
+#from logging.config import valid_ident
 import os
 import sys
 
@@ -74,8 +74,8 @@ def sim_request(data):
     elements_dict = utils.get_or_error("elements", data)
     measurements_dict = utils.get_or_error("measurements", data)
 
-    buses = {} # Used for matching bus UUIDs to index
-    elements = {} # Used for matching ELEMENT UUIDs to index
+    buses = {} # Used for matching bus to index
+    elements = {} # Used for matching ELEMENT  to index
 
     def process_potential_bus(key, value):
         """ Inner method for processing a positional argument that could be a BUS
@@ -104,7 +104,8 @@ def sim_request(data):
         positional_args = [value for key, value in bus.items() if key in req_props ]
         optional_args = { key: value for key, value in bus.items() if (not key in req_props) and (not key == "etype")}
         index = pp.create_bus(net, *positional_args, **optional_args, name=uuid)
-        buses[index] = uuid
+        buses[index] = index ##uuid
+        print("BUS index: ", index, uuid)
     
     #create_elements
     for uuid, element in element_list:
@@ -115,16 +116,19 @@ def sim_request(data):
         
         #in_service_val = utils.get_or_error("in_service", element)
         index = None
-
+        result = ""
         if element_type == "load":
             index = pp.create_load(net, *positional_args, **optional_args, name=uuid)
+            result = "load"+str(index)
 
         elif element_type == "gen":            
             #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
             index = pp.create_gen(net, *positional_args, **optional_args, name=uuid)
+            result = "gen"+str(index)
 
         elif element_type == "ext_grid":
             index = pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)
+            result = "ext_grid"+str(index)
 
         # elif element_type == "line":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
@@ -132,25 +136,30 @@ def sim_request(data):
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
             index = pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)  
-
+            result = "line"+str(index)
+            
         # elif element_type == "trafo":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
             index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)
+            result = "trafo"+str(index)
 
         elif element_type == "storage":
             index = pp.create_storage(net, *positional_args, **optional_args, name=uuid)
+            result = "storage"+str(index)
 
         elif element_type == "shunt":            
             index = pp.create_shunt(net, *positional_args, **optional_args, name=uuid)
+            result = "shunt"+str(index)
 
         else:
             index = "INVALID"
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
         
-        elements[index] = uuid
+        elements[result] = index ##uuid
+        print("EL index: ", index, uuid)
         
 
     #create_switches
@@ -192,16 +201,21 @@ def sim_request(data):
             This function checks if the value is in the ELEMENT/BUS keys. This should never cause issues so long as UUID's aren't used for
             any other purpose except for bus identification and as long as there are no UUID collisions. Both of those cases seem
             exceptionally unlikely, so this should work fine.
-        """
-        if value in buses.keys():
+        """        
+        if key =="element" or key=="side" and value in buses.keys():
             return buses[value]
-        elif value in elements.keys():
+        elif key =="element" or key=="side" and "line"+str(value) in elements.keys():
             return elements[value]
+        elif key =="element" or key=="side" and "trafo"+str(value) in elements.keys():
+            return elements[value]
+        elif key =="element" or key=="side" and "trafo3w"+str(value) in elements.keys():
+            return elements[value]
+        # elif value in elements.keys():
+        #     return elements[value]
         elif value == "None":
             return None
         else:
             return value
-
 
     #for state_estimation - create measurements
     for uuid, measurement in measurements_list:
@@ -210,9 +224,11 @@ def sim_request(data):
         positional_args = [ process_potential_element(key, value) for key, value in measurement.items() if key in req_props ]        
         optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "meas_type")}
         
+        #Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
         msrmt_index = pp.create_measurement(net, *positional_args, name=uuid)
             #pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
-    
+        print("Measure index:", msrmt_index)
+
     #run (runpp, runpp_3ph, estimate)
     try:
         if is_three_phase:
@@ -245,6 +261,7 @@ def sim_request(data):
     message = {}
     message["status"] = "SIM_RESULT"
     results = {}
+    print("Message results: ", message)
 
     for uuid,element in elements_dict.items():
         element_type = elements_dict[uuid]["etype"]
@@ -252,10 +269,16 @@ def sim_request(data):
         net["res_" + element_type] = net["res_" + element_type].fillna(0)
         results[uuid] = {}
         results[uuid]["etype"] = element_type
-        index = pp.get_element_index(net, element_type, uuid, exact_match=True)
-        results[uuid].update(net["res_" + element_type].iloc[index].to_dict())
+        indexPP = pp.get_element_index(net, element_type, uuid, exact_match=True)
+        listElement = net["res_" + element_type].index.to_list()
+        posInd = listElement.index(indexPP) #position index from list of element 
+        check = net["res_" + element_type].iloc[posInd]   #index      
+        results[uuid].update(check.to_dict())
+        #print("ind results: ", index,results)
 
     message["elements"] = results
+    print("SUCCES")
+    #print("message results: ", message)
     return json.dumps(message)
 
 # PROGRAM MAIN ENTRY POINT
