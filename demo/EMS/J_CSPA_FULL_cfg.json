@@ -3,6 +3,7 @@
     "status": "SIM_REQUEST",
     "3phase": false,
     "is_estimate": false,
+    "is_inverted_in_service_val":true,
     "elements": {
 
       "25": {
@@ -2398,28 +2399,10 @@
         "min_q_mvar": -1000,
         "max_q_mvar": 1050
       },
-      "300011": {
-        "name": "ШАГОЛ",
-        "etype": "gen",
-        "bus": 4782,
-        "p_mw": -1282.7562842038,
-        "vm_pu": 1,
-        "sn_mva": "None",
-        "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
-      },
-      "300012": {
-        "name": "БЕКЕТОВО",
-        "etype": "gen",
-        "bus": 4709,
-        "p_mw": 0,
-        "vm_pu": 1,
-        "sn_mva": "None",
-        "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
-      },
+      
+      
+
+
       "300013": {
         "name": "ЗАРЯ",
         "etype": "gen",
@@ -6262,6 +6245,17 @@
         "in_service": true
       },
 
+      "200230": {
+        "name": "ШАГОЛ",
+        "etype": "load",
+        "bus": 4782,
+        "p_mw": 1282.7562842038,
+        "q_mvar": 381.1,
+        "in_service": false
+      },
+
+      
+
 
 
       "600001": {
@@ -6270,7 +6264,7 @@
         "bus": 481,
         "q_mvar": 95.6901524883,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600002": {
         "name": "ТАЛДЫКОРГАН-500",
@@ -6278,7 +6272,7 @@
         "bus": 987,
         "q_mvar": 163.6366899367,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600003": {
         "name": "СЕМЕЙ-500",
@@ -6286,7 +6280,7 @@
         "bus": 980,
         "q_mvar": 327.6422231466,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600004": {
         "name": "ТЮМЕНЬ",
@@ -6294,7 +6288,7 @@
         "bus": 4730,
         "q_mvar": 519.575775,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600005": {
         "name": "БЕРКУТ",
@@ -6302,7 +6296,7 @@
         "bus": 4728,
         "q_mvar": 170.3574527956,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600006": {
         "name": "ИРИКЛИНСКАЯ ГРЭС",
@@ -6310,7 +6304,7 @@
         "bus": 4790,
         "q_mvar": 167.852997,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600007": {
         "name": "ЕСИЛЬ",
@@ -6318,7 +6312,7 @@
         "bus": 180,
         "q_mvar": 485.6965918273,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600008": {
         "name": "КОКЧЕТАВСКАЯ",
@@ -6326,7 +6320,7 @@
         "bus": 175,
         "q_mvar": 648.4076384782,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600009": {
         "name": "КОЗЫРЕВО",
@@ -6334,7 +6328,7 @@
         "bus": 4703,
         "q_mvar": 164.4682452441,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600010": {
         "name": "РЕФТИНСКАЯ ГРЭС",
@@ -6342,7 +6336,7 @@
         "bus": 4702,
         "q_mvar": 169.8453,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600011": {
         "name": "СОКОЛ-500",
@@ -6350,7 +6344,7 @@
         "bus": 576,
         "q_mvar": 168.6761981735,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600012": {
         "name": "ЖИТИКАРА-500",
@@ -6358,7 +6352,7 @@
         "bus": 577,
         "q_mvar": 164.5454767874,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600013": {
         "name": "УЛЬКЕ-500",
@@ -6366,7 +6360,7 @@
         "bus": 9001,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600014": {
         "name": "Житикара-110",
@@ -6374,7 +6368,7 @@
         "bus": 578,
         "q_mvar": 79.5877495245,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600015": {
         "name": "ШАГОЛ",
@@ -6382,7 +6376,7 @@
         "bus": 4782,
         "q_mvar": 163.2500304008,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600016": {
         "name": "ЗАРЯ",
@@ -6390,7 +6384,7 @@
         "bus": 1631,
         "q_mvar": 168.515792,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600017": {
         "name": "КОСТАНАЙСКАЯ",
@@ -6398,7 +6392,7 @@
         "bus": 590,
         "q_mvar": 331.1279240602,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600018": {
         "name": "УФИМСКАЯ",
@@ -6406,7 +6400,7 @@
         "bus": 4712,
         "q_mvar": 169.7830253179,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600019": {
         "name": "ЧЕЛЯБИНСК",
@@ -6414,7 +6408,7 @@
         "bus": 4705,
         "q_mvar": 168.0239893447,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600020": {
         "name": "ЭГРЭС-1-500",
@@ -6422,7 +6416,7 @@
         "bus": 25,
         "q_mvar": 525.7726834566,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600021": {
         "name": "ЭКИБАСТУЗСКАЯ",
@@ -6430,7 +6424,7 @@
         "bus": 26,
         "q_mvar": 1034.2035769598,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600022": {
         "name": "ЦГПП",
@@ -6438,7 +6432,7 @@
         "bus": 129,
         "q_mvar": 332.7996221366,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600023": {
         "name": "РУБЦОВСКАЯ",
@@ -6446,7 +6440,7 @@
         "bus": 1621,
         "q_mvar": 329.4872435981,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600024": {
         "name": "ТАВРИЧЕСКАЯ",
@@ -6454,7 +6448,7 @@
         "bus": 1817,
         "q_mvar": 174.9427943101,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600025": {
         "name": "Кумколь",
@@ -6462,7 +6456,7 @@
         "bus": 455,
         "q_mvar": 19.6644669257,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600026": {
         "name": "Кайракты",
@@ -6470,7 +6464,7 @@
         "bus": 457,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600027": {
         "name": "АГАДЫРЬ-500",
@@ -6478,7 +6472,7 @@
         "bus": 469,
         "q_mvar": 508.8331714934,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600028": {
         "name": "Балхашская-110",
@@ -6486,7 +6480,7 @@
         "bus": 472,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600029": {
         "name": "Балхашская-220",
@@ -6494,7 +6488,7 @@
         "bus": 473,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600030": {
         "name": "ЖЕЗКАЗГАН-500",
@@ -6502,7 +6496,7 @@
         "bus": 480,
         "q_mvar": 170.2955347899,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600031": {
         "name": "ЮКГРЭС",
@@ -6510,7 +6504,7 @@
         "bus": 900,
         "q_mvar": 504.634670006,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600032": {
         "name": "ФРУНЗЕ",
@@ -6518,7 +6512,7 @@
         "bus": 2919,
         "q_mvar": 171.5807141774,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600033": {
         "name": "АЛМАТЫ",
@@ -6526,7 +6520,7 @@
         "bus": 902,
         "q_mvar": 171.5480798227,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600034": {
         "name": "АЛМА",
@@ -6534,7 +6528,7 @@
         "bus": 938,
         "q_mvar": 171.849357,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600035": {
         "name": "ЖАМБЫЛ",
@@ -6542,7 +6536,7 @@
         "bus": 800,
         "q_mvar": 172.2409412548,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600036": {
         "name": "Кызылординская",
@@ -6550,7 +6544,7 @@
         "bus": 862,
         "q_mvar": 19.1340350447,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600037": {
         "name": "Атбасар",
@@ -6558,7 +6552,7 @@
         "bus": 134,
         "q_mvar": 43.0212226855,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600038": {
         "name": "БАРНАУЛ-500",
@@ -6566,7 +6560,7 @@
         "bus": 1630,
         "q_mvar": 333.06265,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600039": {
         "name": "АВРОРА",
@@ -6574,7 +6568,7 @@
         "bus": 147,
         "q_mvar": 339.8538602689,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600040": {
         "name": "Макинск",
@@ -6582,7 +6576,7 @@
         "bus": 150,
         "q_mvar": 42.5778081024,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600041": {
         "name": "ТОКТОГУЛЬСКАЯ ГЭС",
@@ -6590,7 +6584,7 @@
         "bus": 2921,
         "q_mvar": 177.932052,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600042": {
         "name": "КУРГАН",
@@ -6598,7 +6592,7 @@
         "bus": 4727,
         "q_mvar": 166.531325,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600043": {
         "name": "ШУ",
@@ -6606,7 +6600,7 @@
         "bus": 9932,
         "q_mvar": 334.7655772251,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600044": {
         "name": "УЗБЕКИСТОН",
@@ -6614,7 +6608,7 @@
         "bus": 2922,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600045": {
         "name": "АКТОГАЙ",
@@ -6622,7 +6616,7 @@
         "bus": 986,
         "q_mvar": 160.8552343102,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600046": {
         "name": "АЛТАЙ",
@@ -6630,7 +6624,7 @@
         "bus": 1660,
         "q_mvar": 651.8439,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600047": {
         "name": "ЛОЧИН",
@@ -6638,7 +6632,7 @@
         "bus": 2920,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600048": {
         "name": "БАРАБИНСКАЯ",
@@ -6646,7 +6640,7 @@
         "bus": 9917,
         "q_mvar": 174.539717,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600049": {
         "name": "КУРЧАТОВСКАЯ",
@@ -6654,7 +6648,7 @@
         "bus": 50002,
         "q_mvar": 169.8870027697,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600050": {
         "name": "ИСЕТЬ",
@@ -6662,7 +6656,7 @@
         "bus": 50001,
         "q_mvar": 165.1280323568,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600051": {
         "name": "ЮЖНОУРАЛЬСКАЯ ГРЭС-2",
@@ -6670,7 +6664,7 @@
         "bus": 47161,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600052": {
         "name": "ВОСХОД",
@@ -6678,7 +6672,7 @@
         "bus": 1853,
         "q_mvar": 344.1643894518,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600053": {
         "name": "ВИТЯЗЬ",
@@ -6686,7 +6680,7 @@
         "bus": 1852,
         "q_mvar": 334.4772620114,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600054": {
         "name": "КЕМИН",
@@ -6694,7 +6688,7 @@
         "bus": 2951,
         "q_mvar": 117.624,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
       "600055": {
         "name": "ДАТКА",
@@ -6702,8 +6696,10 @@
         "bus": 2950,
         "q_mvar": 0,
         "p_mw": 0,
-        "in_service": true
+        "in_service": false
       },
+
+
 
 
       "400001": {
@@ -6718,7 +6714,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400002": {
         "name": "ЖИТИКАРА-500 - УЛЬКЕ-500",
@@ -6732,7 +6728,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400003": {
         "name": "Орская - Кимперсай",
@@ -6746,7 +6742,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400004": {
         "name": "Орская - Актюбе-220",
@@ -6760,7 +6756,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400005": {
         "name": "НОВО-АНГРЕНСКАЯ ТЭС - СЫРДАРЬИНСКАЯ ТЭС",
@@ -6774,7 +6770,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400006": {
         "name": "Нура-220 - Металлургическая",
@@ -6802,7 +6798,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400008": {
         "name": "пс-18 - Семей-220",
@@ -6858,7 +6854,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400012": {
         "name": "КОСТАНАЙСКАЯ - ЧЕЛЯБИНСК",
@@ -6970,7 +6966,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400020": {
         "name": "Рысаево - Новотроицк",
@@ -6984,7 +6980,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400021": {
         "name": "Ириклинская грэс - Орская",
@@ -6998,7 +6994,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400022": {
         "name": "Приуральская - Качары",
@@ -7124,7 +7120,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400031": {
         "name": "Аман-карагай - Кушмурун",
@@ -7138,7 +7134,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400032": {
         "name": "Кушмурун - Челгаши",
@@ -7152,7 +7148,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400033": {
         "name": "Есиль - Челгаши",
@@ -7166,7 +7162,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400034": {
         "name": "Кемин - Бишкек",
@@ -7194,7 +7190,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400036": {
         "name": "Ириклинская грэс - Новотроицк",
@@ -7208,7 +7204,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400037": {
         "name": "Ириклинская грэс - Новотроицк",
@@ -7222,7 +7218,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400038": {
         "name": "Ириклинская грэс - Рысаево",
@@ -7236,7 +7232,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400039": {
         "name": "ЛОЧИН - ДАТКА",
@@ -7250,7 +7246,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400040": {
         "name": "Сокол-220 - ссгпо",
@@ -7362,7 +7358,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400048": {
         "name": "еэк-220 - азф",
@@ -7376,7 +7372,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400049": {
         "name": "еэк-220 - пс 51",
@@ -7418,7 +7414,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400052": {
         "name": "Экибастуз-220 - црмз",
@@ -7474,7 +7470,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400056": {
         "name": "эгрэс-1 - Экибастуз-220",
@@ -7558,7 +7554,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400062": {
         "name": "Строительная-2 - Таскудык(Т)",
@@ -7796,7 +7792,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400079": {
         "name": "нс-19 - Осакаровка",
@@ -7866,7 +7862,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400084": {
         "name": "грэс-2 - Жана-арка",
@@ -7908,7 +7904,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400087": {
         "name": "Жарык - Айса",
@@ -7922,7 +7918,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400088": {
         "name": "Айса - Aгадырь-220",
@@ -7950,7 +7946,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400090": {
         "name": "жтэц-220 - Жезказган-220",
@@ -8174,7 +8170,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400106": {
         "name": "Каражингил - Сарышаган",
@@ -8188,7 +8184,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400107": {
         "name": "ЖЕЗКАЗГАН-500 - АГАДЫРЬ-500",
@@ -8314,7 +8310,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400116": {
         "name": "Алматы - Робот",
@@ -8538,7 +8534,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400132": {
         "name": "тэц-3 2сш - Медео",
@@ -8594,7 +8590,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400136": {
         "name": "Жидели - Шу",
@@ -8608,7 +8604,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400137": {
         "name": "Шу - Аспара",
@@ -8720,7 +8716,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400145": {
         "name": "ШЫМКЕНТ-500 - ЖАМБЫЛ",
@@ -8790,7 +8786,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400150": {
         "name": "Мерке - Бишкек",
@@ -8832,7 +8828,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400153": {
         "name": "ШЫМКЕНТ-500 - ТАШ.ГРЭС",
@@ -8874,7 +8870,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400156": {
         "name": "Шымкент-220 - Шымкентская",
@@ -8944,7 +8940,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400161": {
         "name": "Арысь - Монтайташ",
@@ -8958,7 +8954,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400162": {
         "name": "Монтайташ - Жылга",
@@ -8972,7 +8968,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400163": {
         "name": "Жылга - Ташкент",
@@ -9098,7 +9094,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400172": {
         "name": "Бурное Тяга - Тюлькубас",
@@ -9112,7 +9108,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400173": {
         "name": "Сас-тюбе - Шымкент-220",
@@ -9168,7 +9164,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400177": {
         "name": "Кызылординская - Ру-6",
@@ -9252,7 +9248,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400183": {
         "name": "Жусалы - гпп-1",
@@ -9266,7 +9262,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400184": {
         "name": "Коунрад-110 - бтэц-110",
@@ -9280,7 +9276,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400185": {
         "name": "Батыс - Достык",
@@ -9434,7 +9430,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400196": {
         "name": "оп-80 (т) - Жаксы (т)",
@@ -9448,7 +9444,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400197": {
         "name": "кгпп - Кокшетауская-1150",
@@ -9462,7 +9458,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400198": {
         "name": "цгпп - Батыс",
@@ -9546,7 +9542,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400204": {
         "name": "Атбасар - Перекатная (т)",
@@ -9616,7 +9612,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400209": {
         "name": "Нура-220 - ипм",
@@ -9630,7 +9626,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400210": {
         "name": "АВРОРА - ТАВРИЧЕСКАЯ",
@@ -9714,7 +9710,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400216": {
         "name": "Аврора - Сибирь",
@@ -9728,7 +9724,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400217": {
         "name": "Куйбышевская - Янко (т)",
@@ -9798,7 +9794,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400222": {
         "name": "Ирченко (т) - Жалтыр (т)",
@@ -9812,7 +9808,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400223": {
         "name": "Жаксы (т) - Перекатная (т)",
@@ -9826,7 +9822,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400224": {
         "name": "цгпп - Тастак (т)",
@@ -9840,7 +9836,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400225": {
         "name": "Тастак (т) - Жалтыр (т)",
@@ -9854,7 +9850,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400226": {
         "name": "Красноармейская - Киялы",
@@ -9882,7 +9878,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400228": {
         "name": "Ельтай (т) - Макинск",
@@ -9896,7 +9892,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400229": {
         "name": "Еркеншилик (т) - Сары-оба (т)",
@@ -9910,7 +9906,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400230": {
         "name": "АВРОРА - КОКЧЕТАВСКАЯ",
@@ -9994,7 +9990,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400236": {
         "name": "Жамбыл - Каратау",
@@ -10064,7 +10060,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400241": {
         "name": "Ульке-220 - Акжар",
@@ -10078,7 +10074,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400242": {
         "name": "Талдыкорган-220 - Сары-Озек",
@@ -10190,7 +10186,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400250": {
         "name": "Кимперсай - Акжар",
@@ -10204,7 +10200,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400251": {
         "name": "Актюбе-220 - Акжар",
@@ -10218,7 +10214,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400252": {
         "name": "Кумколь - гпп-2",
@@ -10498,7 +10494,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400272": {
         "name": "Шымкент-220 - Шымкентская ТЭЦ-3",
@@ -10540,7 +10536,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400275": {
         "name": "Cарань - грэс-2",
@@ -10610,7 +10606,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400280": {
         "name": "ДАТКА - ТОКТОГУЛЬСКАЯ ГЭС",
@@ -10624,7 +10620,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400281": {
         "name": "ИСЕТЬ - КОЗЫРЕВО",
@@ -10680,7 +10676,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400285": {
         "name": "ЗАРЯ     - БАРАБИНСКАЯ",
@@ -10736,7 +10732,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400289": {
         "name": "Бесагаш - Ерменсай",
@@ -10764,7 +10760,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400291": {
         "name": "БАРНАУЛ-500 - АЛТАЙ",
@@ -10806,7 +10802,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400294": {
         "name": "тэц-3 - ипм",
@@ -10820,7 +10816,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400295": {
         "name": "ЭКИБАСТУЗСКАЯ - СЕМЕЙ-500",
@@ -10848,7 +10844,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400297": {
         "name": "пс-18 - Семей-220",
@@ -11212,7 +11208,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400323": {
         "name": "Заречная - Центральная",
@@ -11240,7 +11236,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400325": {
         "name": "Есиль - Чернозубовка",
@@ -11352,7 +11348,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400333": {
         "name": "Балхашская-220 - Mоинты",
@@ -11478,7 +11474,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400342": {
         "name": "ТУЛЕБЕРДЫЕВА - ТОКТОГУЛЬСКАЯ ГЭС",
@@ -11492,7 +11488,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400343": {
         "name": "Главная - Карабалты",
@@ -11506,7 +11502,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400344": {
         "name": "Карабалты - Бишкек",
@@ -11520,7 +11516,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400345": {
         "name": "Карабалты - Бишкек",
@@ -11534,7 +11530,7 @@
         "max_i_ka": 10,
         "parallel": 2,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400346": {
         "name": "ФРУНЗЕ - ТУЛЕБЕРДЫЕВА",
@@ -11548,7 +11544,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400347": {
         "name": "ЛОЧИН - УЗБЕКИСТОН",
@@ -11562,7 +11558,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400348": {
         "name": "УЗБЕКИСТОН - СЫРДАРЬИНСКАЯ ТЭС",
@@ -11576,7 +11572,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400349": {
         "name": "УЗБЕКИСТОН - НОВО-АНГРЕНСКАЯ ТЭС",
@@ -11590,7 +11586,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400350": {
         "name": "ТАШ.ГРЭС - ТАШКЕНТ",
@@ -11604,7 +11600,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400351": {
         "name": "Ташкент - Ташкентская грэс",
@@ -11612,13 +11608,13 @@
         "from_bus": 2925,
         "to_bus": 2926,
         "length_km": 1,
-        "r_ohm_per_km": 0,
+        "r_ohm_per_km": 0.1,
         "x_ohm_per_km": 3,
-        "c_nf_per_km": 0,
+        "c_nf_per_km": 0.1,
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400352": {
         "name": "ТАШКЕНТ  - СЫРДАРЬИНСКАЯ ТЭС",
@@ -11632,7 +11628,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400353": {
         "name": "ТАШКЕНТ  - НОВО-АНГРЕНСКАЯ ТЭС",
@@ -11646,7 +11642,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400354": {
         "name": "ЮЖНАЯ    - РЕФТИНСКАЯ ГРЭС",
@@ -11814,7 +11810,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400366": {
         "name": "АЛТАЙ - Итатская",
@@ -11828,7 +11824,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400367": {
         "name": "ЗАРЯ     - Юрга",
@@ -11842,7 +11838,7 @@
         "max_i_ka": 10,
         "parallel": 1,
         "type": "ol",
-        "in_service": "TRUE"
+        "in_service": true
       },
       "400368": {
         "name": "Шымкент-220 - Жылга",
@@ -12107,8 +12103,8 @@
         "hv_bus": 483,
         "lv_bus": 484,
         "sn_mva": 250,
-        "vn_hv_kv": 500,
-        "vn_lv_kv": 220,
+        "vn_hv_kv": 220,
+        "vn_lv_kv": 110,
         "vkr_percent": 0.189,
         "vk_percent": 11,
         "pfe_kw": 172,
@@ -13268,9 +13264,16 @@
         "shift_degree": 0,
         "parallel": 1,
         "in_service": true
-      }
+      },
 
+      "47090": {
+        "etype": "ext_grid",
+        "bus": 4709,   
+        "vm_pu": 1.0,
 
+        "name":"BAZA",
+        "in_service":false
+    }
 
 
     },

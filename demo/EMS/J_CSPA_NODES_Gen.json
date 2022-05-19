@@ -111,26 +111,16 @@
   },
   "300011": {
     "name": "ШАГОЛ",
-    "etype": "gen",
+    "etype": "load",
     "bus": 4782,
-    "p_mw": -1282.7562842038,
+    "p_mw": 1282.7562842038,
     "vm_pu": 1,
     "sn_mva": "None",
     "in_service": "False",
     "min_q_mvar": 0,
     "max_q_mvar": 0
   },
-  "300012": {
-    "name": "БЕКЕТОВО",
-    "etype": "gen",
-    "bus": 4709,
-    "p_mw": 0,
-    "vm_pu": 1,
-    "sn_mva": "None",
-    "in_service": "False",
-    "min_q_mvar": 0,
-    "max_q_mvar": 0
-  },
+  
   "300013": {
     "name": "ЗАРЯ",
     "etype": "gen",

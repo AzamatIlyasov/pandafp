@@ -71,6 +71,7 @@ def keep_alive():
 def sim_request(data):
     is_three_phase = utils.get_or_error("3phase", data)
     is_estimate = utils.get_or_error("is_estimate", data)
+    is_inverted_in_service_val = utils.get_or_error("is_inverted_in_service_val", data)
     elements_dict = utils.get_or_error("elements", data)
     measurements_dict = utils.get_or_error("measurements", data)
 
@@ -90,11 +91,20 @@ def sim_request(data):
         else:
             return value   
 
-    def check_none(value):
+    def check_(key, value):
+        result = None
         if value == "None":
-            return None
+            result = None
         else:
-            return value 
+            result = value        
+        # if (key == "zone"):
+        #     result = str(result) 
+        
+        #for imported RASTR State datas.
+        if key == "in_service" and is_inverted_in_service_val:
+            result = not result                   
+        return result
+
 
 
     bus_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "bus"]
@@ -109,10 +119,10 @@ def sim_request(data):
         element_type = "bus"
         req_props = utils.required_props[element_type]
         positional_args = [value for key, value in bus.items() if key in req_props ]
-        optional_args = { key: value for key, value in bus.items() if (not key in req_props) and (not key == "etype")}
+        optional_args = { key:check_(key, value) for key, value in bus.items() if (not key in req_props) and (not key == "etype")}
         index = pp.create_bus(net, *positional_args, **optional_args, index=int(uuid) )
         buses[index] = index ##uuid
-        print("BUS: ", index, uuid)
+        #print("BUS: ", index, uuid)
     
     print("NET_BUS:", net.bus)
 
@@ -121,7 +131,7 @@ def sim_request(data):
         element_type = utils.get_or_error("etype", element)
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key:check_none(value) for key, value in element.items() if (not key in req_props) and (not key == "etype") } #and (not key == "in_service")
+        optional_args = { key:check_(key, value) for key, value in element.items() if (not key in req_props) and (not key == "etype") } #and (not key == "in_service")
         index_val=int(uuid)
 
         result = ""
@@ -166,7 +176,7 @@ def sim_request(data):
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
         
         elements[result] = index ##uuid
-        print("ELE: ", index, uuid)
+        #print("ELE: ", index, uuid)
         
 
     #create_switches
@@ -174,7 +184,7 @@ def sim_request(data):
         element_type = "switch"
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in switch.items() if key in req_props]
-        optional_args = { key: value for key, value in switch.items() if (not key in req_props) and (not key == "etype") }
+        optional_args = { key:check_(key, value) for key, value in switch.items() if (not key in req_props) and (not key == "etype") }
          
         et = positional_args[2]
         if et == "b":
@@ -227,7 +237,7 @@ def sim_request(data):
         prop_type = "measurement"
         req_props = utils.required_props[prop_type] 
         positional_args = [ process_potential_element(key, value) for key, value in measurement.items() if key in req_props ]        
-        optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "meas_type")}
+        optional_args = { key:check_(key, value) for key, value in measurement.items() if (not key in req_props) and (not key == "meas_type")}
         index_val=int(uuid)
 
         #Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
@@ -235,6 +245,13 @@ def sim_request(data):
             #pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
         print("MEAS.: ", msrmt_index)
 
+    print("NET:", net)
+    print("NET_BUS:", net.bus)
+    print("NET_LOAD:", net.load)
+    print("NET_GEN:", net.gen)
+    print("NET_SHUNT:", net.shunt)
+    print("NET_LINE:", net.line)
+    print("NET_TRAFO:", net.trafo)
     #run (runpp, runpp_3ph, estimate)
     try:
         if is_three_phase:
@@ -244,19 +261,22 @@ def sim_request(data):
             res_est = est.estimate(net, init="flat")
             print("isRemovedBadData: ", res_rn_max)
             print("isEstimated: ", res_est)
-            pp.runpp(net)            
+            pp.runpp(net, max_iteration=20)            
         else:
-            pp.runpp(net)                
+            pp.runpp(net, max_iteration=20, tolerance_mva=1e-4, numba=False)                
     except LoadflowNotConverged:
-        report = pp.diagnostic(net, report_style="compact", warnings_only=True)
-        raise ConvError("Load flow did not converge.")
+        report = pp.diagnostic(net)#, report_style="compact")#, warnings_only=True)
+        #report_full = pp.diagnostic(net)
+        print(report)
+        #print(report_full)
+        #raise ConvError("Load flow did not converge.")
     except (KeyError, ValueError) as e:
         print("ERR: " + str(e))
-        raise PPError(str(e))
+        #raise PPError(str(e))
     except Exception as e:
         print("Unknown exception has occured: " + str(e))
-        raise PPError("Unknown exception has occured: " + str(e))
-
+        #raise PPError("Unknown exception has occured: " + str(e))
+    
     print("RESULT RUNPP:")
     print(net.res_bus)
     print(net.res_line)
@@ -268,6 +288,9 @@ def sim_request(data):
     message["status"] = "SIM_RESULT"
     results = {}
     print("Message results: ", message)
+    
+    #for DEBUG
+    return net
 
     for uuid,element in elements_dict.items():
         element_type = elements_dict[uuid]["etype"]

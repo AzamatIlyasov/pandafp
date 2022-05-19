@@ -2,7 +2,8 @@
 {
     "status": "SIM_REQUEST",
     "3phase": false,
-    "is_estimate": false,
+    "is_estimate": false,    
+    "is_inverted_in_service_val":true,
     "elements": {
         "b1": {
             "etype": "bus",

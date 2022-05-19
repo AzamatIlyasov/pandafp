@@ -43,5 +43,13 @@ resultRun = None,
 
 if status == "SIM_REQUEST":
     resultRun = ebpp.sim_request(data)
+
+#plotting
+pltly.simple_plotly(resultRun)
+#pltly.vlevel_plotly(resultRun)
+#pltly.pf_res_plotly(resultRun)
+
+
 print("RESULT:", resultRun)
 
+#plt.simple_plot(resultRun)
