@@ -1,0 +1,210 @@
+Name;etype;bus;p_mw;vm_pu;sn_mva;in_service;min_q_mvar;max_q_mvar;index
+Аktyube-220;gen;3006;276;1;None;True;22;112;300 001
+NOVO-АNGRENSKАYA TEHS;gen;2945;1778;1.01;None;True;-300;1200;300 002
+tehts-3;gen;383;602;1.06;None;False;-266;535;300 003
+Metallurgicheskaya;gen;384;353;1.05;None;False;-128;329;300 004
+Tashkentskaya grehs;gen;2926;123;0.99;None;True;-500;920;300 005
+CHilisaj;gen;3019;186;1.02;None;True;8;74;300 006
+TYUMEN';gen;4730;3760;1.03;None;False;-1000;1000;300 007
+IRIKLINSKАYA GREHS;gen;4790;474;1.01;None;False;-200;200;300 008
+TROITSKАYA GREHS;gen;4799;748;1.01;None;False;-500;500;300 009
+REFTINSKАYA GREHS;gen;4702;2850;1.02;None;False;-1000;1050;300 010
+SHАGOL;gen;4782;-1282.7562842038;0;None;False;0;0;300 011
+BEKETOVO;gen;4709;0;0;None;False;0;0;300 012
+ZАRYA;gen;1631;2857;1.02;None;False;-1000;1000;300 013
+MАGNITOGORSKАYA;gen;4785;500;1.01;None;False;-500;500;300 014
+ssgpo;gen;594;94;1.04;None;False;-58.5;112;300 015
+CHELYABINSK;gen;4705;411.5012767902;1.01;None;False;0;0;300 016
+eehk-20-bl5-8;gen;30;587;1;None;False;-113;387;300 017
+eehk-20-bl2-4;gen;32;916;0.97;None;False;-117;603;300 018
+eehk-220;gen;33;925;1.07;None;False;-33;967;300 019
+EHkibastuz-220;gen;38;12;1.05;None;False;0;9;300 020
+ehgrehs-1-bl2;gen;50;501;1;None;False;-189.8;350.2;300 021
+ehgrehs-1-bl3-8;gen;51;1784;1.01;None;False;-567.3;1345.1;300 022
+ehgrehs-2-20;gen;60;921;1.02;None;False;-343.7;661.6;300 023
+shgehs-14;gen;221;152;1.03;None;False;-210.1538461538;80.6153846154;300 024
+grehs-2;gen;355;508;1.05;None;False;-80;417;300 025
+Kumkol';gen;455;131;1.09;None;False;-5.5;61;300 026
+zhtehts;gen;462;200;1.09;None;True;-13;147;300 027
+zhtehts-220;gen;463;200;1.07;None;False;25;235;300 028
+btehts-110;gen;471;120;1.1;None;False;20;90;300 029
+tehts-3 2ssh;gen;904;169;1.06;None;False;20;160;300 030
+Robot;gen;907;1;0;None;False;0;0;300 031
+Kapchagajskaya gehs-220;gen;909;89;1.09;None;False;0;112;300 032
+Kapchagajskaya gehs-14;gen;910;89;1.04;None;True;0;112;300 033
+Mojnakskaya gehs-15-1;gen;937;146;1.02;None;True;-11144;87992;300 034
+ps-7;gen;913;483;1.09;None;False;65;380;300 035
+Taldykorganskaya-220;gen;951;40;0;None;False;0;0;300 036
+Glavnaya;gen;2916;270;1.05;None;False;-90;90;300 037
+zhgrehs-220;gen;805;370;1.06;None;False;220;762;300 038
+zhgrehs-16;gen;806;161;1;None;True;-39;139.55;300 039
+zhgrehs-110;gen;807;209;1.05;None;True;-58;152;300 040
+Kyzylordinskaya tehts;gen;860;52;1;None;False;-31.6;67.3;300 041
+TАSH.GREHS;gen;2924;2864;1.02;None;False;-1000;1000;300 042
+Tashkent;gen;2925;123;0.99;None;False;-500;960;300 043
+Iriklinskaya grehs;gen;4791;227;1.1;None;True;-400;300;300 044
+BАRNАUL-500;gen;1630;2523;1.01;None;False;-1000;1000;300 045
+ptehts-2-110;gen;142;295;1.07;None;False;-134;346;300 046
+ptehts-2-220;gen;144;172;1.02;None;False;-64;152;300 047
+Stepnaya;gen;151;108;1.07;None;False;12;189;300 048
+TOKTOGUL'SKАYA GEHS;gen;2921;2360;1.04;None;False;-800;800;300 049
+KURGАN;gen;4727;500;1.01;None;False;-500;500;300 050
+EHkibastuzskaya tehts;gen;44;12;0.97;None;True;0;9;300 051
+arbz;gen;4004;40;1.05;None;True;-10;20;300 052
+wtu 2.0;gen;191;6;1;None;True;-5;5;300 053
+SHymkentskaya TEHTS-3;gen;813;57;1.08;None;False;-105;185;300 054
+Mojnakskaya gehs-220;gen;935;146;1.11;None;False;-24;202;300 055
+АLTАJ;gen;1660;12865;1.01;None;False;-6000;6000;300 056
+SYRDАR'INSKАYA TEHS;gen;2923;5240;1.01;None;True;-2000;10300;300 057
+KURCHАTOVSKАYA;gen;50002;850;1.03;None;False;-60;60;300 058
+vehs erejmentau;gen;155;6;1.06;None;False;-5;5;300 059
+YUZHNOURАL'SKАYA GREHS-2;gen;47161;250;1.03;None;False;-300;300;300 060
+KEMIN;gen;2951;1454;1.04;None;False;-800;800;300 061
+Аkmolinskaya TEHTS;gen;108;129;1.06;None;False;-223.9;463.3;300 062
+DАTKА;gen;2950;1115;0;None;True;0;0;300 063
+Аkzhar;gen;3004;40;1.05;None;True;-10;20;300 064
+Ermensaj;gen;942;15;1.02;None;False;-10;10;300 065
+btehts-10;gen;470;120;1;None;True;20;90;300 066
+TMK;gen;242;50;1.04;None;False;-291;404;300 067
+PS-7;gen;215;845;1.04;None;False;-110;256;300 068
+Novokuznetskaya;gen;1638;378;0;None;True;0;0;300 069
+Itatskaya;gen;1636;500;0;None;True;0;0;300 070
+YUrga;gen;1632;472;0;None;True;0;0;300 071
+ZHana-arka;gen;453;0;0;None;False;0;0;300 072
+Barsengir;gen;454;0;0;None;False;0;0;300 073
+Kumkol';gen;455;131;1.09;None;False;-5.5;61;300 074
+Kajrakty;gen;457;0;0;None;False;0;0;300 075
+Nikol'skaya;gen;461;0;0;None;True;0;0;300 076
+zhtehts;gen;462;200;1.09;None;True;-13;147;300 077
+zhtehts-220;gen;463;200;1.07;None;False;25;235;300 078
+Nikol'skaya;gen;464;0;0;None;False;0;0;300 079
+Karazhal;gen;465;0;0;None;False;0;0;300 080
+Agadyr'-220;gen;468;0;0;None;False;0;0;300 081
+АGАDYR'-500;gen;469;0;1.04;None;False;-360;0;300 082
+btehts-110;gen;471;120;1.1;None;False;20;90;300 083
+Balkhashskaya-110;gen;472;0;0;None;False;0;0;300 084
+Аkchtau;gen;474;0;0;None;False;0;0;300 085
+Mointy;gen;475;0;0;None;False;0;0;300 086
+Karazhingil;gen;476;0;0;None;True;0;0;300 087
+Saryshagan;gen;477;0;0;None;True;0;0;300 088
+Mynaral;gen;924;0;0;None;True;0;0;300 089
+Kiyakhty;gen;930;0;0;None;True;0;0;300 090
+yukgrehs;gen;901;0;0;None;False;0;0;300 091
+Аlmaty;gen;903;0;0;None;False;0;0;300 092
+tehts-3 2ssh;gen;904;169;1.06;None;False;20;160;300 093
+Robot;gen;907;1;0;None;False;0;0;300 094
+Besagash;gen;940;0;0;None;False;0;0;300 095
+ps-62 АT2;gen;908;0;0;None;False;0;0;300 096
+CHilik;gen;911;0;0;None;False;0;0;300 097
+ps-7;gen;913;483;1.09;None;False;65;380;300 098
+Zapadnaya;gen;918;0;0;None;False;0;0;300 099
+CHiganak;gen;925;0;0;None;False;0;0;300 100
+Sary-Ozek;gen;950;0;0;None;False;0;0;300 101
+Taldykorganskaya-220;gen;951;40;0;None;False;0;0;300 102
+Glavnaya;gen;2916;270;1.05;None;False;-90;90;300 103
+Medeo;gen;928;0;0;None;False;0;0;300 104
+Taugul';gen;929;0;0;None;False;0;0;300 105
+ZHideli;gen;931;0;0;None;True;0;0;300 106
+SHu;gen;932;0;0;None;False;0;0;300 107
+Аspara;gen;814;0;0;None;False;0;0;300 108
+ZHambyl;gen;801;0;0;None;False;0;0;300 109
+Burnoe;gen;802;0;0;None;False;0;0;300 110
+Karatau;gen;803;0;0;None;False;0;0;300 111
+Opornaya;gen;804;0;0;None;False;0;0;300 112
+zhgrehs-220;gen;805;370;1.06;None;False;220;762;300 113
+zhgrehs-16;gen;806;161;1;None;True;-39;139.55;300 114
+zhgrehs-110;gen;807;209;1.05;None;True;-58;152;300 115
+Merke;gen;809;0;0;None;False;0;0;300 116
+ZHambyl Tyaga;gen;815;0;0;None;False;0;0;300 117
+Burnoe Tyaga;gen;816;0;0;None;True;0;0;300 118
+Аbdezim;gen;817;0;0;None;True;0;0;300 119
+SHymkent-220;gen;831;0;1.06;None;False;-100;35;300 120
+Sas-tyube;gen;834;0;0;None;False;0;0;300 121
+Vannovka;gen;835;0;0;None;False;0;0;300 122
+Badam;gen;836;0;0;None;True;0;0;300 123
+Аrys';gen;837;0;0;None;True;0;0;300 124
+Montajtash;gen;838;0;0;None;True;0;0;300 125
+ZHylga;gen;839;0;0;None;False;0;0;300 126
+Kentau;gen;840;0;0;None;False;0;0;300 127
+SHolakkorgan;gen;841;0;0;None;False;0;0;300 128
+SHymkentskaya;gen;843;0;0;None;False;0;0;300 129
+Tyul'kubas;gen;844;0;0;None;True;0;0;300 130
+Kyzylsaj;gen;845;0;0;None;False;0;0;300 131
+Kyzylordinskaya tehts;gen;860;52;1;None;False;-31.6;67.3;300 132
+Kyzylordinskaya;gen;862;0;0;None;False;0;0;300 133
+SHieli;gen;863;0;0;None;False;0;0;300 134
+ZHanakorgan;gen;865;0;0;None;False;0;0;300 135
+ZHalagash;gen;866;0;0;None;True;0;0;300 136
+ZHusaly;gen;867;0;0;None;True;0;0;300 137
+Bishkek;gen;2918;0;0;None;False;0;0;300 138
+TАSH.GREHS;gen;2924;2864;1.02;None;False;-1000;1000;300 139
+gpp-2;gen;5957;0;0;None;False;0;0;300 140
+Iriklinskaya grehs;gen;4791;227;1.1;None;True;-400;300;300 141
+Tavricheskaya;gen;1816;0;0;None;False;0;0;300 142
+Irtyshskaya;gen;1851;0;0;None;True;0;0;300 143
+Mirgalimsaj;gen;842;0;0;None;False;0;0;300 144
+Sary-oba (t);gen;169;0;0;None;True;0;0;300 145
+Erkenshilik (t);gen;167;0;0;None;False;0;0;300 146
+ZHolymbet;gen;123;0;0;None;False;0;0;300 147
+tsgpp;gen;124;0;0;None;False;0;0;300 148
+SHortandy (t);gen;125;0;0;None;True;0;0;300 149
+Tankeris (t);gen;179;0;0;None;False;0;0;300 150
+El'taj (t);gen;178;0;0;None;True;0;0;300 151
+Burabaj (t);gen;126;0;0;None;False;0;0;300 152
+ZHaltyr (t);gen;132;0;0;None;False;0;0;300 153
+Tastak (t);gen;162;0;0;None;True;0;0;300 154
+Irchenko (t);gen;163;0;0;None;True;0;0;300 155
+Аtbasar;gen;134;0;0;None;False;0;0;300 156
+kgpp;gen;135;0;0;None;False;0;0;300 157
+Krasnoarmejskaya;gen;159;0;0;None;False;0;0;300 158
+Kiyaly;gen;136;0;0;None;False;0;0;300 159
+BАRNАUL-500;gen;1630;2523;1.01;None;False;-1000;1000;300 160
+ptehts-2-110;gen;142;295;1.07;None;False;-134;346;300 161
+ptehts-2-220;gen;144;172;1.02;None;False;-64;152;300 162
+Аktogaj-110;gen;484;0;1.05;None;False;-50;-2;300 163
+Аvrora;gen;148;0;0;None;False;0;0;300 164
+TULEBERDYEVА;gen;2915;0;0;None;True;0;0;300 165
+Makinsk;gen;150;0;0;None;False;0;0;300 166
+Stepnaya;gen;151;108;1.07;None;False;12;189;300 167
+TOKTOGUL'SKАYA GEHS;gen;2921;2360;1.04;None;False;-800;800;300 168
+YAnko (t);gen;153;0;0;None;False;0;0;300 169
+Sibir';gen;160;0;0;None;True;0;0;300 170
+Buran;gen;173;0;0;None;False;0;0;300 171
+Ugolki(t);gen;156;0;0;None;False;0;0;300 172
+Kujbyshevskaya;gen;157;0;0;None;False;0;0;300 173
+Kokshetauskaya-1150;gen;176;0;0;None;False;0;0;300 174
+Urozhajnaya;gen;1673;0;1.11;None;True;-100;156;300 175
+Perekatnaya (t);gen;172;0;0;None;False;0;0;300 176
+ZHaksy (t);gen;164;0;0;None;True;0;0;300 177
+KURGАN;gen;4727;500;1.01;None;False;-500;500;300 178
+SMELOVSKАYA;gen;50014;0;0;None;False;0;0;300 179
+EHkibastuzskaya tehts;gen;44;12;0.97;None;True;0;9;300 180
+arbz;gen;4004;40;1.05;None;True;-10;20;300 181
+bgok;gen;62;0;0;None;False;0;0;300 182
+Koyan-Kos;gen;953;0;0;None;False;0;0;300 183
+SHymkentskaya TEHTS-3;gen;813;57;1.08;None;False;-105;185;300 184
+Barnaul-220;gen;1640;0;0;None;True;0;0;300 185
+Ru-6;gen;869;0;0;None;False;0;0;300 186
+UZBEKISTON;gen;2922;0;0;None;True;0;0;300 187
+АLTАJ;gen;1660;12865;1.01;None;False;-6000;6000;300 188
+SYRDАR'INSKАYA TEHS;gen;2923;5240;1.01;None;True;-2000;10300;300 189
+Rubtsovskaya;gen;1622;0;0;None;False;0;0;300 190
+LOCHIN;gen;2920;0;0;None;True;0;0;300 191
+BАRАBINSKАYA;gen;9917;0;1.03;None;False;-180;0;300 192
+KURCHАTOVSKАYA;gen;50002;850;1.03;None;False;-60;60;300 193
+sehs burnoe;gen;810;0;0;None;False;0;0;300 194
+YUZHNOURАL'SKАYA GREHS-2;gen;47161;250;1.03;None;False;-300;300;300 195
+Kemin;gen;2952;0;0;None;False;0;0;300 196
+Voskhod;gen;1854;0;0;None;False;0;0;300 197
+VITYAZ';gen;1852;0;0;None;False;0;0;300 198
+KEMIN;gen;2951;1454;1.04;None;False;-800;800;300 199
+Аkmolinskaya TEHTS;gen;108;129;1.06;None;False;-223.9;463.3;300 200
+DАTKА;gen;2950;1115;0;None;True;0;0;300 201
+Аkzhar;gen;3004;40;1.05;None;True;-10;20;300 202
+Ermensaj;gen;942;15;1.02;None;False;-10;10;300 203
+TMK;gen;242;50;1.04;None;False;-291;404;300 204
+PS-7;gen;215;845;1.04;None;False;-110;256;300 205
+Novokuznetskaya;gen;1638;378;0;None;True;0;0;300 206
+Itatskaya;gen;1636;500;0;None;True;0;0;300 207
+YUrga;gen;1632;472;0;None;True;0;0;300 208
+Barabinskaya-220 ;gen;1671;0;0;None;True;0;0;300 209
