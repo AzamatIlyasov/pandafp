@@ -1,210 +1,210 @@
 Name;etype;bus;p_mw;q_mvar;in_service;index
-Ul'ke-220;load;3020;172;39;True;200 001
-Kimpersaj;load;3005;63;16;True;200 002
-Аktyube-220;load;3006;256;110;True;200 003
-NOVO-АNGRENSKАYA TEHS;load;2945;75;293;True;200 004
-tehts-3;load;383;410;200;False;200 005
-Metallurgicheskaya;load;384;440;250;False;200 006
-CHilisaj;load;3019;157;17;True;200 007
-ipm;load;318;210;70;True;200 008
-TYUMEN';load;4730;5000;50;False;200 009
-BERKUT;load;4728;298;10;False;200 010
-Troitskaya grehs;load;4798;50;25;False;200 011
-Esil';load;170;22;-7;False;200 012
-REFTINSKАYA GREHS;load;4702;550;150;False;200 013
-YUZHNАYA;load;4701;10;5;False;200 014
-Kushmurun;load;571;7;1;True;200 015
-Аman-karagaj;load;572;13;1;True;200 016
-Аpanovka;load;573;33;4;False;200 017
-Lisakovka;load;574;87;-1;False;200 018
-Sokol-220;load;575;22;5;False;200 019
-ZHitikara-110;load;578;23;20;False;200 020
-PRIVАLOVSKАYA;load;50032;100;40;False;200 021
-ZАRYA;load;1631;2500;200;False;200 022
-Kachary;load;582;24;16;False;200 023
-MАGNITOGORSKАYA;load;4785;614;400;False;200 024
-CHelgashi;load;585;7;1;True;200 025
-TSentral'naya;load;593;114;30;False;200 026
-ssgpo;load;594;245;75;False;200 027
-Priural'skaya;load;595;23;4;False;200 028
-ZLАTOUST;load;4715;50;20;False;200 029
-UFIMSKАYA;load;4712;150;80;False;200 030
-Zarechnaya;load;596;27;3;False;200 031
-ps 51;load;251;19;4;False;200 032
-ehgrehs-2-220;load;29;7;-1;False;200 033
-eehk-20-bl5-8;load;30;43;11;False;200 034
-eehk-20-bl2-4;load;32;50;8;False;200 035
-eehk-220;load;33;1149;514;False;200 036
-Kalkaman;load;36;1;1;False;200 037
-ns-7;load;37;1;1;True;200 038
-EHkibastuz-220;load;38;123;14;False;200 039
-ehgrehs-1;load;39;52;21;False;200 040
-ehgrehs-1-bl2;load;50;20;22;False;200 041
-ehgrehs-1-bl3-8;load;51;92;40;False;200 042
-ns-12;load;52;1;1;True;200 043
-ehehpk;load;53;1;1;False;200 044
-tsrmz;load;54;13;6;False;200 045
-azf;load;55;429;230;True;200 046
-Stroitel'naya-2;load;56;7;2;False;200 047
-Ulenty (t);load;58;9;3;False;200 048
-Boshhak(T);load;59;8;3;False;200 049
-ehgrehs-2-20;load;60;36;15;False;200 050
-Taskudyk(T);load;61;4;3;False;200 051
-ns 17;load;307;14;1;True;200 052
-Ermentau (t);load;166;3;2;False;200 053
-IRTYSHSKАYA;load;1850;174;11;False;200 054
-KEHZ-1.2;load;27;430;131;False;200 055
-ps-14;load;214;46;5;False;200 056
-ps-18;load;218;146;16;False;200 057
-shgehs-220;load;220;47;18;False;200 058
-zhgok;load;222;19;-4;False;200 059
-SHoptykol' (t);load;101;10;6;False;200 060
-Batys;load;102;128;44;False;200 061
-Dostyk;load;103;72;26;False;200 062
-SHygys;load;104;0.4;0.2;False;200 063
-Osakarovka;load;306;22;2;False;200 064
-Caran';load;308;1;-11;False;200 065
-ns-19;load;309;23;4;False;200 066
-Nura-220;load;310;27;5;False;200 067
-grehs-2;load;355;260;150;False;200 068
-Kara-murun;load;450;5;1;True;200 069
-ZHaryk;load;451;3;2;True;200 070
-Аjsa;load;452;21;4;False;200 071
-ZHana-arka;load;453;6;2;False;200 072
-Barsengir;load;454;24;-16;False;200 073
-Kumkol';load;455;144;54.6;False;200 074
-Kajrakty;load;457;9;1;False;200 075
-Nikol'skaya;load;461;53;39;True;200 076
-zhtehts;load;462;213;62;True;200 077
-zhtehts-220;load;463;213;62;False;200 078
-Nikol'skaya;load;464;56;45;False;200 079
-Karazhal;load;465;19;5;False;200 080
-Agadyr'-220;load;468;17;2;False;200 081
-АGАDYR'-500;load;469;10;0;False;200 082
-btehts-110;load;471;111;58;False;200 083
-Balkhashskaya-110;load;472;105;-33;False;200 084
-Аkchtau;load;474;5;-7;False;200 085
-Mointy;load;475;19;2;False;200 086
-Karazhingil;load;476;6;1;True;200 087
-Saryshagan;load;477;6;2;True;200 088
-Mynaral;load;924;2;-3;True;200 089
-Kiyakhty;load;930;6;3;True;200 090
-yukgrehs;load;901;23;-2;False;200 091
-Аlmaty;load;903;10;-7;False;200 092
-tehts-3 2ssh;load;904;220;50;False;200 093
-Robot;load;907;37;2;False;200 094
-Besagash;load;940;55;-40;False;200 095
-ps-62 АT2;load;908;18;14;False;200 096
-CHilik;load;911;63;10;False;200 097
-ps-7;load;913;490;278;False;200 098
-Zapadnaya;load;918;63;14;False;200 099
-CHiganak;load;925;24;3;False;200 100
-Sary-Ozek;load;950;26;4;False;200 101
-Taldykorganskaya-220;load;951;148;62;False;200 102
-Glavnaya;load;2916;680;18;False;200 103
-Medeo;load;928;10;1;False;200 104
-Taugul';load;929;202;38;False;200 105
-ZHideli;load;931;6;2;True;200 106
-SHu;load;932;35;13;False;200 107
-Аspara;load;814;5;1;False;200 108
-ZHambyl;load;801;275;115;False;200 109
-Burnoe;load;802;10;5;False;200 110
-Karatau;load;803;5;-1;False;200 111
-Opornaya;load;804;16;5;False;200 112
-zhgrehs-220;load;805;220;0;False;200 113
-zhgrehs-16;load;806;7;1;True;200 114
-zhgrehs-110;load;807;217;45;True;200 115
-Merke;load;809;5;1;False;200 116
-ZHambyl Tyaga;load;815;16;2;False;200 117
-Burnoe Tyaga;load;816;14;6;True;200 118
-Аbdezim;load;817;5;1;True;200 119
-SHymkent-220;load;831;49;9;False;200 120
-Sas-tyube;load;834;8;2;False;200 121
-Vannovka;load;835;10;3.4769643262;False;200 122
-Badam;load;836;9;2;True;200 123
-Аrys';load;837;7;1;True;200 124
-Montajtash;load;838;7;1;True;200 125
-ZHylga;load;839;29;9;False;200 126
-Kentau;load;840;50;12;False;200 127
-SHolakkorgan;load;841;35;-5;False;200 128
-SHymkentskaya;load;843;150;50;False;200 129
-Tyul'kubas;load;844;3;2;True;200 130
-Kyzylsaj;load;845;8;3;False;200 131
-Kyzylordinskaya tehts;load;860;23;11;False;200 132
-Kyzylordinskaya;load;862;23;6;False;200 133
-SHieli;load;863;18;2;False;200 134
-ZHanakorgan;load;865;6;2;False;200 135
-ZHalagash;load;866;8;2;True;200 136
-ZHusaly;load;867;9;2.2641609353;True;200 137
-Bishkek;load;2918;400;65;False;200 138
-TАSH.GREHS;load;2924;2500;0;False;200 139
-gpp-2;load;5957;97;4;False;200 140
-Iriklinskaya grehs;load;4791;1140;50;True;200 141
-Tavricheskaya;load;1816;350;-32;False;200 142
-Irtyshskaya;load;1851;159;-10;True;200 143
-Mirgalimsaj;load;842;20;13;False;200 144
-Sary-oba (t);load;169;3;2;True;200 145
-Erkenshilik (t);load;167;6;4;False;200 146
-ZHolymbet;load;123;27;6;False;200 147
-tsgpp;load;124;125;-80;False;200 148
-SHortandy (t);load;125;11;1;True;200 149
-Tankeris (t);load;179;19;4;False;200 150
-El'taj (t);load;178;4;2;True;200 151
-Burabaj (t);load;126;23;2;False;200 152
-ZHaltyr (t);load;132;9;5;False;200 153
-Tastak (t);load;162;1;1;True;200 154
-Irchenko (t);load;163;1;1;True;200 155
-Аtbasar;load;134;43;-28;False;200 156
-kgpp;load;135;104;2;False;200 157
-Krasnoarmejskaya;load;159;17;3;False;200 158
-Kiyaly;load;136;4;2;False;200 159
-BАRNАUL-500;load;1630;2500;200;False;200 160
-ptehts-2-110;load;142;200;18;False;200 161
-ptehts-2-220;load;144;4;2;False;200 162
-Аktogaj-110;load;484;22;-13;False;200 163
-Аvrora;load;148;0;11;False;200 164
-TULEBERDYEVА;load;2915;80;30;True;200 165
-Makinsk;load;150;22;2;False;200 166
-Stepnaya;load;151;124;31;False;200 167
-TOKTOGUL'SKАYA GEHS;load;2921;2230;55;False;200 168
-YAnko (t);load;153;9;1;False;200 169
-Sibir';load;160;13;2;True;200 170
-Buran;load;173;10;1;False;200 171
-Ugolki(t);load;156;8;1;False;200 172
-Kujbyshevskaya;load;157;20;-8;False;200 173
-Kokshetauskaya-1150;load;176;60;-8;False;200 174
-Urozhajnaya;load;1673;150;60;True;200 175
-Perekatnaya (t);load;172;3;2;False;200 176
-ZHaksy (t);load;164;1;1;True;200 177
-KURGАN;load;4727;500;200;False;200 178
-SMELOVSKАYA;load;50014;350;80;False;200 179
-EHkibastuzskaya tehts;load;44;41;5;True;200 180
-arbz;load;4004;9;5;True;200 181
-bgok;load;62;174;21;False;200 182
-Koyan-Kos;load;953;7;1;False;200 183
-SHymkentskaya TEHTS-3;load;813;220;42;False;200 184
-Barnaul-220;load;1640;320;92;True;200 185
-Ru-6;load;869;67;4;False;200 186
-UZBEKISTON;load;2922;577;272;True;200 187
-АLTАJ;load;1660;12500;5200;False;200 188
-SYRDАR'INSKАYA TEHS;load;2923;6390;3066;True;200 189
-Rubtsovskaya;load;1622;175;70;False;200 190
-LOCHIN;load;2920;290;110;True;200 191
-BАRАBINSKАYA;load;9917;135;-40;False;200 192
-KURCHАTOVSKАYA;load;50002;200;100;False;200 193
-sehs burnoe;load;810;1;1;False;200 194
-YUZHNOURАL'SKАYA GREHS-2;load;47161;150;80;False;200 195
-Kemin;load;2952;475;70;False;200 196
-Voskhod;load;1854;213;56;False;200 197
-VITYAZ';load;1852;1;1;False;200 198
-KEMIN;load;2951;1200;500;False;200 199
-Аkmolinskaya TEHTS;load;108;140;0;False;200 200
-DАTKА;load;2950;200;100;True;200 201
-Аkzhar;load;3004;9;5;True;200 202
-Ermensaj;load;942;146;-25;False;200 203
-TMK;load;242;79;30;False;200 204
-PS-7;load;215;810;400;False;200 205
-Novokuznetskaya;load;1638;100;50;True;200 206
-Itatskaya;load;1636;100;50;True;200 207
-YUrga;load;1632;100;50;True;200 208
-Barabinskaya-220 ;load;1671;51;0;True;200 209
+Ul'ke-220;load;3020;172;39;True;200001
+Kimpersaj;load;3005;63;16;True;200002
+Аktyube-220;load;3006;256;110;True;200003
+NOVO-АNGRENSKАYA TEHS;load;2945;75;293;True;200004
+tehts-3;load;383;410;200;False;200005
+Metallurgicheskaya;load;384;440;250;False;200006
+CHilisaj;load;3019;157;17;True;200007
+ipm;load;318;210;70;True;200008
+TYUMEN';load;4730;5000;50;False;200009
+BERKUT;load;4728;298;10;False;200010
+Troitskaya grehs;load;4798;50;25;False;200011
+Esil';load;170;22;-7;False;200012
+REFTINSKАYA GREHS;load;4702;550;150;False;200013
+YUZHNАYA;load;4701;10;5;False;200014
+Kushmurun;load;571;7;1;True;200015
+Аman-karagaj;load;572;13;1;True;200016
+Аpanovka;load;573;33;4;False;200017
+Lisakovka;load;574;87;-1;False;200018
+Sokol-220;load;575;22;5;False;200019
+ZHitikara-110;load;578;23;20;False;200020
+PRIVАLOVSKАYA;load;50032;100;40;False;200021
+ZАRYA;load;1631;2500;200;False;200022
+Kachary;load;582;24;16;False;200023
+MАGNITOGORSKАYA;load;4785;614;400;False;200024
+CHelgashi;load;585;7;1;True;200025
+TSentral'naya;load;593;114;30;False;200026
+ssgpo;load;594;245;75;False;200027
+Priural'skaya;load;595;23;4;False;200028
+ZLАTOUST;load;4715;50;20;False;200029
+UFIMSKАYA;load;4712;150;80;False;200030
+Zarechnaya;load;596;27;3;False;200031
+ps 51;load;251;19;4;False;200032
+ehgrehs-2-220;load;29;7;-1;False;200033
+eehk-20-bl5-8;load;30;43;11;False;200034
+eehk-20-bl2-4;load;32;50;8;False;200035
+eehk-220;load;33;1149;514;False;200036
+Kalkaman;load;36;1;1;False;200037
+ns-7;load;37;1;1;True;200038
+EHkibastuz-220;load;38;123;14;False;200039
+ehgrehs-1;load;39;52;21;False;200040
+ehgrehs-1-bl2;load;50;20;22;False;200041
+ehgrehs-1-bl3-8;load;51;92;40;False;200042
+ns-12;load;52;1;1;True;200043
+ehehpk;load;53;1;1;False;200044
+tsrmz;load;54;13;6;False;200045
+azf;load;55;429;230;True;200046
+Stroitel'naya-2;load;56;7;2;False;200047
+Ulenty (t);load;58;9;3;False;200048
+Boshhak(T);load;59;8;3;False;200049
+ehgrehs-2-20;load;60;36;15;False;200050
+Taskudyk(T);load;61;4;3;False;200051
+ns 17;load;307;14;1;True;200052
+Ermentau (t);load;166;3;2;False;200053
+IRTYSHSKАYA;load;1850;174;11;False;200054
+KEHZ-1.2;load;27;430;131;False;200055
+ps-14;load;214;46;5;False;200056
+ps-18;load;218;146;16;False;200057
+shgehs-220;load;220;47;18;False;200058
+zhgok;load;222;19;-4;False;200059
+SHoptykol' (t);load;101;10;6;False;200060
+Batys;load;102;128;44;False;200061
+Dostyk;load;103;72;26;False;200062
+SHygys;load;104;0.4;0.2;False;200063
+Osakarovka;load;306;22;2;False;200064
+Caran';load;308;1;-11;False;200065
+ns-19;load;309;23;4;False;200066
+Nura-220;load;310;27;5;False;200067
+grehs-2;load;355;260;150;False;200068
+Kara-murun;load;450;5;1;True;200069
+ZHaryk;load;451;3;2;True;200070
+Аjsa;load;452;21;4;False;200071
+ZHana-arka;load;453;6;2;False;200072
+Barsengir;load;454;24;-16;False;200073
+Kumkol';load;455;144;54.6;False;200074
+Kajrakty;load;457;9;1;False;200075
+Nikol'skaya;load;461;53;39;True;200076
+zhtehts;load;462;213;62;True;200077
+zhtehts-220;load;463;213;62;False;200078
+Nikol'skaya;load;464;56;45;False;200079
+Karazhal;load;465;19;5;False;200080
+Agadyr'-220;load;468;17;2;False;200081
+АGАDYR'-500;load;469;10;0;False;200082
+btehts-110;load;471;111;58;False;200083
+Balkhashskaya-110;load;472;105;-33;False;200084
+Аkchtau;load;474;5;-7;False;200085
+Mointy;load;475;19;2;False;200086
+Karazhingil;load;476;6;1;True;200087
+Saryshagan;load;477;6;2;True;200088
+Mynaral;load;924;2;-3;True;200089
+Kiyakhty;load;930;6;3;True;200090
+yukgrehs;load;901;23;-2;False;200091
+Аlmaty;load;903;10;-7;False;200092
+tehts-3 2ssh;load;904;220;50;False;200093
+Robot;load;907;37;2;False;200094
+Besagash;load;940;55;-40;False;200095
+ps-62 АT2;load;908;18;14;False;200096
+CHilik;load;911;63;10;False;200097
+ps-7;load;913;490;278;False;200098
+Zapadnaya;load;918;63;14;False;200099
+CHiganak;load;925;24;3;False;200100
+Sary-Ozek;load;950;26;4;False;200101
+Taldykorganskaya-220;load;951;148;62;False;200102
+Glavnaya;load;2916;680;18;False;200103
+Medeo;load;928;10;1;False;200104
+Taugul';load;929;202;38;False;200105
+ZHideli;load;931;6;2;True;200106
+SHu;load;932;35;13;False;200107
+Аspara;load;814;5;1;False;200108
+ZHambyl;load;801;275;115;False;200109
+Burnoe;load;802;10;5;False;200110
+Karatau;load;803;5;-1;False;200111
+Opornaya;load;804;16;5;False;200112
+zhgrehs-220;load;805;220;0;False;200113
+zhgrehs-16;load;806;7;1;True;200114
+zhgrehs-110;load;807;217;45;True;200115
+Merke;load;809;5;1;False;200116
+ZHambyl Tyaga;load;815;16;2;False;200117
+Burnoe Tyaga;load;816;14;6;True;200118
+Аbdezim;load;817;5;1;True;200119
+SHymkent-220;load;831;49;9;False;200120
+Sas-tyube;load;834;8;2;False;200121
+Vannovka;load;835;10;3.4769643262;False;200122
+Badam;load;836;9;2;True;200123
+Аrys';load;837;7;1;True;200124
+Montajtash;load;838;7;1;True;200125
+ZHylga;load;839;29;9;False;200126
+Kentau;load;840;50;12;False;200127
+SHolakkorgan;load;841;35;-5;False;200128
+SHymkentskaya;load;843;150;50;False;200129
+Tyul'kubas;load;844;3;2;True;200130
+Kyzylsaj;load;845;8;3;False;200131
+Kyzylordinskaya tehts;load;860;23;11;False;200132
+Kyzylordinskaya;load;862;23;6;False;200133
+SHieli;load;863;18;2;False;200134
+ZHanakorgan;load;865;6;2;False;200135
+ZHalagash;load;866;8;2;True;200136
+ZHusaly;load;867;9;2.2641609353;True;200137
+Bishkek;load;2918;400;65;False;200138
+TАSH.GREHS;load;2924;2500;0;False;200139
+gpp-2;load;5957;97;4;False;200140
+Iriklinskaya grehs;load;4791;1140;50;True;200141
+Tavricheskaya;load;1816;350;-32;False;200142
+Irtyshskaya;load;1851;159;-10;True;200143
+Mirgalimsaj;load;842;20;13;False;200144
+Sary-oba (t);load;169;3;2;True;200145
+Erkenshilik (t);load;167;6;4;False;200146
+ZHolymbet;load;123;27;6;False;200147
+tsgpp;load;124;125;-80;False;200148
+SHortandy (t);load;125;11;1;True;200149
+Tankeris (t);load;179;19;4;False;200150
+El'taj (t);load;178;4;2;True;200151
+Burabaj (t);load;126;23;2;False;200152
+ZHaltyr (t);load;132;9;5;False;200153
+Tastak (t);load;162;1;1;True;200154
+Irchenko (t);load;163;1;1;True;200155
+Аtbasar;load;134;43;-28;False;200156
+kgpp;load;135;104;2;False;200157
+Krasnoarmejskaya;load;159;17;3;False;200158
+Kiyaly;load;136;4;2;False;200159
+BАRNАUL-500;load;1630;2500;200;False;200160
+ptehts-2-110;load;142;200;18;False;200161
+ptehts-2-220;load;144;4;2;False;200162
+Аktogaj-110;load;484;22;-13;False;200163
+Аvrora;load;148;0;11;False;200164
+TULEBERDYEVА;load;2915;80;30;True;200165
+Makinsk;load;150;22;2;False;200166
+Stepnaya;load;151;124;31;False;200167
+TOKTOGUL'SKАYA GEHS;load;2921;2230;55;False;200168
+YAnko (t);load;153;9;1;False;200169
+Sibir';load;160;13;2;True;200170
+Buran;load;173;10;1;False;200171
+Ugolki(t);load;156;8;1;False;200172
+Kujbyshevskaya;load;157;20;-8;False;200173
+Kokshetauskaya-1150;load;176;60;-8;False;200174
+Urozhajnaya;load;1673;150;60;True;200175
+Perekatnaya (t);load;172;3;2;False;200176
+ZHaksy (t);load;164;1;1;True;200177
+KURGАN;load;4727;500;200;False;200178
+SMELOVSKАYA;load;50014;350;80;False;200179
+EHkibastuzskaya tehts;load;44;41;5;True;200180
+arbz;load;4004;9;5;True;200181
+bgok;load;62;174;21;False;200182
+Koyan-Kos;load;953;7;1;False;200183
+SHymkentskaya TEHTS-3;load;813;220;42;False;200184
+Barnaul-220;load;1640;320;92;True;200185
+Ru-6;load;869;67;4;False;200186
+UZBEKISTON;load;2922;577;272;True;200187
+АLTАJ;load;1660;12500;5200;False;200188
+SYRDАR'INSKАYA TEHS;load;2923;6390;3066;True;200189
+Rubtsovskaya;load;1622;175;70;False;200190
+LOCHIN;load;2920;290;110;True;200191
+BАRАBINSKАYA;load;9917;135;-40;False;200192
+KURCHАTOVSKАYA;load;50002;200;100;False;200193
+sehs burnoe;load;810;1;1;False;200194
+YUZHNOURАL'SKАYA GREHS-2;load;47161;150;80;False;200195
+Kemin;load;2952;475;70;False;200196
+Voskhod;load;1854;213;56;False;200197
+VITYAZ';load;1852;1;1;False;200198
+KEMIN;load;2951;1200;500;False;200199
+Аkmolinskaya TEHTS;load;108;140;0;False;200200
+DАTKА;load;2950;200;100;True;200201
+Аkzhar;load;3004;9;5;True;200202
+Ermensaj;load;942;146;-25;False;200203
+TMK;load;242;79;30;False;200204
+PS-7;load;215;810;400;False;200205
+Novokuznetskaya;load;1638;100;50;True;200206
+Itatskaya;load;1636;100;50;True;200207
+YUrga;load;1632;100;50;True;200208
+Barabinskaya-220 ;load;1671;51;0;True;200209
