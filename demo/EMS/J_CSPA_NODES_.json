@@ -4,7 +4,7 @@
     "vn_kv": 220,
     "index": 186,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Novotroitsk": {
@@ -12,7 +12,7 @@
     "vn_kv": 220,
     "index": 3103,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 16
   },
   "Orskaya": {
@@ -20,7 +20,7 @@
     "vn_kv": 220,
     "index": 3104,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 16
   },
   "Ul'ke-220": {
@@ -28,7 +28,7 @@
     "vn_kv": 220,
     "index": 3020,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "Kimpersaj": {
@@ -36,7 +36,7 @@
     "vn_kv": 220,
     "index": 3005,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "Аktyube-220": {
@@ -44,7 +44,7 @@
     "vn_kv": 220,
     "index": 3006,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "Taldykorgan-220": {
@@ -52,7 +52,7 @@
     "vn_kv": 220,
     "index": 988,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 10
   },
   "Kounrad-220": {
@@ -60,7 +60,7 @@
     "vn_kv": 220,
     "index": 481,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "TАSHKENT": {
@@ -68,7 +68,7 @@
     "vn_kv": 500,
     "index": 2940,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "Kounrad-110": {
@@ -76,7 +76,7 @@
     "vn_kv": 110,
     "index": 482,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "NOVO-АNGRENSKАYA TEHS": {
@@ -84,7 +84,7 @@
     "vn_kv": 500,
     "index": 2945,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "Karabalty": {
@@ -92,7 +92,7 @@
     "vn_kv": 220,
     "index": 2917,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 50
   },
   "tehts-3": {
@@ -100,7 +100,7 @@
     "vn_kv": 220,
     "index": 383,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "TАLDYKORGАN-500": {
@@ -108,7 +108,7 @@
     "vn_kv": 500,
     "index": 987,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 10
   },
   "Metallurgicheskaya": {
@@ -116,7 +116,7 @@
     "vn_kv": 220,
     "index": 384,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "Tashkentskaya grehs": {
@@ -124,7 +124,7 @@
     "vn_kv": 220,
     "index": 2926,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "CHilisaj": {
@@ -132,7 +132,7 @@
     "vn_kv": 220,
     "index": 3019,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "ipm": {
@@ -140,7 +140,7 @@
     "vn_kv": 220,
     "index": 318,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 3
   },
   "SEMEJ-500": {
@@ -148,7 +148,7 @@
     "vn_kv": 500,
     "index": 980,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "otpajka-4": {
@@ -156,7 +156,7 @@
     "vn_kv": 220,
     "index": 314,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "Semej-220": {
@@ -164,7 +164,7 @@
     "vn_kv": 220,
     "index": 981,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "otpajka-5": {
@@ -172,7 +172,7 @@
     "vn_kv": 220,
     "index": 315,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "TYUMEN'": {
@@ -180,7 +180,7 @@
     "vn_kv": 500,
     "index": 4730,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 35
   },
   "BERKUT": {
@@ -188,7 +188,7 @@
     "vn_kv": 500,
     "index": 4728,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 35
   },
   "IRIKLINSKАYA GREHS": {
@@ -196,7 +196,7 @@
     "vn_kv": 500,
     "index": 4790,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Troitskaya grehs": {
@@ -204,7 +204,7 @@
     "vn_kv": 220,
     "index": 4798,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "TROITSKАYA GREHS": {
@@ -212,7 +212,7 @@
     "vn_kv": 500,
     "index": 4799,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Esil'": {
@@ -220,7 +220,7 @@
     "vn_kv": 220,
     "index": 170,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "ESIL'": {
@@ -228,7 +228,7 @@
     "vn_kv": 500,
     "index": 180,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "KOKCHETАVSKАYA": {
@@ -236,7 +236,7 @@
     "vn_kv": 500,
     "index": 175,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "KOZYREVO": {
@@ -244,7 +244,7 @@
     "vn_kv": 500,
     "index": 4703,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "REFTINSKАYA GREHS": {
@@ -252,7 +252,7 @@
     "vn_kv": 500,
     "index": 4702,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "YUZHNАYA": {
@@ -260,7 +260,7 @@
     "vn_kv": 500,
     "index": 4701,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Kushmurun": {
@@ -268,7 +268,7 @@
     "vn_kv": 220,
     "index": 571,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 8
   },
   "Аman-karagaj": {
@@ -276,7 +276,7 @@
     "vn_kv": 220,
     "index": 572,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 8
   },
   "Аpanovka": {
@@ -284,7 +284,7 @@
     "vn_kv": 220,
     "index": 573,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "Lisakovka": {
@@ -292,7 +292,7 @@
     "vn_kv": 220,
     "index": 574,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "Sokol-220": {
@@ -300,7 +300,7 @@
     "vn_kv": 220,
     "index": 575,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "SOKOL-500": {
@@ -308,7 +308,7 @@
     "vn_kv": 500,
     "index": 576,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "ZHITIKАRА-500": {
@@ -316,7 +316,7 @@
     "vn_kv": 500,
     "index": 577,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "UL'KE-500": {
@@ -324,7 +324,7 @@
     "vn_kv": 500,
     "index": 9001,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "ZHitikara-110": {
@@ -332,7 +332,7 @@
     "vn_kv": 110,
     "index": 578,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "PRIVАLOVSKАYA": {
@@ -340,7 +340,7 @@
     "vn_kv": 500,
     "index": 50032,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Аktogaj-220": {
@@ -348,7 +348,7 @@
     "vn_kv": 220,
     "index": 483,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "SHАGOL": {
@@ -356,7 +356,7 @@
     "vn_kv": 500,
     "index": 4782,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "BEKETOVO": {
@@ -364,7 +364,7 @@
     "vn_kv": 500,
     "index": 4709,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "ZАRYA": {
@@ -372,7 +372,7 @@
     "vn_kv": 500,
     "index": 1631,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "Kachary": {
@@ -380,7 +380,7 @@
     "vn_kv": 220,
     "index": 582,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "MАGNITOGORSKАYA": {
@@ -388,7 +388,7 @@
     "vn_kv": 500,
     "index": 4785,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "CHelgashi": {
@@ -396,7 +396,7 @@
     "vn_kv": 220,
     "index": 585,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 8
   },
   "KOSTАNАJSKАYA": {
@@ -404,7 +404,7 @@
     "vn_kv": 500,
     "index": 590,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "Kustanajskaya": {
@@ -412,7 +412,7 @@
     "vn_kv": 220,
     "index": 592,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "TSentral'naya": {
@@ -420,7 +420,7 @@
     "vn_kv": 220,
     "index": 593,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "ssgpo": {
@@ -428,7 +428,7 @@
     "vn_kv": 220,
     "index": 594,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "Priural'skaya": {
@@ -436,7 +436,7 @@
     "vn_kv": 220,
     "index": 595,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "ZLАTOUST": {
@@ -444,7 +444,7 @@
     "vn_kv": 500,
     "index": 4715,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "KROPАCHEVO": {
@@ -452,7 +452,7 @@
     "vn_kv": 500,
     "index": 4714,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "UFIMSKАYA": {
@@ -460,7 +460,7 @@
     "vn_kv": 500,
     "index": 4712,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Zarechnaya": {
@@ -468,7 +468,7 @@
     "vn_kv": 220,
     "index": 596,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 8
   },
   "CHELYABINSK": {
@@ -476,7 +476,7 @@
     "vn_kv": 500,
     "index": 4705,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "ps 51": {
@@ -484,7 +484,7 @@
     "vn_kv": 220,
     "index": 251,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "EHGREHS-1-500": {
@@ -492,7 +492,7 @@
     "vn_kv": 500,
     "index": 25,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "EHKIBАSTUZSKАYA": {
@@ -500,7 +500,7 @@
     "vn_kv": 500,
     "index": 26,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "EHGREHS-2-500": {
@@ -508,7 +508,7 @@
     "vn_kv": 500,
     "index": 28,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ehgrehs-2-220": {
@@ -516,7 +516,7 @@
     "vn_kv": 220,
     "index": 29,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "eehk-20-bl5-8": {
@@ -524,7 +524,7 @@
     "vn_kv": 20,
     "index": 30,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "EEHK-500": {
@@ -532,7 +532,7 @@
     "vn_kv": 500,
     "index": 31,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "eehk-20-bl2-4": {
@@ -540,7 +540,7 @@
     "vn_kv": 20,
     "index": 32,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "eehk-220": {
@@ -548,7 +548,7 @@
     "vn_kv": 220,
     "index": 33,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "Kalkaman": {
@@ -556,7 +556,7 @@
     "vn_kv": 220,
     "index": 36,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ns-7": {
@@ -564,7 +564,7 @@
     "vn_kv": 220,
     "index": 37,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 2
   },
   "EHkibastuz-220": {
@@ -572,7 +572,7 @@
     "vn_kv": 220,
     "index": 38,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ehgrehs-1": {
@@ -580,7 +580,7 @@
     "vn_kv": 220,
     "index": 39,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ehgrehs-1-bl2": {
@@ -588,7 +588,7 @@
     "vn_kv": 20,
     "index": 50,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ehgrehs-1-bl3-8": {
@@ -596,7 +596,7 @@
     "vn_kv": 19.7999992371,
     "index": 51,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ns-12": {
@@ -604,7 +604,7 @@
     "vn_kv": 220,
     "index": 52,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 2
   },
   "ehehpk": {
@@ -612,7 +612,7 @@
     "vn_kv": 220,
     "index": 53,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "tsrmz": {
@@ -620,7 +620,7 @@
     "vn_kv": 220,
     "index": 54,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "azf": {
@@ -628,7 +628,7 @@
     "vn_kv": 220,
     "index": 55,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 2
   },
   "Stroitel'naya-2": {
@@ -636,7 +636,7 @@
     "vn_kv": 220,
     "index": 56,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "Ulenty (t)": {
@@ -644,7 +644,7 @@
     "vn_kv": 220,
     "index": 58,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "Boshhak(T)": {
@@ -652,7 +652,7 @@
     "vn_kv": 220,
     "index": 59,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ehgrehs-2-20": {
@@ -660,7 +660,7 @@
     "vn_kv": 19.6,
     "index": 60,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "Taskudyk(T)": {
@@ -668,7 +668,7 @@
     "vn_kv": 220,
     "index": 61,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ns 17": {
@@ -676,7 +676,7 @@
     "vn_kv": 220,
     "index": 307,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 3
   },
   "NURА-500": {
@@ -684,7 +684,7 @@
     "vn_kv": 500,
     "index": 325,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "TSGPP": {
@@ -692,7 +692,7 @@
     "vn_kv": 500,
     "index": 129,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "Ermentau (t)": {
@@ -700,7 +700,7 @@
     "vn_kv": 220,
     "index": 166,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "RUBTSOVSKАYA": {
@@ -708,7 +708,7 @@
     "vn_kv": 500,
     "index": 1621,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "TАVRICHESKАYA": {
@@ -716,7 +716,7 @@
     "vn_kv": 500,
     "index": 1817,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "IRTYSHSKАYA": {
@@ -724,7 +724,7 @@
     "vn_kv": 500,
     "index": 1850,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "KEHZ-1.2": {
@@ -732,7 +732,7 @@
     "vn_kv": 500,
     "index": 27,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "ps-14": {
@@ -740,7 +740,7 @@
     "vn_kv": 220,
     "index": 214,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 1
   },
   "Rysaevo": {
@@ -748,7 +748,7 @@
     "vn_kv": 220,
     "index": 3102,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 16
   },
   "ps-18": {
@@ -756,7 +756,7 @@
     "vn_kv": 220,
     "index": 218,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "shgehs-220": {
@@ -764,7 +764,7 @@
     "vn_kv": 220,
     "index": 220,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "UST'-KАMENOGRSKАYA-500": {
@@ -772,7 +772,7 @@
     "vn_kv": 500,
     "index": 240,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 1
   },
   "Ust'-Kamnogorskaya-220": {
@@ -780,7 +780,7 @@
     "vn_kv": 220,
     "index": 241,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 1
   },
   "shgehs-14": {
@@ -788,7 +788,7 @@
     "vn_kv": 13.8000001907,
     "index": 221,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "zhgok": {
@@ -796,7 +796,7 @@
     "vn_kv": 220,
     "index": 222,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 19
   },
   "SHoptykol' (t)": {
@@ -804,7 +804,7 @@
     "vn_kv": 220,
     "index": 101,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "Batys": {
@@ -812,7 +812,7 @@
     "vn_kv": 220,
     "index": 102,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 90
   },
   "Dostyk": {
@@ -820,7 +820,7 @@
     "vn_kv": 220,
     "index": 103,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 90
   },
   "SHygys": {
@@ -828,7 +828,7 @@
     "vn_kv": 220,
     "index": 104,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 90
   },
   "Osakarovka": {
@@ -836,7 +836,7 @@
     "vn_kv": 220,
     "index": 306,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "Caran'": {
@@ -844,7 +844,7 @@
     "vn_kv": 220,
     "index": 308,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "ns-19": {
@@ -852,7 +852,7 @@
     "vn_kv": 220,
     "index": 309,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "Nura-220": {
@@ -860,7 +860,7 @@
     "vn_kv": 220,
     "index": 310,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 3
   },
   "grehs-2": {
@@ -868,7 +868,7 @@
     "vn_kv": 220,
     "index": 355,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Kara-murun": {
@@ -876,7 +876,7 @@
     "vn_kv": 220,
     "index": 450,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "ZHaryk": {
@@ -884,7 +884,7 @@
     "vn_kv": 220,
     "index": 451,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "Аjsa": {
@@ -892,7 +892,7 @@
     "vn_kv": 220,
     "index": 452,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "ZHana-arka": {
@@ -900,7 +900,7 @@
     "vn_kv": 220,
     "index": 453,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Barsengir": {
@@ -908,7 +908,7 @@
     "vn_kv": 220,
     "index": 454,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Kumkol'": {
@@ -916,7 +916,7 @@
     "vn_kv": 220,
     "index": 467,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Kajrakty": {
@@ -924,7 +924,7 @@
     "vn_kv": 220,
     "index": 457,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Nikol'skaya": {
@@ -932,7 +932,7 @@
     "vn_kv": 220,
     "index": 464,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "zhtehts": {
@@ -940,7 +940,7 @@
     "vn_kv": 110,
     "index": 462,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "zhtehts-220": {
@@ -948,7 +948,7 @@
     "vn_kv": 220,
     "index": 463,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Karazhal": {
@@ -956,7 +956,7 @@
     "vn_kv": 220,
     "index": 465,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "ZHezkazgan-220": {
@@ -964,7 +964,7 @@
     "vn_kv": 220,
     "index": 466,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Agadyr'-220": {
@@ -972,7 +972,7 @@
     "vn_kv": 220,
     "index": 468,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "АGАDYR'-500": {
@@ -980,7 +980,7 @@
     "vn_kv": 500,
     "index": 469,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "btehts-110": {
@@ -988,7 +988,7 @@
     "vn_kv": 110,
     "index": 471,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Balkhashskaya-110": {
@@ -996,7 +996,7 @@
     "vn_kv": 110,
     "index": 472,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Balkhashskaya-220": {
@@ -1004,7 +1004,7 @@
     "vn_kv": 220,
     "index": 473,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Аkchtau": {
@@ -1012,7 +1012,7 @@
     "vn_kv": 220,
     "index": 474,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Mointy": {
@@ -1020,7 +1020,7 @@
     "vn_kv": 220,
     "index": 475,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Karazhingil": {
@@ -1028,7 +1028,7 @@
     "vn_kv": 220,
     "index": 476,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "Saryshagan": {
@@ -1036,7 +1036,7 @@
     "vn_kv": 220,
     "index": 477,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "ZHEZKАZGАN-500": {
@@ -1044,7 +1044,7 @@
     "vn_kv": 500,
     "index": 480,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "YUKGREHS": {
@@ -1052,7 +1052,7 @@
     "vn_kv": 500,
     "index": 900,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Mynaral": {
@@ -1060,7 +1060,7 @@
     "vn_kv": 220,
     "index": 924,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "FRUNZE": {
@@ -1068,7 +1068,7 @@
     "vn_kv": 500,
     "index": 2919,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 50
   },
   "Kiyakhty": {
@@ -1076,7 +1076,7 @@
     "vn_kv": 220,
     "index": 930,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "yukgrehs": {
@@ -1084,7 +1084,7 @@
     "vn_kv": 220,
     "index": 901,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "АLMАTY": {
@@ -1092,7 +1092,7 @@
     "vn_kv": 500,
     "index": 902,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "АLMА": {
@@ -1100,7 +1100,7 @@
     "vn_kv": 500,
     "index": 938,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Аlmaty": {
@@ -1108,7 +1108,7 @@
     "vn_kv": 220,
     "index": 903,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Аlma": {
@@ -1116,7 +1116,7 @@
     "vn_kv": 220,
     "index": 939,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "tehts-3 2ssh": {
@@ -1124,7 +1124,7 @@
     "vn_kv": 220,
     "index": 904,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Robot": {
@@ -1132,7 +1132,7 @@
     "vn_kv": 220,
     "index": 907,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Besagash": {
@@ -1140,7 +1140,7 @@
     "vn_kv": 220,
     "index": 940,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "ps-62 АT2": {
@@ -1148,7 +1148,7 @@
     "vn_kv": 220,
     "index": 908,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Kapchagajskaya gehs-220": {
@@ -1156,7 +1156,7 @@
     "vn_kv": 220,
     "index": 909,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Kapchagajskaya gehs-14": {
@@ -1164,7 +1164,7 @@
     "vn_kv": 13.8000001907,
     "index": 910,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "Mojnakskaya gehs-15-1": {
@@ -1172,7 +1172,7 @@
     "vn_kv": 15.75,
     "index": 937,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "CHilik": {
@@ -1180,7 +1180,7 @@
     "vn_kv": 220,
     "index": 911,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "ps-7": {
@@ -1188,7 +1188,7 @@
     "vn_kv": 110,
     "index": 913,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Zapadnaya": {
@@ -1196,7 +1196,7 @@
     "vn_kv": 220,
     "index": 918,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "CHiganak": {
@@ -1204,7 +1204,7 @@
     "vn_kv": 220,
     "index": 925,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Sary-Ozek": {
@@ -1212,7 +1212,7 @@
     "vn_kv": 220,
     "index": 950,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 10
   },
   "Taldykorganskaya-220": {
@@ -1220,7 +1220,7 @@
     "vn_kv": 220,
     "index": 951,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 10
   },
   "Glavnaya": {
@@ -1228,7 +1228,7 @@
     "vn_kv": 220,
     "index": 2916,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 50
   },
   "Medeo": {
@@ -1236,7 +1236,7 @@
     "vn_kv": 220,
     "index": 928,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Taugul'": {
@@ -1244,7 +1244,7 @@
     "vn_kv": 220,
     "index": 929,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "ZHideli": {
@@ -1252,7 +1252,7 @@
     "vn_kv": 220,
     "index": 931,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "SHu": {
@@ -1260,7 +1260,7 @@
     "vn_kv": 220,
     "index": 932,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Аspara": {
@@ -1268,7 +1268,7 @@
     "vn_kv": 220,
     "index": 814,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "ZHАMBYL": {
@@ -1276,7 +1276,7 @@
     "vn_kv": 500,
     "index": 800,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "ZHambyl": {
@@ -1284,7 +1284,7 @@
     "vn_kv": 220,
     "index": 801,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "Burnoe": {
@@ -1292,7 +1292,7 @@
     "vn_kv": 220,
     "index": 802,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "Karatau": {
@@ -1300,7 +1300,7 @@
     "vn_kv": 220,
     "index": 803,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "Opornaya": {
@@ -1308,7 +1308,7 @@
     "vn_kv": 220,
     "index": 804,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "zhgrehs-220": {
@@ -1316,7 +1316,7 @@
     "vn_kv": 220,
     "index": 805,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "zhgrehs-16": {
@@ -1324,7 +1324,7 @@
     "vn_kv": 16.0699996948,
     "index": 806,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 11
   },
   "zhgrehs-110": {
@@ -1332,7 +1332,7 @@
     "vn_kv": 110,
     "index": 807,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 11
   },
   "Merke": {
@@ -1340,7 +1340,7 @@
     "vn_kv": 220,
     "index": 809,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "ZHambyl Tyaga": {
@@ -1348,7 +1348,7 @@
     "vn_kv": 220,
     "index": 815,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "Burnoe Tyaga": {
@@ -1356,7 +1356,7 @@
     "vn_kv": 220,
     "index": 816,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 11
   },
   "Аbdezim": {
@@ -1364,7 +1364,7 @@
     "vn_kv": 220,
     "index": 817,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 11
   },
   "SHYMKENT-500": {
@@ -1372,7 +1372,7 @@
     "vn_kv": 500,
     "index": 830,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "SHymkent-220": {
@@ -1380,7 +1380,7 @@
     "vn_kv": 220,
     "index": 831,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Sas-tyube": {
@@ -1388,7 +1388,7 @@
     "vn_kv": 220,
     "index": 834,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Vannovka": {
@@ -1396,7 +1396,7 @@
     "vn_kv": 220,
     "index": 835,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Badam": {
@@ -1404,7 +1404,7 @@
     "vn_kv": 220,
     "index": 836,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 12
   },
   "Аrys'": {
@@ -1412,7 +1412,7 @@
     "vn_kv": 220,
     "index": 837,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 12
   },
   "Montajtash": {
@@ -1420,7 +1420,7 @@
     "vn_kv": 220,
     "index": 838,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 12
   },
   "ZHylga": {
@@ -1428,7 +1428,7 @@
     "vn_kv": 220,
     "index": 839,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Kentau": {
@@ -1436,7 +1436,7 @@
     "vn_kv": 220,
     "index": 840,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "SHolakkorgan": {
@@ -1444,7 +1444,7 @@
     "vn_kv": 220,
     "index": 841,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "SHymkentskaya": {
@@ -1452,7 +1452,7 @@
     "vn_kv": 220,
     "index": 843,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Tyul'kubas": {
@@ -1460,7 +1460,7 @@
     "vn_kv": 220,
     "index": 844,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 12
   },
   "Kyzylsaj": {
@@ -1468,7 +1468,7 @@
     "vn_kv": 220,
     "index": 845,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "gnps": {
@@ -1476,7 +1476,7 @@
     "vn_kv": 220,
     "index": 846,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Kyzylordinskaya tehts": {
@@ -1484,7 +1484,7 @@
     "vn_kv": 220,
     "index": 860,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "otpajka": {
@@ -1492,7 +1492,7 @@
     "vn_kv": 220,
     "index": 861,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "Kyzylordinskaya": {
@@ -1500,7 +1500,7 @@
     "vn_kv": 220,
     "index": 862,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "SHieli": {
@@ -1508,7 +1508,7 @@
     "vn_kv": 220,
     "index": 863,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "ZHanakorgan": {
@@ -1516,7 +1516,7 @@
     "vn_kv": 220,
     "index": 865,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "ZHalagash": {
@@ -1524,7 +1524,7 @@
     "vn_kv": 220,
     "index": 866,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 13
   },
   "ZHusaly": {
@@ -1532,7 +1532,7 @@
     "vn_kv": 220,
     "index": 867,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 13
   },
   "Bishkek": {
@@ -1540,7 +1540,7 @@
     "vn_kv": 220,
     "index": 2918,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 50
   },
   "TАSH.GREHS": {
@@ -1548,7 +1548,7 @@
     "vn_kv": 500,
     "index": 2924,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 18
   },
   "Tashkent": {
@@ -1556,7 +1556,7 @@
     "vn_kv": 220,
     "index": 2925,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 18
   },
   "gpp-1": {
@@ -1564,7 +1564,7 @@
     "vn_kv": 220,
     "index": 5958,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 14
   },
   "gpp-2": {
@@ -1572,7 +1572,7 @@
     "vn_kv": 220,
     "index": 5957,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 14
   },
   "Iriklinskaya grehs": {
@@ -1580,7 +1580,7 @@
     "vn_kv": 220,
     "index": 4791,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 16
   },
   "Tavricheskaya": {
@@ -1588,7 +1588,7 @@
     "vn_kv": 220,
     "index": 1816,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "CHujskaya": {
@@ -1596,7 +1596,7 @@
     "vn_kv": 220,
     "index": 2932,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 51
   },
   "Irtyshskaya": {
@@ -1604,7 +1604,7 @@
     "vn_kv": 220,
     "index": 1851,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 17
   },
   "Mirgalimsaj": {
@@ -1612,7 +1612,7 @@
     "vn_kv": 220,
     "index": 842,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Sary-oba (t)": {
@@ -1620,7 +1620,7 @@
     "vn_kv": 220,
     "index": 169,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Erkenshilik (t)": {
@@ -1628,7 +1628,7 @@
     "vn_kv": 220,
     "index": 167,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "ZHolymbet": {
@@ -1636,7 +1636,7 @@
     "vn_kv": 220,
     "index": 123,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "tsgpp": {
@@ -1644,7 +1644,7 @@
     "vn_kv": 220,
     "index": 130,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "SHortandy (t)": {
@@ -1652,7 +1652,7 @@
     "vn_kv": 220,
     "index": 125,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Tankeris (t)": {
@@ -1660,7 +1660,7 @@
     "vn_kv": 220,
     "index": 179,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "El'taj (t)": {
@@ -1668,7 +1668,7 @@
     "vn_kv": 220,
     "index": 178,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Burabaj (t)": {
@@ -1676,7 +1676,7 @@
     "vn_kv": 220,
     "index": 126,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "ZHaltyr (t)": {
@@ -1684,7 +1684,7 @@
     "vn_kv": 220,
     "index": 132,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "Tastak (t)": {
@@ -1692,7 +1692,7 @@
     "vn_kv": 220,
     "index": 162,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Irchenko (t)": {
@@ -1700,7 +1700,7 @@
     "vn_kv": 220,
     "index": 163,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Аtbasar": {
@@ -1708,7 +1708,7 @@
     "vn_kv": 220,
     "index": 134,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "kgpp": {
@@ -1716,7 +1716,7 @@
     "vn_kv": 220,
     "index": 135,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Krasnoarmejskaya": {
@@ -1724,7 +1724,7 @@
     "vn_kv": 220,
     "index": 159,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "Kiyaly": {
@@ -1732,7 +1732,7 @@
     "vn_kv": 220,
     "index": 136,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "BАRNАUL-500": {
@@ -1740,7 +1740,7 @@
     "vn_kv": 500,
     "index": 1630,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "ptehts-2-110": {
@@ -1748,7 +1748,7 @@
     "vn_kv": 110,
     "index": 142,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "Smirnovo": {
@@ -1756,7 +1756,7 @@
     "vn_kv": 220,
     "index": 143,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "ptehts-2-220": {
@@ -1764,7 +1764,7 @@
     "vn_kv": 220,
     "index": 144,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "Аktogaj-110": {
@@ -1772,7 +1772,7 @@
     "vn_kv": 110,
     "index": 484,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "АVRORА": {
@@ -1780,7 +1780,7 @@
     "vn_kv": 500,
     "index": 147,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "Аvrora": {
@@ -1788,7 +1788,7 @@
     "vn_kv": 220,
     "index": 148,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 7
   },
   "TULEBERDYEVА": {
@@ -1796,7 +1796,7 @@
     "vn_kv": 500,
     "index": 2915,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 51
   },
   "Makinsk": {
@@ -1804,7 +1804,7 @@
     "vn_kv": 220,
     "index": 150,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "Stepnaya": {
@@ -1812,7 +1812,7 @@
     "vn_kv": 220,
     "index": 151,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "TOKTOGUL'SKАYA GEHS": {
@@ -1820,7 +1820,7 @@
     "vn_kv": 500,
     "index": 2921,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 51
   },
   "YAnko (t)": {
@@ -1828,7 +1828,7 @@
     "vn_kv": 220,
     "index": 153,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Sibir'": {
@@ -1836,7 +1836,7 @@
     "vn_kv": 220,
     "index": 161,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 7
   },
   "Buran": {
@@ -1844,7 +1844,7 @@
     "vn_kv": 220,
     "index": 173,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Ugolki(t)": {
@@ -1852,7 +1852,7 @@
     "vn_kv": 220,
     "index": 156,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Kujbyshevskaya": {
@@ -1860,7 +1860,7 @@
     "vn_kv": 220,
     "index": 157,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Kokshetauskaya-1150": {
@@ -1868,7 +1868,7 @@
     "vn_kv": 220,
     "index": 176,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 6
   },
   "Urozhajnaya": {
@@ -1876,7 +1876,7 @@
     "vn_kv": 220,
     "index": 1673,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 15
   },
   "Perekatnaya (t)": {
@@ -1884,7 +1884,7 @@
     "vn_kv": 220,
     "index": 172,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "op-80 (t)": {
@@ -1892,7 +1892,7 @@
     "vn_kv": 220,
     "index": 165,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "ZHaksy (t)": {
@@ -1900,7 +1900,7 @@
     "vn_kv": 220,
     "index": 164,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Makushino": {
@@ -1908,7 +1908,7 @@
     "vn_kv": 220,
     "index": 4781,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 16
   },
   "KURGАN": {
@@ -1916,7 +1916,7 @@
     "vn_kv": 500,
     "index": 4727,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "SHU": {
@@ -1924,7 +1924,7 @@
     "vn_kv": 500,
     "index": 9932,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "SMELOVSKАYA": {
@@ -1932,7 +1932,7 @@
     "vn_kv": 500,
     "index": 50014,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "EHkibastuzskaya tehts": {
@@ -1940,7 +1940,7 @@
     "vn_kv": 6.1999998093,
     "index": 44,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 2
   },
   "arbz": {
@@ -1948,7 +1948,7 @@
     "vn_kv": 110,
     "index": 4004,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "bgok": {
@@ -1956,7 +1956,7 @@
     "vn_kv": 220,
     "index": 62,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 2
   },
   "wtu 2.0": {
@@ -1964,7 +1964,7 @@
     "vn_kv": 35,
     "index": 191,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 5
   },
   "Koyan-Kos": {
@@ -1972,7 +1972,7 @@
     "vn_kv": 220,
     "index": 953,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "SHymkentskaya TEHTS-3": {
@@ -1980,7 +1980,7 @@
     "vn_kv": 220,
     "index": 813,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 12
   },
   "Barnaul-220": {
@@ -1988,7 +1988,7 @@
     "vn_kv": 220,
     "index": 1640,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 15
   },
   "Ru-6": {
@@ -1996,7 +1996,7 @@
     "vn_kv": 220,
     "index": 869,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 13
   },
   "UZBEKISTON": {
@@ -2004,7 +2004,7 @@
     "vn_kv": 500,
     "index": 2922,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "АKTOGАJ": {
@@ -2012,7 +2012,7 @@
     "vn_kv": 500,
     "index": 986,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 4
   },
   "Mojnakskaya gehs-220": {
@@ -2020,7 +2020,7 @@
     "vn_kv": 220,
     "index": 935,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "АLTАJ": {
@@ -2028,7 +2028,7 @@
     "vn_kv": 500,
     "index": 1660,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "SYRDАR'INSKАYA TEHS": {
@@ -2036,7 +2036,7 @@
     "vn_kv": 500,
     "index": 2923,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "Rubtsovskaya": {
@@ -2044,7 +2044,7 @@
     "vn_kv": 220,
     "index": 1622,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "LOCHIN": {
@@ -2052,7 +2052,7 @@
     "vn_kv": 500,
     "index": 2920,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 18
   },
   "BАRАBINSKАYA": {
@@ -2060,7 +2060,7 @@
     "vn_kv": 500,
     "index": 9917,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 15
   },
   "KURCHАTOVSKАYA": {
@@ -2068,7 +2068,7 @@
     "vn_kv": 500,
     "index": 50002,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "ISET'": {
@@ -2076,7 +2076,7 @@
     "vn_kv": 500,
     "index": 50001,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "vehs erejmentau": {
@@ -2084,7 +2084,7 @@
     "vn_kv": 220,
     "index": 155,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 5
   },
   "sehs burnoe": {
@@ -2092,7 +2092,7 @@
     "vn_kv": 220,
     "index": 810,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 11
   },
   "YUZHNOURАL'SKАYA GREHS-2": {
@@ -2100,7 +2100,7 @@
     "vn_kv": 500,
     "index": 47161,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 16
   },
   "Kemin": {
@@ -2108,7 +2108,7 @@
     "vn_kv": 220,
     "index": 2952,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 51
   },
   "Voskhod": {
@@ -2116,7 +2116,7 @@
     "vn_kv": 220,
     "index": 1854,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "VOSKHOD": {
@@ -2124,7 +2124,7 @@
     "vn_kv": 500,
     "index": 1853,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "VITYAZ'": {
@@ -2132,7 +2132,7 @@
     "vn_kv": 500,
     "index": 1852,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 17
   },
   "KEMIN": {
@@ -2140,7 +2140,7 @@
     "vn_kv": 500,
     "index": 2951,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 51
   },
   "Аkmolinskaya TEHTS": {
@@ -2148,7 +2148,7 @@
     "vn_kv": 220,
     "index": 108,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 90
   },
   "DАTKА": {
@@ -2156,7 +2156,7 @@
     "vn_kv": 500,
     "index": 2950,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 51
   },
   "Аkzhar": {
@@ -2164,7 +2164,7 @@
     "vn_kv": 220,
     "index": 3004,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 33
   },
   "Ermensaj": {
@@ -2172,7 +2172,7 @@
     "vn_kv": 220,
     "index": 942,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 9
   },
   "Mojnakskaya gehs-15-2": {
@@ -2180,7 +2180,7 @@
     "vn_kv": 15.75,
     "index": 941,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 9
   },
   "btehts-10": {
@@ -2188,7 +2188,7 @@
     "vn_kv": 10,
     "index": 470,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 4
   },
   "TMK": {
@@ -2196,7 +2196,7 @@
     "vn_kv": 220,
     "index": 242,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 1
   },
   "PS-7": {
@@ -2204,7 +2204,7 @@
     "vn_kv": 220,
     "index": 215,
     "type": "b",
-    "in_service": "False",
+    "in_service": false,
     "zone": 1
   },
   "Novokuznetskaya": {
@@ -2212,7 +2212,7 @@
     "vn_kv": 500,
     "index": 1638,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 0
   },
   "Itatskaya": {
@@ -2220,7 +2220,7 @@
     "vn_kv": 500,
     "index": 1636,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 0
   },
   "YUrga": {
@@ -2228,7 +2228,7 @@
     "vn_kv": 500,
     "index": 1632,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 0
   },
   "Barabinskaya-220": {
@@ -2236,7 +2236,7 @@
     "vn_kv": 220,
     "index": 1671,
     "type": "b",
-    "in_service": "True",
+    "in_service": true,
     "zone": 0
   }
 }

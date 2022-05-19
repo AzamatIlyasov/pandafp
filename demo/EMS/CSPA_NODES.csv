@@ -4,15 +4,15 @@ Novotroitsk;bus;220;3103;b;True;16
 Orskaya;bus;220;3104;b;True;16
 Ul'ke-220;bus;220;3020;b;True;33
 Kimpersaj;bus;220;3005;b;True;33
-–êktyube-220;bus;220;3006;b;True;33
+¿ktyube-220;bus;220;3006;b;True;33
 Taldykorgan-220;bus;220;988;b;False;10
 Kounrad-220;bus;220;481;b;False;4
-T–êSHKENT;bus;500;2940;b;True;18
+T¿SHKENT;bus;500;2940;b;True;18
 Kounrad-110;bus;110;482;b;True;4
-NOVO-–êNGRENSK–êYA TEHS;bus;500;2945;b;True;18
+NOVO-¿NGRENSK¿YA TEHS;bus;500;2945;b;True;18
 Karabalty;bus;220;2917;b;True;50
 tehts-3;bus;220;383;b;False;3
-T–êLDYKORG–êN-500;bus;500;987;b;False;10
+T¿LDYKORG¿N-500;bus;500;987;b;False;10
 Metallurgicheskaya;bus;220;384;b;False;3
 Tashkentskaya grehs;bus;220;2926;b;True;18
 CHilisaj;bus;220;3019;b;True;33
@@ -23,45 +23,45 @@ Semej-220;bus;220;981;b;False;19
 otpajka-5;bus;220;315;b;False;3
 TYUMEN';bus;500;4730;b;False;35
 BERKUT;bus;500;4728;b;False;35
-IRIKLINSK–êYA GREHS;bus;500;4790;b;False;16
+IRIKLINSK¿YA GREHS;bus;500;4790;b;False;16
 Troitskaya grehs;bus;220;4798;b;False;16
-TROITSK–êYA GREHS;bus;500;4799;b;False;16
+TROITSK¿YA GREHS;bus;500;4799;b;False;16
 Esil';bus;220;170;b;False;5
 ESIL';bus;500;180;b;False;5
-KOKCHET–êVSK–êYA;bus;500;175;b;False;6
+KOKCHET¿VSK¿YA;bus;500;175;b;False;6
 KOZYREVO;bus;500;4703;b;False;16
-REFTINSK–êYA GREHS;bus;500;4702;b;False;16
-YUZHN–êYA;bus;500;4701;b;False;16
+REFTINSK¿YA GREHS;bus;500;4702;b;False;16
+YUZHN¿YA;bus;500;4701;b;False;16
 Kushmurun;bus;220;571;b;True;8
-–êman-karagaj;bus;220;572;b;True;8
-–êpanovka;bus;220;573;b;False;8
+¿man-karagaj;bus;220;572;b;True;8
+¿panovka;bus;220;573;b;False;8
 Lisakovka;bus;220;574;b;False;8
 Sokol-220;bus;220;575;b;False;8
 SOKOL-500;bus;500;576;b;False;8
-ZHITIK–êR–ê-500;bus;500;577;b;False;8
+ZHITIK¿R¿-500;bus;500;577;b;False;8
 UL'KE-500;bus;500;9001;b;True;33
 ZHitikara-110;bus;110;578;b;False;8
-PRIV–êLOVSK–êYA;bus;500;50032;b;False;16
-–êktogaj-220;bus;220;483;b;False;4
-SH–êGOL;bus;500;4782;b;False;16
+PRIV¿LOVSK¿YA;bus;500;50032;b;False;16
+¿ktogaj-220;bus;220;483;b;False;4
+SH¿GOL;bus;500;4782;b;False;16
 BEKETOVO;bus;500;4709;b;False;16
-Z–êRYA;bus;500;1631;b;False;15
+Z¿RYA;bus;500;1631;b;False;15
 Kachary;bus;220;582;b;False;8
-M–êGNITOGORSK–êYA;bus;500;4785;b;False;16
+M¿GNITOGORSK¿YA;bus;500;4785;b;False;16
 CHelgashi;bus;220;585;b;True;8
-KOST–êN–êJSK–êYA;bus;500;590;b;False;8
+KOST¿N¿JSK¿YA;bus;500;590;b;False;8
 Kustanajskaya;bus;220;592;b;False;8
 TSentral'naya;bus;220;593;b;False;8
 ssgpo;bus;220;594;b;False;8
 Priural'skaya;bus;220;595;b;False;8
-ZL–êTOUST;bus;500;4715;b;False;16
-KROP–êCHEVO;bus;500;4714;b;False;16
-UFIMSK–êYA;bus;500;4712;b;False;16
+ZL¿TOUST;bus;500;4715;b;False;16
+KROP¿CHEVO;bus;500;4714;b;False;16
+UFIMSK¿YA;bus;500;4712;b;False;16
 Zarechnaya;bus;220;596;b;False;8
 CHELYABINSK;bus;500;4705;b;False;16
 ps 51;bus;220;251;b;False;19
 EHGREHS-1-500;bus;500;25;b;False;2
-EHKIB–êSTUZSK–êYA;bus;500;26;b;False;2
+EHKIB¿STUZSK¿YA;bus;500;26;b;False;2
 EHGREHS-2-500;bus;500;28;b;False;2
 ehgrehs-2-220;bus;220;29;b;False;2
 eehk-20-bl5-8;bus;20;30;b;False;2
@@ -84,18 +84,18 @@ Boshhak(T);bus;220;59;b;False;2
 ehgrehs-2-20;bus;19.6;60;b;False;2
 Taskudyk(T);bus;220;61;b;False;2
 ns 17;bus;220;307;b;True;3
-NUR–ê-500;bus;500;325;b;False;3
+NUR¿-500;bus;500;325;b;False;3
 TSGPP;bus;500;129;b;False;5
 Ermentau (t);bus;220;166;b;False;5
-RUBTSOVSK–êYA;bus;500;1621;b;False;15
-T–êVRICHESK–êYA;bus;500;1817;b;False;17
-IRTYSHSK–êYA;bus;500;1850;b;False;17
+RUBTSOVSK¿YA;bus;500;1621;b;False;15
+T¿VRICHESK¿YA;bus;500;1817;b;False;17
+IRTYSHSK¿YA;bus;500;1850;b;False;17
 KEHZ-1.2;bus;500;27;b;False;2
 ps-14;bus;220;214;b;False;1
 Rysaevo;bus;220;3102;b;True;16
 ps-18;bus;220;218;b;False;19
 shgehs-220;bus;220;220;b;False;19
-UST'-K–êMENOGRSK–êYA-500;bus;500;240;b;False;1
+UST'-K¿MENOGRSK¿YA-500;bus;500;240;b;False;1
 Ust'-Kamnogorskaya-220;bus;220;241;b;False;1
 shgehs-14;bus;13.8000001907;221;b;False;19
 zhgok;bus;220;222;b;False;19
@@ -110,7 +110,7 @@ Nura-220;bus;220;310;b;False;3
 grehs-2;bus;220;355;b;False;4
 Kara-murun;bus;220;450;b;True;4
 ZHaryk;bus;220;451;b;True;4
-–êjsa;bus;220;452;b;False;4
+¿jsa;bus;220;452;b;False;4
 ZHana-arka;bus;220;453;b;False;4
 Barsengir;bus;220;454;b;False;4
 Kumkol';bus;110;455;b;False;4
@@ -123,28 +123,28 @@ Karazhal;bus;220;465;b;False;4
 ZHezkazgan-220;bus;220;466;b;False;4
 Kumkol';bus;220;467;b;False;4
 Agadyr'-220;bus;220;468;b;False;4
-–êG–êDYR'-500;bus;500;469;b;False;4
+¿G¿DYR'-500;bus;500;469;b;False;4
 btehts-110;bus;110;471;b;False;4
 Balkhashskaya-110;bus;110;472;b;False;4
 Balkhashskaya-220;bus;220;473;b;False;4
-–êkchtau;bus;220;474;b;False;4
+¿kchtau;bus;220;474;b;False;4
 Mointy;bus;220;475;b;False;4
 Karazhingil;bus;220;476;b;True;4
 Saryshagan;bus;220;477;b;True;4
-ZHEZK–êZG–êN-500;bus;500;480;b;False;4
+ZHEZK¿ZG¿N-500;bus;500;480;b;False;4
 YUKGREHS;bus;500;900;b;False;9
 Mynaral;bus;220;924;b;True;9
 FRUNZE;bus;500;2919;b;False;50
 Kiyakhty;bus;220;930;b;True;9
 yukgrehs;bus;220;901;b;False;9
-–êLM–êTY;bus;500;902;b;False;9
-–êLM–ê;bus;500;938;b;False;9
-–êlmaty;bus;220;903;b;False;9
-–êlma;bus;220;939;b;False;9
+¿LM¿TY;bus;500;902;b;False;9
+¿LM¿;bus;500;938;b;False;9
+¿lmaty;bus;220;903;b;False;9
+¿lma;bus;220;939;b;False;9
 tehts-3 2ssh;bus;220;904;b;False;9
 Robot;bus;220;907;b;False;9
 Besagash;bus;220;940;b;False;9
-ps-62 –êT2;bus;220;908;b;False;9
+ps-62 ¿T2;bus;220;908;b;False;9
 Kapchagajskaya gehs-220;bus;220;909;b;False;9
 Kapchagajskaya gehs-14;bus;13.8000001907;910;b;True;9
 Mojnakskaya gehs-15-1;bus;15.75;937;b;True;9
@@ -160,8 +160,8 @@ Medeo;bus;220;928;b;False;9
 Taugul';bus;220;929;b;False;9
 ZHideli;bus;220;931;b;True;9
 SHu;bus;220;932;b;False;9
-–êspara;bus;220;814;b;False;11
-ZH–êMBYL;bus;500;800;b;False;11
+¿spara;bus;220;814;b;False;11
+ZH¿MBYL;bus;500;800;b;False;11
 ZHambyl;bus;220;801;b;False;11
 Burnoe;bus;220;802;b;False;11
 Karatau;bus;220;803;b;False;11
@@ -172,13 +172,13 @@ zhgrehs-110;bus;110;807;b;True;11
 Merke;bus;220;809;b;False;11
 ZHambyl Tyaga;bus;220;815;b;False;11
 Burnoe Tyaga;bus;220;816;b;True;11
-–êbdezim;bus;220;817;b;True;11
+¿bdezim;bus;220;817;b;True;11
 SHYMKENT-500;bus;500;830;b;False;12
 SHymkent-220;bus;220;831;b;False;12
 Sas-tyube;bus;220;834;b;False;12
 Vannovka;bus;220;835;b;False;12
 Badam;bus;220;836;b;True;12
-–êrys';bus;220;837;b;True;12
+¿rys';bus;220;837;b;True;12
 Montajtash;bus;220;838;b;True;12
 ZHylga;bus;220;839;b;False;12
 Kentau;bus;220;840;b;False;12
@@ -195,7 +195,7 @@ ZHanakorgan;bus;220;865;b;False;13
 ZHalagash;bus;220;866;b;True;13
 ZHusaly;bus;220;867;b;True;13
 Bishkek;bus;220;2918;b;False;50
-T–êSH.GREHS;bus;500;2924;b;False;18
+T¿SH.GREHS;bus;500;2924;b;False;18
 Tashkent;bus;220;2925;b;False;18
 gpp-1;bus;220;5958;b;True;14
 gpp-2;bus;220;5957;b;False;14
@@ -216,21 +216,21 @@ tsgpp;bus;220;130;b;False;5
 ZHaltyr (t);bus;220;132;b;False;5
 Tastak (t);bus;220;162;b;True;5
 Irchenko (t);bus;220;163;b;True;5
-–êtbasar;bus;220;134;b;False;5
+¿tbasar;bus;220;134;b;False;5
 kgpp;bus;220;135;b;False;6
 Krasnoarmejskaya;bus;220;159;b;False;7
 Kiyaly;bus;220;136;b;False;7
-B–êRN–êUL-500;bus;500;1630;b;False;15
+B¿RN¿UL-500;bus;500;1630;b;False;15
 ptehts-2-110;bus;110;142;b;False;7
 Smirnovo;bus;220;143;b;False;7
 ptehts-2-220;bus;220;144;b;False;7
-–êktogaj-110;bus;110;484;b;False;4
-–êVROR–ê;bus;500;147;b;False;7
-–êvrora;bus;220;148;b;False;7
-TULEBERDYEV–ê;bus;500;2915;b;True;51
+¿ktogaj-110;bus;110;484;b;False;4
+¿VROR¿;bus;500;147;b;False;7
+¿vrora;bus;220;148;b;False;7
+TULEBERDYEV¿;bus;500;2915;b;True;51
 Makinsk;bus;220;150;b;False;5
 Stepnaya;bus;220;151;b;False;6
-TOKTOGUL'SK–êYA GEHS;bus;500;2921;b;False;51
+TOKTOGUL'SK¿YA GEHS;bus;500;2921;b;False;51
 YAnko (t);bus;220;153;b;False;6
 Sibir';bus;110;160;b;True;7
 Buran;bus;220;173;b;False;6
@@ -243,9 +243,9 @@ Perekatnaya (t);bus;220;172;b;False;5
 op-80 (t);bus;220;165;b;True;5
 ZHaksy (t);bus;220;164;b;True;5
 Makushino;bus;220;4781;b;True;16
-KURG–êN;bus;500;4727;b;False;16
+KURG¿N;bus;500;4727;b;False;16
 SHU;bus;500;9932;b;False;9
-SMELOVSK–êYA;bus;500;50014;b;False;16
+SMELOVSK¿YA;bus;500;50014;b;False;16
 EHkibastuzskaya tehts;bus;6.1999998093;44;b;True;2
 arbz;bus;110;4004;b;True;33
 bgok;bus;220;62;b;False;2
@@ -255,26 +255,26 @@ SHymkentskaya TEHTS-3;bus;220;813;b;False;12
 Barnaul-220;bus;220;1640;b;True;15
 Ru-6;bus;220;869;b;False;13
 UZBEKISTON;bus;500;2922;b;True;18
-–êKTOG–êJ;bus;500;986;b;False;4
+¿KTOG¿J;bus;500;986;b;False;4
 Mojnakskaya gehs-220;bus;220;935;b;False;9
-–êLT–êJ;bus;500;1660;b;False;15
-SYRD–êR'INSK–êYA TEHS;bus;500;2923;b;True;18
+¿LT¿J;bus;500;1660;b;False;15
+SYRD¿R'INSK¿YA TEHS;bus;500;2923;b;True;18
 Rubtsovskaya;bus;220;1622;b;False;15
 LOCHIN;bus;500;2920;b;True;18
-B–êR–êBINSK–êYA;bus;500;9917;b;False;15
-KURCH–êTOVSK–êYA;bus;500;50002;b;False;16
+B¿R¿BINSK¿YA;bus;500;9917;b;False;15
+KURCH¿TOVSK¿YA;bus;500;50002;b;False;16
 ISET';bus;500;50001;b;False;16
 vehs erejmentau;bus;220;155;b;False;5
 sehs burnoe;bus;220;810;b;False;11
-YUZHNOUR–êL'SK–êYA GREHS-2;bus;500;47161;b;False;16
+YUZHNOUR¿L'SK¿YA GREHS-2;bus;500;47161;b;False;16
 Kemin;bus;220;2952;b;False;51
 Voskhod;bus;220;1854;b;False;17
 VOSKHOD;bus;500;1853;b;False;17
 VITYAZ';bus;500;1852;b;False;17
 KEMIN;bus;500;2951;b;False;51
-–êkmolinskaya TEHTS;bus;220;108;b;False;90
-D–êTK–ê;bus;500;2950;b;True;51
-–êkzhar;bus;220;3004;b;True;33
+¿kmolinskaya TEHTS;bus;220;108;b;False;90
+D¿TK¿;bus;500;2950;b;True;51
+¿kzhar;bus;220;3004;b;True;33
 Ermensaj;bus;220;942;b;False;9
 Mojnakskaya gehs-15-2;bus;15.75;941;b;True;9
 btehts-10;bus;10;470;b;True;4

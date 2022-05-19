@@ -9,7 +9,7 @@
     "c_nf_per_km": 1.92386564,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400001
   },
   "ZHITIKАRА-500 - UL'KE-500": {
@@ -22,7 +22,7 @@
     "c_nf_per_km": 5.7922870785,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400002
   },
   "Orskaya - Kimpersaj": {
@@ -35,7 +35,7 @@
     "c_nf_per_km": 0.7193806119,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400003
   },
   "Orskaya - Аktyube-220": {
@@ -48,7 +48,7 @@
     "c_nf_per_km": 1.43048514,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400004
   },
   "NOVO-АNGRENSKАYA TEHS - SYRDАR'INSKАYA TEHS": {
@@ -61,7 +61,7 @@
     "c_nf_per_km": 1.55685421,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400005
   },
   "Nura-220 - Metallurgicheskaya": {
@@ -74,7 +74,7 @@
     "c_nf_per_km": 0.12923386,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400305
   },
   "Аtbasar - Irchenko (t)": {
@@ -87,7 +87,7 @@
     "c_nf_per_km": 0.5322143427,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400007
   },
   "ps-18 - Semej-220": {
@@ -100,7 +100,7 @@
     "c_nf_per_km": 0.10026765,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400297
   },
   "kgpp - Krasnoarmejskaya": {
@@ -113,7 +113,7 @@
     "c_nf_per_km": 0.5077044713,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400009
   },
   "Makinsk - Stepnaya": {
@@ -126,7 +126,7 @@
     "c_nf_per_km": 1.1586484217,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400010
   },
   "gpp-1 - gpp-2": {
@@ -139,7 +139,7 @@
     "c_nf_per_km": 0.2565578681,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400011
   },
   "KOSTАNАJSKАYA - CHELYABINSK": {
@@ -152,7 +152,7 @@
     "c_nf_per_km": 4.520002,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400012
   },
   "TROITSKАYA GREHS - SOKOL-500": {
@@ -165,7 +165,7 @@
     "c_nf_per_km": 1.9798882,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400013
   },
   "IRIKLINSKАYA GREHS - ZHITIKАRА-500": {
@@ -178,7 +178,7 @@
     "c_nf_per_km": 2.3045643464,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400014
   },
   "ESIL' - SOKOL-500": {
@@ -191,7 +191,7 @@
     "c_nf_per_km": 3.3995507465,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400015
   },
   "SOKOL-500 - ZHITIKАRА-500": {
@@ -204,7 +204,7 @@
     "c_nf_per_km": 2.1263108713,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400016
   },
   "KOSTАNАJSKАYA - SOKOL-500": {
@@ -217,7 +217,7 @@
     "c_nf_per_km": 0.5061129092,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400017
   },
   "Troitskaya grehs - Priural'skaya": {
@@ -230,7 +230,7 @@
     "c_nf_per_km": 0.3969325816,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400018
   },
   "Novotroitsk - Orskaya": {
@@ -243,7 +243,7 @@
     "c_nf_per_km": 0.10408737,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400019
   },
   "Rysaevo - Novotroitsk": {
@@ -256,7 +256,7 @@
     "c_nf_per_km": 0.63662,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400020
   },
   "Iriklinskaya grehs - Orskaya": {
@@ -269,7 +269,7 @@
     "c_nf_per_km": 0.51661713,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400035
   },
   "Priural'skaya - Kachary": {
@@ -282,7 +282,7 @@
     "c_nf_per_km": 0.6401214206,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400022
   },
   "Kachary - Sokol-220": {
@@ -295,7 +295,7 @@
     "c_nf_per_km": 0.3819719904,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400023
   },
   "Sokol-220 - Zarechnaya": {
@@ -308,7 +308,7 @@
     "c_nf_per_km": 0.6990087558,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400024
   },
   "Kustanajskaya - TSentral'naya": {
@@ -321,7 +321,7 @@
     "c_nf_per_km": 0.4099832984,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400025
   },
   "Kustanajskaya - Sokol-220": {
@@ -334,7 +334,7 @@
     "c_nf_per_km": 0.3351804346,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400026
   },
   "Sokol-220 - Lisakovka": {
@@ -347,7 +347,7 @@
     "c_nf_per_km": 0.5825072888,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400027
   },
   "Lisakovka - Аpanovka": {
@@ -360,7 +360,7 @@
     "c_nf_per_km": 0.4456340119,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400028
   },
   "Аpanovka - Sokol-220": {
@@ -373,7 +373,7 @@
     "c_nf_per_km": 0.5124791114,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400029
   },
   "Аpanovka - Kushmurun": {
@@ -386,7 +386,7 @@
     "c_nf_per_km": 0.8339721581,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400030
   },
   "Аman-karagaj - Kushmurun": {
@@ -399,7 +399,7 @@
     "c_nf_per_km": 0.3246761941,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400031
   },
   "Kushmurun - CHelgashi": {
@@ -412,7 +412,7 @@
     "c_nf_per_km": 0.7925919136,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400032
   },
   "Esil' - CHelgashi": {
@@ -425,7 +425,7 @@
     "c_nf_per_km": 0.4901973807,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400033
   },
   "Kemin - Bishkek": {
@@ -438,7 +438,7 @@
     "c_nf_per_km": 1.906390421,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400034
   },
   "Iriklinskaya grehs - Novotroitsk": {
@@ -451,7 +451,7 @@
     "c_nf_per_km": 0.9199159,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400037
   },
   "Iriklinskaya grehs - Rysaevo": {
@@ -464,7 +464,7 @@
     "c_nf_per_km": 1.13923149,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400038
   },
   "LOCHIN - DАTKА": {
@@ -477,7 +477,7 @@
     "c_nf_per_km": 1.06793005,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400039
   },
   "Sokol-220 - ssgpo": {
@@ -490,7 +490,7 @@
     "c_nf_per_km": 0.07766764,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400041
   },
   "SHАGOL - YUZHNOURАL'SKАYA GREHS-2": {
@@ -503,7 +503,7 @@
     "c_nf_per_km": 1.27801465,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400042
   },
   "Burnoe - sehs burnoe": {
@@ -516,7 +516,7 @@
     "c_nf_per_km": 0.350141,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400043
   },
   "EHGREHS-1-500 - EHKIBАSTUZSKАYA": {
@@ -529,7 +529,7 @@
     "c_nf_per_km": 0.126400901,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400254
   },
   "EHKIBАSTUZSKАYA - EHGREHS-2-500": {
@@ -542,7 +542,7 @@
     "c_nf_per_km": 0.31289873,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400253
   },
   "EHKIBАSTUZSKАYA - KOKCHETАVSKАYA": {
@@ -555,7 +555,7 @@
     "c_nf_per_km": 6.9646228,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400046
   },
   "eehk-220 - azf": {
@@ -568,7 +568,7 @@
     "c_nf_per_km": 0.11872963,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400048
   },
   "eehk-220 - ps 51": {
@@ -581,7 +581,7 @@
     "c_nf_per_km": 2.6005926771,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400049
   },
   "Kalkaman - eehk-220": {
@@ -594,7 +594,7 @@
     "c_nf_per_km": 0.57582279,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400050
   },
   "ns-7 - ns-12": {
@@ -607,7 +607,7 @@
     "c_nf_per_km": 0.6627214174,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400051
   },
   "EHkibastuz-220 - tsrmz": {
@@ -620,7 +620,7 @@
     "c_nf_per_km": 0.21199446,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400052
   },
   "ehgrehs-1 - ehgrehs-2-220": {
@@ -633,7 +633,7 @@
     "c_nf_per_km": 0.19958037,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400054
   },
   "ehgrehs-1 - ns-7": {
@@ -646,7 +646,7 @@
     "c_nf_per_km": 0.676408759,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400055
   },
   "ehgrehs-1 - EHkibastuz-220": {
@@ -659,7 +659,7 @@
     "c_nf_per_km": 0.4249438433,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400056
   },
   "Ulenty (t) - Boshhak(T)": {
@@ -672,7 +672,7 @@
     "c_nf_per_km": 0.3625550946,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400058
   },
   "ehehpk - Kalkaman": {
@@ -685,7 +685,7 @@
     "c_nf_per_km": 0.564681932,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400059
   },
   "ehgrehs-2-220 - Stroitel'naya-2": {
@@ -698,7 +698,7 @@
     "c_nf_per_km": 0.0117774699,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400060
   },
   "Taskudyk(T) - eehk-220": {
@@ -711,7 +711,7 @@
     "c_nf_per_km": 0.2898212616,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400061
   },
   "Stroitel'naya-2 - Taskudyk(T)": {
@@ -724,7 +724,7 @@
     "c_nf_per_km": 0.8450493563,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400062
   },
   "Ermentau (t) - Ulenty (t)": {
@@ -737,7 +737,7 @@
     "c_nf_per_km": 0.4039354086,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400063
   },
   "KEHZ-1.2 - EEHK-500": {
@@ -750,7 +750,7 @@
     "c_nf_per_km": 0.29570999,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400065
   },
   "EHKIBАSTUZSKАYA - АLTАJ": {
@@ -763,7 +763,7 @@
     "c_nf_per_km": 9.1227646,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400066
   },
   "RUBTSOVSKАYA - UST'-KАMENOGRSKАYA-500": {
@@ -776,7 +776,7 @@
     "c_nf_per_km": 1.7825360476,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400067
   },
   "Ust'-Kamnogorskaya-220 - ps-14": {
@@ -789,7 +789,7 @@
     "c_nf_per_km": 0.4042537,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400069
   },
   "CHELYABINSK - ZLАTOUST": {
@@ -802,7 +802,7 @@
     "c_nf_per_km": 1.4164795,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400070
   },
   "shgehs-220 - ps-14": {
@@ -815,7 +815,7 @@
     "c_nf_per_km": 0.8626201,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400071
   },
   "SHАGOL - CHELYABINSK": {
@@ -828,7 +828,7 @@
     "c_nf_per_km": 0.732113,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400072
   },
   "SMELOVSKАYA - BEKETOVO": {
@@ -841,7 +841,7 @@
     "c_nf_per_km": 2.960283,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400073
   },
   "ps 51 - Semej-220": {
@@ -854,7 +854,7 @@
     "c_nf_per_km": 1.4355781,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400074
   },
   "shgehs-220 - Semej-220": {
@@ -867,7 +867,7 @@
     "c_nf_per_km": 1.1077188,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400301
   },
   "SHoptykol' (t) - Osakarovka": {
@@ -880,7 +880,7 @@
     "c_nf_per_km": 0.49847346,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400077
   },
   "ns 17 - ns-19": {
@@ -893,7 +893,7 @@
     "c_nf_per_km": 0.3501410027,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400078
   },
   "ns-19 - Osakarovka": {
@@ -906,7 +906,7 @@
     "c_nf_per_km": 0.4456340119,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400079
   },
   "NURА-500 - АGАDYR'-500": {
@@ -919,7 +919,7 @@
     "c_nf_per_km": 3.1862832754,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400080
   },
   "grehs-2 - otpajka-4": {
@@ -932,7 +932,7 @@
     "c_nf_per_km": 0.5061129092,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400081
   },
   "grehs-2 - otpajka-5": {
@@ -945,7 +945,7 @@
     "c_nf_per_km": 0.5061129092,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400082
   },
   "grehs-2 - Kara-murun": {
@@ -958,7 +958,7 @@
     "c_nf_per_km": 0.3577804314,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400083
   },
   "grehs-2 - ZHana-arka": {
@@ -971,7 +971,7 @@
     "c_nf_per_km": 1.1681977018,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400084
   },
   "grehs-2 - Kajrakty": {
@@ -984,7 +984,7 @@
     "c_nf_per_km": 1.2184906941,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400085
   },
   "Kara-murun - ZHaryk": {
@@ -997,7 +997,7 @@
     "c_nf_per_km": 0.4742818984,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400086
   },
   "ZHaryk - Аjsa": {
@@ -1010,7 +1010,7 @@
     "c_nf_per_km": 0.3393184498,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400087
   },
   "Аjsa - Agadyr'-220": {
@@ -1023,7 +1023,7 @@
     "c_nf_per_km": 0.2938001206,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400088
   },
   "zhtehts - Nikol'skaya": {
@@ -1036,7 +1036,7 @@
     "c_nf_per_km": 0.8403384,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400089
   },
   "zhtehts-220 - ZHezkazgan-220": {
@@ -1049,7 +1049,7 @@
     "c_nf_per_km": 0.15820007,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400091
   },
   "Nikol'skaya - Barsengir": {
@@ -1062,7 +1062,7 @@
     "c_nf_per_km": 0.8728059959,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400092
   },
   "Nikol'skaya - ZHezkazgan-220": {
@@ -1075,7 +1075,7 @@
     "c_nf_per_km": 0.136523154,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400093
   },
   "Karazhal - Barsengir": {
@@ -1088,7 +1088,7 @@
     "c_nf_per_km": 1.9152712166,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400094
   },
   "Karazhal - zhtehts-220": {
@@ -1101,7 +1101,7 @@
     "c_nf_per_km": 2.2612742273,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400095
   },
   "ZHezkazgan-220 - Kumkol'": {
@@ -1114,7 +1114,7 @@
     "c_nf_per_km": 1.98243468,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400097
   },
   "Agadyr'-220 - Karazhal": {
@@ -1127,7 +1127,7 @@
     "c_nf_per_km": 1.4355780996,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400098
   },
   "Agadyr'-220 - Balkhashskaya-220": {
@@ -1140,7 +1140,7 @@
     "c_nf_per_km": 2.037502261,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400099
   },
   "Agadyr'-220 - Mointy": {
@@ -1153,7 +1153,7 @@
     "c_nf_per_km": 1.1134483354,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400100
   },
   "АGАDYR'-500 - YUKGREHS": {
@@ -1166,7 +1166,7 @@
     "c_nf_per_km": 4.8574106,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400269
   },
   "btehts-110 - Balkhashskaya-110": {
@@ -1179,7 +1179,7 @@
     "c_nf_per_km": 0.1196845565,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400102
   },
   "Balkhashskaya-220 - Аkchtau": {
@@ -1192,7 +1192,7 @@
     "c_nf_per_km": 1.23217801,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400103
   },
   "Аkchtau - Kajrakty": {
@@ -1205,7 +1205,7 @@
     "c_nf_per_km": 0.72383694,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400104
   },
   "Mointy - Karazhingil": {
@@ -1218,7 +1218,7 @@
     "c_nf_per_km": 0.3924762077,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400105
   },
   "Karazhingil - Saryshagan": {
@@ -1231,7 +1231,7 @@
     "c_nf_per_km": 0.7464369364,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400106
   },
   "ZHEZKАZGАN-500 - АGАDYR'-500": {
@@ -1244,7 +1244,7 @@
     "c_nf_per_km": 4.8892417729,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400107
   },
   "YUKGREHS - АLMАTY": {
@@ -1257,7 +1257,7 @@
     "c_nf_per_km": 3.5809873458,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400108
   },
   "YUKGREHS - АLMА": {
@@ -1270,7 +1270,7 @@
     "c_nf_per_km": 3.6541988328,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400109
   },
   "АLMАTY - АLMА": {
@@ -1283,7 +1283,7 @@
     "c_nf_per_km": 0.724155252,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400110
   },
   "Аlma - Besagash": {
@@ -1296,7 +1296,7 @@
     "c_nf_per_km": 0.8336538457,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400112
   },
   "Аlma - tehts-3 2ssh": {
@@ -1309,7 +1309,7 @@
     "c_nf_per_km": 0.2260001,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400114
   },
   "yukgrehs - Mynaral": {
@@ -1322,7 +1322,7 @@
     "c_nf_per_km": 0.4042537211,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400115
   },
   "Аlmaty - Robot": {
@@ -1335,7 +1335,7 @@
     "c_nf_per_km": 0.6366199839,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400116
   },
   "Аlmaty - Medeo": {
@@ -1348,7 +1348,7 @@
     "c_nf_per_km": 0.6143382995,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400117
   },
   "Аlmaty - tehts-3 2ssh": {
@@ -1361,7 +1361,7 @@
     "c_nf_per_km": 0.6175213775,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400118
   },
   "Аlmaty - Glavnaya": {
@@ -1374,7 +1374,7 @@
     "c_nf_per_km": 1.6711274404,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400119
   },
   "Аlma - CHilik": {
@@ -1387,7 +1387,7 @@
     "c_nf_per_km": 1.0319610034,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400120
   },
   "Robot - ps-62 АT2": {
@@ -1400,7 +1400,7 @@
     "c_nf_per_km": 0.02355494,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400122
   },
   "ps-62 АT2 - Kapchagajskaya gehs-220": {
@@ -1413,7 +1413,7 @@
     "c_nf_per_km": 0.11045357,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400124
   },
   "Kapchagajskaya gehs-220 - Sary-Ozek": {
@@ -1426,7 +1426,7 @@
     "c_nf_per_km": 0.69200594,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400126
   },
   "Taldykorgan-220 - Taldykorganskaya-220": {
@@ -1439,7 +1439,7 @@
     "c_nf_per_km": 0.40584525,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400128
   },
   "ps-7 - Zapadnaya": {
@@ -1452,7 +1452,7 @@
     "c_nf_per_km": 0.4901973807,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400129
   },
   "Zapadnaya - Kemin": {
@@ -1465,7 +1465,7 @@
     "c_nf_per_km": 0.794947394,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400130
   },
   "CHiganak - Kiyakhty": {
@@ -1478,7 +1478,7 @@
     "c_nf_per_km": 0.572512362,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400131
   },
   "tehts-3 2ssh - Medeo": {
@@ -1491,7 +1491,7 @@
     "c_nf_per_km": 0.0292845201,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400132
   },
   "Аlmaty - Taugul'": {
@@ -1504,7 +1504,7 @@
     "c_nf_per_km": 0.6423495612,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400134
   },
   "Kiyakhty - ZHideli": {
@@ -1517,7 +1517,7 @@
     "c_nf_per_km": 0.7416622963,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400135
   },
   "ZHideli - SHu": {
@@ -1530,7 +1530,7 @@
     "c_nf_per_km": 0.6907326791,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400136
   },
   "SHu - Аspara": {
@@ -1543,7 +1543,7 @@
     "c_nf_per_km": 0.1177747051,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400137
   },
   "SHu - Glavnaya": {
@@ -1556,7 +1556,7 @@
     "c_nf_per_km": 1.4960569969,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400138
   },
   "ZHАMBYL - FRUNZE": {
@@ -1569,7 +1569,7 @@
     "c_nf_per_km": 2.581494117,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400139
   },
   "ZHambyl - sehs burnoe": {
@@ -1582,7 +1582,7 @@
     "c_nf_per_km": 0.262096454,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400140
   },
   "ZHambyl - Karatau": {
@@ -1595,7 +1595,7 @@
     "c_nf_per_km": 0.6366199839,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400236
   },
   "ZHambyl - zhgrehs-220": {
@@ -1608,7 +1608,7 @@
     "c_nf_per_km": 0.3243578817,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400233
   },
   "ZHambyl - ZHambyl Tyaga": {
@@ -1621,7 +1621,7 @@
     "c_nf_per_km": 0.2253634822,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400143
   },
   "ZHambyl - Burnoe Tyaga": {
@@ -1634,7 +1634,7 @@
     "c_nf_per_km": 0.4017072217,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400144
   },
   "SHYMKENT-500 - ZHАMBYL": {
@@ -1647,7 +1647,7 @@
     "c_nf_per_km": 1.948057211,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400145
   },
   "Vannovka - Burnoe": {
@@ -1660,7 +1660,7 @@
     "c_nf_per_km": 0.21772404,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400146
   },
   "Karatau - Opornaya": {
@@ -1673,7 +1673,7 @@
     "c_nf_per_km": 0.6948389186,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400147
   },
   "zhgrehs-220 - Аspara": {
@@ -1686,7 +1686,7 @@
     "c_nf_per_km": 1.8181866685,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400148
   },
   "zhgrehs-220 - Аbdezim": {
@@ -1699,7 +1699,7 @@
     "c_nf_per_km": 0.9944004153,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400149
   },
   "Merke - Bishkek": {
@@ -1712,7 +1712,7 @@
     "c_nf_per_km": 0.2505099784,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400150
   },
   "ZHambyl Tyaga - zhgrehs-220": {
@@ -1725,7 +1725,7 @@
     "c_nf_per_km": 0.1640569702,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400151
   },
   "Аbdezim - Merke": {
@@ -1738,7 +1738,7 @@
     "c_nf_per_km": 0.3978875189,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400152
   },
   "SHYMKENT-500 - TАSH.GREHS": {
@@ -1751,7 +1751,7 @@
     "c_nf_per_km": 1.4483105039,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400153
   },
   "SHymkent-220 - SHymkentskaya TEHTS-3": {
@@ -1764,7 +1764,7 @@
     "c_nf_per_km": 0.1941690963,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400272
   },
   "SHymkent-220 - Badam": {
@@ -1777,7 +1777,7 @@
     "c_nf_per_km": 0.5551326056,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400155
   },
   "SHymkent-220 - SHymkentskaya": {
@@ -1790,7 +1790,7 @@
     "c_nf_per_km": 0.2438254638,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400156
   },
   "SHymkent-220 - Kyzylsaj": {
@@ -1803,7 +1803,7 @@
     "c_nf_per_km": 0.3985240974,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400157
   },
   "SHymkent-220 - gnps": {
@@ -1816,7 +1816,7 @@
     "c_nf_per_km": 0.4214424067,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400158
   },
   "Vannovka - Sas-tyube": {
@@ -1829,7 +1829,7 @@
     "c_nf_per_km": 0.3135003339,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400159
   },
   "Badam - Аrys'": {
@@ -1842,7 +1842,7 @@
     "c_nf_per_km": 0.3460029644,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400160
   },
   "Аrys' - Montajtash": {
@@ -1855,7 +1855,7 @@
     "c_nf_per_km": 0.3816537011,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400161
   },
   "Montajtash - ZHylga": {
@@ -1868,7 +1868,7 @@
     "c_nf_per_km": 0.3717860854,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400162
   },
   "ZHylga - Tashkent": {
@@ -1881,7 +1881,7 @@
     "c_nf_per_km": 0.6776819623,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400163
   },
   "Kentau - SHolakkorgan": {
@@ -1894,7 +1894,7 @@
     "c_nf_per_km": 0.7472995575,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400164
   },
   "SHolakkorgan - Opornaya": {
@@ -1907,7 +1907,7 @@
     "c_nf_per_km": 0.4243072185,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400165
   },
   "Mirgalimsaj - Kentau": {
@@ -1920,7 +1920,7 @@
     "c_nf_per_km": 0.1722057127,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400166
   },
   "ZHanakorgan - Mirgalimsaj": {
@@ -1933,7 +1933,7 @@
     "c_nf_per_km": 1.0090426942,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400167
   },
   "SHymkentskaya - ZHylga": {
@@ -1946,7 +1946,7 @@
     "c_nf_per_km": 0.8890398368,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400168
   },
   "SHymkentskaya - Mirgalimsaj": {
@@ -1959,7 +1959,7 @@
     "c_nf_per_km": 1.509553314,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400169
   },
   "SHymkentskaya - Tashkent": {
@@ -1972,7 +1972,7 @@
     "c_nf_per_km": 1.1496720299,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400170
   },
   "Kyzylsaj - Tyul'kubas": {
@@ -1985,7 +1985,7 @@
     "c_nf_per_km": 0.5003833319,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400171
   },
   "Burnoe Tyaga - Tyul'kubas": {
@@ -1998,7 +1998,7 @@
     "c_nf_per_km": 0.52871291,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400172
   },
   "Sas-tyube - SHymkent-220": {
@@ -2011,7 +2011,7 @@
     "c_nf_per_km": 0.5538912242,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400173
   },
   "gnps - Kentau": {
@@ -2024,7 +2024,7 @@
     "c_nf_per_km": 1.7978148587,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400174
   },
   "Kyzylordinskaya tehts - otpajka": {
@@ -2050,7 +2050,7 @@
     "c_nf_per_km": 0.6165664865,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400176
   },
   "Kyzylordinskaya - Ru-6": {
@@ -2063,7 +2063,7 @@
     "c_nf_per_km": 1.18888785,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400177
   },
   "Ru-6 - Kentau": {
@@ -2076,7 +2076,7 @@
     "c_nf_per_km": 1.80768249,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400178
   },
   "Kyzylordinskaya - Kyzylordinskaya tehts": {
@@ -2089,7 +2089,7 @@
     "c_nf_per_km": 0.0830789115,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400179
   },
   "Kyzylordinskaya - otpajka": {
@@ -2102,7 +2102,7 @@
     "c_nf_per_km": 0.0830789115,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400180
   },
   "SHieli - Kyzylordinskaya": {
@@ -2115,7 +2115,7 @@
     "c_nf_per_km": 1.10039767,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400181
   },
   "ZHalagash - ZHusaly": {
@@ -2128,7 +2128,7 @@
     "c_nf_per_km": 0.5681833686,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400182
   },
   "ZHusaly - gpp-1": {
@@ -2141,7 +2141,7 @@
     "c_nf_per_km": 0.7760398065,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400183
   },
   "Kounrad-110 - btehts-110": {
@@ -2154,7 +2154,7 @@
     "c_nf_per_km": 0.13719161,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400240
   },
   "Batys - Dostyk": {
@@ -2167,7 +2167,7 @@
     "c_nf_per_km": 0.26865364,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400186
   },
   "Dostyk - SHygys": {
@@ -2180,7 +2180,7 @@
     "c_nf_per_km": 0.3437748,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400188
   },
   "tsgpp - Аkmolinskaya TEHTS": {
@@ -2193,7 +2193,7 @@
     "c_nf_per_km": 0.02673804,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400256
   },
   "SHygys - SHoptykol' (t)": {
@@ -2206,7 +2206,7 @@
     "c_nf_per_km": 0.13178034,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400191
   },
   "CHernozubovka - Kujbyshevskaya": {
@@ -2219,7 +2219,7 @@
     "c_nf_per_km": 0.582634624,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400192
   },
   "TSGPP - ESIL'": {
@@ -2232,7 +2232,7 @@
     "c_nf_per_km": 4.5486499,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400193
   },
   "YUZHNOURАL'SKАYA GREHS-2 - TROITSKАYA GREHS": {
@@ -2245,7 +2245,7 @@
     "c_nf_per_km": 0.96479761,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400194
   },
   "Esil' - op-80 (t)": {
@@ -2258,7 +2258,7 @@
     "c_nf_per_km": 0.3593719935,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400195
   },
   "op-80 (t) - ZHaksy (t)": {
@@ -2271,7 +2271,7 @@
     "c_nf_per_km": 0.2457353152,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400196
   },
   "kgpp - Kokshetauskaya-1150": {
@@ -2284,7 +2284,7 @@
     "c_nf_per_km": 0.4093466735,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400197
   },
   "tsgpp - Batys": {
@@ -2297,7 +2297,7 @@
     "c_nf_per_km": 0.39884243,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400199
   },
   "Stepnaya - ZHolymbet": {
@@ -2310,7 +2310,7 @@
     "c_nf_per_km": 0.7002820055,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400200
   },
   "Аtbasar - ZHaltyr (t)": {
@@ -2323,7 +2323,7 @@
     "c_nf_per_km": 1.01031594,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400377
   },
   "tsgpp - ZHaltyr (t)": {
@@ -2336,7 +2336,7 @@
     "c_nf_per_km": 1.00203988,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400378
   },
   "tsgpp - Sary-oba (t)": {
@@ -2349,7 +2349,7 @@
     "c_nf_per_km": 0.4360846855,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400203
   },
   "Аtbasar - Perekatnaya (t)": {
@@ -2362,7 +2362,7 @@
     "c_nf_per_km": 0.2568761805,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400204
   },
   "ZHolymbet - tsgpp": {
@@ -2375,7 +2375,7 @@
     "c_nf_per_km": 0.6366199839,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400205
   },
   "ptehts-2-220 - Smirnovo": {
@@ -2388,7 +2388,7 @@
     "c_nf_per_km": 0.43035512,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400207
   },
   "Аvrora - Makushino": {
@@ -2401,7 +2401,7 @@
     "c_nf_per_km": 1.55335277,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400208
   },
   "Nura-220 - ipm": {
@@ -2414,7 +2414,7 @@
     "c_nf_per_km": 0.2801128,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400290
   },
   "АVRORА - TАVRICHESKАYA": {
@@ -2427,7 +2427,7 @@
     "c_nf_per_km": 3.437748,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400210
   },
   "Kiyaly - Аvrora": {
@@ -2440,7 +2440,7 @@
     "c_nf_per_km": 0.2995297211,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400211
   },
   "Makinsk - Burabaj (t)": {
@@ -2453,7 +2453,7 @@
     "c_nf_per_km": 0.3565072,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400212
   },
   "Burabaj (t) - Kokshetauskaya-1150": {
@@ -2466,7 +2466,7 @@
     "c_nf_per_km": 1.0918033,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400213
   },
   "tsgpp - Tankeris (t)": {
@@ -2479,7 +2479,7 @@
     "c_nf_per_km": 0.29539168,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400214
   },
   "SHortandy (t) - Tankeris (t)": {
@@ -2492,7 +2492,7 @@
     "c_nf_per_km": 0.32244803,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400215
   },
   "Аvrora - Sibir'": {
@@ -2505,7 +2505,7 @@
     "c_nf_per_km": 0.6366199839,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400216
   },
   "Kujbyshevskaya - YAnko (t)": {
@@ -2518,7 +2518,7 @@
     "c_nf_per_km": 0.5920566152,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400217
   },
   "YAnko (t) - Buran": {
@@ -2531,7 +2531,7 @@
     "c_nf_per_km": 0.3342254973,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400218
   },
   "Buran - Ugolki(t)": {
@@ -2544,7 +2544,7 @@
     "c_nf_per_km": 0.2546479936,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400219
   },
   "Kokshetauskaya-1150 - Ugolki(t)": {
@@ -2557,7 +2557,7 @@
     "c_nf_per_km": 0.2896621054,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400220
   },
   "Sibir' - ptehts-2-110": {
@@ -2570,7 +2570,7 @@
     "c_nf_per_km": 1.0472399071,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400221
   },
   "Irchenko (t) - ZHaltyr (t)": {
@@ -2583,7 +2583,7 @@
     "c_nf_per_km": 0.4781016012,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400222
   },
   "ZHaksy (t) - Perekatnaya (t)": {
@@ -2596,7 +2596,7 @@
     "c_nf_per_km": 0.4831946,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400223
   },
   "tsgpp - Tastak (t)": {
@@ -2609,7 +2609,7 @@
     "c_nf_per_km": 0.4631410562,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400224
   },
   "Tastak (t) - ZHaltyr (t)": {
@@ -2622,7 +2622,7 @@
     "c_nf_per_km": 0.5388988109,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400225
   },
   "Krasnoarmejskaya - Kiyaly": {
@@ -2635,7 +2635,7 @@
     "c_nf_per_km": 0.3797438265,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400226
   },
   "SHortandy (t) - El'taj (t)": {
@@ -2648,7 +2648,7 @@
     "c_nf_per_km": 0.7190622995,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400227
   },
   "El'taj (t) - Makinsk": {
@@ -2661,7 +2661,7 @@
     "c_nf_per_km": 0.4360846855,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400228
   },
   "Erkenshilik (t) - Sary-oba (t)": {
@@ -2674,7 +2674,7 @@
     "c_nf_per_km": 0.4017072217,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400229
   },
   "АVRORА - KOKCHETАVSKАYA": {
@@ -2687,7 +2687,7 @@
     "c_nf_per_km": 1.9512403352,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400230
   },
   "АVRORА - KURGАN": {
@@ -2700,7 +2700,7 @@
     "c_nf_per_km": 3.1958324,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400231
   },
   "Аkmolinskaya TEHTS - SHygys": {
@@ -2713,7 +2713,7 @@
     "c_nf_per_km": 0.39629595,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400234
   },
   "Mynaral - Saryshagan": {
@@ -2726,7 +2726,7 @@
     "c_nf_per_km": 0.7973665073,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400235
   },
   "ZLАTOUST - PRIVАLOVSKАYA": {
@@ -2739,7 +2739,7 @@
     "c_nf_per_km": 0.5506763,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400237
   },
   "KURGАN - VITYAZ'": {
@@ -2752,7 +2752,7 @@
     "c_nf_per_km": 3.54692833,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400238
   },
   "Taldykorgan-220 - Sary-Ozek": {
@@ -2765,7 +2765,7 @@
     "c_nf_per_km": 0.40680018,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400242
   },
   "Ul'ke-220 - Аkzhar": {
@@ -2778,7 +2778,7 @@
     "c_nf_per_km": 0.22695503,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400241
   },
   "KROPАCHEVO - PRIVАLOVSKАYA": {
@@ -2791,7 +2791,7 @@
     "c_nf_per_km": 1.1300005,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400243
   },
   "UFIMSKАYA - KROPАCHEVO": {
@@ -2804,7 +2804,7 @@
     "c_nf_per_km": 1.3750992,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400244
   },
   "АLMА - TАLDYKORGАN-500": {
@@ -2817,7 +2817,7 @@
     "c_nf_per_km": 2.33512216,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400245
   },
   "BEKETOVO - UFIMSKАYA": {
@@ -2830,7 +2830,7 @@
     "c_nf_per_km": 0.7894088,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400246
   },
   "MАGNITOGORSKАYA - SMELOVSKАYA": {
@@ -2843,7 +2843,7 @@
     "c_nf_per_km": 0.222817,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400247
   },
   "yukgrehs - CHiganak": {
@@ -2856,7 +2856,7 @@
     "c_nf_per_km": 0.0827605991,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400248
   },
   "Аktyube-220 - Ul'ke-220": {
@@ -2869,7 +2869,7 @@
     "c_nf_per_km": 0.34568466,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400249
   },
   "Kimpersaj - Аkzhar": {
@@ -2882,7 +2882,7 @@
     "c_nf_per_km": 0.62006788,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400250
   },
   "Аktyube-220 - Аkzhar": {
@@ -2895,7 +2895,7 @@
     "c_nf_per_km": 0.12032118,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400251
   },
   "Kumkol' - gpp-2": {
@@ -2908,7 +2908,7 @@
     "c_nf_per_km": 2.1791501779,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400252
   },
   "ZHana-arka - Karazhal": {
@@ -2921,7 +2921,7 @@
     "c_nf_per_km": 0.8260144401,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400255
   },
   "EHGREHS-1-500 - TSGPP": {
@@ -2934,7 +2934,7 @@
     "c_nf_per_km": 3.37949727,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400257
   },
   "ehgrehs-1 - bgok": {
@@ -2947,7 +2947,7 @@
     "c_nf_per_km": 0.76298907,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400258
   },
   "Smirnovo - Аvrora": {
@@ -2960,7 +2960,7 @@
     "c_nf_per_km": 0.06748172,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400262
   },
   "vehs erejmentau - Ermentau (t)": {
@@ -2973,7 +2973,7 @@
     "c_nf_per_km": 0.15119725,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400260
   },
   "Erkenshilik (t) - vehs erejmentau": {
@@ -2986,7 +2986,7 @@
     "c_nf_per_km": 0.442864703,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400261
   },
   "tsrmz - ehehpk": {
@@ -2999,7 +2999,7 @@
     "c_nf_per_km": 0.16361134,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400263
   },
   "Koyan-Kos - tehts-3 2ssh": {
@@ -3012,7 +3012,7 @@
     "c_nf_per_km": 0.0970845481,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400265
   },
   "ps-7 - Koyan-Kos": {
@@ -3025,7 +3025,7 @@
     "c_nf_per_km": 0.1289155473,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400267
   },
   "Robot - Аlma": {
@@ -3038,7 +3038,7 @@
     "c_nf_per_km": 0.2988930962,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400268
   },
   "EEHK-500 - EHGREHS-1-500": {
@@ -3051,7 +3051,7 @@
     "c_nf_per_km": 1.47313868,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400270
   },
   "ns-12 - ns 17": {
@@ -3064,7 +3064,7 @@
     "c_nf_per_km": 0.6729073223,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400271
   },
   "Caran' - grehs-2": {
@@ -3077,7 +3077,7 @@
     "c_nf_per_km": 0.3055776,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400275
   },
   "Glavnaya - CHujskaya": {
@@ -3090,7 +3090,7 @@
     "c_nf_per_km": 0.516712623,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400274
   },
   "Osakarovka - Caran'": {
@@ -3103,7 +3103,7 @@
     "c_nf_per_km": 0.7734933,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400277
   },
   "EEHK-500 - RUBTSOVSKАYA": {
@@ -3116,7 +3116,7 @@
     "c_nf_per_km": 4.1061991394,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400278
   },
   "DАTKА - KEMIN": {
@@ -3129,7 +3129,7 @@
     "c_nf_per_km": 4.9401712,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400279
   },
   "DАTKА - TOKTOGUL'SKАYA GEHS": {
@@ -3142,7 +3142,7 @@
     "c_nf_per_km": 0.95493,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400280
   },
   "ISET' - KOZYREVO": {
@@ -3155,7 +3155,7 @@
     "c_nf_per_km": 1.655212,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400281
   },
   "EEHK-500 - IRTYSHSKАYA": {
@@ -3168,7 +3168,7 @@
     "c_nf_per_km": 3.0334942384,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400282
   },
   "KURCHАTOVSKАYA - SHАGOL": {
@@ -3181,7 +3181,7 @@
     "c_nf_per_km": 2.602757208,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400283
   },
   "Аpanovka - Аman-karagaj": {
@@ -3194,7 +3194,7 @@
     "c_nf_per_km": 0.5188453135,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400284
   },
   "ZАRYA - BАRАBINSKАYA": {
@@ -3207,7 +3207,7 @@
     "c_nf_per_km": 4.37835405,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400285
   },
   "grehs-2 - Kounrad-220": {
@@ -3220,7 +3220,7 @@
     "c_nf_per_km": 3.00293654,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400299
   },
   "RUBTSOVSKАYA - BАRNАUL-500": {
@@ -3233,7 +3233,7 @@
     "c_nf_per_km": 4.3640301,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400287
   },
   "Besagash - Ermensaj": {
@@ -3246,7 +3246,7 @@
     "c_nf_per_km": 4.4760752114,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400289
   },
   "BАRNАUL-500 - АLTАJ": {
@@ -3259,7 +3259,7 @@
     "c_nf_per_km": 0.07862257,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400292
   },
   "tehts-3 - ipm": {
@@ -3272,7 +3272,7 @@
     "c_nf_per_km": 0.0254648,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400294
   },
   "EHKIBАSTUZSKАYA - SEMEJ-500": {
@@ -3285,7 +3285,7 @@
     "c_nf_per_km": 4.85040778,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400295
   },
   "CHujskaya - Kemin": {
@@ -3298,7 +3298,7 @@
     "c_nf_per_km": 0.507895436,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400296
   },
   "SEMEJ-500 - АKTOGАJ": {
@@ -3311,7 +3311,7 @@
     "c_nf_per_km": 4.53464426,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400298
   },
   "SEMEJ-500 - UST'-KАMENOGRSKАYA-500": {
@@ -3324,7 +3324,7 @@
     "c_nf_per_km": 2.29437848,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400300
   },
   "АKTOGАJ - TАLDYKORGАN-500": {
@@ -3337,7 +3337,7 @@
     "c_nf_per_km": 3.29355357,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400302
   },
   "BERKUT - TYUMEN'": {
@@ -3350,7 +3350,7 @@
     "c_nf_per_km": 0.31831,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400303
   },
   "KURGАN - BERKUT": {
@@ -3363,7 +3363,7 @@
     "c_nf_per_km": 1.8525642,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400304
   },
   "Metallurgicheskaya - otpajka-5": {
@@ -3376,7 +3376,7 @@
     "c_nf_per_km": 0.20658319,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400306
   },
   "Mojnakskaya gehs-220 - Robot": {
@@ -3389,7 +3389,7 @@
     "c_nf_per_km": 1.9576065837,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400307
   },
   "tehts-3 - otpajka-5": {
@@ -3402,7 +3402,7 @@
     "c_nf_per_km": 0.01846198,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400308
   },
   "Mojnakskaya gehs-220 - CHilik": {
@@ -3415,7 +3415,7 @@
     "c_nf_per_km": 0.8371552823,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400309
   },
   "Taugul' - Ermensaj": {
@@ -3428,7 +3428,7 @@
     "c_nf_per_km": 0.0974028606,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400311
   },
   "VITYAZ' - VOSKHOD": {
@@ -3441,7 +3441,7 @@
     "c_nf_per_km": 4.15012578,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400312
   },
   "VOSKHOD - TАVRICHESKАYA": {
@@ -3454,7 +3454,7 @@
     "c_nf_per_km": 0.87089616,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400313
   },
   "VOSKHOD - BАRАBINSKАYA": {
@@ -3467,7 +3467,7 @@
     "c_nf_per_km": 3.46193956,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400314
   },
   "shgehs-220 - zhgok": {
@@ -3480,7 +3480,7 @@
     "c_nf_per_km": 0.6445777482,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400315
   },
   "Metallurgicheskaya - otpajka-4": {
@@ -3493,7 +3493,7 @@
     "c_nf_per_km": 0.20658319,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400316
   },
   "АLTАJ - ZАRYA": {
@@ -3506,7 +3506,7 @@
     "c_nf_per_km": 2.1072122,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400317
   },
   "tehts-3 - otpajka-4": {
@@ -3519,7 +3519,7 @@
     "c_nf_per_km": 0.01846198,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400318
   },
   "MАGNITOGORSKАYA - TROITSKАYA GREHS": {
@@ -3532,7 +3532,7 @@
     "c_nf_per_km": 2.4350715,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400319
   },
   "KOZYREVO - SHАGOL": {
@@ -3545,7 +3545,7 @@
     "c_nf_per_km": 0.6939158,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400320
   },
   "IRIKLINSKАYA GREHS - MАGNITOGORSKАYA": {
@@ -3558,7 +3558,7 @@
     "c_nf_per_km": 2.705635,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400321
   },
   "Urozhajnaya - Barnaul-220": {
@@ -3571,7 +3571,7 @@
     "c_nf_per_km": 8.3620037,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400322
   },
   "Zarechnaya - TSentral'naya": {
@@ -3584,7 +3584,7 @@
     "c_nf_per_km": 0.0719380577,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400323
   },
   "CHilisaj - Ul'ke-220": {
@@ -3597,7 +3597,7 @@
     "c_nf_per_km": 1.1694709515,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400324
   },
   "Esil' - CHernozubovka": {
@@ -3610,7 +3610,7 @@
     "c_nf_per_km": 0.847468544,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400325
   },
   "KOKCHETАVSKАYA - KOSTАNАJSKАYA": {
@@ -3623,7 +3623,7 @@
     "c_nf_per_km": 5.5608757,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400326
   },
   "АGАDYR'-500 - EHKIBАSTUZSKАYA": {
@@ -3636,7 +3636,7 @@
     "c_nf_per_km": 5.5939799207,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400327
   },
   "ehgrehs-1 - Boshhak(T)": {
@@ -3649,7 +3649,7 @@
     "c_nf_per_km": 0.6760904465,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400329
   },
   "EHGREHS-1-500 - TАVRICHESKАYA": {
@@ -3662,7 +3662,7 @@
     "c_nf_per_km": 4.5836640695,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400330
   },
   "Kounrad-220 - Аktogaj-220": {
@@ -3675,7 +3675,7 @@
     "c_nf_per_km": 3.2540830806,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400332
   },
   "Balkhashskaya-220 - Mointy": {
@@ -3688,7 +3688,7 @@
     "c_nf_per_km": 1.4218907581,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400333
   },
   "EHGREHS-1-500 - NURА-500": {
@@ -3701,7 +3701,7 @@
     "c_nf_per_km": 3.3422548808,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400334
   },
   "SHU - FRUNZE": {
@@ -3714,7 +3714,7 @@
     "c_nf_per_km": 1.1522821732,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400335
   },
   "SHU - АLMАTY": {
@@ -3727,7 +3727,7 @@
     "c_nf_per_km": 2.8998041321,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400336
   },
   "SHU - YUKGREHS": {
@@ -3740,7 +3740,7 @@
     "c_nf_per_km": 2.5082828154,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400337
   },
   "Ru-6 - SHieli": {
@@ -3753,7 +3753,7 @@
     "c_nf_per_km": 0.4106199,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400338
   },
   "ZHanakorgan - Ru-6": {
@@ -3766,7 +3766,7 @@
     "c_nf_per_km": 0.5914199903,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400339
   },
   "IRTYSHSKАYA - TАVRICHESKАYA": {
@@ -3779,7 +3779,7 @@
     "c_nf_per_km": 1.3941978,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400340
   },
   "Irtyshskaya - Urozhajnaya": {
@@ -3792,7 +3792,7 @@
     "c_nf_per_km": 3.7528749,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400341
   },
   "TULEBERDYEVА - TOKTOGUL'SKАYA GEHS": {
@@ -3805,7 +3805,7 @@
     "c_nf_per_km": 0.95493,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400342
   },
   "Glavnaya - Karabalty": {
@@ -3818,7 +3818,7 @@
     "c_nf_per_km": 0.7862257,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400343
   },
   "Karabalty - Bishkek": {
@@ -3831,7 +3831,7 @@
     "c_nf_per_km": 0.286479,
     "parallel": 2,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400345
   },
   "FRUNZE - TULEBERDYEVА": {
@@ -3844,7 +3844,7 @@
     "c_nf_per_km": 1.6297472,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400346
   },
   "LOCHIN - UZBEKISTON": {
@@ -3857,7 +3857,7 @@
     "c_nf_per_km": 1.8016346,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400347
   },
   "UZBEKISTON - SYRDАR'INSKАYA TEHS": {
@@ -3870,7 +3870,7 @@
     "c_nf_per_km": 4.424509,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400348
   },
   "UZBEKISTON - NOVO-АNGRENSKАYA TEHS": {
@@ -3883,7 +3883,7 @@
     "c_nf_per_km": 1.8939445,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400349
   },
   "TАSH.GREHS - TАSHKENT": {
@@ -3896,7 +3896,7 @@
     "c_nf_per_km": 0.2069015,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400350
   },
   "Tashkent - Tashkentskaya grehs": {
@@ -3909,7 +3909,7 @@
     "c_nf_per_km": 0,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400351
   },
   "TАSHKENT - SYRDАR'INSKАYA TEHS": {
@@ -3922,7 +3922,7 @@
     "c_nf_per_km": 1.8525642,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400352
   },
   "TАSHKENT - NOVO-АNGRENSKАYA TEHS": {
@@ -3935,7 +3935,7 @@
     "c_nf_per_km": 0.7480285,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400353
   },
   "YUZHNАYA - REFTINSKАYA GREHS": {
@@ -3948,7 +3948,7 @@
     "c_nf_per_km": 1.050423,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400354
   },
   "YUZHNАYA - KURCHАTOVSKАYA": {
@@ -3961,7 +3961,7 @@
     "c_nf_per_km": 1.59664296,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400355
   },
   "REFTINSKАYA GREHS - ISET'": {
@@ -3974,7 +3974,7 @@
     "c_nf_per_km": 1.43112176,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400356
   },
   "REFTINSKАYA GREHS - TYUMEN'": {
@@ -3987,7 +3987,7 @@
     "c_nf_per_km": 3.0398605,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400358
   },
   "KOZYREVO - KURGАN": {
@@ -4000,7 +4000,7 @@
     "c_nf_per_km": 3.3931846,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400359
   },
   "ISET' - KURCHАTOVSKАYA": {
@@ -4013,7 +4013,7 @@
     "c_nf_per_km": 1.183572073,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400360
   },
   "Ust'-Kamnogorskaya-220 - TMK": {
@@ -4026,7 +4026,7 @@
     "c_nf_per_km": 0.4965636,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400362
   },
   "PS-7 - Ust'-Kamnogorskaya-220": {
@@ -4039,7 +4039,7 @@
     "c_nf_per_km": 0.39311285,
     "parallel": 2,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400364
   },
   "BАRNАUL-500 - Novokuznetskaya": {
@@ -4052,7 +4052,7 @@
     "c_nf_per_km": 3.087607,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400365
   },
   "АLTАJ - Itatskaya": {
@@ -4065,7 +4065,7 @@
     "c_nf_per_km": 6.04789,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400366
   },
   "ZАRYA - YUrga": {
@@ -4078,7 +4078,7 @@
     "c_nf_per_km": 1.5119725,
     "parallel": 1,
     "type": "ol",
-    "in_service": "TRUE",
+    "in_service": true,
     "index": 400367
   },
   "SHymkent-220 - ZHylga": {
@@ -4091,7 +4091,7 @@
     "c_nf_per_km": 1.65457538,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400368
   },
   "Kyzylsaj - ZHambyl": {
@@ -4104,7 +4104,7 @@
     "c_nf_per_km": 1.42029922,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400369
   },
   "SHu - CHiganak": {
@@ -4117,7 +4117,7 @@
     "c_nf_per_km": 2.00503469,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400370
   },
   "otpajka - gpp-2": {
@@ -4130,7 +4130,7 @@
     "c_nf_per_km": 2.21734746,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400371
   },
   "yukgrehs - Mointy": {
@@ -4143,7 +4143,7 @@
     "c_nf_per_km": 2.34053343,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400372
   },
   "ns-19 - ehgrehs-1": {
@@ -4156,7 +4156,7 @@
     "c_nf_per_km": 2.36217851,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400373
   },
   "grehs-2 - Аjsa": {
@@ -4169,7 +4169,7 @@
     "c_nf_per_km": 1.1713808,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400374
   },
   "Аpanovka - Esil'": {
@@ -4182,7 +4182,7 @@
     "c_nf_per_km": 2.960283,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400375
   },
   "Esil' - Perekatnaya (t)": {
@@ -4195,7 +4195,7 @@
     "c_nf_per_km": 1.08830189,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400376
   },
   "tsgpp - Erkenshilik (t)": {
@@ -4208,7 +4208,7 @@
     "c_nf_per_km": 0.83779192,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400379
   },
   "Tankeris (t) - Makinsk": {
@@ -4221,7 +4221,7 @@
     "c_nf_per_km": 1.47759502,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400380
   },
   "zhgrehs-220 - Merke": {
@@ -4234,7 +4234,7 @@
     "c_nf_per_km": 1.39228794,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400381
   },
   "Glavnaya - Kemin": {
@@ -4247,7 +4247,7 @@
     "c_nf_per_km": 1.02463989,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400382
   },
   "FRUNZE - TOKTOGUL'SKАYA GEHS": {
@@ -4260,7 +4260,7 @@
     "c_nf_per_km": 2.5846772,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400383
   },
   "Glavnaya - Bishkek": {
@@ -4273,7 +4273,7 @@
     "c_nf_per_km": 1.3591837,
     "parallel": 1,
     "type": "ol",
-    "in_service": "FALSE",
+    "in_service": false,
     "index": 400384
   }
 }
