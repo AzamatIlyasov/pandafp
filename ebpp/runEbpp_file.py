@@ -2,6 +2,10 @@ import pandapower as pp
 import pandas as pd
 import pandapower.plotting.plotly as pltly
 import pandapower.plotting as plt
+import matplotlib.pyplot as matplt
+
+import pandapower.topology as top
+import networkx as nx
 
 import json
 import os
@@ -45,3 +49,8 @@ if status == "SIM_REQUEST":
     resultRun = ebpp.sim_request(data)
 print("RESULT:", resultRun)
 
+mg = top.create_nxgraph(resultRun, respect_switches = False)
+subax1 = matplt.subplot(121)
+nx.draw(mg, with_labels=True, font_weight='bold')
+subax2 = matplt.subplot(122)
+nx.draw_shell(mg, nlist=[range(5, 10), range(5)], with_labels=True, font_weight='bold')
