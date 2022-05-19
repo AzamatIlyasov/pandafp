@@ -13,7 +13,7 @@ required_props = {
     "switch":   [ "bus", "element", "et" ],
     #"trafo":   ["hv_bus", "lv_bus", "std_type"],
     #"trafoStd":["hv_bus", "lv_bus", "std_type"],
-    "trafo":    [ "hv_bus", "lv_bus", "sn_mva", "vn_hv_kv", "vn_lv_kv", "vk_percent", "vkr_percent", "pfe_kw", "i0_percent" ],
+    "trafo":    [ "hv_bus", "lv_bus", "sn_mva", "vn_hv_kv", "vn_lv_kv", "vkr_percent", "vk_percent", "pfe_kw", "i0_percent" ],
     
     "storage":  [ "bus", "p_mw", "max_e_mwh" ],
     "gen":      [ "bus", "p_mw" ],

@@ -1,1872 +1,2301 @@
 {
-  "Аktyube-220": {
+  "300001": {
+    "name": "Актюбе-220",
     "etype": "gen",
     "bus": 3006,
     "p_mw": 276,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 22,
-    "max_q_mvar": 112,
-    "index": 300001
+    "max_q_mvar": 112
   },
-  "NOVO-АNGRENSKАYA TEHS": {
+  "300002": {
+    "name": "НОВО-АНГРЕНСКАЯ ТЭС",
     "etype": "gen",
     "bus": 2945,
     "p_mw": 1778,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -300,
-    "max_q_mvar": 1200,
-    "index": 300002
+    "max_q_mvar": 1200
   },
-  "tehts-3": {
+  "300003": {
+    "name": "тэц-3",
     "etype": "gen",
     "bus": 383,
     "p_mw": 602,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -266,
-    "max_q_mvar": 535,
-    "index": 300003
+    "max_q_mvar": 535
   },
-  "Metallurgicheskaya": {
+  "300004": {
+    "name": "Металлургическая",
     "etype": "gen",
     "bus": 384,
     "p_mw": 353,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -128,
-    "max_q_mvar": 329,
-    "index": 300004
+    "max_q_mvar": 329
   },
-  "Tashkentskaya grehs": {
+  "300005": {
+    "name": "Ташкентская грэс",
     "etype": "gen",
     "bus": 2926,
     "p_mw": 123,
     "vm_pu": 1.99,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -500,
-    "max_q_mvar": 920,
-    "index": 300005
+    "max_q_mvar": 920
   },
-  "CHilisaj": {
+  "300006": {
+    "name": "Чилисай",
     "etype": "gen",
     "bus": 3019,
     "p_mw": 186,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 8,
-    "max_q_mvar": 74,
-    "index": 300006
+    "max_q_mvar": 74
   },
-  "TYUMEN'": {
+  "300007": {
+    "name": "ТЮМЕНЬ",
     "etype": "gen",
     "bus": 4730,
     "p_mw": 3760,
     "vm_pu": 1.13,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -1000,
-    "max_q_mvar": 1000,
-    "index": 300007
+    "max_q_mvar": 1000
   },
-  "IRIKLINSKАYA GREHS": {
+  "300008": {
+    "name": "ИРИКЛИНСКАЯ ГРЭС",
     "etype": "gen",
     "bus": 4790,
     "p_mw": 474,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -200,
-    "max_q_mvar": 200,
-    "index": 300008
+    "max_q_mvar": 200
   },
-  "TROITSKАYA GREHS": {
+  "300009": {
+    "name": "ТРОИЦКАЯ ГРЭС",
     "etype": "gen",
     "bus": 4799,
     "p_mw": 748,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -500,
-    "max_q_mvar": 500,
-    "index": 300009
+    "max_q_mvar": 500
   },
-  "REFTINSKАYA GREHS": {
+  "300010": {
+    "name": "РЕФТИНСКАЯ ГРЭС",
     "etype": "gen",
     "bus": 4702,
     "p_mw": 2850,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -1000,
-    "max_q_mvar": 1050,
-    "index": 300010
+    "max_q_mvar": 1050
   },
-  "SHАGOL": {
+  "300011": {
+    "name": "ШАГОЛ",
     "etype": "gen",
     "bus": 4782,
     "p_mw": -1282.7562842038,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300011
+    "max_q_mvar": 0
   },
-  "BEKETOVO": {
+  "300012": {
+    "name": "БЕКЕТОВО",
     "etype": "gen",
     "bus": 4709,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300012
+    "max_q_mvar": 0
   },
-  "ZАRYA": {
+  "300013": {
+    "name": "ЗАРЯ",
     "etype": "gen",
     "bus": 1631,
     "p_mw": 2857,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -1000,
-    "max_q_mvar": 1000,
-    "index": 300013
+    "max_q_mvar": 1000
   },
-  "MАGNITOGORSKАYA": {
+  "300014": {
+    "name": "МАГНИТОГОРСКАЯ",
     "etype": "gen",
     "bus": 4785,
     "p_mw": 500,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -500,
-    "max_q_mvar": 500,
-    "index": 300014
+    "max_q_mvar": 500
   },
-  "ssgpo": {
+  "300015": {
+    "name": "ссгпо",
     "etype": "gen",
     "bus": 594,
     "p_mw": 94,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -58.5,
-    "max_q_mvar": 112,
-    "index": 300015
+    "max_q_mvar": 112
   },
-  "CHELYABINSK": {
+  "300016": {
+    "name": "ЧЕЛЯБИНСК",
     "etype": "gen",
     "bus": 4705,
     "p_mw": 411.5012767902,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300016
+    "max_q_mvar": 0
   },
-  "eehk-20-bl5-8": {
+  "300017": {
+    "name": "еэк-20-бл5-8",
     "etype": "gen",
     "bus": 30,
     "p_mw": 587,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -113,
-    "max_q_mvar": 387,
-    "index": 300017
+    "max_q_mvar": 387
   },
-  "eehk-20-bl2-4": {
+  "300018": {
+    "name": "еэк-20-бл2-4",
     "etype": "gen",
     "bus": 32,
     "p_mw": 916,
     "vm_pu": 1.97,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -117,
-    "max_q_mvar": 603,
-    "index": 300018
+    "max_q_mvar": 603
   },
-  "eehk-220": {
+  "300019": {
+    "name": "еэк-220",
     "etype": "gen",
     "bus": 33,
     "p_mw": 925,
     "vm_pu": 1.17,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -33,
-    "max_q_mvar": 967,
-    "index": 300019
+    "max_q_mvar": 967
   },
-  "EHkibastuz-220": {
+  "300020": {
+    "name": "Экибастуз-220",
     "etype": "gen",
     "bus": 38,
     "p_mw": 12,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 9,
-    "index": 300020
+    "max_q_mvar": 9
   },
-  "ehgrehs-1-bl2": {
+  "300021": {
+    "name": "эгрэс-1-бл2",
     "etype": "gen",
     "bus": 50,
     "p_mw": 501,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -189.8,
-    "max_q_mvar": 350.2,
-    "index": 300021
+    "max_q_mvar": 350.2
   },
-  "ehgrehs-1-bl3-8": {
+  "300022": {
+    "name": "эгрэс-1-бл3-8",
     "etype": "gen",
     "bus": 51,
     "p_mw": 1784,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -567.3,
-    "max_q_mvar": 1345.1,
-    "index": 300022
+    "max_q_mvar": 1345.1
   },
-  "ehgrehs-2-20": {
+  "300023": {
+    "name": "эгрэс-2-20",
     "etype": "gen",
     "bus": 60,
     "p_mw": 921,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -343.7,
-    "max_q_mvar": 661.6,
-    "index": 300023
+    "max_q_mvar": 661.6
   },
-  "shgehs-14": {
+  "300024": {
+    "name": "шгэс-14",
     "etype": "gen",
     "bus": 221,
     "p_mw": 152,
     "vm_pu": 1.13,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -210.1538461538,
-    "max_q_mvar": 80.6153846154,
-    "index": 300024
+    "max_q_mvar": 80.6153846154
   },
-  "grehs-2": {
+  "300025": {
+    "name": "грэс-2",
     "etype": "gen",
     "bus": 355,
     "p_mw": 508,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -80,
-    "max_q_mvar": 417,
-    "index": 300025
+    "max_q_mvar": 417
   },
-  "Kumkol'": {
+  "300026": {
+    "name": "Кумколь",
     "etype": "gen",
     "bus": 455,
     "p_mw": 131,
     "vm_pu": 1.19,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -5.5,
-    "max_q_mvar": 61,
-    "index": 300074
+    "max_q_mvar": 61
   },
-  "zhtehts": {
+  "300027": {
+    "name": "жтэц",
     "etype": "gen",
     "bus": 462,
     "p_mw": 200,
     "vm_pu": 1.19,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -13,
-    "max_q_mvar": 147,
-    "index": 300077
+    "max_q_mvar": 147
   },
-  "zhtehts-220": {
+  "300028": {
+    "name": "жтэц-220",
     "etype": "gen",
     "bus": 463,
     "p_mw": 200,
     "vm_pu": 1.17,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 25,
-    "max_q_mvar": 235,
-    "index": 300078
+    "max_q_mvar": 235
   },
-  "btehts-110": {
+  "300029": {
+    "name": "бтэц-110",
     "etype": "gen",
     "bus": 471,
     "p_mw": 120,
     "vm_pu": 1.1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 20,
-    "max_q_mvar": 90,
-    "index": 300083
+    "max_q_mvar": 90
   },
-  "tehts-3 2ssh": {
+  "300030": {
+    "name": "тэц-3 2сш",
     "etype": "gen",
     "bus": 904,
     "p_mw": 169,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 20,
-    "max_q_mvar": 160,
-    "index": 300093
+    "max_q_mvar": 160
   },
-  "Robot": {
+  "300031": {
+    "name": "Робот",
     "etype": "gen",
     "bus": 907,
     "p_mw": 1,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300094
+    "max_q_mvar": 0
   },
-  "Kapchagajskaya gehs-220": {
+  "300032": {
+    "name": "Капчагайская гэс-220",
     "etype": "gen",
     "bus": 909,
     "p_mw": 89,
     "vm_pu": 1.19,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 112,
-    "index": 300032
+    "max_q_mvar": 112
   },
-  "Kapchagajskaya gehs-14": {
+  "300033": {
+    "name": "Капчагайская гэс-14",
     "etype": "gen",
     "bus": 910,
     "p_mw": 89,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 112,
-    "index": 300033
+    "max_q_mvar": 112
   },
-  "Mojnakskaya gehs-15-1": {
+  "300034": {
+    "name": "Мойнакская гэс-15-1",
     "etype": "gen",
     "bus": 937,
     "p_mw": 146,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -11144,
-    "max_q_mvar": 87992,
-    "index": 300034
+    "max_q_mvar": 87992
   },
-  "ps-7": {
+  "300035": {
+    "name": "пс-7",
     "etype": "gen",
     "bus": 913,
     "p_mw": 483,
     "vm_pu": 1.19,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 65,
-    "max_q_mvar": 380,
-    "index": 300098
+    "max_q_mvar": 380
   },
-  "Taldykorganskaya-220": {
+  "300036": {
+    "name": "Талдыкорганская-220",
     "etype": "gen",
     "bus": 951,
     "p_mw": 40,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300102
+    "max_q_mvar": 0
   },
-  "Glavnaya": {
+  "300037": {
+    "name": "Главная",
     "etype": "gen",
     "bus": 2916,
     "p_mw": 270,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -90,
-    "max_q_mvar": 90,
-    "index": 300103
+    "max_q_mvar": 90
   },
-  "zhgrehs-220": {
+  "300038": {
+    "name": "жгрэс-220",
     "etype": "gen",
     "bus": 805,
     "p_mw": 370,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 220,
-    "max_q_mvar": 762,
-    "index": 300113
+    "max_q_mvar": 762
   },
-  "zhgrehs-16": {
+  "300039": {
+    "name": "жгрэс-16",
     "etype": "gen",
     "bus": 806,
     "p_mw": 161,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -39,
-    "max_q_mvar": 139.55,
-    "index": 300114
+    "max_q_mvar": 139.55
   },
-  "zhgrehs-110": {
+  "300040": {
+    "name": "жгрэс-110",
     "etype": "gen",
     "bus": 807,
     "p_mw": 209,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -58,
-    "max_q_mvar": 152,
-    "index": 300115
+    "max_q_mvar": 152
   },
-  "Kyzylordinskaya tehts": {
+  "300041": {
+    "name": "Кызылординская тэц",
     "etype": "gen",
     "bus": 860,
     "p_mw": 52,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -31.6,
-    "max_q_mvar": 67.3,
-    "index": 300132
+    "max_q_mvar": 67.3
   },
-  "TАSH.GREHS": {
+  "300042": {
+    "name": "ТАШ.ГРЭС",
     "etype": "gen",
     "bus": 2924,
     "p_mw": 2864,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -1000,
-    "max_q_mvar": 1000,
-    "index": 300139
+    "max_q_mvar": 1000
   },
-  "Tashkent": {
+  "300043": {
+    "name": "Ташкент",
     "etype": "gen",
     "bus": 2925,
     "p_mw": 123,
     "vm_pu": 1.99,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -500,
-    "max_q_mvar": 960,
-    "index": 300043
+    "max_q_mvar": 960
   },
-  "Iriklinskaya grehs": {
+  "300044": {
+    "name": "Ириклинская грэс",
     "etype": "gen",
     "bus": 4791,
     "p_mw": 227,
     "vm_pu": 1.1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -400,
-    "max_q_mvar": 300,
-    "index": 300141
+    "max_q_mvar": 300
   },
-  "BАRNАUL-500": {
+  "300045": {
+    "name": "БАРНАУЛ-500",
     "etype": "gen",
     "bus": 1630,
     "p_mw": 2523,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -1000,
-    "max_q_mvar": 1000,
-    "index": 300160
+    "max_q_mvar": 1000
   },
-  "ptehts-2-110": {
+  "300046": {
+    "name": "птэц-2-110",
     "etype": "gen",
     "bus": 142,
     "p_mw": 295,
     "vm_pu": 1.17,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -134,
-    "max_q_mvar": 346,
-    "index": 300161
+    "max_q_mvar": 346
   },
-  "ptehts-2-220": {
+  "300047": {
+    "name": "птэц-2-220",
     "etype": "gen",
     "bus": 144,
     "p_mw": 172,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -64,
-    "max_q_mvar": 152,
-    "index": 300162
+    "max_q_mvar": 152
   },
-  "Stepnaya": {
+  "300048": {
+    "name": "Степная",
     "etype": "gen",
     "bus": 151,
     "p_mw": 108,
     "vm_pu": 1.17,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 12,
-    "max_q_mvar": 189,
-    "index": 300167
+    "max_q_mvar": 189
   },
-  "TOKTOGUL'SKАYA GEHS": {
+  "300049": {
+    "name": "ТОКТОГУЛЬСКАЯ ГЭС",
     "etype": "gen",
     "bus": 2921,
     "p_mw": 2360,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -800,
-    "max_q_mvar": 800,
-    "index": 300168
+    "max_q_mvar": 800
   },
-  "KURGАN": {
+  "300050": {
+    "name": "КУРГАН",
     "etype": "gen",
     "bus": 4727,
     "p_mw": 500,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -500,
-    "max_q_mvar": 500,
-    "index": 300178
+    "max_q_mvar": 500
   },
-  "EHkibastuzskaya tehts": {
+  "300051": {
+    "name": "Экибастузская тэц",
     "etype": "gen",
     "bus": 44,
     "p_mw": 12,
     "vm_pu": 1.97,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 9,
-    "index": 300180
+    "max_q_mvar": 9
   },
-  "arbz": {
+  "300052": {
+    "name": "арбз",
     "etype": "gen",
     "bus": 4004,
     "p_mw": 40,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -10,
-    "max_q_mvar": 20,
-    "index": 300181
+    "max_q_mvar": 20
   },
-  "wtu 2.0": {
+  "300053": {
+    "name": "wtu 2.0",
     "etype": "gen",
     "bus": 191,
     "p_mw": 6,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -5,
-    "max_q_mvar": 5,
-    "index": 300053
+    "max_q_mvar": 5
   },
-  "SHymkentskaya TEHTS-3": {
+  "300054": {
+    "name": "Шымкентская ТЭЦ-3",
     "etype": "gen",
     "bus": 813,
     "p_mw": 57,
     "vm_pu": 1.18,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -105,
-    "max_q_mvar": 185,
-    "index": 300184
+    "max_q_mvar": 185
   },
-  "Mojnakskaya gehs-220": {
+  "300055": {
+    "name": "Мойнакская гэс-220",
     "etype": "gen",
     "bus": 935,
     "p_mw": 146,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -24,
-    "max_q_mvar": 202,
-    "index": 300055
+    "max_q_mvar": 202
   },
-  "АLTАJ": {
+  "300056": {
+    "name": "АЛТАЙ",
     "etype": "gen",
     "bus": 1660,
     "p_mw": 12865,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -6000,
-    "max_q_mvar": 6000,
-    "index": 300188
+    "max_q_mvar": 6000
   },
-  "SYRDАR'INSKАYA TEHS": {
+  "300057": {
+    "name": "СЫРДАРЬИНСКАЯ ТЭС",
     "etype": "gen",
     "bus": 2923,
     "p_mw": 5240,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -2000,
-    "max_q_mvar": 10300,
-    "index": 300189
+    "max_q_mvar": 10300
   },
-  "KURCHАTOVSKАYA": {
+  "300058": {
+    "name": "КУРЧАТОВСКАЯ",
     "etype": "gen",
     "bus": 50002,
     "p_mw": 850,
     "vm_pu": 1.13,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -60,
-    "max_q_mvar": 60,
-    "index": 300193
+    "max_q_mvar": 60
   },
-  "vehs erejmentau": {
+  "300059": {
+    "name": "вэс ерейментау",
     "etype": "gen",
     "bus": 155,
     "p_mw": 6,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -5,
-    "max_q_mvar": 5,
-    "index": 300059
+    "max_q_mvar": 5
   },
-  "YUZHNOURАL'SKАYA GREHS-2": {
+  "300060": {
+    "name": "ЮЖНОУРАЛЬСКАЯ ГРЭС-2",
     "etype": "gen",
     "bus": 47161,
     "p_mw": 250,
     "vm_pu": 1.13,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -300,
-    "max_q_mvar": 300,
-    "index": 300195
+    "max_q_mvar": 300
   },
-  "KEMIN": {
+  "300061": {
+    "name": "КЕМИН",
     "etype": "gen",
     "bus": 2951,
     "p_mw": 1454,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -800,
-    "max_q_mvar": 800,
-    "index": 300199
+    "max_q_mvar": 800
   },
-  "Аkmolinskaya TEHTS": {
+  "300062": {
+    "name": "Акмолинская ТЭЦ",
     "etype": "gen",
     "bus": 108,
     "p_mw": 129,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -223.9,
-    "max_q_mvar": 463.3,
-    "index": 300200
+    "max_q_mvar": 463.3
   },
-  "DАTKА": {
+  "300063": {
+    "name": "ДАТКА",
     "etype": "gen",
     "bus": 2950,
     "p_mw": 1115,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300201
+    "max_q_mvar": 0
   },
-  "Аkzhar": {
+  "300064": {
+    "name": "Акжар",
     "etype": "gen",
     "bus": 3004,
     "p_mw": 40,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -10,
-    "max_q_mvar": 20,
-    "index": 300202
+    "max_q_mvar": 20
   },
-  "Ermensaj": {
+  "300065": {
+    "name": "Ерменсай",
     "etype": "gen",
     "bus": 942,
     "p_mw": 15,
     "vm_pu": 1.12,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -10,
-    "max_q_mvar": 10,
-    "index": 300203
+    "max_q_mvar": 10
   },
-  "btehts-10": {
+  "300066": {
+    "name": "бтэц-10",
     "etype": "gen",
     "bus": 470,
     "p_mw": 120,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 20,
-    "max_q_mvar": 90,
-    "index": 300066
+    "max_q_mvar": 90
   },
-  "TMK": {
+  "300067": {
+    "name": "ТМК",
     "etype": "gen",
     "bus": 242,
     "p_mw": 50,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -291,
-    "max_q_mvar": 404,
-    "index": 300204
+    "max_q_mvar": 404
   },
-  "PS-7": {
+  "300068": {
+    "name": "ПС-7",
     "etype": "gen",
     "bus": 215,
     "p_mw": 845,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -110,
-    "max_q_mvar": 256,
-    "index": 300205
+    "max_q_mvar": 256
   },
-  "Novokuznetskaya": {
+  "300069": {
+    "name": "Новокузнецкая",
     "etype": "gen",
     "bus": 1638,
     "p_mw": 378,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300206
+    "max_q_mvar": 0
   },
-  "Itatskaya": {
+  "300070": {
+    "name": "Итатская",
     "etype": "gen",
     "bus": 1636,
     "p_mw": 500,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300207
+    "max_q_mvar": 0
   },
-  "YUrga": {
+  "300071": {
+    "name": "Юрга",
     "etype": "gen",
     "bus": 1632,
     "p_mw": 472,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300208
+    "max_q_mvar": 0
   },
-  "ZHana-arka": {
+  "300072": {
+    "name": "Жана-арка",
     "etype": "gen",
     "bus": 453,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300072
+    "max_q_mvar": 0
   },
-  "Barsengir": {
+  "300073": {
+    "name": "Барсенгир",
     "etype": "gen",
     "bus": 454,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300073
+    "max_q_mvar": 0
   },
-  "Kajrakty": {
+  "300074": {
+    "name": "Кумколь",
+    "etype": "gen",
+    "bus": 455,
+    "p_mw": 131,
+    "vm_pu": 1.19,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -5.5,
+    "max_q_mvar": 61
+  },
+  "300075": {
+    "name": "Кайракты",
     "etype": "gen",
     "bus": 457,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300075
+    "max_q_mvar": 0
   },
-  "Nikol'skaya": {
+  "300076": {
+    "name": "Никольская",
+    "etype": "gen",
+    "bus": 461,
+    "p_mw": 0,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300077": {
+    "name": "жтэц",
+    "etype": "gen",
+    "bus": 462,
+    "p_mw": 200,
+    "vm_pu": 1.19,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -13,
+    "max_q_mvar": 147
+  },
+  "300078": {
+    "name": "жтэц-220",
+    "etype": "gen",
+    "bus": 463,
+    "p_mw": 200,
+    "vm_pu": 1.17,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 25,
+    "max_q_mvar": 235
+  },
+  "300079": {
+    "name": "Никольская",
     "etype": "gen",
     "bus": 464,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300079
+    "max_q_mvar": 0
   },
-  "Karazhal": {
+  "300080": {
+    "name": "Kаражал",
     "etype": "gen",
     "bus": 465,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300080
+    "max_q_mvar": 0
   },
-  "Agadyr'-220": {
+  "300081": {
+    "name": "Aгадырь-220",
     "etype": "gen",
     "bus": 468,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300081
+    "max_q_mvar": 0
   },
-  "АGАDYR'-500": {
+  "300082": {
+    "name": "АГАДЫРЬ-500",
     "etype": "gen",
     "bus": 469,
     "p_mw": 0,
     "vm_pu": 1.14,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -360,
-    "max_q_mvar": 0,
-    "index": 300082
+    "max_q_mvar": 0
   },
-  "Balkhashskaya-110": {
+  "300083": {
+    "name": "бтэц-110",
+    "etype": "gen",
+    "bus": 471,
+    "p_mw": 120,
+    "vm_pu": 1.1,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 20,
+    "max_q_mvar": 90
+  },
+  "300084": {
+    "name": "Балхашская-110",
     "etype": "gen",
     "bus": 472,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300084
+    "max_q_mvar": 0
   },
-  "Аkchtau": {
+  "300085": {
+    "name": "Акчтау",
     "etype": "gen",
     "bus": 474,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300085
+    "max_q_mvar": 0
   },
-  "Mointy": {
+  "300086": {
+    "name": "Mоинты",
     "etype": "gen",
     "bus": 475,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300086
+    "max_q_mvar": 0
   },
-  "Karazhingil": {
+  "300087": {
+    "name": "Каражингил",
     "etype": "gen",
     "bus": 476,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300087
+    "max_q_mvar": 0
   },
-  "Saryshagan": {
+  "300088": {
+    "name": "Сарышаган",
     "etype": "gen",
     "bus": 477,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300088
+    "max_q_mvar": 0
   },
-  "Mynaral": {
+  "300089": {
+    "name": "Мынарал",
     "etype": "gen",
     "bus": 924,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300089
+    "max_q_mvar": 0
   },
-  "Kiyakhty": {
+  "300090": {
+    "name": "Кияхты",
     "etype": "gen",
     "bus": 930,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300090
+    "max_q_mvar": 0
   },
-  "yukgrehs": {
+  "300091": {
+    "name": "юкгрэс",
     "etype": "gen",
     "bus": 901,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300091
+    "max_q_mvar": 0
   },
-  "Аlmaty": {
+  "300092": {
+    "name": "Алматы",
     "etype": "gen",
     "bus": 903,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300092
+    "max_q_mvar": 0
   },
-  "Besagash": {
+  "300093": {
+    "name": "тэц-3 2сш",
+    "etype": "gen",
+    "bus": 904,
+    "p_mw": 169,
+    "vm_pu": 1.16,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 20,
+    "max_q_mvar": 160
+  },
+  "300094": {
+    "name": "Робот",
+    "etype": "gen",
+    "bus": 907,
+    "p_mw": 1,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300095": {
+    "name": "Бесагаш",
     "etype": "gen",
     "bus": 940,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300095
+    "max_q_mvar": 0
   },
-  "ps-62 АT2": {
+  "300096": {
+    "name": "пс-62 АТ2",
     "etype": "gen",
     "bus": 908,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300096
+    "max_q_mvar": 0
   },
-  "CHilik": {
+  "300097": {
+    "name": "Чилик",
     "etype": "gen",
     "bus": 911,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300097
+    "max_q_mvar": 0
   },
-  "Zapadnaya": {
+  "300098": {
+    "name": "пс-7",
+    "etype": "gen",
+    "bus": 913,
+    "p_mw": 483,
+    "vm_pu": 1.19,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 65,
+    "max_q_mvar": 380
+  },
+  "300099": {
+    "name": "Западная",
     "etype": "gen",
     "bus": 918,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300099
+    "max_q_mvar": 0
   },
-  "CHiganak": {
+  "300100": {
+    "name": "Чиганак",
     "etype": "gen",
     "bus": 925,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300100
+    "max_q_mvar": 0
   },
-  "Sary-Ozek": {
+  "300101": {
+    "name": "Сары-Озек",
     "etype": "gen",
     "bus": 950,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300101
+    "max_q_mvar": 0
   },
-  "Medeo": {
+  "300102": {
+    "name": "Талдыкорганская-220",
+    "etype": "gen",
+    "bus": 951,
+    "p_mw": 40,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300103": {
+    "name": "Главная",
+    "etype": "gen",
+    "bus": 2916,
+    "p_mw": 270,
+    "vm_pu": 1.15,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -90,
+    "max_q_mvar": 90
+  },
+  "300104": {
+    "name": "Медео",
     "etype": "gen",
     "bus": 928,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300104
+    "max_q_mvar": 0
   },
-  "Taugul'": {
+  "300105": {
+    "name": "Таугуль",
     "etype": "gen",
     "bus": 929,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300105
+    "max_q_mvar": 0
   },
-  "ZHideli": {
+  "300106": {
+    "name": "Жидели",
     "etype": "gen",
     "bus": 931,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300106
+    "max_q_mvar": 0
   },
-  "SHu": {
+  "300107": {
+    "name": "Шу",
     "etype": "gen",
     "bus": 932,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300107
+    "max_q_mvar": 0
   },
-  "Аspara": {
+  "300108": {
+    "name": "Аспара",
     "etype": "gen",
     "bus": 814,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300108
+    "max_q_mvar": 0
   },
-  "ZHambyl": {
+  "300109": {
+    "name": "Жамбыл",
     "etype": "gen",
     "bus": 801,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300109
+    "max_q_mvar": 0
   },
-  "Burnoe": {
+  "300110": {
+    "name": "Бурное",
     "etype": "gen",
     "bus": 802,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300110
+    "max_q_mvar": 0
   },
-  "Karatau": {
+  "300111": {
+    "name": "Каратау",
     "etype": "gen",
     "bus": 803,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300111
+    "max_q_mvar": 0
   },
-  "Opornaya": {
+  "300112": {
+    "name": "Опорная",
     "etype": "gen",
     "bus": 804,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300112
+    "max_q_mvar": 0
   },
-  "Merke": {
+  "300113": {
+    "name": "жгрэс-220",
+    "etype": "gen",
+    "bus": 805,
+    "p_mw": 370,
+    "vm_pu": 1.16,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 220,
+    "max_q_mvar": 762
+  },
+  "300114": {
+    "name": "жгрэс-16",
+    "etype": "gen",
+    "bus": 806,
+    "p_mw": 161,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -39,
+    "max_q_mvar": 139.55
+  },
+  "300115": {
+    "name": "жгрэс-110",
+    "etype": "gen",
+    "bus": 807,
+    "p_mw": 209,
+    "vm_pu": 1.15,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -58,
+    "max_q_mvar": 152
+  },
+  "300116": {
+    "name": "Мерке",
     "etype": "gen",
     "bus": 809,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300116
+    "max_q_mvar": 0
   },
-  "ZHambyl Tyaga": {
+  "300117": {
+    "name": "Жамбыл Тяга",
     "etype": "gen",
     "bus": 815,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300117
+    "max_q_mvar": 0
   },
-  "Burnoe Tyaga": {
+  "300118": {
+    "name": "Бурное Тяга",
     "etype": "gen",
     "bus": 816,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300118
+    "max_q_mvar": 0
   },
-  "Аbdezim": {
+  "300119": {
+    "name": "Абдезим",
     "etype": "gen",
     "bus": 817,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300119
+    "max_q_mvar": 0
   },
-  "SHymkent-220": {
+  "300120": {
+    "name": "Шымкент-220",
     "etype": "gen",
     "bus": 831,
     "p_mw": 0,
     "vm_pu": 1.16,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -100,
-    "max_q_mvar": 35,
-    "index": 300120
+    "max_q_mvar": 35
   },
-  "Sas-tyube": {
+  "300121": {
+    "name": "Сас-тюбе",
     "etype": "gen",
     "bus": 834,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300121
+    "max_q_mvar": 0
   },
-  "Vannovka": {
+  "300122": {
+    "name": "Ванновка",
     "etype": "gen",
     "bus": 835,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300122
+    "max_q_mvar": 0
   },
-  "Badam": {
+  "300123": {
+    "name": "Бадам",
     "etype": "gen",
     "bus": 836,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300123
+    "max_q_mvar": 0
   },
-  "Аrys'": {
+  "300124": {
+    "name": "Арысь",
     "etype": "gen",
     "bus": 837,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300124
+    "max_q_mvar": 0
   },
-  "Montajtash": {
+  "300125": {
+    "name": "Монтайташ",
     "etype": "gen",
     "bus": 838,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300125
+    "max_q_mvar": 0
   },
-  "ZHylga": {
+  "300126": {
+    "name": "Жылга",
     "etype": "gen",
     "bus": 839,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300126
+    "max_q_mvar": 0
   },
-  "Kentau": {
+  "300127": {
+    "name": "Кентау",
     "etype": "gen",
     "bus": 840,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300127
+    "max_q_mvar": 0
   },
-  "SHolakkorgan": {
+  "300128": {
+    "name": "Шолаккорган",
     "etype": "gen",
     "bus": 841,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300128
+    "max_q_mvar": 0
   },
-  "SHymkentskaya": {
+  "300129": {
+    "name": "Шымкентская",
     "etype": "gen",
     "bus": 843,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300129
+    "max_q_mvar": 0
   },
-  "Tyul'kubas": {
+  "300130": {
+    "name": "Тюлькубас",
     "etype": "gen",
     "bus": 844,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300130
+    "max_q_mvar": 0
   },
-  "Kyzylsaj": {
+  "300131": {
+    "name": "Кызылсай",
     "etype": "gen",
     "bus": 845,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300131
+    "max_q_mvar": 0
   },
-  "Kyzylordinskaya": {
+  "300132": {
+    "name": "Кызылординская тэц",
+    "etype": "gen",
+    "bus": 860,
+    "p_mw": 52,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -31.6,
+    "max_q_mvar": 67.3
+  },
+  "300133": {
+    "name": "Кызылординская",
     "etype": "gen",
     "bus": 862,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300133
+    "max_q_mvar": 0
   },
-  "SHieli": {
+  "300134": {
+    "name": "Шиели",
     "etype": "gen",
     "bus": 863,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300134
+    "max_q_mvar": 0
   },
-  "ZHanakorgan": {
+  "300135": {
+    "name": "Жанакорган",
     "etype": "gen",
     "bus": 865,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300135
+    "max_q_mvar": 0
   },
-  "ZHalagash": {
+  "300136": {
+    "name": "Жалагаш",
     "etype": "gen",
     "bus": 866,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300136
+    "max_q_mvar": 0
   },
-  "ZHusaly": {
+  "300137": {
+    "name": "Жусалы",
     "etype": "gen",
     "bus": 867,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300137
+    "max_q_mvar": 0
   },
-  "Bishkek": {
+  "300138": {
+    "name": "Бишкек",
     "etype": "gen",
     "bus": 2918,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300138
+    "max_q_mvar": 0
   },
-  "gpp-2": {
+  "300139": {
+    "name": "ТАШ.ГРЭС",
+    "etype": "gen",
+    "bus": 2924,
+    "p_mw": 2864,
+    "vm_pu": 1.12,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -1000,
+    "max_q_mvar": 1000
+  },
+  "300140": {
+    "name": "гпп-2",
     "etype": "gen",
     "bus": 5957,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300140
+    "max_q_mvar": 0
   },
-  "Tavricheskaya": {
+  "300141": {
+    "name": "Ириклинская грэс",
+    "etype": "gen",
+    "bus": 4791,
+    "p_mw": 227,
+    "vm_pu": 1.1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -400,
+    "max_q_mvar": 300
+  },
+  "300142": {
+    "name": "Таврическая",
     "etype": "gen",
     "bus": 1816,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300142
+    "max_q_mvar": 0
   },
-  "Irtyshskaya": {
+  "300143": {
+    "name": "Иртышская",
     "etype": "gen",
     "bus": 1851,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300143
+    "max_q_mvar": 0
   },
-  "Mirgalimsaj": {
+  "300144": {
+    "name": "Миргалимсай",
     "etype": "gen",
     "bus": 842,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300144
+    "max_q_mvar": 0
   },
-  "Sary-oba (t)": {
+  "300145": {
+    "name": "Сары-оба (т)",
     "etype": "gen",
     "bus": 169,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300145
+    "max_q_mvar": 0
   },
-  "Erkenshilik (t)": {
+  "300146": {
+    "name": "Еркеншилик (т)",
     "etype": "gen",
     "bus": 167,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300146
+    "max_q_mvar": 0
   },
-  "ZHolymbet": {
+  "300147": {
+    "name": "Жолымбет",
     "etype": "gen",
     "bus": 123,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300147
+    "max_q_mvar": 0
   },
-  "tsgpp": {
+  "300148": {
+    "name": "цгпп",
     "etype": "gen",
     "bus": 124,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300148
+    "max_q_mvar": 0
   },
-  "SHortandy (t)": {
+  "300149": {
+    "name": "Шортанды (т)",
     "etype": "gen",
     "bus": 125,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300149
+    "max_q_mvar": 0
   },
-  "Tankeris (t)": {
+  "300150": {
+    "name": "Танкерис (т)",
     "etype": "gen",
     "bus": 179,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300150
+    "max_q_mvar": 0
   },
-  "El'taj (t)": {
+  "300151": {
+    "name": "Ельтай (т)",
     "etype": "gen",
     "bus": 178,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300151
+    "max_q_mvar": 0
   },
-  "Burabaj (t)": {
+  "300152": {
+    "name": "Бурабай (т)",
     "etype": "gen",
     "bus": 126,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300152
+    "max_q_mvar": 0
   },
-  "ZHaltyr (t)": {
+  "300153": {
+    "name": "Жалтыр (т)",
     "etype": "gen",
     "bus": 132,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300153
+    "max_q_mvar": 0
   },
-  "Tastak (t)": {
+  "300154": {
+    "name": "Тастак (т)",
     "etype": "gen",
     "bus": 162,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300154
+    "max_q_mvar": 0
   },
-  "Irchenko (t)": {
+  "300155": {
+    "name": "Ирченко (т)",
     "etype": "gen",
     "bus": 163,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300155
+    "max_q_mvar": 0
   },
-  "Аtbasar": {
+  "300156": {
+    "name": "Атбасар",
     "etype": "gen",
     "bus": 134,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300156
+    "max_q_mvar": 0
   },
-  "kgpp": {
+  "300157": {
+    "name": "кгпп",
     "etype": "gen",
     "bus": 135,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300157
+    "max_q_mvar": 0
   },
-  "Krasnoarmejskaya": {
+  "300158": {
+    "name": "Красноармейская",
     "etype": "gen",
     "bus": 159,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300158
+    "max_q_mvar": 0
   },
-  "Kiyaly": {
+  "300159": {
+    "name": "Киялы",
     "etype": "gen",
     "bus": 136,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300159
+    "max_q_mvar": 0
   },
-  "Аktogaj-110": {
+  "300160": {
+    "name": "БАРНАУЛ-500",
+    "etype": "gen",
+    "bus": 1630,
+    "p_mw": 2523,
+    "vm_pu": 1.11,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -1000,
+    "max_q_mvar": 1000
+  },
+  "300161": {
+    "name": "птэц-2-110",
+    "etype": "gen",
+    "bus": 142,
+    "p_mw": 295,
+    "vm_pu": 1.17,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -134,
+    "max_q_mvar": 346
+  },
+  "300162": {
+    "name": "птэц-2-220",
+    "etype": "gen",
+    "bus": 144,
+    "p_mw": 172,
+    "vm_pu": 1.12,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -64,
+    "max_q_mvar": 152
+  },
+  "300163": {
+    "name": "Актогай-110",
     "etype": "gen",
     "bus": 484,
     "p_mw": 0,
     "vm_pu": 1.15,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -50,
-    "max_q_mvar": -2,
-    "index": 300163
+    "max_q_mvar": -2
   },
-  "Аvrora": {
+  "300164": {
+    "name": "Аврора",
     "etype": "gen",
     "bus": 148,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300164
+    "max_q_mvar": 0
   },
-  "TULEBERDYEVА": {
+  "300165": {
+    "name": "ТУЛЕБЕРДЫЕВА",
     "etype": "gen",
     "bus": 2915,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300165
+    "max_q_mvar": 0
   },
-  "Makinsk": {
+  "300166": {
+    "name": "Макинск",
     "etype": "gen",
     "bus": 150,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300166
+    "max_q_mvar": 0
   },
-  "YAnko (t)": {
+  "300167": {
+    "name": "Степная",
+    "etype": "gen",
+    "bus": 151,
+    "p_mw": 108,
+    "vm_pu": 1.17,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": 12,
+    "max_q_mvar": 189
+  },
+  "300168": {
+    "name": "ТОКТОГУЛЬСКАЯ ГЭС",
+    "etype": "gen",
+    "bus": 2921,
+    "p_mw": 2360,
+    "vm_pu": 1.14,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -800,
+    "max_q_mvar": 800
+  },
+  "300169": {
+    "name": "Янко (т)",
     "etype": "gen",
     "bus": 153,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300169
+    "max_q_mvar": 0
   },
-  "Sibir'": {
+  "300170": {
+    "name": "Сибирь",
     "etype": "gen",
     "bus": 160,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300170
+    "max_q_mvar": 0
   },
-  "Buran": {
+  "300171": {
+    "name": "Буран",
     "etype": "gen",
     "bus": 173,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300171
+    "max_q_mvar": 0
   },
-  "Ugolki(t)": {
+  "300172": {
+    "name": "Уголки(т)",
     "etype": "gen",
     "bus": 156,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300172
+    "max_q_mvar": 0
   },
-  "Kujbyshevskaya": {
+  "300173": {
+    "name": "Куйбышевская",
     "etype": "gen",
     "bus": 157,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300173
+    "max_q_mvar": 0
   },
-  "Kokshetauskaya-1150": {
+  "300174": {
+    "name": "Кокшетауская-1150",
     "etype": "gen",
     "bus": 176,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300174
+    "max_q_mvar": 0
   },
-  "Urozhajnaya": {
+  "300175": {
+    "name": "Урожайная",
     "etype": "gen",
     "bus": 1673,
     "p_mw": 0,
     "vm_pu": 1.11,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": -100,
-    "max_q_mvar": 156,
-    "index": 300175
+    "max_q_mvar": 156
   },
-  "Perekatnaya (t)": {
+  "300176": {
+    "name": "Перекатная (т)",
     "etype": "gen",
     "bus": 172,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300176
+    "max_q_mvar": 0
   },
-  "ZHaksy (t)": {
+  "300177": {
+    "name": "Жаксы (т)",
     "etype": "gen",
     "bus": 164,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300177
+    "max_q_mvar": 0
   },
-  "SMELOVSKАYA": {
+  "300178": {
+    "name": "КУРГАН",
+    "etype": "gen",
+    "bus": 4727,
+    "p_mw": 500,
+    "vm_pu": 1.11,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -500,
+    "max_q_mvar": 500
+  },
+  "300179": {
+    "name": "СМЕЛОВСКАЯ",
     "etype": "gen",
     "bus": 50014,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300179
+    "max_q_mvar": 0
   },
-  "bgok": {
+  "300180": {
+    "name": "Экибастузская тэц",
+    "etype": "gen",
+    "bus": 44,
+    "p_mw": 12,
+    "vm_pu": 1.97,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 9
+  },
+  "300181": {
+    "name": "арбз",
+    "etype": "gen",
+    "bus": 4004,
+    "p_mw": 40,
+    "vm_pu": 1.15,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -10,
+    "max_q_mvar": 20
+  },
+  "300182": {
+    "name": "бгок",
     "etype": "gen",
     "bus": 62,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300182
+    "max_q_mvar": 0
   },
-  "Koyan-Kos": {
+  "300183": {
+    "name": "Коян-Кос",
     "etype": "gen",
     "bus": 953,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300183
+    "max_q_mvar": 0
   },
-  "Barnaul-220": {
+  "300184": {
+    "name": "Шымкентская ТЭЦ-3",
+    "etype": "gen",
+    "bus": 813,
+    "p_mw": 57,
+    "vm_pu": 1.18,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -105,
+    "max_q_mvar": 185
+  },
+  "300185": {
+    "name": "Барнаул-220",
     "etype": "gen",
     "bus": 1640,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300185
+    "max_q_mvar": 0
   },
-  "Ru-6": {
+  "300186": {
+    "name": "Ру-6",
     "etype": "gen",
     "bus": 869,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300186
+    "max_q_mvar": 0
   },
-  "UZBEKISTON": {
+  "300187": {
+    "name": "УЗБЕКИСТОН",
     "etype": "gen",
     "bus": 2922,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300187
+    "max_q_mvar": 0
   },
-  "Rubtsovskaya": {
+  "300188": {
+    "name": "АЛТАЙ",
+    "etype": "gen",
+    "bus": 1660,
+    "p_mw": 12865,
+    "vm_pu": 1.11,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -6000,
+    "max_q_mvar": 6000
+  },
+  "300189": {
+    "name": "СЫРДАРЬИНСКАЯ ТЭС",
+    "etype": "gen",
+    "bus": 2923,
+    "p_mw": 5240,
+    "vm_pu": 1.11,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -2000,
+    "max_q_mvar": 10300
+  },
+  "300190": {
+    "name": "Рубцовская",
     "etype": "gen",
     "bus": 1622,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300190
+    "max_q_mvar": 0
   },
-  "LOCHIN": {
+  "300191": {
+    "name": "ЛОЧИН",
     "etype": "gen",
     "bus": 2920,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300191
+    "max_q_mvar": 0
   },
-  "BАRАBINSKАYA": {
+  "300192": {
+    "name": "БАРАБИНСКАЯ",
     "etype": "gen",
     "bus": 9917,
     "p_mw": 0,
     "vm_pu": 1.13,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": -180,
-    "max_q_mvar": 0,
-    "index": 300192
+    "max_q_mvar": 0
   },
-  "sehs burnoe": {
+  "300193": {
+    "name": "КУРЧАТОВСКАЯ",
+    "etype": "gen",
+    "bus": 50002,
+    "p_mw": 850,
+    "vm_pu": 1.13,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -60,
+    "max_q_mvar": 60
+  },
+  "300194": {
+    "name": "сэс бурное",
     "etype": "gen",
     "bus": 810,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300194
+    "max_q_mvar": 0
   },
-  "Kemin": {
+  "300195": {
+    "name": "ЮЖНОУРАЛЬСКАЯ ГРЭС-2",
+    "etype": "gen",
+    "bus": 47161,
+    "p_mw": 250,
+    "vm_pu": 1.13,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -300,
+    "max_q_mvar": 300
+  },
+  "300196": {
+    "name": "Кемин",
     "etype": "gen",
     "bus": 2952,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300196
+    "max_q_mvar": 0
   },
-  "Voskhod": {
+  "300197": {
+    "name": "Восход",
     "etype": "gen",
     "bus": 1854,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300197
+    "max_q_mvar": 0
   },
-  "VITYAZ'": {
+  "300198": {
+    "name": "ВИТЯЗЬ",
     "etype": "gen",
     "bus": 1852,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": false,
+    "in_service": "False",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300198
+    "max_q_mvar": 0
   },
-  "Barabinskaya-220": {
+  "300199": {
+    "name": "КЕМИН",
+    "etype": "gen",
+    "bus": 2951,
+    "p_mw": 1454,
+    "vm_pu": 1.14,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -800,
+    "max_q_mvar": 800
+  },
+  "300200": {
+    "name": "Акмолинская ТЭЦ",
+    "etype": "gen",
+    "bus": 108,
+    "p_mw": 129,
+    "vm_pu": 1.16,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -223.9,
+    "max_q_mvar": 463.3
+  },
+  "300201": {
+    "name": "ДАТКА",
+    "etype": "gen",
+    "bus": 2950,
+    "p_mw": 1115,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300202": {
+    "name": "Акжар",
+    "etype": "gen",
+    "bus": 3004,
+    "p_mw": 40,
+    "vm_pu": 1.15,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": -10,
+    "max_q_mvar": 20
+  },
+  "300203": {
+    "name": "Ерменсай",
+    "etype": "gen",
+    "bus": 942,
+    "p_mw": 15,
+    "vm_pu": 1.12,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -10,
+    "max_q_mvar": 10
+  },
+  "300204": {
+    "name": "ТМК",
+    "etype": "gen",
+    "bus": 242,
+    "p_mw": 50,
+    "vm_pu": 1.14,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -291,
+    "max_q_mvar": 404
+  },
+  "300205": {
+    "name": "ПС-7",
+    "etype": "gen",
+    "bus": 215,
+    "p_mw": 845,
+    "vm_pu": 1.14,
+    "sn_mva": "None",
+    "in_service": "False",
+    "min_q_mvar": -110,
+    "max_q_mvar": 256
+  },
+  "300206": {
+    "name": "Новокузнецкая",
+    "etype": "gen",
+    "bus": 1638,
+    "p_mw": 378,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300207": {
+    "name": "Итатская",
+    "etype": "gen",
+    "bus": 1636,
+    "p_mw": 500,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300208": {
+    "name": "Юрга",
+    "etype": "gen",
+    "bus": 1632,
+    "p_mw": 472,
+    "vm_pu": 1,
+    "sn_mva": "None",
+    "in_service": "True",
+    "min_q_mvar": 0,
+    "max_q_mvar": 0
+  },
+  "300209": {
+    "name": "Барабинская-220",
     "etype": "gen",
     "bus": 1671,
     "p_mw": 0,
     "vm_pu": 1,
     "sn_mva": "None",
-    "in_service": true,
+    "in_service": "True",
     "min_q_mvar": 0,
-    "max_q_mvar": 0,
-    "index": 300209
+    "max_q_mvar": 0
   }
 }

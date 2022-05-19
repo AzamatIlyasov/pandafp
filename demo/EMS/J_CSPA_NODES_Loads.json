@@ -1,1666 +1,1674 @@
 {
-  "Ul'ke-220": {
+  "200001": {
+    "name": "Ульке-220",
     "etype": "load",
     "bus": 3020,
     "p_mw": 172,
     "q_mvar": 39,
-    "in_service": true,
-    "index": 200001
+    "in_service": "True"
   },
-  "Kimpersaj": {
+  "200002": {
+    "name": "Кимперсай",
     "etype": "load",
     "bus": 3005,
     "p_mw": 63,
     "q_mvar": 16,
-    "in_service": true,
-    "index": 200002
+    "in_service": "True"
   },
-  "Аktyube-220": {
+  "200003": {
+    "name": "Актюбе-220",
     "etype": "load",
     "bus": 3006,
     "p_mw": 256,
     "q_mvar": 110,
-    "in_service": true,
-    "index": 200003
+    "in_service": "True"
   },
-  "NOVO-АNGRENSKАYA TEHS": {
+  "200004": {
+    "name": "НОВО-АНГРЕНСКАЯ ТЭС",
     "etype": "load",
     "bus": 2945,
     "p_mw": 75,
     "q_mvar": 293,
-    "in_service": true,
-    "index": 200004
+    "in_service": "True"
   },
-  "tehts-3": {
+  "200005": {
+    "name": "тэц-3",
     "etype": "load",
     "bus": 383,
     "p_mw": 410,
     "q_mvar": 200,
-    "in_service": false,
-    "index": 200005
+    "in_service": "False"
   },
-  "Metallurgicheskaya": {
+  "200006": {
+    "name": "Металлургическая",
     "etype": "load",
     "bus": 384,
     "p_mw": 440,
     "q_mvar": 250,
-    "in_service": false,
-    "index": 200006
+    "in_service": "False"
   },
-  "CHilisaj": {
+  "200007": {
+    "name": "Чилисай",
     "etype": "load",
     "bus": 3019,
     "p_mw": 157,
     "q_mvar": 17,
-    "in_service": true,
-    "index": 200007
+    "in_service": "True"
   },
-  "ipm": {
+  "200008": {
+    "name": "ипм",
     "etype": "load",
     "bus": 318,
     "p_mw": 210,
     "q_mvar": 70,
-    "in_service": true,
-    "index": 200008
+    "in_service": "True"
   },
-  "TYUMEN'": {
+  "200009": {
+    "name": "ТЮМЕНЬ",
     "etype": "load",
     "bus": 4730,
     "p_mw": 5000,
     "q_mvar": 50,
-    "in_service": false,
-    "index": 200009
+    "in_service": "False"
   },
-  "BERKUT": {
+  "200010": {
+    "name": "БЕРКУТ",
     "etype": "load",
     "bus": 4728,
     "p_mw": 298,
     "q_mvar": 10,
-    "in_service": false,
-    "index": 200010
+    "in_service": "False"
   },
-  "Troitskaya grehs": {
+  "200011": {
+    "name": "Троицкая грэс",
     "etype": "load",
     "bus": 4798,
     "p_mw": 50,
     "q_mvar": 25,
-    "in_service": false,
-    "index": 200011
+    "in_service": "False"
   },
-  "Esil'": {
+  "200012": {
+    "name": "Есиль",
     "etype": "load",
     "bus": 170,
     "p_mw": 22,
     "q_mvar": -7,
-    "in_service": false,
-    "index": 200012
+    "in_service": "False"
   },
-  "REFTINSKАYA GREHS": {
+  "200013": {
+    "name": "РЕФТИНСКАЯ ГРЭС",
     "etype": "load",
     "bus": 4702,
     "p_mw": 550,
     "q_mvar": 150,
-    "in_service": false,
-    "index": 200013
+    "in_service": "False"
   },
-  "YUZHNАYA": {
+  "200014": {
+    "name": "ЮЖНАЯ",
     "etype": "load",
     "bus": 4701,
     "p_mw": 10,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200014
+    "in_service": "False"
   },
-  "Kushmurun": {
+  "200015": {
+    "name": "Кушмурун",
     "etype": "load",
     "bus": 571,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200015
+    "in_service": "True"
   },
-  "Аman-karagaj": {
+  "200016": {
+    "name": "Аман-карагай",
     "etype": "load",
     "bus": 572,
     "p_mw": 13,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200016
+    "in_service": "True"
   },
-  "Аpanovka": {
+  "200017": {
+    "name": "Апановка",
     "etype": "load",
     "bus": 573,
     "p_mw": 33,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200017
+    "in_service": "False"
   },
-  "Lisakovka": {
+  "200018": {
+    "name": "Лисаковка",
     "etype": "load",
     "bus": 574,
     "p_mw": 87,
     "q_mvar": -1,
-    "in_service": false,
-    "index": 200018
+    "in_service": "False"
   },
-  "Sokol-220": {
+  "200019": {
+    "name": "Сокол-220",
     "etype": "load",
     "bus": 575,
     "p_mw": 22,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200019
+    "in_service": "False"
   },
-  "ZHitikara-110": {
+  "200020": {
+    "name": "Житикара-110",
     "etype": "load",
     "bus": 578,
     "p_mw": 23,
     "q_mvar": 20,
-    "in_service": false,
-    "index": 200020
+    "in_service": "False"
   },
-  "PRIVАLOVSKАYA": {
+  "200021": {
+    "name": "ПРИВАЛОВСКАЯ",
     "etype": "load",
     "bus": 50032,
     "p_mw": 100,
     "q_mvar": 40,
-    "in_service": false,
-    "index": 200021
+    "in_service": "False"
   },
-  "ZАRYA": {
+  "200022": {
+    "name": "ЗАРЯ",
     "etype": "load",
     "bus": 1631,
     "p_mw": 2500,
     "q_mvar": 200,
-    "in_service": false,
-    "index": 200022
+    "in_service": "False"
   },
-  "Kachary": {
+  "200023": {
+    "name": "Качары",
     "etype": "load",
     "bus": 582,
     "p_mw": 24,
     "q_mvar": 16,
-    "in_service": false,
-    "index": 200023
+    "in_service": "False"
   },
-  "MАGNITOGORSKАYA": {
+  "200024": {
+    "name": "МАГНИТОГОРСКАЯ",
     "etype": "load",
     "bus": 4785,
     "p_mw": 614,
     "q_mvar": 400,
-    "in_service": false,
-    "index": 200024
+    "in_service": "False"
   },
-  "CHelgashi": {
+  "200025": {
+    "name": "Челгаши",
     "etype": "load",
     "bus": 585,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200025
+    "in_service": "True"
   },
-  "TSentral'naya": {
+  "200026": {
+    "name": "Центральная",
     "etype": "load",
     "bus": 593,
     "p_mw": 114,
     "q_mvar": 30,
-    "in_service": false,
-    "index": 200026
+    "in_service": "False"
   },
-  "ssgpo": {
+  "200027": {
+    "name": "ссгпо",
     "etype": "load",
     "bus": 594,
     "p_mw": 245,
     "q_mvar": 75,
-    "in_service": false,
-    "index": 200027
+    "in_service": "False"
   },
-  "Priural'skaya": {
+  "200028": {
+    "name": "Приуральская",
     "etype": "load",
     "bus": 595,
     "p_mw": 23,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200028
+    "in_service": "False"
   },
-  "ZLАTOUST": {
+  "200029": {
+    "name": "ЗЛАТОУСТ",
     "etype": "load",
     "bus": 4715,
     "p_mw": 50,
     "q_mvar": 20,
-    "in_service": false,
-    "index": 200029
+    "in_service": "False"
   },
-  "UFIMSKАYA": {
+  "200030": {
+    "name": "УФИМСКАЯ",
     "etype": "load",
     "bus": 4712,
     "p_mw": 150,
     "q_mvar": 80,
-    "in_service": false,
-    "index": 200030
+    "in_service": "False"
   },
-  "Zarechnaya": {
+  "200031": {
+    "name": "Заречная",
     "etype": "load",
     "bus": 596,
     "p_mw": 27,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200031
+    "in_service": "False"
   },
-  "ps 51": {
+  "200032": {
+    "name": "пс 51",
     "etype": "load",
     "bus": 251,
     "p_mw": 19,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200032
+    "in_service": "False"
   },
-  "ehgrehs-2-220": {
+  "200033": {
+    "name": "эгрэс-2-220",
     "etype": "load",
     "bus": 29,
     "p_mw": 7,
     "q_mvar": -1,
-    "in_service": false,
-    "index": 200033
+    "in_service": "False"
   },
-  "eehk-20-bl5-8": {
+  "200034": {
+    "name": "еэк-20-бл5-8",
     "etype": "load",
     "bus": 30,
     "p_mw": 43,
     "q_mvar": 11,
-    "in_service": false,
-    "index": 200034
+    "in_service": "False"
   },
-  "eehk-20-bl2-4": {
+  "200035": {
+    "name": "еэк-20-бл2-4",
     "etype": "load",
     "bus": 32,
     "p_mw": 50,
     "q_mvar": 8,
-    "in_service": false,
-    "index": 200035
+    "in_service": "False"
   },
-  "eehk-220": {
+  "200036": {
+    "name": "еэк-220",
     "etype": "load",
     "bus": 33,
     "p_mw": 1149,
     "q_mvar": 514,
-    "in_service": false,
-    "index": 200036
+    "in_service": "False"
   },
-  "Kalkaman": {
+  "200037": {
+    "name": "Калкаман",
     "etype": "load",
     "bus": 36,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200037
+    "in_service": "False"
   },
-  "ns-7": {
+  "200038": {
+    "name": "нс-7",
     "etype": "load",
     "bus": 37,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200038
+    "in_service": "True"
   },
-  "EHkibastuz-220": {
+  "200039": {
+    "name": "Экибастуз-220",
     "etype": "load",
     "bus": 38,
     "p_mw": 123,
     "q_mvar": 14,
-    "in_service": false,
-    "index": 200039
+    "in_service": "False"
   },
-  "ehgrehs-1": {
+  "200040": {
+    "name": "эгрэс-1",
     "etype": "load",
     "bus": 39,
     "p_mw": 52,
     "q_mvar": 21,
-    "in_service": false,
-    "index": 200040
+    "in_service": "False"
   },
-  "ehgrehs-1-bl2": {
+  "200041": {
+    "name": "эгрэс-1-бл2",
     "etype": "load",
     "bus": 50,
     "p_mw": 20,
     "q_mvar": 22,
-    "in_service": false,
-    "index": 200041
+    "in_service": "False"
   },
-  "ehgrehs-1-bl3-8": {
+  "200042": {
+    "name": "эгрэс-1-бл3-8",
     "etype": "load",
     "bus": 51,
     "p_mw": 92,
     "q_mvar": 40,
-    "in_service": false,
-    "index": 200042
+    "in_service": "False"
   },
-  "ns-12": {
+  "200043": {
+    "name": "нс-12",
     "etype": "load",
     "bus": 52,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200043
+    "in_service": "True"
   },
-  "ehehpk": {
+  "200044": {
+    "name": "ээпк",
     "etype": "load",
     "bus": 53,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200044
+    "in_service": "False"
   },
-  "tsrmz": {
+  "200045": {
+    "name": "црмз",
     "etype": "load",
     "bus": 54,
     "p_mw": 13,
     "q_mvar": 6,
-    "in_service": false,
-    "index": 200045
+    "in_service": "False"
   },
-  "azf": {
+  "200046": {
+    "name": "азф",
     "etype": "load",
     "bus": 55,
     "p_mw": 429,
     "q_mvar": 230,
-    "in_service": true,
-    "index": 200046
+    "in_service": "True"
   },
-  "Stroitel'naya-2": {
+  "200047": {
+    "name": "Строительная-2",
     "etype": "load",
     "bus": 56,
     "p_mw": 7,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200047
+    "in_service": "False"
   },
-  "Ulenty (t)": {
+  "200048": {
+    "name": "Уленты (т)",
     "etype": "load",
     "bus": 58,
     "p_mw": 9,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200048
+    "in_service": "False"
   },
-  "Boshhak(T)": {
+  "200049": {
+    "name": "Бощак(T)",
     "etype": "load",
     "bus": 59,
     "p_mw": 8,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200049
+    "in_service": "False"
   },
-  "ehgrehs-2-20": {
+  "200050": {
+    "name": "эгрэс-2-20",
     "etype": "load",
     "bus": 60,
     "p_mw": 36,
     "q_mvar": 15,
-    "in_service": false,
-    "index": 200050
+    "in_service": "False"
   },
-  "Taskudyk(T)": {
+  "200051": {
+    "name": "Таскудык(Т)",
     "etype": "load",
     "bus": 61,
     "p_mw": 4,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200051
+    "in_service": "False"
   },
-  "ns 17": {
+  "200052": {
+    "name": "нс 17",
     "etype": "load",
     "bus": 307,
     "p_mw": 14,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200052
+    "in_service": "True"
   },
-  "Ermentau (t)": {
+  "200053": {
+    "name": "Ерментау (т)",
     "etype": "load",
     "bus": 166,
     "p_mw": 3,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200053
+    "in_service": "False"
   },
-  "IRTYSHSKАYA": {
+  "200054": {
+    "name": "ИРТЫШСКАЯ",
     "etype": "load",
     "bus": 1850,
     "p_mw": 174,
     "q_mvar": 11,
-    "in_service": false,
-    "index": 200054
+    "in_service": "False"
   },
-  "KEHZ-1.2": {
+  "200055": {
+    "name": "КЭЗ-1.2",
     "etype": "load",
     "bus": 27,
     "p_mw": 430,
     "q_mvar": 131,
-    "in_service": false,
-    "index": 200055
+    "in_service": "False"
   },
-  "ps-14": {
+  "200056": {
+    "name": "пс-14",
     "etype": "load",
     "bus": 214,
     "p_mw": 46,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200056
+    "in_service": "False"
   },
-  "ps-18": {
+  "200057": {
+    "name": "пс-18",
     "etype": "load",
     "bus": 218,
     "p_mw": 146,
     "q_mvar": 16,
-    "in_service": false,
-    "index": 200057
+    "in_service": "False"
   },
-  "shgehs-220": {
+  "200058": {
+    "name": "шгэс-220",
     "etype": "load",
     "bus": 220,
     "p_mw": 47,
     "q_mvar": 18,
-    "in_service": false,
-    "index": 200058
+    "in_service": "False"
   },
-  "zhgok": {
+  "200059": {
+    "name": "жгок",
     "etype": "load",
     "bus": 222,
     "p_mw": 19,
     "q_mvar": -4,
-    "in_service": false,
-    "index": 200059
+    "in_service": "False"
   },
-  "SHoptykol' (t)": {
+  "200060": {
+    "name": "Шоптыколь (т)",
     "etype": "load",
     "bus": 101,
     "p_mw": 10,
     "q_mvar": 6,
-    "in_service": false,
-    "index": 200060
+    "in_service": "False"
   },
-  "Batys": {
+  "200061": {
+    "name": "Батыс",
     "etype": "load",
     "bus": 102,
     "p_mw": 128,
     "q_mvar": 44,
-    "in_service": false,
-    "index": 200061
+    "in_service": "False"
   },
-  "Dostyk": {
+  "200062": {
+    "name": "Достык",
     "etype": "load",
     "bus": 103,
     "p_mw": 72,
     "q_mvar": 26,
-    "in_service": false,
-    "index": 200062
+    "in_service": "False"
   },
-  "SHygys": {
+  "200063": {
+    "name": "Шыгыс",
     "etype": "load",
     "bus": 104,
     "p_mw": 0.4,
     "q_mvar": 0.2,
-    "in_service": false,
-    "index": 200063
+    "in_service": "False"
   },
-  "Osakarovka": {
+  "200064": {
+    "name": "Осакаровка",
     "etype": "load",
     "bus": 306,
     "p_mw": 22,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200064
+    "in_service": "False"
   },
-  "Caran'": {
+  "200065": {
+    "name": "Cарань",
     "etype": "load",
     "bus": 308,
     "p_mw": 1,
     "q_mvar": -11,
-    "in_service": false,
-    "index": 200065
+    "in_service": "False"
   },
-  "ns-19": {
+  "200066": {
+    "name": "нс-19",
     "etype": "load",
     "bus": 309,
     "p_mw": 23,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200066
+    "in_service": "False"
   },
-  "Nura-220": {
+  "200067": {
+    "name": "Нура-220",
     "etype": "load",
     "bus": 310,
     "p_mw": 27,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200067
+    "in_service": "False"
   },
-  "grehs-2": {
+  "200068": {
+    "name": "грэс-2",
     "etype": "load",
     "bus": 355,
     "p_mw": 260,
     "q_mvar": 150,
-    "in_service": false,
-    "index": 200068
+    "in_service": "False"
   },
-  "Kara-murun": {
+  "200069": {
+    "name": "Кара-мурун",
     "etype": "load",
     "bus": 450,
     "p_mw": 5,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200069
+    "in_service": "True"
   },
-  "ZHaryk": {
+  "200070": {
+    "name": "Жарык",
     "etype": "load",
     "bus": 451,
     "p_mw": 3,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200070
+    "in_service": "True"
   },
-  "Аjsa": {
+  "200071": {
+    "name": "Айса",
     "etype": "load",
     "bus": 452,
     "p_mw": 21,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200071
+    "in_service": "False"
   },
-  "ZHana-arka": {
+  "200072": {
+    "name": "Жана-арка",
     "etype": "load",
     "bus": 453,
     "p_mw": 6,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200072
+    "in_service": "False"
   },
-  "Barsengir": {
+  "200073": {
+    "name": "Барсенгир",
     "etype": "load",
     "bus": 454,
     "p_mw": 24,
     "q_mvar": -16,
-    "in_service": false,
-    "index": 200073
+    "in_service": "False"
   },
-  "Kumkol'": {
+  "200074": {
+    "name": "Кумколь",
     "etype": "load",
     "bus": 455,
     "p_mw": 144,
     "q_mvar": 54.6,
-    "in_service": false,
-    "index": 200074
+    "in_service": "False"
   },
-  "Kajrakty": {
+  "200075": {
+    "name": "Кайракты",
     "etype": "load",
     "bus": 457,
     "p_mw": 9,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200075
+    "in_service": "False"
   },
-  "Nikol'skaya": {
+  "200076": {
+    "name": "Никольская",
     "etype": "load",
-    "bus": 464,
-    "p_mw": 56,
-    "q_mvar": 45,
-    "in_service": false,
-    "index": 200079
+    "bus": 461,
+    "p_mw": 53,
+    "q_mvar": 39,
+    "in_service": "True"
   },
-  "zhtehts": {
+  "200077": {
+    "name": "жтэц",
     "etype": "load",
     "bus": 462,
     "p_mw": 213,
     "q_mvar": 62,
-    "in_service": true,
-    "index": 200077
+    "in_service": "True"
   },
-  "zhtehts-220": {
+  "200078": {
+    "name": "жтэц-220",
     "etype": "load",
     "bus": 463,
     "p_mw": 213,
     "q_mvar": 62,
-    "in_service": false,
-    "index": 200078
+    "in_service": "False"
   },
-  "Karazhal": {
+  "200079": {
+    "name": "Никольская",
+    "etype": "load",
+    "bus": 464,
+    "p_mw": 56,
+    "q_mvar": 45,
+    "in_service": "False"
+  },
+  "200080": {
+    "name": "Kаражал",
     "etype": "load",
     "bus": 465,
     "p_mw": 19,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200080
+    "in_service": "False"
   },
-  "Agadyr'-220": {
+  "200081": {
+    "name": "Aгадырь-220",
     "etype": "load",
     "bus": 468,
     "p_mw": 17,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200081
+    "in_service": "False"
   },
-  "АGАDYR'-500": {
+  "200082": {
+    "name": "АГАДЫРЬ-500",
     "etype": "load",
     "bus": 469,
     "p_mw": 10,
     "q_mvar": 0,
-    "in_service": false,
-    "index": 200082
+    "in_service": "False"
   },
-  "btehts-110": {
+  "200083": {
+    "name": "бтэц-110",
     "etype": "load",
     "bus": 471,
     "p_mw": 111,
     "q_mvar": 58,
-    "in_service": false,
-    "index": 200083
+    "in_service": "False"
   },
-  "Balkhashskaya-110": {
+  "200084": {
+    "name": "Балхашская-110",
     "etype": "load",
     "bus": 472,
     "p_mw": 105,
     "q_mvar": -33,
-    "in_service": false,
-    "index": 200084
+    "in_service": "False"
   },
-  "Аkchtau": {
+  "200085": {
+    "name": "Акчтау",
     "etype": "load",
     "bus": 474,
     "p_mw": 5,
     "q_mvar": -7,
-    "in_service": false,
-    "index": 200085
+    "in_service": "False"
   },
-  "Mointy": {
+  "200086": {
+    "name": "Mоинты",
     "etype": "load",
     "bus": 475,
     "p_mw": 19,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200086
+    "in_service": "False"
   },
-  "Karazhingil": {
+  "200087": {
+    "name": "Каражингил",
     "etype": "load",
     "bus": 476,
     "p_mw": 6,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200087
+    "in_service": "True"
   },
-  "Saryshagan": {
+  "200088": {
+    "name": "Сарышаган",
     "etype": "load",
     "bus": 477,
     "p_mw": 6,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200088
+    "in_service": "True"
   },
-  "Mynaral": {
+  "200089": {
+    "name": "Мынарал",
     "etype": "load",
     "bus": 924,
     "p_mw": 2,
     "q_mvar": -3,
-    "in_service": true,
-    "index": 200089
+    "in_service": "True"
   },
-  "Kiyakhty": {
+  "200090": {
+    "name": "Кияхты",
     "etype": "load",
     "bus": 930,
     "p_mw": 6,
     "q_mvar": 3,
-    "in_service": true,
-    "index": 200090
+    "in_service": "True"
   },
-  "yukgrehs": {
+  "200091": {
+    "name": "юкгрэс",
     "etype": "load",
     "bus": 901,
     "p_mw": 23,
     "q_mvar": -2,
-    "in_service": false,
-    "index": 200091
+    "in_service": "False"
   },
-  "Аlmaty": {
+  "200092": {
+    "name": "Алматы",
     "etype": "load",
     "bus": 903,
     "p_mw": 10,
     "q_mvar": -7,
-    "in_service": false,
-    "index": 200092
+    "in_service": "False"
   },
-  "tehts-3 2ssh": {
+  "200093": {
+    "name": "тэц-3 2сш",
     "etype": "load",
     "bus": 904,
     "p_mw": 220,
     "q_mvar": 50,
-    "in_service": false,
-    "index": 200093
+    "in_service": "False"
   },
-  "Robot": {
+  "200094": {
+    "name": "Робот",
     "etype": "load",
     "bus": 907,
     "p_mw": 37,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200094
+    "in_service": "False"
   },
-  "Besagash": {
+  "200095": {
+    "name": "Бесагаш",
     "etype": "load",
     "bus": 940,
     "p_mw": 55,
     "q_mvar": -40,
-    "in_service": false,
-    "index": 200095
+    "in_service": "False"
   },
-  "ps-62 АT2": {
+  "200096": {
+    "name": "пс-62 АТ2",
     "etype": "load",
     "bus": 908,
     "p_mw": 18,
     "q_mvar": 14,
-    "in_service": false,
-    "index": 200096
+    "in_service": "False"
   },
-  "CHilik": {
+  "200097": {
+    "name": "Чилик",
     "etype": "load",
     "bus": 911,
     "p_mw": 63,
     "q_mvar": 10,
-    "in_service": false,
-    "index": 200097
+    "in_service": "False"
   },
-  "ps-7": {
+  "200098": {
+    "name": "пс-7",
     "etype": "load",
     "bus": 913,
     "p_mw": 490,
     "q_mvar": 278,
-    "in_service": false,
-    "index": 200098
+    "in_service": "False"
   },
-  "Zapadnaya": {
+  "200099": {
+    "name": "Западная",
     "etype": "load",
     "bus": 918,
     "p_mw": 63,
     "q_mvar": 14,
-    "in_service": false,
-    "index": 200099
+    "in_service": "False"
   },
-  "CHiganak": {
+  "200100": {
+    "name": "Чиганак",
     "etype": "load",
     "bus": 925,
     "p_mw": 24,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200100
+    "in_service": "False"
   },
-  "Sary-Ozek": {
+  "200101": {
+    "name": "Сары-Озек",
     "etype": "load",
     "bus": 950,
     "p_mw": 26,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200101
+    "in_service": "False"
   },
-  "Taldykorganskaya-220": {
+  "200102": {
+    "name": "Талдыкорганская-220",
     "etype": "load",
     "bus": 951,
     "p_mw": 148,
     "q_mvar": 62,
-    "in_service": false,
-    "index": 200102
+    "in_service": "False"
   },
-  "Glavnaya": {
+  "200103": {
+    "name": "Главная",
     "etype": "load",
     "bus": 2916,
     "p_mw": 680,
     "q_mvar": 18,
-    "in_service": false,
-    "index": 200103
+    "in_service": "False"
   },
-  "Medeo": {
+  "200104": {
+    "name": "Медео",
     "etype": "load",
     "bus": 928,
     "p_mw": 10,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200104
+    "in_service": "False"
   },
-  "Taugul'": {
+  "200105": {
+    "name": "Таугуль",
     "etype": "load",
     "bus": 929,
     "p_mw": 202,
     "q_mvar": 38,
-    "in_service": false,
-    "index": 200105
+    "in_service": "False"
   },
-  "ZHideli": {
+  "200106": {
+    "name": "Жидели",
     "etype": "load",
     "bus": 931,
     "p_mw": 6,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200106
+    "in_service": "True"
   },
-  "SHu": {
+  "200107": {
+    "name": "Шу",
     "etype": "load",
     "bus": 932,
     "p_mw": 35,
     "q_mvar": 13,
-    "in_service": false,
-    "index": 200107
+    "in_service": "False"
   },
-  "Аspara": {
+  "200108": {
+    "name": "Аспара",
     "etype": "load",
     "bus": 814,
     "p_mw": 5,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200108
+    "in_service": "False"
   },
-  "ZHambyl": {
+  "200109": {
+    "name": "Жамбыл",
     "etype": "load",
     "bus": 801,
     "p_mw": 275,
     "q_mvar": 115,
-    "in_service": false,
-    "index": 200109
+    "in_service": "False"
   },
-  "Burnoe": {
+  "200110": {
+    "name": "Бурное",
     "etype": "load",
     "bus": 802,
     "p_mw": 10,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200110
+    "in_service": "False"
   },
-  "Karatau": {
+  "200111": {
+    "name": "Каратау",
     "etype": "load",
     "bus": 803,
     "p_mw": 5,
     "q_mvar": -1,
-    "in_service": false,
-    "index": 200111
+    "in_service": "False"
   },
-  "Opornaya": {
+  "200112": {
+    "name": "Опорная",
     "etype": "load",
     "bus": 804,
     "p_mw": 16,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200112
+    "in_service": "False"
   },
-  "zhgrehs-220": {
+  "200113": {
+    "name": "жгрэс-220",
     "etype": "load",
     "bus": 805,
     "p_mw": 220,
     "q_mvar": 0,
-    "in_service": false,
-    "index": 200113
+    "in_service": "False"
   },
-  "zhgrehs-16": {
+  "200114": {
+    "name": "жгрэс-16",
     "etype": "load",
     "bus": 806,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200114
+    "in_service": "True"
   },
-  "zhgrehs-110": {
+  "200115": {
+    "name": "жгрэс-110",
     "etype": "load",
     "bus": 807,
     "p_mw": 217,
     "q_mvar": 45,
-    "in_service": true,
-    "index": 200115
+    "in_service": "True"
   },
-  "Merke": {
+  "200116": {
+    "name": "Мерке",
     "etype": "load",
     "bus": 809,
     "p_mw": 5,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200116
+    "in_service": "False"
   },
-  "ZHambyl Tyaga": {
+  "200117": {
+    "name": "Жамбыл Тяга",
     "etype": "load",
     "bus": 815,
     "p_mw": 16,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200117
+    "in_service": "False"
   },
-  "Burnoe Tyaga": {
+  "200118": {
+    "name": "Бурное Тяга",
     "etype": "load",
     "bus": 816,
     "p_mw": 14,
     "q_mvar": 6,
-    "in_service": true,
-    "index": 200118
+    "in_service": "True"
   },
-  "Аbdezim": {
+  "200119": {
+    "name": "Абдезим",
     "etype": "load",
     "bus": 817,
     "p_mw": 5,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200119
+    "in_service": "True"
   },
-  "SHymkent-220": {
+  "200120": {
+    "name": "Шымкент-220",
     "etype": "load",
     "bus": 831,
     "p_mw": 49,
     "q_mvar": 9,
-    "in_service": false,
-    "index": 200120
+    "in_service": "False"
   },
-  "Sas-tyube": {
+  "200121": {
+    "name": "Сас-тюбе",
     "etype": "load",
     "bus": 834,
     "p_mw": 8,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200121
+    "in_service": "False"
   },
-  "Vannovka": {
+  "200122": {
+    "name": "Ванновка",
     "etype": "load",
     "bus": 835,
     "p_mw": 10,
     "q_mvar": 3.4769643262,
-    "in_service": false,
-    "index": 200122
+    "in_service": "False"
   },
-  "Badam": {
+  "200123": {
+    "name": "Бадам",
     "etype": "load",
     "bus": 836,
     "p_mw": 9,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200123
+    "in_service": "True"
   },
-  "Аrys'": {
+  "200124": {
+    "name": "Арысь",
     "etype": "load",
     "bus": 837,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200124
+    "in_service": "True"
   },
-  "Montajtash": {
+  "200125": {
+    "name": "Монтайташ",
     "etype": "load",
     "bus": 838,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200125
+    "in_service": "True"
   },
-  "ZHylga": {
+  "200126": {
+    "name": "Жылга",
     "etype": "load",
     "bus": 839,
     "p_mw": 29,
     "q_mvar": 9,
-    "in_service": false,
-    "index": 200126
+    "in_service": "False"
   },
-  "Kentau": {
+  "200127": {
+    "name": "Кентау",
     "etype": "load",
     "bus": 840,
     "p_mw": 50,
     "q_mvar": 12,
-    "in_service": false,
-    "index": 200127
+    "in_service": "False"
   },
-  "SHolakkorgan": {
+  "200128": {
+    "name": "Шолаккорган",
     "etype": "load",
     "bus": 841,
     "p_mw": 35,
     "q_mvar": -5,
-    "in_service": false,
-    "index": 200128
+    "in_service": "False"
   },
-  "SHymkentskaya": {
+  "200129": {
+    "name": "Шымкентская",
     "etype": "load",
     "bus": 843,
     "p_mw": 150,
     "q_mvar": 50,
-    "in_service": false,
-    "index": 200129
+    "in_service": "False"
   },
-  "Tyul'kubas": {
+  "200130": {
+    "name": "Тюлькубас",
     "etype": "load",
     "bus": 844,
     "p_mw": 3,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200130
+    "in_service": "True"
   },
-  "Kyzylsaj": {
+  "200131": {
+    "name": "Кызылсай",
     "etype": "load",
     "bus": 845,
     "p_mw": 8,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200131
+    "in_service": "False"
   },
-  "Kyzylordinskaya tehts": {
+  "200132": {
+    "name": "Кызылординская тэц",
     "etype": "load",
     "bus": 860,
     "p_mw": 23,
     "q_mvar": 11,
-    "in_service": false,
-    "index": 200132
+    "in_service": "False"
   },
-  "Kyzylordinskaya": {
+  "200133": {
+    "name": "Кызылординская",
     "etype": "load",
     "bus": 862,
     "p_mw": 23,
     "q_mvar": 6,
-    "in_service": false,
-    "index": 200133
+    "in_service": "False"
   },
-  "SHieli": {
+  "200134": {
+    "name": "Шиели",
     "etype": "load",
     "bus": 863,
     "p_mw": 18,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200134
+    "in_service": "False"
   },
-  "ZHanakorgan": {
+  "200135": {
+    "name": "Жанакорган",
     "etype": "load",
     "bus": 865,
     "p_mw": 6,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200135
+    "in_service": "False"
   },
-  "ZHalagash": {
+  "200136": {
+    "name": "Жалагаш",
     "etype": "load",
     "bus": 866,
     "p_mw": 8,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200136
+    "in_service": "True"
   },
-  "ZHusaly": {
+  "200137": {
+    "name": "Жусалы",
     "etype": "load",
     "bus": 867,
     "p_mw": 9,
     "q_mvar": 2.2641609353,
-    "in_service": true,
-    "index": 200137
+    "in_service": "True"
   },
-  "Bishkek": {
+  "200138": {
+    "name": "Бишкек",
     "etype": "load",
     "bus": 2918,
     "p_mw": 400,
     "q_mvar": 65,
-    "in_service": false,
-    "index": 200138
+    "in_service": "False"
   },
-  "TАSH.GREHS": {
+  "200139": {
+    "name": "ТАШ.ГРЭС",
     "etype": "load",
     "bus": 2924,
     "p_mw": 2500,
     "q_mvar": 0,
-    "in_service": false,
-    "index": 200139
+    "in_service": "False"
   },
-  "gpp-2": {
+  "200140": {
+    "name": "гпп-2",
     "etype": "load",
     "bus": 5957,
     "p_mw": 97,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200140
+    "in_service": "False"
   },
-  "Iriklinskaya grehs": {
+  "200141": {
+    "name": "Ириклинская грэс",
     "etype": "load",
     "bus": 4791,
     "p_mw": 1140,
     "q_mvar": 50,
-    "in_service": true,
-    "index": 200141
+    "in_service": "True"
   },
-  "Tavricheskaya": {
+  "200142": {
+    "name": "Таврическая",
     "etype": "load",
     "bus": 1816,
     "p_mw": 350,
     "q_mvar": -32,
-    "in_service": false,
-    "index": 200142
+    "in_service": "False"
   },
-  "Irtyshskaya": {
+  "200143": {
+    "name": "Иртышская",
     "etype": "load",
     "bus": 1851,
     "p_mw": 159,
     "q_mvar": -10,
-    "in_service": true,
-    "index": 200143
+    "in_service": "True"
   },
-  "Mirgalimsaj": {
+  "200144": {
+    "name": "Миргалимсай",
     "etype": "load",
     "bus": 842,
     "p_mw": 20,
     "q_mvar": 13,
-    "in_service": false,
-    "index": 200144
+    "in_service": "False"
   },
-  "Sary-oba (t)": {
+  "200145": {
+    "name": "Сары-оба (т)",
     "etype": "load",
     "bus": 169,
     "p_mw": 3,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200145
+    "in_service": "True"
   },
-  "Erkenshilik (t)": {
+  "200146": {
+    "name": "Еркеншилик (т)",
     "etype": "load",
     "bus": 167,
     "p_mw": 6,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200146
+    "in_service": "False"
   },
-  "ZHolymbet": {
+  "200147": {
+    "name": "Жолымбет",
     "etype": "load",
     "bus": 123,
     "p_mw": 27,
     "q_mvar": 6,
-    "in_service": false,
-    "index": 200147
+    "in_service": "False"
   },
-  "tsgpp": {
+  "200148": {
+    "name": "цгпп",
     "etype": "load",
     "bus": 124,
     "p_mw": 125,
     "q_mvar": -80,
-    "in_service": false,
-    "index": 200148
+    "in_service": "False"
   },
-  "SHortandy (t)": {
+  "200149": {
+    "name": "Шортанды (т)",
     "etype": "load",
     "bus": 125,
     "p_mw": 11,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200149
+    "in_service": "True"
   },
-  "Tankeris (t)": {
+  "200150": {
+    "name": "Танкерис (т)",
     "etype": "load",
     "bus": 179,
     "p_mw": 19,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200150
+    "in_service": "False"
   },
-  "El'taj (t)": {
+  "200151": {
+    "name": "Ельтай (т)",
     "etype": "load",
     "bus": 178,
     "p_mw": 4,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200151
+    "in_service": "True"
   },
-  "Burabaj (t)": {
+  "200152": {
+    "name": "Бурабай (т)",
     "etype": "load",
     "bus": 126,
     "p_mw": 23,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200152
+    "in_service": "False"
   },
-  "ZHaltyr (t)": {
+  "200153": {
+    "name": "Жалтыр (т)",
     "etype": "load",
     "bus": 132,
     "p_mw": 9,
     "q_mvar": 5,
-    "in_service": false,
-    "index": 200153
+    "in_service": "False"
   },
-  "Tastak (t)": {
+  "200154": {
+    "name": "Тастак (т)",
     "etype": "load",
     "bus": 162,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200154
+    "in_service": "True"
   },
-  "Irchenko (t)": {
+  "200155": {
+    "name": "Ирченко (т)",
     "etype": "load",
     "bus": 163,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200155
+    "in_service": "True"
   },
-  "Аtbasar": {
+  "200156": {
+    "name": "Атбасар",
     "etype": "load",
     "bus": 134,
     "p_mw": 43,
     "q_mvar": -28,
-    "in_service": false,
-    "index": 200156
+    "in_service": "False"
   },
-  "kgpp": {
+  "200157": {
+    "name": "кгпп",
     "etype": "load",
     "bus": 135,
     "p_mw": 104,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200157
+    "in_service": "False"
   },
-  "Krasnoarmejskaya": {
+  "200158": {
+    "name": "Красноармейская",
     "etype": "load",
     "bus": 159,
     "p_mw": 17,
     "q_mvar": 3,
-    "in_service": false,
-    "index": 200158
+    "in_service": "False"
   },
-  "Kiyaly": {
+  "200159": {
+    "name": "Киялы",
     "etype": "load",
     "bus": 136,
     "p_mw": 4,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200159
+    "in_service": "False"
   },
-  "BАRNАUL-500": {
+  "200160": {
+    "name": "БАРНАУЛ-500",
     "etype": "load",
     "bus": 1630,
     "p_mw": 2500,
     "q_mvar": 200,
-    "in_service": false,
-    "index": 200160
+    "in_service": "False"
   },
-  "ptehts-2-110": {
+  "200161": {
+    "name": "птэц-2-110",
     "etype": "load",
     "bus": 142,
     "p_mw": 200,
     "q_mvar": 18,
-    "in_service": false,
-    "index": 200161
+    "in_service": "False"
   },
-  "ptehts-2-220": {
+  "200162": {
+    "name": "птэц-2-220",
     "etype": "load",
     "bus": 144,
     "p_mw": 4,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200162
+    "in_service": "False"
   },
-  "Аktogaj-110": {
+  "200163": {
+    "name": "Актогай-110",
     "etype": "load",
     "bus": 484,
     "p_mw": 22,
     "q_mvar": -13,
-    "in_service": false,
-    "index": 200163
+    "in_service": "False"
   },
-  "Аvrora": {
+  "200164": {
+    "name": "Аврора",
     "etype": "load",
     "bus": 148,
     "p_mw": 0,
     "q_mvar": 11,
-    "in_service": false,
-    "index": 200164
+    "in_service": "False"
   },
-  "TULEBERDYEVА": {
+  "200165": {
+    "name": "ТУЛЕБЕРДЫЕВА",
     "etype": "load",
     "bus": 2915,
     "p_mw": 80,
     "q_mvar": 30,
-    "in_service": true,
-    "index": 200165
+    "in_service": "True"
   },
-  "Makinsk": {
+  "200166": {
+    "name": "Макинск",
     "etype": "load",
     "bus": 150,
     "p_mw": 22,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200166
+    "in_service": "False"
   },
-  "Stepnaya": {
+  "200167": {
+    "name": "Степная",
     "etype": "load",
     "bus": 151,
     "p_mw": 124,
     "q_mvar": 31,
-    "in_service": false,
-    "index": 200167
+    "in_service": "False"
   },
-  "TOKTOGUL'SKАYA GEHS": {
+  "200168": {
+    "name": "ТОКТОГУЛЬСКАЯ ГЭС",
     "etype": "load",
     "bus": 2921,
     "p_mw": 2230,
     "q_mvar": 55,
-    "in_service": false,
-    "index": 200168
+    "in_service": "False"
   },
-  "YAnko (t)": {
+  "200169": {
+    "name": "Янко (т)",
     "etype": "load",
     "bus": 153,
     "p_mw": 9,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200169
+    "in_service": "False"
   },
-  "Sibir'": {
+  "200170": {
+    "name": "Сибирь",
     "etype": "load",
     "bus": 160,
     "p_mw": 13,
     "q_mvar": 2,
-    "in_service": true,
-    "index": 200170
+    "in_service": "True"
   },
-  "Buran": {
+  "200171": {
+    "name": "Буран",
     "etype": "load",
     "bus": 173,
     "p_mw": 10,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200171
+    "in_service": "False"
   },
-  "Ugolki(t)": {
+  "200172": {
+    "name": "Уголки(т)",
     "etype": "load",
     "bus": 156,
     "p_mw": 8,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200172
+    "in_service": "False"
   },
-  "Kujbyshevskaya": {
+  "200173": {
+    "name": "Куйбышевская",
     "etype": "load",
     "bus": 157,
     "p_mw": 20,
     "q_mvar": -8,
-    "in_service": false,
-    "index": 200173
+    "in_service": "False"
   },
-  "Kokshetauskaya-1150": {
+  "200174": {
+    "name": "Кокшетауская-1150",
     "etype": "load",
     "bus": 176,
     "p_mw": 60,
     "q_mvar": -8,
-    "in_service": false,
-    "index": 200174
+    "in_service": "False"
   },
-  "Urozhajnaya": {
+  "200175": {
+    "name": "Урожайная",
     "etype": "load",
     "bus": 1673,
     "p_mw": 150,
     "q_mvar": 60,
-    "in_service": true,
-    "index": 200175
+    "in_service": "True"
   },
-  "Perekatnaya (t)": {
+  "200176": {
+    "name": "Перекатная (т)",
     "etype": "load",
     "bus": 172,
     "p_mw": 3,
     "q_mvar": 2,
-    "in_service": false,
-    "index": 200176
+    "in_service": "False"
   },
-  "ZHaksy (t)": {
+  "200177": {
+    "name": "Жаксы (т)",
     "etype": "load",
     "bus": 164,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": true,
-    "index": 200177
+    "in_service": "True"
   },
-  "KURGАN": {
+  "200178": {
+    "name": "КУРГАН",
     "etype": "load",
     "bus": 4727,
     "p_mw": 500,
     "q_mvar": 200,
-    "in_service": false,
-    "index": 200178
+    "in_service": "False"
   },
-  "SMELOVSKАYA": {
+  "200179": {
+    "name": "СМЕЛОВСКАЯ",
     "etype": "load",
     "bus": 50014,
     "p_mw": 350,
     "q_mvar": 80,
-    "in_service": false,
-    "index": 200179
+    "in_service": "False"
   },
-  "EHkibastuzskaya tehts": {
+  "200180": {
+    "name": "Экибастузская тэц",
     "etype": "load",
     "bus": 44,
     "p_mw": 41,
     "q_mvar": 5,
-    "in_service": true,
-    "index": 200180
+    "in_service": "True"
   },
-  "arbz": {
+  "200181": {
+    "name": "арбз",
     "etype": "load",
     "bus": 4004,
     "p_mw": 9,
     "q_mvar": 5,
-    "in_service": true,
-    "index": 200181
+    "in_service": "True"
   },
-  "bgok": {
+  "200182": {
+    "name": "бгок",
     "etype": "load",
     "bus": 62,
     "p_mw": 174,
     "q_mvar": 21,
-    "in_service": false,
-    "index": 200182
+    "in_service": "False"
   },
-  "Koyan-Kos": {
+  "200183": {
+    "name": "Коян-Кос",
     "etype": "load",
     "bus": 953,
     "p_mw": 7,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200183
+    "in_service": "False"
   },
-  "SHymkentskaya TEHTS-3": {
+  "200184": {
+    "name": "Шымкентская ТЭЦ-3",
     "etype": "load",
     "bus": 813,
     "p_mw": 220,
     "q_mvar": 42,
-    "in_service": false,
-    "index": 200184
+    "in_service": "False"
   },
-  "Barnaul-220": {
+  "200185": {
+    "name": "Барнаул-220",
     "etype": "load",
     "bus": 1640,
     "p_mw": 320,
     "q_mvar": 92,
-    "in_service": true,
-    "index": 200185
+    "in_service": "True"
   },
-  "Ru-6": {
+  "200186": {
+    "name": "Ру-6",
     "etype": "load",
     "bus": 869,
     "p_mw": 67,
     "q_mvar": 4,
-    "in_service": false,
-    "index": 200186
+    "in_service": "False"
   },
-  "UZBEKISTON": {
+  "200187": {
+    "name": "УЗБЕКИСТОН",
     "etype": "load",
     "bus": 2922,
     "p_mw": 577,
     "q_mvar": 272,
-    "in_service": true,
-    "index": 200187
+    "in_service": "True"
   },
-  "АLTАJ": {
+  "200188": {
+    "name": "АЛТАЙ",
     "etype": "load",
     "bus": 1660,
     "p_mw": 12500,
     "q_mvar": 5200,
-    "in_service": false,
-    "index": 200188
+    "in_service": "False"
   },
-  "SYRDАR'INSKАYA TEHS": {
+  "200189": {
+    "name": "СЫРДАРЬИНСКАЯ ТЭС",
     "etype": "load",
     "bus": 2923,
     "p_mw": 6390,
     "q_mvar": 3066,
-    "in_service": true,
-    "index": 200189
+    "in_service": "True"
   },
-  "Rubtsovskaya": {
+  "200190": {
+    "name": "Рубцовская",
     "etype": "load",
     "bus": 1622,
     "p_mw": 175,
     "q_mvar": 70,
-    "in_service": false,
-    "index": 200190
+    "in_service": "False"
   },
-  "LOCHIN": {
+  "200191": {
+    "name": "ЛОЧИН",
     "etype": "load",
     "bus": 2920,
     "p_mw": 290,
     "q_mvar": 110,
-    "in_service": true,
-    "index": 200191
+    "in_service": "True"
   },
-  "BАRАBINSKАYA": {
+  "200192": {
+    "name": "БАРАБИНСКАЯ",
     "etype": "load",
     "bus": 9917,
     "p_mw": 135,
     "q_mvar": -40,
-    "in_service": false,
-    "index": 200192
+    "in_service": "False"
   },
-  "KURCHАTOVSKАYA": {
+  "200193": {
+    "name": "КУРЧАТОВСКАЯ",
     "etype": "load",
     "bus": 50002,
     "p_mw": 200,
     "q_mvar": 100,
-    "in_service": false,
-    "index": 200193
+    "in_service": "False"
   },
-  "sehs burnoe": {
+  "200194": {
+    "name": "сэс бурное",
     "etype": "load",
     "bus": 810,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200194
+    "in_service": "False"
   },
-  "YUZHNOURАL'SKАYA GREHS-2": {
+  "200195": {
+    "name": "ЮЖНОУРАЛЬСКАЯ ГРЭС-2",
     "etype": "load",
     "bus": 47161,
     "p_mw": 150,
     "q_mvar": 80,
-    "in_service": false,
-    "index": 200195
+    "in_service": "False"
   },
-  "Kemin": {
+  "200196": {
+    "name": "Кемин",
     "etype": "load",
     "bus": 2952,
     "p_mw": 475,
     "q_mvar": 70,
-    "in_service": false,
-    "index": 200196
+    "in_service": "False"
   },
-  "Voskhod": {
+  "200197": {
+    "name": "Восход",
     "etype": "load",
     "bus": 1854,
     "p_mw": 213,
     "q_mvar": 56,
-    "in_service": false,
-    "index": 200197
+    "in_service": "False"
   },
-  "VITYAZ'": {
+  "200198": {
+    "name": "ВИТЯЗЬ",
     "etype": "load",
     "bus": 1852,
     "p_mw": 1,
     "q_mvar": 1,
-    "in_service": false,
-    "index": 200198
+    "in_service": "False"
   },
-  "KEMIN": {
+  "200199": {
+    "name": "КЕМИН",
     "etype": "load",
     "bus": 2951,
     "p_mw": 1200,
     "q_mvar": 500,
-    "in_service": false,
-    "index": 200199
+    "in_service": "False"
   },
-  "Аkmolinskaya TEHTS": {
+  "200200": {
+    "name": "Акмолинская ТЭЦ",
     "etype": "load",
     "bus": 108,
     "p_mw": 140,
     "q_mvar": 0,
-    "in_service": false,
-    "index": 200200
+    "in_service": "False"
   },
-  "DАTKА": {
+  "200201": {
+    "name": "ДАТКА",
     "etype": "load",
     "bus": 2950,
     "p_mw": 200,
     "q_mvar": 100,
-    "in_service": true,
-    "index": 200201
+    "in_service": "True"
   },
-  "Аkzhar": {
+  "200202": {
+    "name": "Акжар",
     "etype": "load",
     "bus": 3004,
     "p_mw": 9,
     "q_mvar": 5,
-    "in_service": true,
-    "index": 200202
+    "in_service": "True"
   },
-  "Ermensaj": {
+  "200203": {
+    "name": "Ерменсай",
     "etype": "load",
     "bus": 942,
     "p_mw": 146,
     "q_mvar": -25,
-    "in_service": false,
-    "index": 200203
+    "in_service": "False"
   },
-  "TMK": {
+  "200204": {
+    "name": "ТМК",
     "etype": "load",
     "bus": 242,
     "p_mw": 79,
     "q_mvar": 30,
-    "in_service": false,
-    "index": 200204
+    "in_service": "False"
   },
-  "PS-7": {
+  "200205": {
+    "name": "ПС-7",
     "etype": "load",
     "bus": 215,
     "p_mw": 810,
     "q_mvar": 400,
-    "in_service": false,
-    "index": 200205
+    "in_service": "False"
   },
-  "Novokuznetskaya": {
+  "200206": {
+    "name": "Новокузнецкая",
     "etype": "load",
     "bus": 1638,
     "p_mw": 100,
     "q_mvar": 50,
-    "in_service": true,
-    "index": 200206
+    "in_service": "True"
   },
-  "Itatskaya": {
+  "200207": {
+    "name": "Итатская",
     "etype": "load",
     "bus": 1636,
     "p_mw": 100,
     "q_mvar": 50,
-    "in_service": true,
-    "index": 200207
+    "in_service": "True"
   },
-  "YUrga": {
+  "200208": {
+    "name": "Юрга",
     "etype": "load",
     "bus": 1632,
     "p_mw": 100,
     "q_mvar": 50,
-    "in_service": true,
-    "index": 200208
+    "in_service": "True"
   },
-  "Barabinskaya-220": {
+  "200209": {
+    "name": "Барабинская-220",
     "etype": "load",
     "bus": 1671,
     "p_mw": 51,
     "q_mvar": 0,
-    "in_service": true,
-    "index": 200209
+    "in_service": "True"
   }
 }

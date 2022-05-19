@@ -90,6 +90,13 @@ def sim_request(data):
         else:
             return value   
 
+    def check_none(value):
+        if value == "None":
+            return None
+        else:
+            return value 
+
+
     bus_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "bus"]
     element_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) != "bus" and utils.get_or_error("etype", element) != "switch"]
     switch_list = [(uuid, element) for uuid, element in elements_dict.items() if utils.get_or_error("etype", element) == "switch"]
@@ -103,31 +110,31 @@ def sim_request(data):
         req_props = utils.required_props[element_type]
         positional_args = [value for key, value in bus.items() if key in req_props ]
         optional_args = { key: value for key, value in bus.items() if (not key in req_props) and (not key == "etype")}
-        index = pp.create_bus(net, *positional_args, **optional_args, name=uuid)
+        index = pp.create_bus(net, *positional_args, **optional_args, index=int(uuid) )
         buses[index] = index ##uuid
-        print("BUS index: ", index, uuid)
+        print("BUS: ", index, uuid)
     
+    print("NET_BUS:", net.bus)
+
     #create_elements
     for uuid, element in element_list:
         element_type = utils.get_or_error("etype", element)
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in element.items() if key in req_props]
-        optional_args = { key: value for key, value in element.items() if (not key in req_props) and (not key == "etype") } #and (not key == "in_service")
-        
-        #in_service_val = utils.get_or_error("in_service", element)
-        index = None
+        optional_args = { key:check_none(value) for key, value in element.items() if (not key in req_props) and (not key == "etype") } #and (not key == "in_service")
+        index_val=int(uuid)
+
         result = ""
         if element_type == "load":
-            index = pp.create_load(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_load(net, *positional_args, **optional_args, index=index_val )
             result = "load"+str(index)
 
         elif element_type == "gen":            
-            #min_q_mvar_val = utils.get_or_error("min_q_mvar", element) #min_q_mvar = min_q_mvar_val,
-            index = pp.create_gen(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_gen(net, *positional_args, **optional_args, index=index_val )
             result = "gen"+str(index)
 
         elif element_type == "ext_grid":
-            index = pp.create_ext_grid(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_ext_grid(net, *positional_args, **optional_args, index=index_val )
             result = "ext_grid"+str(index)
 
         # elif element_type == "line":
@@ -135,7 +142,7 @@ def sim_request(data):
         # elif element_type == "lineStd":
         #     pp.create_line(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "line":
-            index = pp.create_line_from_parameters(net, *positional_args, **optional_args, name=uuid)  
+            index = pp.create_line_from_parameters(net, *positional_args, **optional_args, index=index_val )  
             result = "line"+str(index)
             
         # elif element_type == "trafo":
@@ -143,15 +150,15 @@ def sim_request(data):
         # elif element_type == "trafoStd":
         #     pp.create_transformer(net, *positional_args, **optional_args, name=uuid)
         elif element_type == "trafo":
-            index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_transformer_from_parameters(net, *positional_args, **optional_args, index=index_val )
             result = "trafo"+str(index)
 
         elif element_type == "storage":
-            index = pp.create_storage(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_storage(net, *positional_args, **optional_args, index=index_val )
             result = "storage"+str(index)
 
         elif element_type == "shunt":            
-            index = pp.create_shunt(net, *positional_args, **optional_args, name=uuid)
+            index = pp.create_shunt(net, *positional_args, **optional_args, index=index_val )
             result = "shunt"+str(index)
 
         else:
@@ -159,7 +166,7 @@ def sim_request(data):
             raise InvalidError(f"Element type {element_type} is invalid or not implemented!")
         
         elements[result] = index ##uuid
-        print("EL index: ", index, uuid)
+        print("ELE: ", index, uuid)
         
 
     #create_switches
@@ -168,9 +175,7 @@ def sim_request(data):
         req_props = utils.required_props[element_type]
         positional_args = [process_potential_bus(key, value) for key, value in switch.items() if key in req_props]
         optional_args = { key: value for key, value in switch.items() if (not key in req_props) and (not key == "etype") }
-        
-        #in_service_val = bool(utils.get_or_error("in_service", element))
-        
+         
         et = positional_args[2]
         if et == "b":
             pass # This is handled by process_potential_buses
@@ -192,7 +197,7 @@ def sim_request(data):
             positional_args[1] = pp.get_element_index(net, "shunt", positional_args[1])
         else:
             raise InvalidError(f"Invalid element type {et}. Must be b,l,t,t3,sh.")
-        pp.create_switch(net, *positional_args, **optional_args, name=uuid)
+        pp.create_switch(net, *positional_args, **optional_args, index=int(uuid) )
 
 
 
@@ -223,11 +228,12 @@ def sim_request(data):
         req_props = utils.required_props[prop_type] 
         positional_args = [ process_potential_element(key, value) for key, value in measurement.items() if key in req_props ]        
         optional_args = { key: value for key, value in measurement.items() if (not key in req_props) and (not key == "meas_type")}
-        
+        index_val=int(uuid)
+
         #Генерация в узлах задаётся с плюсом, а нагрузка с минусом.
-        msrmt_index = pp.create_measurement(net, *positional_args, name=uuid)
+        msrmt_index = pp.create_measurement(net, *positional_args, **optional_args, index=index_val )
             #pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
-        print("Measure index:", msrmt_index)
+        print("MEAS.: ", msrmt_index)
 
     #run (runpp, runpp_3ph, estimate)
     try:
