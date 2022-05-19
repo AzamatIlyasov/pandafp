@@ -1,0 +1,5061 @@
+
+{
+    "status": "SIM_REQUEST",
+    "3phase": false,
+    "is_estimate": false,
+    "elements": {
+        "Chernozubovka": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":186,            
+            "type":"b",
+            "in_service":true,
+            "name": "Chernozubovka"
+        },
+        "Novotroitsk": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3103,
+            "type":"b",
+            "in_service":false,
+            "name": "Novotroitsk"
+        },        
+        "Orskaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3104,
+            "type":"b",
+            "in_service":false,
+            "name": "Orskaya"
+        },
+        "Ulke220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3020,
+            "type":"b",
+            "in_service":false,
+            "name": "Ulke220"
+        },
+        "Kimpersay": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3005,
+            "type":"b",
+            "in_service":false,
+            "name": "Kimpersay"
+        },
+        "Aktobe220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3006,
+            "type":"b",
+            "in_service":false,
+            "name": "Aktobe220"
+        }, 
+        "Taldykorgan220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":988,
+            "type":"b",
+            "in_service":true,
+            "name": "Taldykorgan220"
+        },
+        "Kounrad220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":481,
+            "type":"b",
+            "in_service":true,
+            "name": "Kounrad220"
+        },
+        "Tashkent": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":2940,
+            "type":"b",
+            "in_service":false,
+            "name": "Tashkent"
+        },
+        "Kounrad110": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":482,
+            "type":"b",
+            "in_service":false,
+            "name": "Kounrad110"
+        },
+        "Novo-angrenskaya TES": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":2945,
+            "type":"b",
+            "in_service":false,
+            "name": "Novo-angrenskaya TES"
+        },
+        "Karabalty": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":2917,
+            "type":"b",
+            "in_service":true,
+            "name": "Karabalty"
+        },
+        "Tets 3": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":383,
+            "type":"b",
+            "in_service":true,
+            "name": "Tets 3"
+        },
+        "Taldykorgan500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":987,
+            "type":"b",
+            "in_service":true,
+            "name": "Taldykorgan500"
+        },
+        "Metallurgicheskaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":384,
+            "type":"b",
+            "in_service":true,
+            "name": "Metallurgicheskaya"
+        },
+        "Tashkentskaya GRES": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":2926,
+            "type":"b",
+            "in_service":false,
+            "name": "Tashkentskaya GRES"
+        },
+        "Chilisay": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3019,
+            "type":"b",
+            "in_service":false,
+            "name": "Chilisay"
+        },
+        "ipm": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":318,
+            "type":"b",
+            "in_service":false,
+            "name": "ipm"
+        },
+        "Semey500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":980,
+            "type":"b",
+            "in_service":true,
+            "name": "Semey500"
+        },
+        "otpaika-4": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":314,
+            "type":"b",
+            "in_service":true,
+            "name": "otpaika-4"
+        },
+        "Semey220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":981,
+            "type":"b",
+            "in_service":true,
+            "name": "Semey220"
+        },
+        "otpaika-5": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":315,
+            "type":"b",
+            "in_service":true,
+            "name": "otpaika-5"
+        },
+        "Tyumen": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4730,
+            "type":"b",
+            "in_service":true,
+            "name": "Tyumen"
+        },
+        "Berkut": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4728,
+            "type":"b",
+            "in_service":true,
+            "name": "Berkut"
+        },
+        "Iriklinskaya GRES": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4790,
+            "type":"b",
+            "in_service":true,
+            "name": "Iriklinskaya GRES"
+        },
+        "Troitskaya gres": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":4798,
+            "type":"b",
+            "in_service":true,
+            "name": "Troitskaya gres"
+        },
+        "TROITSKAYA GRES": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4799,
+            "type":"b",
+            "in_service":true,
+            "name": "TROITSKAYA GRES"
+        },
+        "esil": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":170,
+            "type":"b",
+            "in_service":true,
+            "name": "esil"
+        },
+        "ESIL": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":180,
+            "type":"b",
+            "in_service":true,
+            "name": "ESIL"
+        },
+        "KOKCHETAVSKAYA": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":175,
+            "type":"b",
+            "in_service":true,
+            "name": "KOKCHETAVSKAYA"
+        },
+        "Kozyrevo": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4703,
+            "type":"b",
+            "in_service":true,
+            "name": "Kozyrevo"
+        },
+        "Reftinskaya GRES": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4702,
+            "type":"b",
+            "in_service":true,
+            "name": "Reftinskaya GRES"
+        },
+        "Yzhnaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4701,
+            "type":"b",
+            "in_service":true,
+            "name": "Yzhnaya"
+        },
+        "Kushmurun": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":571,
+            "type":"b",
+            "in_service":false,
+            "name": "Kushmurun"
+        },
+        "Aman-karagay": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":572,
+            "type":"b",
+            "in_service":false,
+            "name": "Aman-karagay"
+        },
+        "Apanovka": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":573,
+            "type":"b",
+            "in_service":true,
+            "name": "Apanovka"
+        },
+        "Lisakovka": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":574,
+            "type":"b",
+            "in_service":true,
+            "name": "Lisakovka"
+        },
+        "Sokol220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":575,
+            "type":"b",
+            "in_service":true,
+            "name": "Sokol220"
+        },
+        "Sokol500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":576,
+            "type":"b",
+            "in_service":true,
+            "name": "Sokol500"
+        },
+        "Zhitikara500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":577,
+            "type":"b",
+            "in_service":true,
+            "name": "Zhitikara500"
+        },
+        "Ulke500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":9001,
+            "type":"b",
+            "in_service":false,
+            "name": "Ulke500"
+        },
+        "Zhitikara110": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":578,
+            "type":"b",
+            "in_service":true,
+            "name": "Zhitikara110"
+        }, 
+        "Privalovskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":50032,
+            "type":"b",
+            "in_service":true,
+            "name": "Privalovskaya"
+        },
+        "Aktogay220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":483,
+            "type":"b",
+            "in_service":true,
+            "name": "Aktogay220"
+        },
+        "Shagol": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4782,
+            "type":"b",
+            "in_service":true,
+            "name": "Shagol"
+        },
+        "Beketovo": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4709,
+            "type":"b",
+            "in_service":true,
+            "name": "Beketovo"
+        },
+        "Zarya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":1631,
+            "type":"b",
+            "in_service":true,
+            "name": "Zarya"
+        },
+        "Kachary": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":582,
+            "type":"b",
+            "in_service":true,
+            "name": "Kachary"
+        },
+        "MAGNITOGORSKAYA": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4785,
+            "type":"b",
+            "in_service":true,
+            "name": "MAGNITOGORSKAYA"
+        },
+        "Chelgashy": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":585,
+            "type":"b",
+            "in_service":false,
+            "name": "Chelgashy"
+        },
+        "Kostanaiskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":590,
+            "type":"b",
+            "in_service":true,
+            "name": "Kostanaiskaya"
+        },
+        "Kustanaiskaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":592,
+            "type":"b",
+            "in_service":true,
+            "name": "Kustanaiskaya"
+        },
+        "Centralnaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":593,
+            "type":"b",
+            "in_service":true,
+            "name": "Centralnaya"
+        },
+        "ssgpo": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":594,
+            "type":"b",
+            "in_service":true,
+            "name": "ssgpo"
+        },
+        "Priuralskaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":595,
+            "type":"b",
+            "in_service":true,
+            "name": "Priuralskaya"
+        },
+        "Zlatoust": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4715,
+            "type":"b",
+            "in_service":true,
+            "name": "Zlatoust"
+        },
+        "Kropachevo": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4715,
+            "type":"b",
+            "in_service":true,
+            "name": "Kropachevo"
+        },
+        "Ufimskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4712,
+            "type":"b",
+            "in_service":true,
+            "name": "Ufimskaya"
+        },
+        "Zarechnaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":596,
+            "type":"b",
+            "in_service":true,
+            "name": "Zarechnaya"
+        },
+        "Chelyabinsk": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":4705,
+            "type":"b",
+            "in_service":true,
+            "name": "Chelyabinsk"
+        },
+        "ps51": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":251,
+            "type":"b",
+            "in_service":true,
+            "name": "ps51"
+        },
+        "EGRES-1-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":25,
+            "type":"b",
+            "in_service":true,
+            "name": "EGRES-1-500"
+        },
+        "Ekibastuzskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":26,
+            "type":"b",
+            "in_service":true,
+            "name": "Ekibastuzskaya"
+        },
+        "EGRES-2-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":28,
+            "type":"b",
+            "in_service":true,
+            "name": "EGRES-2-500"
+        },
+        "EGRES-2-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":29,
+            "type":"b",
+            "in_service":true,
+            "name": "EGRES-2-220"
+        },
+        "eek-20-bl5-8": {
+            "etype": "bus",
+            "vn_kv": 20.0,
+            "index":30,
+            "type":"b",
+            "in_service":true,
+            "name": "eek-20-bl5-8"
+        },
+        "EEK-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":31,
+            "type":"b",
+            "in_service":true,
+            "name": "EEK-500"
+        },
+        "eek-20-bl2-4": {
+            "etype": "bus",
+            "vn_kv": 20.0,
+            "index":32,
+            "type":"b",
+            "in_service":true,
+            "name": "eek-20-bl2-4"
+        },
+        "eek-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":33,
+            "type":"b",
+            "in_service":true,
+            "name": "eek-220"
+        },
+        "Kalkaman": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":36,
+            "type":"b",
+            "in_service":true,
+            "name": "Kalkaman"
+        },
+        "ns-7": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":37,
+            "type":"b",
+            "in_service":false,
+            "name": "ns-7"
+        },
+        "Ekibastuz-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":38,
+            "type":"b",
+            "in_service":true,
+            "name": "Ekibastuz-220"
+        },
+        "egres-1": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":39,
+            "type":"b",
+            "in_service":true,
+            "name": "egres-1"
+        },
+        "egres-1-bl2": {
+            "etype": "bus",
+            "vn_kv": 20.0,
+            "index":50,
+            "type":"b",
+            "in_service":true,
+            "name": "egres-1-bl2"
+        },
+        "egres-1-bl3-8": {
+            "etype": "bus",
+            "vn_kv": 20.0,
+            "index":51,
+            "type":"b",
+            "in_service":true,
+            "name": "egres-1-bl3-8"
+        },
+        "ns-12": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":52,
+            "type":"b",
+            "in_service":false,
+            "name": "ns-12"
+        },
+        "eepk": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":53,
+            "type":"b",
+            "in_service":true,
+            "name": "eepk"
+        },
+        "crmz": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":54,
+            "type":"b",
+            "in_service":true,
+            "name": "crmz"
+        },
+         "azf": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":55,
+            "type":"b",
+            "in_service":false,
+            "name": "azf"
+        },
+        "Stroitelnaya-2": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":56,
+            "type":"b",
+            "in_service":true,
+            "name": "Stroitelnaya-2"
+        },
+        "Ulenty(t)": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":58,
+            "type":"b",
+            "in_service":true,
+            "name": "Ulenty(t)"
+        },
+        "Boshak(t)": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":59,
+            "type":"b",
+            "in_service":true,
+            "name": "Boshak(t)"
+        },
+        "egres-2-20": {
+            "etype": "bus",
+            "vn_kv": 20.0,
+            "index":60,
+            "type":"b",
+            "in_service":true,
+            "name": "egres-2-20"
+        },
+         "Taskudyk(T)": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":61,
+            "type":"b",
+            "in_service":true,
+            "name": "Taskudyk(T)"
+        },
+        "ns17": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":307,
+            "type":"b",
+            "in_service":false,
+            "name": "ns17"
+        },
+        "Nura-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":325,
+            "type":"b",
+            "in_service":true,
+            "name": "Nura-500"
+        },
+        "CGPP": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":129,
+            "type":"b",
+            "in_service":true,
+            "name": "CGPP"
+        },
+        "Ermentau(t)": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":166,
+            "type":"b",
+            "in_service":true,
+            "name": "Ermentau(t)"
+        },
+        "Rubtsovskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":1621,
+            "type":"b",
+            "in_service":true,
+            "name": "Rubtsovskaya"
+        },
+        "Tavricheskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":1817,
+            "type":"b",
+            "in_service":true,
+            "name": "Tavricheskaya"
+        },
+         "Irtyshskaya": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":1850,
+            "type":"b",
+            "in_service":true,
+            "name": "Irtyshskaya"
+        },
+        "KEZ-1.2": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":27,
+            "type":"b",
+            "in_service":true,
+            "name": "KEZ-1.2"
+        },
+        "ps-14": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":214,
+            "type":"b",
+            "in_service":true,
+            "name": "ps-14"
+        },
+        "Rysaevo": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":3102,
+            "type":"b",
+            "in_service":false,
+            "name": "Rysaevo"
+        },
+         "ps-18": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":218,
+            "type":"b",
+            "in_service":true,
+            "name": "ps-18"
+        },
+        "shges-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":220,
+            "type":"b",
+            "in_service":true,
+            "name": "shges-220"
+        },
+         "Ust-kamenogorskaya-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":240,
+            "type":"b",
+            "in_service":true,
+            "name": "Ust-kamenogorskaya-500"
+        },
+        "Ust-kamenogorskaya-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":241,
+            "type":"b",
+            "in_service":true,
+            "name": "Ust-kamenogorskaya-220"
+        },
+        "shges-14": {
+            "etype": "bus",
+            "vn_kv": 14.0,
+            "index":221,
+            "type":"b",
+            "in_service":true,
+            "name": "shges-14"
+        },
+        "zhgok": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":222,
+            "type":"b",
+            "in_service":true,
+            "name": "zhgok"
+        },
+        "Shoptykol(t)": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":101,
+            "type":"b",
+            "in_service":true,
+            "name": "Shoptykol(t)"
+        },
+        "Batys": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":102,
+            "type":"b",
+            "in_service":true,
+            "name": "Batys"
+        },
+        "Dostyk": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":103,
+            "type":"b",
+            "in_service":true,
+            "name": "Dostyk"
+        },
+        "Shygys": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":104,
+            "type":"b",
+            "in_service":true,
+            "name": "Shygys"
+        },
+        "Osakarovka": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":306,
+            "type":"b",
+            "in_service":true,
+            "name": "Osakarovka"
+        },
+        "Saran": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":308,
+            "type":"b",
+            "in_service":true,
+            "name": "Saran"
+        },
+        "ns-19": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":309,
+            "type":"b",
+            "in_service":true,
+            "name": "ns-19"
+        },
+        "Nura-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":310,
+            "type":"b",
+            "in_service":true,
+            "name": "Nura-220"
+        },
+        "gres-2": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":355,
+            "type":"b",
+            "in_service":true,
+            "name": "gres-2"
+        },
+        "Kara-murun": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":450,
+            "type":"b",
+            "in_service":false,
+            "name": "Kara-murun"
+        },
+        "Zharyk": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":451,
+            "type":"b",
+            "in_service":false,
+            "name": "Zharyk"
+        },
+        "Aisa": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":452,
+            "type":"b",
+            "in_service":true,
+            "name": "Aisa"
+        },
+        "Zhana-arka": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":453,
+            "type":"b",
+            "in_service":true,
+            "name": "Zhana-arka"
+        },
+        "Barsengir": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":454,
+            "type":"b",
+            "in_service":true,
+            "name": "Barsengir"
+        },
+        "Kumkol": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":455,
+            "type":"b",
+            "in_service":true,
+            "name": "Kumkol"
+        },
+        "Kairakty": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":457,
+            "type":"b",
+            "in_service":true,
+            "name": "Kairakty"
+        },
+        "Nikolskaya": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":461,
+            "type":"b",
+            "in_service":false,
+            "name": "Nikolskaya"
+        },
+        "zhtets": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":462,
+            "type":"b",
+            "in_service":false,
+            "name": "zhtets"
+        },
+        "zhtets-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":463,
+            "type":"b",
+            "in_service":true,
+            "name": "zhtets-220"
+        },
+        "Nikolskaya": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":464,
+            "type":"b",
+            "in_service":true,
+            "name": "Nikolskaya"
+        },
+        "Karazhal": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":465,
+            "type":"b",
+            "in_service":true,
+            "name": "Karazhal"
+        },
+        "Zhezkazgan-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":466,
+            "type":"b",
+            "in_service":true,
+            "name": "Zhezkazgan-220"
+        },
+        "Kumkol": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":467,
+            "type":"b",
+            "in_service":true,
+            "name": "Kumkol"
+        },
+        "Agadyr-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":468,
+            "type":"b",
+            "in_service":true,
+            "name": "Agadyr-220"
+        },
+        "Agadyr-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":469,
+            "type":"b",
+            "in_service":true,
+            "name": "Agadyr-500"
+        },
+        "btets-110": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":471,
+            "type":"b",
+            "in_service":true,
+            "name": "btets-110"
+        },
+        "Balhashskaya-110": {
+            "etype": "bus",
+            "vn_kv": 110.0,
+            "index":472,
+            "type":"b",
+            "in_service":true,
+            "name": "Balhashskaya-110"
+        },
+        "Balhashskaya-220": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":473,
+            "type":"b",
+            "in_service":true,
+            "name": "Balhashskaya-220"
+        },
+        "Akchtau": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":474,
+            "type":"b",
+            "in_service":true,
+            "name": "Akchtau"
+        },
+        "Mointy": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":475,
+            "type":"b",
+            "in_service":true,
+            "name": "Mointy"
+        },
+        "Karazhingil": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":476,
+            "type":"b",
+            "in_service":false,
+            "name": "Karazhingil"
+        },
+        "Saryshagan": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":477,
+            "type":"b",
+            "in_service":false,
+            "name": "Saryshagan"
+        },
+        "Zhezkazgan-500": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":480,
+            "type":"b",
+            "in_service":true,
+            "name": "Zhezkazgan-500"
+        },
+        "YKGRES": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":900,
+            "type":"b",
+            "in_service":true,
+            "name": "YKGRES"
+        },
+        "Mynaral": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":924,
+            "type":"b",
+            "in_service":false,
+            "name": "Mynaral"
+        },
+        "FRUNZE": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":2919,
+            "type":"b",
+            "in_service":true,
+            "name": "FRUNZE"
+        },
+        "Kiyahty": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":930,
+            "type":"b",
+            "in_service":false,
+            "name": "Kiyahty"
+        },
+        "ykgres": {
+            "etype": "bus",
+            "vn_kv": 220.0,
+            "index":901,
+            "type":"b",
+            "in_service":true,
+            "name": "ykgres"
+        },
+        "ALMATY": {
+            "etype": "bus",
+            "vn_kv": 500.0,
+            "index":902,
+            "type":"b",
+            "in_service":true,
+            "name": "ALMATY"
+        },        
+
+
+
+        "ExtGrid": {
+            "etype": "ext_grid",
+            "bus": 4709,   
+            "vm_pu": 1
+        },
+
+
+
+//тут линии должны быть
+
+        "Novotroitsk - Ulke220": {
+            "etype": "line",
+            "from_bus": 3103,
+            "to_bus": 3020,
+            "length_km": 1,
+            "r_ohm_per_km": 5.1, 
+            "x_ohm_per_km": 45.71, 
+            "c_nf_per_km": 1.923866, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "type": "ol",
+            "in_service": false
+        },
+        "Zhitikara-500 - Ulke-500": {
+            "etype": "line",
+            "from_bus": 577,
+            "to_bus": 9001,
+            "length_km": 1,
+            "r_ohm_per_km": 16.54, 
+            "x_ohm_per_km": 149.4, 
+            "c_nf_per_km": 5.792287, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "type": "ol",
+            "in_service": false
+        },
+        "Orskaya - Kimpersay": {
+            "etype": "line",
+            "from_bus": 3104,
+            "to_bus": 3005,
+            "length_km": 1,
+            "r_ohm_per_km": 8.39, 
+            "x_ohm_per_km": 36.72, 
+            "c_nf_per_km": 0.719381, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "type": "ol",
+            "in_service": false           
+        },
+        "Orskaya - Aktobe-220": {
+            "etype": "line",
+            "from_bus": 3104,
+            "to_bus": 3006,
+            "length_km": 1,
+            "r_ohm_per_km": 16.68, 
+            "x_ohm_per_km": 73.02, 
+            "c_nf_per_km": 1.430485, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Novo-Angrenskaya TES - Syrdarinskaya TES": {
+            "etype": "line",
+            "from_bus": 2945,
+            "to_bus": 2923,
+            "length_km": 1,
+            "r_ohm_per_km": 4.18, 
+            "x_ohm_per_km": 38.2, 
+            "c_nf_per_km": 1.556854, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Nura-220 - Metallurgicheskaya": {
+            "etype": "line",
+            "from_bus": 310,
+            "to_bus": 384,
+            "length_km": 1,
+            "r_ohm_per_km": 1.56, 
+            "x_ohm_per_km": 6.2, 
+            "c_nf_per_km": 0.129234, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Atbasar-Irchenko(t)": {
+            "etype": "line",
+            "from_bus": 134,
+            "to_bus": 163,
+            "length_km": 1,
+            "r_ohm_per_km": 6.1, 
+            "x_ohm_per_km": 27.1, 
+            "c_nf_per_km": 0.532214, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "ps-18 - Semey220": {
+            "etype": "line",
+            "from_bus": 218,
+            "to_bus": 981,
+            "length_km": 1,
+            "r_ohm_per_km": 0.5, 
+            "x_ohm_per_km": 5.18, 
+            "c_nf_per_km": 0.13369, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "kgpp-Krasnoarmeiskaya": {
+            "etype": "line",
+            "from_bus": 135,
+            "to_bus": 159,
+            "length_km": 1,
+            "r_ohm_per_km": 5.8, 
+            "x_ohm_per_km": 25.9, 
+            "c_nf_per_km": 0.507704, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Makinsk-Stepnaya": {
+            "etype": "line",
+            "from_bus": 150,
+            "to_bus": 151,
+            "length_km": 1,
+            "r_ohm_per_km": 14, 
+            "x_ohm_per_km": 55.6, 
+            "c_nf_per_km": 1.158648, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "gpp-1 - gpp-2": {
+            "etype": "line",
+            "from_bus": 5958,
+            "to_bus": 5957,
+            "length_km": 1,
+            "r_ohm_per_km": 3.12, 
+            "x_ohm_per_km": 12.17, 
+            "c_nf_per_km": 0.256558, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "KOSTANAYSKAYA-CHELYABINSK": {
+            "etype": "line",
+            "from_bus": 590,
+            "to_bus": 4705,
+            "length_km": 1,
+            "r_ohm_per_km": 4, 
+            "x_ohm_per_km": 75.3, 
+            "c_nf_per_km": 4.520002, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "TROITSKAYA GRES - SOKOL-500": {
+            "etype": "line",
+            "from_bus": 4799,
+            "to_bus": 576,
+            "length_km": 1,
+            "r_ohm_per_km": 4.92, 
+            "x_ohm_per_km": 50.0, 
+            "c_nf_per_km": 1.979888, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "IRIKLINSKAYA GRES - ZHITIKARA-500": {
+            "etype": "line",
+            "from_bus": 4790,
+            "to_bus": 577,
+            "length_km": 1,
+            "r_ohm_per_km": 5.05, 
+            "x_ohm_per_km": 57.9, 
+            "c_nf_per_km": 2.304564, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ESIL-SOKOL-500": {
+            "etype": "line",
+            "from_bus": 180,
+            "to_bus": 576,
+            "length_km": 1,
+            "r_ohm_per_km": 8.8, 
+            "x_ohm_per_km": 80.0, 
+            "c_nf_per_km": 3.399551, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "SOKOL-500 - ZHITIKARA-500": {
+            "etype": "line",
+            "from_bus": 576,
+            "to_bus": 577,
+            "length_km": 1,
+            "r_ohm_per_km": 4.7, 
+            "x_ohm_per_km": 53.5, 
+            "c_nf_per_km": 2.126311, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "KOSTANAYSKAYA - SOKOL-500": {
+            "etype": "line",
+            "from_bus": 590,
+            "to_bus": 576,
+            "length_km": 1,
+            "r_ohm_per_km": 1.3, 
+            "x_ohm_per_km": 13.6, 
+            "c_nf_per_km": 0.506113, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Troitskaya gres - Priuralskaya": {
+            "etype": "line",
+            "from_bus": 4798,
+            "to_bus": 595,
+            "length_km": 1,
+            "r_ohm_per_km": 4.8, 
+            "x_ohm_per_km": 18.9, 
+            "c_nf_per_km": 0.396933, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Novotroitsk-Orskaya": {
+            "etype": "line",
+            "from_bus": 3103,
+            "to_bus": 3104,
+            "length_km": 1,
+            "r_ohm_per_km": 0.88, 
+            "x_ohm_per_km": 5.08, 
+            "c_nf_per_km": 0.104087, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Rysaevo-Novotroitsk": {
+            "etype": "line",
+            "from_bus": 3102,
+            "to_bus": 3103,
+            "length_km": 1,
+            "r_ohm_per_km": 5.37, 
+            "x_ohm_per_km": 30.5, 
+            "c_nf_per_km": 0.63662, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Iriklinskaya gres - Orskaya": {
+            "etype": "line",
+            "from_bus": 4791,
+            "to_bus": 3104,
+            "length_km": 1,
+            "r_ohm_per_km": 4.38, 
+            "x_ohm_per_km": 25.24, 
+            "c_nf_per_km": 0.516617, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Priuralskaya - Kachary": {
+            "etype": "line",
+            "from_bus": 595,
+            "to_bus": 582,
+            "length_km": 1,
+            "r_ohm_per_km": 7.8, 
+            "x_ohm_per_km": 30.6, 
+            "c_nf_per_km": 0.640121, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kachary - Sokol-220": {
+            "etype": "line",
+            "from_bus": 582,
+            "to_bus": 575,
+            "length_km": 1,
+            "r_ohm_per_km": 5.1, 
+            "x_ohm_per_km": 19.6, 
+            "c_nf_per_km": 0.381972, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Sokol-220 - Zarechnaya": {
+            "etype": "line",
+            "from_bus": 575,
+            "to_bus": 596,
+            "length_km": 1,
+            "r_ohm_per_km": 8.0, 
+            "x_ohm_per_km": 35.6, 
+            "c_nf_per_km": 0.699009, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kustanaiskaya - Centralnaya": {
+            "etype": "line",
+            "from_bus": 592,
+            "to_bus": 593,
+            "length_km": 1,
+            "r_ohm_per_km": 4.7, 
+            "x_ohm_per_km": 20.9, 
+            "c_nf_per_km": 0.409983, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kustanaiskaya - Sokol-220": {
+            "etype": "line",
+            "from_bus": 592,
+            "to_bus": 575,
+            "length_km": 1,
+            "r_ohm_per_km": 3.8, 
+            "x_ohm_per_km": 17.1, 
+            "c_nf_per_km": 0.33518, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Sokol-220 - Lisakovka": {
+            "etype": "line",
+            "from_bus": 575,
+            "to_bus": 574,
+            "length_km": 1,
+            "r_ohm_per_km": 3.9, 
+            "x_ohm_per_km": 28, 
+            "c_nf_per_km": 0.582507, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Lisakovka - Apanovka": {
+            "etype": "line",
+            "from_bus": 574,
+            "to_bus": 573,
+            "length_km": 1,
+            "r_ohm_per_km": 5.51, 
+            "x_ohm_per_km": 21.3, 
+            "c_nf_per_km": 0.445634, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Apanovka - Sokol-220": {
+            "etype": "line",
+            "from_bus": 573,
+            "to_bus": 575,
+            "length_km": 1,
+            "r_ohm_per_km": 6.4, 
+            "x_ohm_per_km": 24.6, 
+            "c_nf_per_km": 0.512479, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Apanovka - Kushmurun": {
+            "etype": "line",
+            "from_bus": 573,
+            "to_bus": 571,
+            "length_km": 1,
+            "r_ohm_per_km": 10.5, 
+            "x_ohm_per_km": 40.7, 
+            "c_nf_per_km": 0.833972, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Aman-Karagai - Kushmurun": {
+            "etype": "line",
+            "from_bus": 572,
+            "to_bus": 571,
+            "length_km": 1,
+            "r_ohm_per_km": 4.12, 
+            "x_ohm_per_km": 16.0, 
+            "c_nf_per_km": 0.324676, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Kushmurun - Chelgashy": {
+            "etype": "line",
+            "from_bus": 571,
+            "to_bus": 585,
+            "length_km": 1,
+            "r_ohm_per_km": 9.85, 
+            "x_ohm_per_km": 38.1, 
+            "c_nf_per_km": 0.792592, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Esil - Chelgashy": {
+            "etype": "line",
+            "from_bus": 170,
+            "to_bus": 585,
+            "length_km": 1,
+            "r_ohm_per_km": 6.5, 
+            "x_ohm_per_km": 25, 
+            "c_nf_per_km": 0.490197, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Kemin - Bishkek": {
+            "etype": "line",
+            "from_bus": 2952,
+            "to_bus": 2918,
+            "length_km": 1,
+            "r_ohm_per_km": 21.66, 
+            "x_ohm_per_km": 93.26, 
+            "c_nf_per_km": 1.90639, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Iriklinskaya gres - Orskaya": {
+            "etype": "line",
+            "from_bus": 4791,
+            "to_bus": 3104,
+            "length_km": 1,
+            "r_ohm_per_km": 4.38, 
+            "x_ohm_per_km": 25.24, 
+            "c_nf_per_km": 0.516617, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Iriklinskaya gres - Novotroitsk_1": {
+            "etype": "line",
+            "from_bus": 4791,
+            "to_bus": 3103,
+            "length_km": 1,
+            "r_ohm_per_km": 5.57, 
+            "x_ohm_per_km": 32.05, 
+            "c_nf_per_km": 0.656037, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Iriklinskaya gres - Novotroitsk_2": {
+            "etype": "line",
+            "from_bus": 4791,
+            "to_bus": 3103,
+            "length_km": 1,
+            "r_ohm_per_km": 2.11, 
+            "x_ohm_per_km": 22.57, 
+            "c_nf_per_km": 0.919916, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Iriklinskaya gres - Rysaevo": {
+            "etype": "line",
+            "from_bus": 4791,
+            "to_bus": 3102,
+            "length_km": 1,
+            "r_ohm_per_km": 9.8, 
+            "x_ohm_per_km": 54.27, 
+            "c_nf_per_km": 1.139231, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Lochin - Datka": {
+            "etype": "line",
+            "from_bus": 2920,
+            "to_bus": 2950,
+            "length_km": 1,
+            "r_ohm_per_km": 2.69, 
+            "x_ohm_per_km": 26.82, 
+            "c_nf_per_km": 1.06793, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Sokol-220 - ssgpo_1": {
+            "etype": "line",
+            "from_bus": 575,
+            "to_bus": 594,
+            "length_km": 1,
+            "r_ohm_per_km": 0.94, 
+            "x_ohm_per_km": 3.7, 
+            "c_nf_per_km": 0.077668, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Sokol-220 - ssgpo_2": {
+            "etype": "line",
+            "from_bus": 575,
+            "to_bus": 594,
+            "length_km": 1,
+            "r_ohm_per_km": 0.94, 
+            "x_ohm_per_km": 3.7, 
+            "c_nf_per_km": 0.077668, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Shagol - Yzhnouralskaya GRES": {
+            "etype": "line",
+            "from_bus": 4782,
+            "to_bus": 47161,
+            "length_km": 1,
+            "r_ohm_per_km": 1.78, 
+            "x_ohm_per_km": 25.87, 
+            "c_nf_per_km": 1.278015, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol",
+        },
+        "Burnoe - ses-burnoe": {
+            "etype": "line",
+            "from_bus": 802,
+            "to_bus": 810,
+            "length_km": 1,
+            "r_ohm_per_km": 4.37, 
+            "x_ohm_per_km": 17.43, 
+            "c_nf_per_km": 0.350141, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "EGRES-1-500 - Ekibastuzskaya": {
+            "etype": "line",
+            "from_bus": 25,
+            "to_bus": 26,
+            "length_km": 1,
+            "r_ohm_per_km": 0.31, 
+            "x_ohm_per_km": 3.81, 
+            "c_nf_per_km": 0.153107, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ekibastuzskaya - EGRES-2-500": {
+            "etype": "line",
+            "from_bus": 26,
+            "to_bus": 28,
+            "length_km": 1,
+            "r_ohm_per_km": 0.81, 
+            "x_ohm_per_km": 11.75, 
+            "c_nf_per_km": 0.330087, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ekibastuzskaya - Kokchetavskaya": {
+            "etype": "line",
+            "from_bus": 26,
+            "to_bus": 175,
+            "length_km": 1,
+            "r_ohm_per_km": 6.05, 
+            "x_ohm_per_km": 132.7, 
+            "c_nf_per_km": 6.964623, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "eek-220 - azf_1": {
+            "etype": "line",
+            "from_bus": 33,
+            "to_bus": 55,
+            "length_km": 1,
+            "r_ohm_per_km": 0.4, 
+            "x_ohm_per_km": 3.0, 
+            "c_nf_per_km": 0.11873, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "eek-220 - azf_2": {
+            "etype": "line",
+            "from_bus": 33,
+            "to_bus": 55,
+            "length_km": 1,
+            "r_ohm_per_km": 0.4, 
+            "x_ohm_per_km": 3.0, 
+            "c_nf_per_km": 0.11873, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "eek-220 - ps51": {
+            "etype": "line",
+            "from_bus": 33,
+            "to_bus": 251,
+            "length_km": 1,
+            "r_ohm_per_km": 6.0, 
+            "x_ohm_per_km": 64.3, 
+            "c_nf_per_km": 2.600593, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kalkaman - eek-220": {
+            "etype": "line",
+            "from_bus": 36,
+            "to_bus": 33,
+            "length_km": 1,
+            "r_ohm_per_km": 6.47, 
+            "x_ohm_per_km": 26.7, 
+            "c_nf_per_km": 0.575823, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol",
+        },
+        "ns-7 - ns-12": {
+            "etype": "line",
+            "from_bus": 37,
+            "to_bus": 52,
+            "length_km": 1,
+            "r_ohm_per_km": 8.03, 
+            "x_ohm_per_km": 31.7, 
+            "c_nf_per_km": 0.662721, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Ekibastuz-220 - crmz": {
+            "etype": "line",
+            "from_bus": 38,
+            "to_bus": 54,
+            "length_km": 1,
+            "r_ohm_per_km": 2.38, 
+            "x_ohm_per_km": 9.83, 
+            "c_nf_per_km": 0.211994, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "egres-1 - egres-2-220_1": {
+            "etype": "line",
+            "from_bus": 39,
+            "to_bus": 29,
+            "length_km": 1,
+            "r_ohm_per_km": 2.4, 
+            "x_ohm_per_km": 10.6, 
+            "c_nf_per_km": 0.208811, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "egres-1 - egres-2-220_2": {
+            "etype": "line",
+            "from_bus": 39,
+            "to_bus": 29,
+            "length_km": 1,
+            "r_ohm_per_km": 2.3, 
+            "x_ohm_per_km": 10.2, 
+            "c_nf_per_km": 0.19958, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "egres-1 - ns-7": {
+            "etype": "line",
+            "from_bus": 39,
+            "to_bus": 37,
+            "length_km": 1,
+            "r_ohm_per_km": 8.2, 
+            "x_ohm_per_km": 32.3, 
+            "c_nf_per_km": 0.676409, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "egres-1 - Ekibastuz-220": {
+            "etype": "line",
+            "from_bus": 39,
+            "to_bus": 38,
+            "length_km": 1,
+            "r_ohm_per_km": 5.2, 
+            "x_ohm_per_km": 20.3, 
+            "c_nf_per_km": 0.424944, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ulenty(t) - Boshak(t)_1": {
+            "etype": "line",
+            "from_bus": 58,
+            "to_bus": 59,
+            "length_km": 1,
+            "r_ohm_per_km": 4.0, 
+            "x_ohm_per_km": 17.5, 
+            "c_nf_per_km": 0.343456, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ulenty(t) - Boshak(t)_2": {
+            "etype": "line",
+            "from_bus": 58,
+            "to_bus": 59,
+            "length_km": 1,
+            "r_ohm_per_km": 4.2, 
+            "x_ohm_per_km": 18.5, 
+            "c_nf_per_km": 0.362555, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "eepk - Kalkaman": {
+            "etype": "line",
+            "from_bus": 53,
+            "to_bus": 36,
+            "length_km": 1,
+            "r_ohm_per_km": 6.8, 
+            "x_ohm_per_km": 27.0, 
+            "c_nf_per_km": 0.564682, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "egres-2-220 - Stroitelnaya-2": {
+            "etype": "line",
+            "from_bus": 29,
+            "to_bus": 56,
+            "length_km": 1,
+            "r_ohm_per_km": 0.13, 
+            "x_ohm_per_km": 0.6, 
+            "c_nf_per_km": 0.011777, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Taskudyk(T) - eek-220": {
+            "etype": "line",
+            "from_bus": 61,
+            "to_bus": 33,
+            "length_km": 1,
+            "r_ohm_per_km": 3.38, 
+            "x_ohm_per_km": 14.8, 
+            "c_nf_per_km": 0.289821, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Stroitelnaya-2 - Taskudyk(T)": {
+            "etype": "line",
+            "from_bus": 56,
+            "to_bus": 61,
+            "length_km": 1,
+            "r_ohm_per_km": 9.85, 
+            "x_ohm_per_km": 43.14, 
+            "c_nf_per_km": 0.845049, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ermentau(t) - Ulenty(t)": {
+            "etype": "line",
+            "from_bus": 166,
+            "to_bus": 58,
+            "length_km": 1,
+            "r_ohm_per_km": 4.6, 
+            "x_ohm_per_km": 20.6, 
+            "c_nf_per_km": 0.403935, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "KEZ-1.2 - EEK-500_1": {
+            "etype": "line",
+            "from_bus": 27,
+            "to_bus": 31,
+            "length_km": 1,
+            "r_ohm_per_km": 0.72, 
+            "x_ohm_per_km": 7.45, 
+            "c_nf_per_km": 0.296665, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "KEZ-1.2 - EEK-500_2": {
+            "etype": "line",
+            "from_bus": 27,
+            "to_bus": 31,
+            "length_km": 1,
+            "r_ohm_per_km": 0.72, 
+            "x_ohm_per_km": 7.43, 
+            "c_nf_per_km": 0.29571, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ekibastuzskaya - Altai": {
+            "etype": "line",
+            "from_bus": 26,
+            "to_bus": 1660,
+            "length_km": 1,
+            "r_ohm_per_km": 14.79, 
+            "x_ohm_per_km": 212.33, 
+            "c_nf_per_km": 9.122765, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Rubtsovskaya - Ust-kamenogorskaya-500": {
+            "etype": "line",
+            "from_bus": 1621,
+            "to_bus": 240,
+            "length_km": 1,
+            "r_ohm_per_km": 4.34, 
+            "x_ohm_per_km": 44.02, 
+            "c_nf_per_km": 1.782536, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ust-kamenogorskaya-220 - ps-14_1": {
+            "etype": "line",
+            "from_bus": 241,
+            "to_bus": 214,
+            "length_km": 1,
+            "r_ohm_per_km": 5.19, 
+            "x_ohm_per_km": 20.42, 
+            "c_nf_per_km": 0.404254, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Ust-kamenogorskaya-220 - ps-14_2": {
+            "etype": "line",
+            "from_bus": 241,
+            "to_bus": 214,
+            "length_km": 1,
+            "r_ohm_per_km": 5.19, 
+            "x_ohm_per_km": 20.42, 
+            "c_nf_per_km": 0.404254, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "CHELYABINSK - ZLATOUST": {
+            "etype": "line",
+            "from_bus": 4705,
+            "to_bus": 4715,
+            "length_km": 1,
+            "r_ohm_per_km": 2.65, 
+            "x_ohm_per_km": 35.2, 
+            "c_nf_per_km": 1.41648, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "shges-220 - ps-14": {
+            "etype": "line",
+            "from_bus": 220,
+            "to_bus": 214,
+            "length_km": 1,
+            "r_ohm_per_km": 2.07, 
+            "x_ohm_per_km": 21.23, 
+            "c_nf_per_km": 0.86262, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Shagol - Chelyabinsk": {
+            "etype": "line",
+            "from_bus": 4782,
+            "to_bus": 4705,
+            "length_km": 1,
+            "r_ohm_per_km": 1.5, 
+            "x_ohm_per_km": 19.0, 
+            "c_nf_per_km": 0.732113, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Smelovskaya - Beketovo": {
+            "etype": "line",
+            "from_bus": 50014,
+            "to_bus": 4709,
+            "length_km": 1,
+            "r_ohm_per_km": 8.8, 
+            "x_ohm_per_km": 81.8, 
+            "c_nf_per_km": 2.960283, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ps51 - Semey-220": {
+            "etype": "line",
+            "from_bus": 251,
+            "to_bus": 981,
+            "length_km": 1,
+            "r_ohm_per_km": 3.89, 
+            "x_ohm_per_km": 40.67, 
+            "c_nf_per_km": 1.435578, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "shges-220 - Semey-220": {
+            "etype": "line",
+            "from_bus": 220,
+            "to_bus": 981,
+            "length_km": 1,
+            "r_ohm_per_km": 3.91, 
+            "x_ohm_per_km": 27.45, 
+            "c_nf_per_km": 1.028141, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Shoptykol(t) - Osakarovka_1": {
+            "etype": "line",
+            "from_bus": 101,
+            "to_bus": 306,
+            "length_km": 1,
+            "r_ohm_per_km": 5.71, 
+            "x_ohm_per_km": 25.01, 
+            "c_nf_per_km": 0.489879, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Shoptykol(t) - Osakarovka_2": {
+            "etype": "line",
+            "from_bus": 101,
+            "to_bus": 306,
+            "length_km": 1,
+            "r_ohm_per_km": 5.81, 
+            "x_ohm_per_km": 25.44, 
+            "c_nf_per_km": 0.489473, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ns17 - ns19": {
+            "etype": "line",
+            "from_bus": 307,
+            "to_bus": 309,
+            "length_km": 1,
+            "r_ohm_per_km": 4.6, 
+            "x_ohm_per_km": 18.2, 
+            "c_nf_per_km": 0.350141, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "ns19 - Osakarovka": {
+            "etype": "line",
+            "from_bus": 309,
+            "to_bus": 306,
+            "length_km": 1,
+            "r_ohm_per_km": 5.81, 
+            "x_ohm_per_km": 22.6, 
+            "c_nf_per_km": 0.445634, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "NURA-500 - AGADYR-500": {
+            "etype": "line",
+            "from_bus": 325,
+            "to_bus": 469,
+            "length_km": 1,
+            "r_ohm_per_km": 6.86, 
+            "x_ohm_per_km": 79.4, 
+            "c_nf_per_km": 3.186283, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "gres-2 - otpaika-4": {
+            "etype": "line",
+            "from_bus": 355,
+            "to_bus": 314,
+            "length_km": 1,
+            "r_ohm_per_km": 6.5, 
+            "x_ohm_per_km": 25.5, 
+            "c_nf_per_km": 0.506113, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "gres-2 - otpaika-5": {
+            "etype": "line",
+            "from_bus": 355,
+            "to_bus": 315,
+            "length_km": 1,
+            "r_ohm_per_km": 6.5, 
+            "x_ohm_per_km": 25.5, 
+            "c_nf_per_km": 0.506113, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "gres-2 - Kara-murun": {
+            "etype": "line",
+            "from_bus": 355,
+            "to_bus": 450,
+            "length_km": 1,
+            "r_ohm_per_km": 4.4, 
+            "x_ohm_per_km": 17.4, 
+            "c_nf_per_km": 0.35778, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "gres-2 - Zhana-arka": {
+            "etype": "line",
+            "from_bus": 355,
+            "to_bus": 453,
+            "length_km": 1,
+            "r_ohm_per_km": 15.0, 
+            "x_ohm_per_km": 60.3, 
+            "c_nf_per_km": 1.168198, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "gres-2 - Kairakty": {
+            "etype": "line",
+            "from_bus": 355,
+            "to_bus": 457,
+            "length_km": 1,
+            "r_ohm_per_km": 15.7, 
+            "x_ohm_per_km": 62.8, 
+            "c_nf_per_km": 1.218491, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kara-murun - Zharyk": {
+            "etype": "line",
+            "from_bus": 450,
+            "to_bus": 451,
+            "length_km": 1,
+            "r_ohm_per_km": 5.83, 
+            "x_ohm_per_km": 23.0, 
+            "c_nf_per_km": 0.474282, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Zharyk - Aisa": {
+            "etype": "line",
+            "from_bus": 451,
+            "to_bus": 452,
+            "length_km": 1,
+            "r_ohm_per_km": 4.17, 
+            "x_ohm_per_km": 16.47, 
+            "c_nf_per_km": 0.339318, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Aisa - Agadyr-220": {
+            "etype": "line",
+            "from_bus": 452,
+            "to_bus": 468,
+            "length_km": 1,
+            "r_ohm_per_km": 3.61, 
+            "x_ohm_per_km": 14.26, 
+            "c_nf_per_km": 0.2938, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "zhtets - Nikolskaya": {
+            "etype": "line",
+            "from_bus": 462,
+            "to_bus": 461,
+            "length_km": 1,
+            "r_ohm_per_km": 4.76, 
+            "x_ohm_per_km": 10.04, 
+            "c_nf_per_km": 0.840338, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "zhtets-220 - Zhezkazgan-220_1": {
+            "etype": "line",
+            "from_bus": 463,
+            "to_bus": 466,
+            "length_km": 1,
+            "r_ohm_per_km": 1.68, 
+            "x_ohm_per_km": 7.09, 
+            "c_nf_per_km": 0.144831, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "zhtets-220 - Zhezkazgan-220_2": {
+            "etype": "line",
+            "from_bus": 463,
+            "to_bus": 466,
+            "length_km": 1,
+            "r_ohm_per_km": 1.84, 
+            "x_ohm_per_km": 7.76, 
+            "c_nf_per_km": 0.1582, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Nikolskaya - Barsengir": {
+            "etype": "line",
+            "from_bus": 464,
+            "to_bus": 454,
+            "length_km": 1,
+            "r_ohm_per_km": 10.9, 
+            "x_ohm_per_km": 42.1, 
+            "c_nf_per_km": 0.872806, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Nikolskaya - Zhezkazgan-220": {
+            "etype": "line",
+            "from_bus": 464,
+            "to_bus": 466,
+            "length_km": 1,
+            "r_ohm_per_km": 1.58, 
+            "x_ohm_per_km": 6.66, 
+            "c_nf_per_km": 0.136523, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Karazhal - Barsengir": {
+            "etype": "line",
+            "from_bus": 465,
+            "to_bus": 454,
+            "length_km": 1,
+            "r_ohm_per_km": 21.9, 
+            "x_ohm_per_km": 84.8, 
+            "c_nf_per_km": 1.915271, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Karazhal - zhtets-220": {
+            "etype": "line",
+            "from_bus": 465,
+            "to_bus": 463,
+            "length_km": 1,
+            "r_ohm_per_km": 26.9, 
+            "x_ohm_per_km": 104.7, 
+            "c_nf_per_km": 2.261274, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Zhezkazgan-220 - Kumkol_1": {
+            "etype": "line",
+            "from_bus": 466,
+            "to_bus": 467,
+            "length_km": 1,
+            "r_ohm_per_km": 23.45, 
+            "x_ohm_per_km": 98.96, 
+            "c_nf_per_km": 2.02286, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Zhezkazgan-220 - Kumkol_2": {
+            "etype": "line",
+            "from_bus": 466,
+            "to_bus": 467,
+            "length_km": 1,
+            "r_ohm_per_km": 22.98, 
+            "x_ohm_per_km": 96.97, 
+            "c_nf_per_km": 1.982435, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Agadyr-220 - Karazhal": {
+            "etype": "line",
+            "from_bus": 468,
+            "to_bus": 465,
+            "length_km": 1,
+            "r_ohm_per_km": 18.1, 
+            "x_ohm_per_km": 70.4, 
+            "c_nf_per_km": 1.435578, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Agadyr-220 - Balhashskaya-220": {
+            "etype": "line",
+            "from_bus": 468,
+            "to_bus": 473,
+            "length_km": 1,
+            "r_ohm_per_km": 23.67, 
+            "x_ohm_per_km": 99.68, 
+            "c_nf_per_km": 2.037502, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Agadyr-220 - Mointy": {
+            "etype": "line",
+            "from_bus": 468,
+            "to_bus": 475,
+            "length_km": 1,
+            "r_ohm_per_km": 12.8, 
+            "x_ohm_per_km": 54.2, 
+            "c_nf_per_km": 1.113448, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Agadyr-500 - YkGRES": {
+            "etype": "line",
+            "from_bus": 469,
+            "to_bus": 900,
+            "length_km": 1,
+            "r_ohm_per_km": 11.50, 
+            "x_ohm_per_km": 118.41, 
+            "c_nf_per_km": 4.606455, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "btets-110 - Balhashskaya-110": {
+            "etype": "line",
+            "from_bus": 471,
+            "to_bus": 472,
+            "length_km": 1,
+            "r_ohm_per_km": 0.35, 
+            "x_ohm_per_km": 1.48, 
+            "c_nf_per_km": 0.119685, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Balhashskaya-220 - Akchtau": {
+            "etype": "line",
+            "from_bus": 473,
+            "to_bus": 474,
+            "length_km": 1,
+            "r_ohm_per_km": 15.9, 
+            "x_ohm_per_km": 63.6, 
+            "c_nf_per_km": 1.232178, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Mointy - Kairakty": {
+            "etype": "line",
+            "from_bus": 474,
+            "to_bus": 457,
+            "length_km": 1,
+            "r_ohm_per_km": 8.96, 
+            "x_ohm_per_km": 36.1, 
+            "c_nf_per_km": 0.723837, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Mointy - Karazhingil": {
+            "etype": "line",
+            "from_bus": 475,
+            "to_bus": 476,
+            "length_km": 1,
+            "r_ohm_per_km": 4.41, 
+            "x_ohm_per_km": 18.6, 
+            "c_nf_per_km": 0.392476, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Karazhingil - Saryshagan": {
+            "etype": "line",
+            "from_bus": 476,
+            "to_bus": 477,
+            "length_km": 1,
+            "r_ohm_per_km": 8.39, 
+            "x_ohm_per_km": 35.4, 
+            "c_nf_per_km": 0.746437, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "ZHEZKAZGAN-500 - AGADYR-500": {
+            "etype": "line",
+            "from_bus": 480,
+            "to_bus": 469,
+            "length_km": 1,
+            "r_ohm_per_km": 12.6, 
+            "x_ohm_per_km": 123.0, 
+            "c_nf_per_km": 4.889242, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "YKGRES - ALMATY": {
+            "etype": "line",
+            "from_bus": 900,
+            "to_bus": 902,
+            "length_km": 1,
+            "r_ohm_per_km": 9.35, 
+            "x_ohm_per_km": 85, 
+            "c_nf_per_km": 3.580987, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "YKGRES - ALMA": {
+            "etype": "line",
+            "from_bus": 900,
+            "to_bus": 938,
+            "length_km": 1,
+            "r_ohm_per_km": 9.2, 
+            "x_ohm_per_km": 98.2, 
+            "c_nf_per_km": 3.654199, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ALMATY - ALMA": {
+            "etype": "line",
+            "from_bus": 902,
+            "to_bus": 938,
+            "length_km": 1,
+            "r_ohm_per_km": 1.8, 
+            "x_ohm_per_km": 19.5, 
+            "c_nf_per_km": 0.724155, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Alma - Besagash_1": {
+            "etype": "line",
+            "from_bus": 939,
+            "to_bus": 940,
+            "length_km": 1,
+            "r_ohm_per_km": 4.2, 
+            "x_ohm_per_km": 23.5, 
+            "c_nf_per_km": 0.833654, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Alma - Besagash_2": {
+            "etype": "line",
+            "from_bus": 939,
+            "to_bus": 940,
+            "length_km": 1,
+            "r_ohm_per_km": 4.2, 
+            "x_ohm_per_km": 23.5, 
+            "c_nf_per_km": 0.833654, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Alma - tets3 2sh_1": {
+            "etype": "line",
+            "from_bus": 939,
+            "to_bus": 904,
+            "length_km": 1,
+            "r_ohm_per_km": 2.6, 
+            "x_ohm_per_km": 11.2, 
+            "c_nf_per_km": 0.220271, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Alma - tets3 2sh_2": {
+            "etype": "line",
+            "from_bus": 939,
+            "to_bus": 904,
+            "length_km": 1,
+            "r_ohm_per_km": 1.5, 
+            "x_ohm_per_km": 10.7, 
+            "c_nf_per_km": 0.226, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ykgres - Mynaral": {
+            "etype": "line",
+            "from_bus": 901,
+            "to_bus": 924,
+            "length_km": 1,
+            "r_ohm_per_km": 4.6, 
+            "x_ohm_per_km": 20.5, 
+            "c_nf_per_km": 0.404254, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Almaty - Robot": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 907,
+            "length_km": 1,
+            "r_ohm_per_km": 7.71, 
+            "x_ohm_per_km": 30.44, 
+            "c_nf_per_km": 0.63662, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Almaty - Medeo": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 928,
+            "length_km": 1,
+            "r_ohm_per_km": 7.01, 
+            "x_ohm_per_km": 31.31, 
+            "c_nf_per_km": 0.614338, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Almaty - tets-3 2sh": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 904,
+            "length_km": 1,
+            "r_ohm_per_km": 7.0, 
+            "x_ohm_per_km": 30.15, 
+            "c_nf_per_km": 0.617521, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Almaty - Glavnaya": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 2916,
+            "length_km": 1,
+            "r_ohm_per_km": 19.0, 
+            "x_ohm_per_km": 82.0, 
+            "c_nf_per_km": 1.671127, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Alma - Chilik": {
+            "etype": "line",
+            "from_bus": 939,
+            "to_bus": 911,
+            "length_km": 1,
+            "r_ohm_per_km": 12.0, 
+            "x_ohm_per_km": 52.7, 
+            "c_nf_per_km": 1.031961, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Robot - ps-62 AT2_1": {
+            "etype": "line",
+            "from_bus": 907,
+            "to_bus": 908,
+            "length_km": 1,
+            "r_ohm_per_km": 0.1, 
+            "x_ohm_per_km": 0.9, 
+            "c_nf_per_km": 0.019735, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Robot - ps-62 AT2_2": {
+            "etype": "line",
+            "from_bus": 907,
+            "to_bus": 908,
+            "length_km": 1,
+            "r_ohm_per_km": 0.3, 
+            "x_ohm_per_km": 1.2, 
+            "c_nf_per_km": 0.023555, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ps-62 AT2 - Kapchagaiskaya GES-220_1": {
+            "etype": "line",
+            "from_bus": 908,
+            "to_bus": 909,
+            "length_km": 1,
+            "r_ohm_per_km": 0.8, 
+            "x_ohm_per_km": 5.42, 
+            "c_nf_per_km": 0.113318, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ps-62 AT2 - Kapchagaiskaya GES-220_2": {
+            "etype": "line",
+            "from_bus": 908,
+            "to_bus": 909,
+            "length_km": 1,
+            "r_ohm_per_km": 1.2, 
+            "x_ohm_per_km": 5.6, 
+            "c_nf_per_km": 0.110454, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kapchagaiskaya GES-220 - Sary-Ozek_1": {
+            "etype": "line",
+            "from_bus": 909,
+            "to_bus": 950,
+            "length_km": 1,
+            "r_ohm_per_km": 8.0, 
+            "x_ohm_per_km": 35.3, 
+            "c_nf_per_km": 0.692324, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kapchagaiskaya GES-220 - Sary-Ozek_2": {
+            "etype": "line",
+            "from_bus": 909,
+            "to_bus": 950,
+            "length_km": 1,
+            "r_ohm_per_km": 8.0, 
+            "x_ohm_per_km": 35.3, 
+            "c_nf_per_km": 0.692006, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Taldykorgan-220 - Taldykorgan-220_1": {
+            "etype": "line",
+            "from_bus": 988,
+            "to_bus": 951,
+            "length_km": 1,
+            "r_ohm_per_km": 4.29, 
+            "x_ohm_per_km": 18.79, 
+            "c_nf_per_km": 0.367966, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Taldykorgan-220 - Taldykorgan-220_2": {
+            "etype": "line",
+            "from_bus": 988,
+            "to_bus": 951,
+            "length_km": 1,
+            "r_ohm_per_km": 4.73, 
+            "x_ohm_per_km": 20.72, 
+            "c_nf_per_km": 0.405845, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ps-7 - Zapadnaya": {
+            "etype": "line",
+            "from_bus": 912,
+            "to_bus": 918,
+            "length_km": 1,
+            "r_ohm_per_km": 5.0, 
+            "x_ohm_per_km": 20.0, 
+            "c_nf_per_km": 0.490197, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Zapadnaya - Kemin": {
+            "etype": "line",
+            "from_bus": 918,
+            "to_bus": 2952,
+            "length_km": 1,
+            "r_ohm_per_km": 9.27, 
+            "x_ohm_per_km": 40.58, 
+            "c_nf_per_km": 0.794947, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Chiganak - Kiyahty": {
+            "etype": "line",
+            "from_bus": 925,
+            "to_bus": 930,
+            "length_km": 1,
+            "r_ohm_per_km": 6.53, 
+            "x_ohm_per_km": 29.17, 
+            "c_nf_per_km": 0.572512, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "tets-3 2sh - Medeo": {
+            "etype": "line",
+            "from_bus": 904,
+            "to_bus": 928,
+            "length_km": 1,
+            "r_ohm_per_km": 0.33, 
+            "x_ohm_per_km": 1.49, 
+            "c_nf_per_km": 0.029285, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Almaty - Taugul_1": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 929,
+            "length_km": 1,
+            "r_ohm_per_km": 9.3, 
+            "x_ohm_per_km": 33.8, 
+            "c_nf_per_km": 0.64235, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Almaty - Taugul_2": {
+            "etype": "line",
+            "from_bus": 903,
+            "to_bus": 929,
+            "length_km": 1,
+            "r_ohm_per_km": 9.3, 
+            "x_ohm_per_km": 33.8, 
+            "c_nf_per_km": 0.64235, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Kiyahty - Zhideli": {
+            "etype": "line",
+            "from_bus": 930,
+            "to_bus": 931,
+            "length_km": 1,
+            "r_ohm_per_km": 8.53, 
+            "x_ohm_per_km": 37.75, 
+            "c_nf_per_km": 0.741662, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Zhideli - Shu": {
+            "etype": "line",
+            "from_bus": 931,
+            "to_bus": 932,
+            "length_km": 1,
+            "r_ohm_per_km": 7.9, 
+            "x_ohm_per_km": 35.2, 
+            "c_nf_per_km": 0.690733, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": false,
+            "type": "ol"
+        },
+        "Shu - Aspara": {
+            "etype": "line",
+            "from_bus": 932,
+            "to_bus": 814,
+            "length_km": 1,
+            "r_ohm_per_km": 1.3, 
+            "x_ohm_per_km": 6.0, 
+            "c_nf_per_km": 0.117775, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Shu - Glavnaya": {
+            "etype": "line",
+            "from_bus": 932,
+            "to_bus": 2916,
+            "length_km": 1,
+            "r_ohm_per_km": 16.8, 
+            "x_ohm_per_km": 72, 
+            "c_nf_per_km": 1.496057, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "ZHAMBYL - FRUNZE": {
+            "etype": "line",
+            "from_bus": 800,
+            "to_bus": 2919,
+            "length_km": 1,
+            "r_ohm_per_km": 6.0, 
+            "x_ohm_per_km": 69.0, 
+            "c_nf_per_km": 2.581494, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Zhambyl - ses burnoe": {
+            "etype": "line",
+            "from_bus": 801,
+            "to_bus": 810,
+            "length_km": 1,
+            "r_ohm_per_km": 3.33, 
+            "x_ohm_per_km": 12.77, 
+            "c_nf_per_km": 0.262096, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        "Zhambyl - Karatau": {
+            "etype": "line",
+            "from_bus": 801,
+            "to_bus": 803,
+            "length_km": 1,
+            "r_ohm_per_km": 7.66, 
+            "x_ohm_per_km": 29.88, 
+            "c_nf_per_km": 0.607335, 
+            "max_i_ka": 10,
+            "parallel":1,
+            "in_service": true,
+            "type": "ol"
+        },
+        
+        142
+
+        //потом транформаторы
+            "ts240_241_1": {
+            "etype": "trafo",
+            "hv_bus": "bus240",
+            "lv_bus": "bus241",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts240_241_2": {
+            "etype": "trafo",
+            "hv_bus": "bus240",
+            "lv_bus": "bus241",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts980_981": {
+            "etype": "trafo",
+            "hv_bus": "bus980",
+            "lv_bus": "bus981",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts31_33": {
+            "etype": "trafo",
+            "hv_bus": "bus31",
+            "lv_bus": "bus33",
+            "sn_mva": "801",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11.9,
+            "vk_percent": 0,
+            "pfe_kw": 273.3,
+            "i0_percent": 0.291,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+
+        "ts25_39": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus39",
+            "sn_mva": "801",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 8.6,
+            "vk_percent": 0,
+            "pfe_kw": 297.45,
+            "i0_percent": 0.15,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+        "ts129_130_1": {
+            "etype": "trafo",
+            "hv_bus": "bus129",
+            "lv_bus": "bus130",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 172,
+            "i0_percent": 0.246,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts129_130_2": {
+            "etype": "trafo",
+            "hv_bus": "bus129",
+            "lv_bus": "bus130",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 172,
+            "i0_percent": 0.246,
+            "parallel":2,
+            "in_service": true
+        },  
+
+
+
+        "ts325_310": {
+            "etype": "trafo",
+            "hv_bus": "bus325",
+            "lv_bus": "bus310",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+        "ts469_468": {
+            "etype": "trafo",
+            "hv_bus": "bus469",
+            "lv_bus": "bus468",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts900_901": {
+            "etype": "trafo",
+            "hv_bus": "bus900",
+            "lv_bus": "bus901",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "in_service": true
+        },  
+
+
+
+        "ts9932_932": {
+            "etype": "trafo",
+            "hv_bus": "bus9932",
+            "lv_bus": "bus932",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 9.5,
+            "vk_percent": 0,
+            "pfe_kw": 105,
+            "i0_percent": 0.4,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+        "ts902_903_1": {
+            "etype": "trafo",
+            "hv_bus": "bus902",
+            "lv_bus": "bus903",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts902_903_2": {
+            "etype": "trafo",
+            "hv_bus": "bus240",
+            "lv_bus": "bus241",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":2,
+            "in_service": true
+        },  
+
+
+
+        "ts938_939_1": {
+            "etype": "trafo",
+            "hv_bus": "bus240",
+            "lv_bus": "bus241",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts938_939_2": {
+            "etype": "trafo",
+            "hv_bus": "bus938",
+            "lv_bus": "bus939",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":2,
+            "in_service": true
+        },  
+
+            "ts987_988": {
+            "etype": "trafo",
+            "hv_bus": "bus987",
+            "lv_bus": "bus988",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+
+        "ts800_801": {
+            "etype": "trafo",
+            "hv_bus": "bus800",
+            "lv_bus": "bus801",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 10.5,
+            "vk_percent": 0,
+            "pfe_kw": 206.49,
+            "i0_percent": 0.35,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts2919_2918_1": {
+            "etype": "trafo",
+            "hv_bus": "bus2919",
+            "lv_bus": "bus2918",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts2919_2918_2": {
+            "etype": "trafo",
+            "hv_bus": "bus2919",
+            "lv_bus": "bus2918",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.246,
+            "parallel":2,
+            "in_service": true
+        },  
+   
+           "ts224_2925": {
+            "etype": "trafo",
+            "hv_bus": "bus224",
+            "lv_bus": "bus2925",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11.5,
+            "vk_percent": 0,
+            "pfe_kw": 230,
+            "i0_percent": 0.3,
+            "parallel":1,
+            "in_service": true
+        },  
+
+            "ts830_831_1": {
+            "etype": "trafo",
+            "hv_bus": "bus830",
+            "lv_bus": "bus831",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11.8,
+            "vk_percent": 0,
+            "pfe_kw": 168.9,
+            "i0_percent": 0.3,
+            "parallel":1,
+            "in_service": true
+        },  
+
+
+
+        "ts830_831_2": {
+            "etype": "trafo",
+            "hv_bus": "bus830",
+            "lv_bus": "bus831",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11.8,
+            "vk_percent": 0,
+            "pfe_kw": 168.9,
+            "i0_percent": 0.3,
+            "parallel":1,
+            "in_service": true
+        },  
+        "ts28_60_2": {
+            "etype": "trafo",
+            "hv_bus": "bus28",
+            "lv_bus": "bus60",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.7,
+            "vk_percent": 0,
+            "pfe_kw": 380,
+            "i0_percent": 0.21,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts25_51_1": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus51",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.2,
+            "vk_percent": 0,
+            "pfe_kw": 270.97,
+            "i0_percent": 0.058,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts25_51_2": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus51",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14,
+            "vk_percent": 0,
+            "pfe_kw": 460,
+            "i0_percent": 0.35,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts25_51_3": {
+            "etype": "trafo",
+            "hv_bus": "bus28",
+            "lv_bus": "bus60",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14,
+            "vk_percent": 0,
+            "pfe_kw": 460,
+            "i0_percent": 0.35,
+            "parallel":3,
+            "in_service": true
+        },  
+
+        "ts25_51_4": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus51",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14,
+            "vk_percent": 0,
+            "pfe_kw": 460,
+            "i0_percent": 0.35,
+            "parallel":4,
+            "in_service": true
+        },  
+
+        "ts25_51_5": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus51",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.2,
+            "vk_percent": 0,
+            "pfe_kw": 275.63,
+            "i0_percent": 0.06,
+            "parallel":5,
+            "in_service": true
+        },  
+        "ts25_51_6": {
+            "etype": "trafo",
+            "hv_bus": "bus25",
+            "lv_bus": "bus51",
+            "sn_mva": "630",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.2,
+            "vk_percent": 0,
+            "pfe_kw": 275.63,
+            "i0_percent": 0.06,
+            "parallel":6,
+            "in_service": true
+        },  
+
+        "ts480_466": {
+            "etype": "trafo",
+            "hv_bus": "bus480",
+            "lv_bus": "bus466",
+            "sn_mva": "501",
+            "vn_hv_kv": 500,
+            "vn_lv_kv": 220,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 270,
+            "i0_percent": 0.55,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts39_50_1": {
+            "etype": "trafo",
+            "hv_bus": "bus39",
+            "lv_bus": "bus50",
+            "sn_mva": "630",
+            "vn_hv_kv": 242,
+            "vn_lv_kv": 20,
+            "vkr_percent": 12.5,
+            "vk_percent": 0,
+            "pfe_kw": 380,
+            "i0_percent": 0.35,
+            "parallel":1,
+            "in_service": true
+        },  
+        "ts39_50_2": {
+            "etype": "trafo",
+            "hv_bus": "bus39",
+            "lv_bus": "bus50",
+            "sn_mva": "630",
+            "vn_hv_kv": 242,
+            "vn_lv_kv": 20,
+            "vkr_percent": 12.5,
+            "vk_percent": 0,
+            "pfe_kw": 380,
+            "i0_percent": 0.35,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts31_30_1": {
+            "etype": "trafo",
+            "hv_bus": "bus31",
+            "lv_bus": "bus30",
+            "sn_mva": "400",
+            "vn_hv_kv": 525,
+            "vn_lv_kv": 20,
+            "vkr_percent": 12.6,
+            "vk_percent": 0,
+            "pfe_kw": 370,
+            "i0_percent": 0.54,
+            "parallel":1,
+            "in_service": true
+        },  
+        "ts31_30_2": {
+            "etype": "trafo",
+            "hv_bus": "bus31",
+            "lv_bus": "bus30",
+            "sn_mva": "400",
+            "vn_hv_kv": 525,
+            "vn_lv_kv": 20,
+            "vkr_percent": 12.6,
+            "vk_percent": 0,
+            "pfe_kw": 385,
+            "i0_percent": 0.35,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts31_30_3": {
+            "etype": "trafo",
+            "hv_bus": "bus31",
+            "lv_bus": "bus30",
+            "sn_mva": "400",
+            "vn_hv_kv": 525,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.8,
+            "vk_percent": 0,
+            "pfe_kw": 155,
+            "i0_percent": 0.3,
+            "parallel":3,
+            "in_service": true
+        },  
+
+        "ts31_30_4": {
+            "etype": "trafo",
+            "hv_bus": "bus31",
+            "lv_bus": "bus30",
+            "sn_mva": "400",
+            "vn_hv_kv": 525,
+            "vn_lv_kv": 20,
+            "vkr_percent": 14.8,
+            "vk_percent": 0,
+            "pfe_kw": 155,
+            "i0_percent": 0.3,
+            "parallel":4,
+            "in_service": true
+        },  
+        "ts912_913_1": {
+            "etype": "trafo",
+            "hv_bus": "bus912",
+            "lv_bus": "bus913",
+            "sn_mva": "250",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts912_913_2": {
+            "etype": "trafo",
+            "hv_bus": "bus912",
+            "lv_bus": "bus913",
+            "sn_mva": "250",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":2,
+            "in_service": true
+        },  
+        "ts473_472_1": {
+            "etype": "trafo",
+            "hv_bus": "bus473",
+            "lv_bus": "bus472",
+            "sn_mva": "125",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts473_472_2": {
+            "etype": "trafo",
+            "hv_bus": "bus473",
+            "lv_bus": "bus472",
+            "sn_mva": "125",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":2,
+            "in_service": true
+        },  
+
+          "ts467_455_1": {
+            "etype": "trafo",
+            "hv_bus": "bus467",
+            "lv_bus": "bus455",
+            "sn_mva": "125",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":1,
+            "in_service": true
+        },  
+        "ts467_455_2": {
+            "etype": "trafo",
+            "hv_bus": "bus467",
+            "lv_bus": "bus455",
+            "sn_mva": "125",
+            "vn_hv_kv": 230,
+            "vn_lv_kv": 121,
+            "vkr_percent": 11,
+            "vk_percent": 0,
+            "pfe_kw": 65,
+            "i0_percent": 0.4,
+            "parallel":1,
+            "in_service": true
+        },  
+        "ts355_356_1": {
+            "etype": "trafo",
+            "hv_bus": "bus355",
+            "lv_bus": "bus356",
+            "sn_mva": "240",
+            "vn_hv_kv": 242,
+            "vn_lv_kv": 121,
+            "vkr_percent": 12.3,
+            "vk_percent": 0,
+            "pfe_kw": 452,
+            "i0_percent": 3,
+            "parallel":1,
+            "in_service": true
+        },  
+
+        "ts355_356_2": {
+            "etype": "trafo",
+            "hv_bus": "bus355",
+            "lv_bus": "bus356",
+            "sn_mva": "240",
+            "vn_hv_kv": 242,
+            "vn_lv_kv": 121,
+            "vkr_percent": 12.3,
+            "vk_percent": 0,
+            "pfe_kw": 452,
+            "i0_percent": 3,
+            "parallel":2,
+            "in_service": true
+        },  
+
+        "ts904_905_1": {
+            "etype": "trafo",
+            "hv_bus": "bus904",
+            "lv_bus": "bus905",
+            "sn_mva": "240",
+            "vn_hv_kv": 220,
+            "vn_lv_kv": 110,
+            "vkr_percent": 12.7,
+            "vk_percent": 0,
+            "pfe_kw": 450,
+            "i0_percent": 3,
+            "parallel":1,
+            "in_service": true
+        },  
+        
+            
+
+
+
+
+
+        //потом генераторы
+        "gen469": {
+            "etype": "gen",
+            "bus": 469,
+            "p_mw": 0,
+            "vm_pu":1.038, 
+            "sn_mva":1000, 
+            "min_q_mvar":-360,
+             
+            "in_service":true
+        },
+        
+        "gen900": {
+            "etype": "gen",
+            "bus": 900,
+            "p_mw": 0,
+            "vm_pu":1.042, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+        "gen938": {
+            "etype": "gen",
+            "bus": 938,
+            "p_mw": 0,
+            "vm_pu":1.042, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+             
+            "in_service":true
+        },
+        
+        "gen2919": {
+            "etype": "gen",
+            "bus": 2919,
+            "p_mw": 0,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            
+                    
+            "in_service":true
+        },
+        "gen830": {
+            "etype": "gen",
+            "bus": 830,
+            "p_mw": 0,
+            "vm_pu":1.006, 
+            "sn_mva":1000, 
+             
+            "in_service":true
+        },
+        
+        "gen980": {
+            "etype": "gen",
+            "bus": 980,
+            "p_mw": 0,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+
+
+        "gen986": {
+            "etype": "gen",
+            "bus": 986,
+            "p_mw": 0,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+             
+            "in_service":true
+        },
+        
+        "gen987": {
+            "etype": "gen",
+            "bus": 987,
+            "p_mw": 0,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+
+
+        "gen224": {
+            "etype": "gen",
+            "bus": 224,
+            "p_mw": 2934,
+            "vm_pu":1.02, 
+            "sn_mva":4000, 
+            "min_q_mvar":-1000,
+            "max_q_mvar":1000,
+
+            "in_service":true
+        },
+        
+        "gen31": {
+            "etype": "gen",
+            "bus": 31,
+            "p_mw": 0,
+            "vm_pu":1.016, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+
+
+
+        "gen241": {
+            "etype": "gen",
+            "bus": 241,
+            "p_mw": 1301,
+            "vm_pu":1.05, 
+            "sn_mva":3000, 
+            "min_q_mvar":-383,
+            "max_q_mvar":896,
+             
+            "in_service":true
+        },
+        
+        "gen981": {
+            "etype": "gen",
+            "bus": 981,
+            "p_mw": 10,
+            "vm_pu":1.077, 
+            "sn_mva":1000, 
+                    
+            "in_service":true
+        },
+
+
+
+
+        "gen33": {
+            "etype": "gen",
+            "bus": 33,
+            "p_mw": 1120,
+            "vm_pu":1.07, 
+            "sn_mva":1500, 
+            "min_q_mvar":-150,
+            "max_q_mvar": 804,
+            "in_service":true
+        },
+        
+        "gen130": {
+            "etype": "gen",
+            "bus": 130,
+            "p_mw": 468,
+            "vm_pu":1.081, 
+            "sn_mva":1000, 
+            "min_q_mvar":40,
+            "max_q_mvar":250,
+                    
+            "in_service":true
+        },
+
+
+
+        "gen310": {
+            "etype": "gen",
+            "bus": 310,
+            "p_mw": 0,
+            "vm_pu":1.05, 
+            "sn_mva":1000, 
+             
+            "in_service":true
+        },
+        
+        "gen901": {
+            "etype": "gen",
+            "bus": 901,
+            "p_mw": 0,
+            "vm_pu":1, 
+            "sn_mva":1000, 
+
+                    
+            "in_service":true
+        },
+
+
+        "gen932": {
+            "etype": "gen",
+            "bus": 932,
+            "p_mw": 0,
+            "vm_pu":1, 
+            "sn_mva":1000, 
+            "max_q_mvar":18,
+             
+            "in_service":true
+        },
+        
+        "gen1916": {
+            "etype": "gen",
+            "bus": 1916,
+            "p_mw": 430,
+            "vm_pu":1.004, 
+            "sn_mva":1000, 
+            "min_q_mvar":-100,
+            "min_q_mvar":100,
+                    
+            "in_service":true
+        },
+
+
+        "gen988": {
+            "etype": "gen",
+            "bus": 988,
+            "p_mw": 0,
+            "vm_pu":1.038, 
+            "sn_mva":1000, 
+            "min_q_mvar":-360,
+             
+            "in_service":true
+        },
+        
+        "gen2952": {
+            "etype": "gen",
+            "bus": 2952,
+            "p_mw": 450.3,
+            "vm_pu":1.045, 
+            "sn_mva":1000, 
+            "min_q_mvar":-160,
+            "max_q_mvar":300,    
+            "in_service":true
+        },
+
+        "gen2925": {
+            "etype": "gen",
+            "bus": 2925,
+            "p_mw": 776,
+            "vm_pu":1.045, 
+            "sn_mva":1000, 
+            "min_q_mvar":-500,
+            "max_q_mvar":920,    
+            "in_service":true
+        },
+        
+        "gen1630": {
+            "etype": "gen",
+            "bus": 1630,
+            "p_mw": 203,
+            "vm_pu":1.01, 
+            "sn_mva":1000, 
+            
+                    
+            "in_service":true
+        },
+
+        "gen1636": {
+            "etype": "gen",
+            "bus": 1636,
+            "p_mw": 3107,
+            "vm_pu":1.016, 
+            "sn_mva":1000, 
+            "min_q_mvar":-1000,
+            "max_q_mvar":1000,
+            "in_service":true
+        },
+        
+        "gen4799": {
+            "etype": "gen",
+            "bus": 4799,
+            "p_mw": 46,
+            "vm_pu":0.99, 
+            "sn_mva":1000, 
+            "min_q_mvar":-500,
+            "max_q_mvar":500,   
+            "in_service":true
+        },
+
+
+        "gen2921": {
+            "etype": "gen",
+            "bus": 2921,
+            "p_mw": 2520,
+            "vm_pu":1.02, 
+            "sn_mva":4000, 
+            "min_q_mvar":-800,
+            "max_q_mvar":800,   
+            "in_service":true
+        },
+        
+        "gen466": {
+            "etype": "gen",
+            "bus": 466,
+            "p_mw": 206,
+            "vm_pu":1.068, 
+            "sn_mva":1000, 
+            "min_q_mvar":-25,
+            "max_q_mvar":232.5,    
+            "in_service":true
+        },
+        "gen475": {
+            "etype": "gen",
+            "bus": 475,
+            "p_mw": 0,
+            "vm_pu":1.045, 
+            "sn_mva":1000, 
+             
+            "in_service":true
+        },
+        
+        "gen50": {
+            "etype": "gen",
+            "bus": 50,
+            "p_mw": 501,
+            "vm_pu":1, 
+            "sn_mva":1000, 
+            "min_q_mvar":-130,
+            "max_q_mvar":340,     
+            "in_service":true
+        },
+        "gen63": {
+            "etype": "gen",
+            "bus": 63,
+            "p_mw": 7018,
+            "vm_pu":1.014, 
+            "sn_mva":15000, 
+            "min_q_mvar":-2300,
+            "max_q_mvar":11500,
+            "in_service": false
+        },
+        
+        "gen147": {
+            "etype": "gen",
+            "bus": 147,
+            "p_mw": 250,
+            "vm_pu":1.01, 
+            "sn_mva":1000, 
+            "min_q_mvar":-64,
+            "max_q_mvar":152,      
+            "in_service":true
+        },
+
+        "gen1817": {
+            "etype": "gen",
+            "bus": 1817,
+            "p_mw": 0,
+            "vm_pu":1.032, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+             
+            "in_service":true
+        },
+        
+        "gen7208": {
+            "etype": "gen",
+            "bus": 7208,
+            "p_mw": 946,
+            "vm_pu":1.059, 
+            "sn_mva":2000, 
+            "min_q_mvar":113.9,
+            "max_q_mvar":718.8,      
+            "in_service":true
+        },
+        "gen862": {
+            "etype": "gen",
+            "bus": 862,
+            "p_mw": 53,
+            "vm_pu":1, 
+            "sn_mva":250, 
+            "min_q_mvar":-24,
+            "max_q_mvar":76,
+            "in_service":true
+        },
+        
+        "gen913": {
+            "etype": "gen",
+            "bus": 913,
+            "p_mw": 579,
+            "vm_pu":1.1, 
+            "sn_mva":1000, 
+            "min_q_mvar":92,
+            "max_q_mvar":437,
+                    
+            "in_service":true
+        },
+
+        "gen935": {
+            "etype": "gen",
+            "bus": 935,
+            "p_mw": 78,
+            "vm_pu":1.11, 
+            "sn_mva":1000, 
+            "min_q_mvar":-12,
+            "max_q_mvar":101,
+            "in_service":true
+        },
+        
+        "gen472": {
+            "etype": "gen",
+            "bus": 472,
+            "p_mw": 143,
+            "vm_pu":1.1, 
+            "sn_mva":1000, 
+            "min_q_mvar":-30,
+            "max_q_mvar":88,    
+            "in_service":true
+        },
+
+        "gen455": {
+            "etype": "gen",
+            "bus": 455,
+            "p_mw": 96,
+            "vm_pu":1.1, 
+            "sn_mva":1000, 
+            "min_q_mvar":-16.2,
+            "max_q_mvar":60.6,    
+            "in_service":true
+        },
+
+        "gen905": {
+            "etype": "gen",
+            "bus": 905,
+            "p_mw": 182,
+            "vm_pu":1.1, 
+            "sn_mva":1000, 
+            "min_q_mvar":20,
+            "max_q_mvar":160,   
+            "in_service":true
+        },
+
+
+        "gen356": {
+            "etype": "gen",
+            "bus": 356,
+            "p_mw": 577,
+            "vm_pu":1.1, 
+            "sn_mva":1000, 
+            "min_q_mvar":35,
+            "max_q_mvar":140,      
+            "in_service":true
+        },
+
+
+        "gen939": {
+            "etype": "gen",
+            "bus": 939,
+            "p_mw": 15,
+            "vm_pu":1.022, 
+            "sn_mva":1000, 
+            "min_q_mvar":-10,
+            "max_q_mvar":10,      
+            "in_service":true
+        },
+
+
+        "gen907": {
+            "etype": "gen",
+            "bus": 907,
+            "p_mw": 177,
+            "vm_pu":1.072, 
+            "sn_mva":1000, 
+            "max_q_mvar":168,
+                    
+            "in_service":true
+        },
+
+
+        "gen805": {
+            "etype": "gen",
+            "bus": 805,
+            "p_mw": 470,
+            "vm_pu":1.054, 
+            "sn_mva":1000, 
+            "min_q_mvar":120,
+            "max_q_mvar":422,      
+            "in_service":true
+        },
+
+
+        "gen831": {
+            "etype": "gen",
+            "bus": 831,
+            "p_mw": 127,
+            "vm_pu":1.077, 
+            "sn_mva":1000, 
+            "max_q_mvar":100,
+                    
+            "in_service":true
+        },
+
+
+        "gen30": {
+            "etype": "gen",
+            "bus": 30,
+            "p_mw": 809,
+            "vm_pu":1, 
+            "sn_mva":2000, 
+            "min_q_mvar":-163,
+            "max_q_mvar":573,        
+            "in_service":true
+        },
+
+        "gen51": {
+            "etype": "gen",
+            "bus": 51,
+            "p_mw": 2891,
+            "vm_pu":1, 
+            "sn_mva":4000, 
+            "min_q_mvar":-430,
+            "max_q_mvar":1880,     
+            "in_service":true
+        },
+
+
+        "gen60": {
+            "etype": "gen",
+            "bus": 60,
+            "p_mw": 961,
+            "vm_pu":1, 
+            "sn_mva":2000, 
+            "min_q_mvar":-500,
+            "max_q_mvar":800,       
+            "in_service":true
+        },
+
+
+        "gen10000": {
+            "etype": "gen",
+            "bus": 10000,
+            "p_mw": 550,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            "min_q_mvar":-300,
+            "max_q_mvar":300,       
+            "in_service":true
+        },
+
+
+        "gen1853": {
+            "etype": "gen",
+            "bus": 1853,
+            "p_mw": 0,
+            "vm_pu":1.02, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+
+        "gen9917": {
+            "etype": "gen",
+            "bus": 9917,
+            "p_mw": 0,
+            "vm_pu":1.034, 
+            "sn_mva":1000, 
+            "min_q_mvar":-180,
+                    
+            "in_service":true
+        },
+
+        "gen1631": {
+            "etype": "gen",
+            "bus": 1631,
+            "p_mw": 190,
+            "vm_pu":1, 
+            "sn_mva":1000, 
+                    
+            "in_service":true
+        },
+
+
+        //потом только нагрузка
+
+        "load469": {
+            "etype": "load",
+            "bus": "bus469",
+            "p_mw":10,
+            "q_mvar":0.0,
+            "in_service": true
+        },
+
+        "load224": {
+            "etype": "load",
+            "bus": "bus224",
+            "p_mw":2500,
+            "q_mvar":0.0,
+            "in_service": true
+        },
+
+        "load31": {
+            "etype": "load",
+            "bus": "bus31",
+            "p_mw":430,
+            "q_mvar":120,
+            "in_service": true
+        },
+
+        "load1621": {
+            "etype": "load",
+            "bus": "bus1621",
+            "p_mw":175,
+            "q_mvar":79,
+            "in_service": true
+        },
+
+        "load241": {
+            "etype": "load",
+            "bus": "bus241",
+            "p_mw":840,
+            "q_mvar":183,
+            "in_service": true
+        },
+
+        "load981": {
+            "etype": "load",
+            "bus": "bus981",
+            "p_mw":180,
+            "q_mvar":50,
+            "in_service": true
+        },
+
+        "load33": {
+            "etype": "load",
+            "bus": "bus33",
+            "p_mw":522.8,
+            "q_mvar":302,
+            "in_service": true
+        },
+
+
+        "load39": {
+            "etype": "load",
+            "bus": "bus39",
+            "p_mw":360,
+            "q_mvar":50,
+            "in_service": true
+        },
+
+
+        "load130": {
+            "etype": "load",
+            "bus": "bus130",
+            "p_mw":1050,
+            "q_mvar":98,
+            "in_service": true
+        },
+
+
+        "load306": {
+            "etype": "load",
+            "bus": "bus306",
+            "p_mw":20.5,
+            "q_mvar":5.1,
+            "in_service": true
+        },
+
+
+        "load310": {
+            "etype": "load",
+            "bus": "bus310",
+            "p_mw":67,
+            "q_mvar":20,
+            "in_service": true
+        },
+
+
+        "load901": {
+            "etype": "load",
+            "bus": "bus901",
+            "p_mw":3,
+            "q_mvar":2,
+            "in_service": true
+        },
+
+
+
+        "load932": {
+            "etype": "load",
+            "bus": "bus932",
+            "p_mw":12,
+            "q_mvar":2,
+            "in_service": true
+        },
+
+
+        "load1916": {
+            "etype": "load",
+            "bus": "bus1916",
+            "p_mw":825,
+            "q_mvar":102,
+            "in_service": true
+        },
+
+
+        "load988": {
+            "etype": "load",
+            "bus": "bus988",
+            "p_mw":202,
+            "q_mvar":27,
+            "in_service": true
+        },
+
+
+        "load918": {
+            "etype": "load",
+            "bus": "bus918",
+            "p_mw":81.4,
+            "q_mvar":12.2,
+            "in_service": true
+        },
+
+
+        "load2952": {
+            "etype": "load",
+            "bus": "bus2952",
+            "p_mw":420,
+            "q_mvar":76.2,
+            "in_service": true
+        },
+
+
+        "load2918": {
+            "etype": "load",
+            "bus": "bus2918",
+            "p_mw":195,
+            "q_mvar":25,
+            "in_service": true
+        },
+
+        "load2925": {
+            "etype": "load",
+            "bus": "bus2925",
+            "p_mw":660,
+            "q_mvar":70,
+            "in_service": true
+        },
+        "load1630": {
+            "etype": "load",
+            "bus": "bus1630",
+            "p_mw":368,
+            "q_mvar":60,
+            "in_service": true
+        },
+
+          "load175": {
+            "etype": "load",
+            "bus": "bus175",
+            "p_mw":255,
+            "q_mvar":60,
+            "in_service": true
+        },
+        "load590": {
+            "etype": "load",
+            "bus": "bus590",
+            "p_mw":154,
+            "q_mvar":55,
+            "in_service": true
+        },
+
+        "load576": {
+            "etype": "load",
+            "bus": "bus576",
+            "p_mw":304,
+            "q_mvar":-25,
+            "in_service": true
+        },
+
+        "load180": {
+            "etype": "load",
+            "bus": "bus180",
+            "p_mw":103.5,
+            "q_mvar":-99.4,
+            "in_service": true
+        },
+
+
+        "load1636": {
+            "etype": "load",
+            "bus": "bus1636",
+            "p_mw":2754,
+            "q_mvar":-200,
+            "in_service": true
+        },
+
+
+        "load4799": {
+            "etype": "load",
+            "bus": "bus4799",
+            "p_mw":280,
+            "q_mvar":66.7,
+            "in_service": true
+        },
+
+
+        "load2921": {
+            "etype": "load",
+            "bus": "bus2921",
+            "p_mw":2295,
+            "q_mvar":25,
+            "in_service": true
+        },
+
+
+        "load466": {
+            "etype": "load",
+            "bus": "bus466",
+            "p_mw":130,
+            "q_mvar":32,
+            "in_service": true
+        },
+
+
+        "load475": {
+            "etype": "load",
+            "bus": "bus475",
+            "p_mw":6.4,
+            "q_mvar":2.1,
+            "in_service": true
+        },
+
+
+
+        "load50": {
+            "etype": "load",
+            "bus": "bus50",
+            "p_mw":25,
+            "q_mvar":15,
+            "in_service": true
+        },
+
+
+        "load465": {
+            "etype": "load",
+            "bus": "bus465",
+            "p_mw":33,
+            "q_mvar":3.2,
+            "in_service": true
+        },
+
+
+        "load63": {
+            "etype": "load",
+            "bus": "bus63",
+            "p_mw":6964,
+            "q_mvar":3359,
+            "in_service": false
+        },
+
+
+        "load147": {
+            "etype": "load",
+            "bus": "bus147",
+            "p_mw":232,
+            "q_mvar":10,
+            "in_service": true
+        },
+
+
+        "load1817": {
+            "etype": "load",
+            "bus": "bus1817",
+            "p_mw":385,
+            "q_mvar":114,
+            "in_service": true
+        },
+
+
+        "load1850": {
+            "etype": "load",
+            "bus": "bus1850",
+            "p_mw":174,
+            "q_mvar":11,
+            "in_service": true
+        },
+
+        "load7201": {
+            "etype": "load",
+            "bus": "bus7201",
+            "p_mw":135,
+            "q_mvar":40,
+            "in_service": true
+        },
+        "load7202": {
+            "etype": "load",
+            "bus": "bus7202",
+            "p_mw":24,
+            "q_mvar":9,
+            "in_service": true
+        },
+
+          "load7203": {
+            "etype": "load",
+            "bus": "bus7203",
+            "p_mw":173,
+            "q_mvar":49.7,
+            "in_service": true
+        },
+        "load7204": {
+            "etype": "load",
+            "bus": "bus7204",
+            "p_mw":38,
+            "q_mvar":18.8,
+            "in_service": true
+        },
+
+        "load7205": {
+            "etype": "load",
+            "bus": "bus7205",
+            "p_mw":9.1,
+            "q_mvar":1.3,
+            "in_service": true
+        },
+
+        "load7206": {
+            "etype": "load",
+            "bus": "bus7206",
+            "p_mw":54,
+            "q_mvar":30.4,
+            "in_service": true
+        },
+
+
+        "load7208": {
+            "etype": "load",
+            "bus": "bus7208",
+            "p_mw":1183.4,
+            "q_mvar":452.2,
+            "in_service": true
+        },
+
+
+        "load7209": {
+            "etype": "load",
+            "bus": "bus72009",
+            "p_mw":7.4,
+            "q_mvar":2.4,
+            "in_service": true
+        },
+
+
+        "load7210": {
+            "etype": "load",
+            "bus": "bus7210",
+            "p_mw":20.3,
+            "q_mvar":7.9,
+            "in_service": true
+        },
+
+
+        "load7211": {
+            "etype": "load",
+            "bus": "bus7211",
+            "p_mw":18,
+            "q_mvar":5.3,
+            "in_service": true
+        },
+
+
+        "load7212": {
+            "etype": "load",
+            "bus": "bus7212",
+            "p_mw":15,
+            "q_mvar":4.6,
+            "in_service": true
+        },
+
+
+
+        "load7213": {
+            "etype": "load",
+            "bus": "bus7213",
+            "p_mw":305,
+            "q_mvar":90,
+            "in_service": true
+        },
+
+
+        "load7214": {
+            "etype": "load",
+            "bus": "bus7214",
+            "p_mw":320,
+            "q_mvar":15,
+            "in_service": true
+        },
+
+
+        "load7216": {
+            "etype": "load",
+            "bus": "bus7216",
+            "p_mw":55.1,
+            "q_mvar":16.2,
+            "in_service": true
+        },
+
+
+        "load7217": {
+            "etype": "load",
+            "bus": "bus7217",
+            "p_mw":175,
+            "q_mvar":30,
+            "in_service": true
+        },
+
+
+        "load7218": {
+            "etype": "load",
+            "bus": "bus7218",
+            "p_mw":38.9,
+            "q_mvar":5,
+            "in_service": true
+        },
+
+
+        "load7219": {
+            "etype": "load",
+            "bus": "bus7219",
+            "p_mw":13,
+            "q_mvar":4.2,
+            "in_service": true
+        },
+
+        "load7221": {
+            "etype": "load",
+            "bus": "bus7221",
+            "p_mw":207,
+            "q_mvar":42.9,
+            "in_service": true
+        },
+        "load842": {
+            "etype": "load",
+            "bus": "bus842",
+            "p_mw":30,
+            "q_mvar":9.1,
+            "in_service": true
+        },
+
+          "load869": {
+            "etype": "load",
+            "bus": "bus869",
+            "p_mw":18,
+            "q_mvar":6,
+            "in_service": true
+        },
+        "load862": {
+            "etype": "load",
+            "bus": "bus862",
+            "p_mw":154,
+            "q_mvar":44,
+            "in_service": true
+        },
+
+        "load928": {
+            "etype": "load",
+            "bus": "bus928",
+            "p_mw":40,
+            "q_mvar":12,
+            "in_service": true
+        },
+
+        "load953": {
+            "etype": "load",
+            "bus": "bus953",
+            "p_mw":12,
+            "q_mvar":2,
+            "in_service": true
+        },
+
+
+        "load7227": {
+            "etype": "load",
+            "bus": "bus7227",
+            "p_mw":93,
+            "q_mvar":-10,
+            "in_service": true
+        },
+
+
+        "load814": {
+            "etype": "load",
+            "bus": "bus814",
+            "p_mw":8,
+            "q_mvar":2,
+            "in_service": true
+        },
+
+
+        "load7223": {
+            "etype": "load",
+            "bus": "bus7223",
+            "p_mw":14,
+            "q_mvar":2,
+            "in_service": true
+        },
+
+
+        "load839": {
+            "etype": "load",
+            "bus": "bus839",
+            "p_mw":11.3,
+            "q_mvar":4.5,
+            "in_service": true
+        },
+
+
+        "load7224": {
+            "etype": "load",
+            "bus": "bus7224",
+            "p_mw":43,
+            "q_mvar":6.3,
+            "in_service": true
+        },
+
+
+
+        "load865": {
+            "etype": "load",
+            "bus": "bus865",
+            "p_mw":18,
+            "q_mvar":3,
+            "in_service": true
+        },
+
+
+        "load7225": {
+            "etype": "load",
+            "bus": "bus7225",
+            "p_mw":29.9,
+            "q_mvar":7.7,
+            "in_service": true
+        },
+
+
+        "load7226": {
+            "etype": "load",
+            "bus": "bus7226",
+            "p_mw":20,
+            "q_mvar":3,
+            "in_service": true
+        },
+
+
+        "load7228": {
+            "etype": "load",
+            "bus": "bus7228",
+            "p_mw":20,
+            "q_mvar":3.4,
+            "in_service": true
+        },
+
+
+        "load7229": {
+            "etype": "load",
+            "bus": "bus7229",
+            "p_mw":24,
+            "q_mvar":19.3,
+            "in_service": true
+        },
+
+
+        "load913": {
+            "etype": "load",
+            "bus": "bus913",
+            "p_mw":670,
+            "q_mvar":279,
+            "in_service": true
+        },
+
+        "load911": {
+            "etype": "load",
+            "bus": "bus911",
+            "p_mw":50,
+            "q_mvar":15,
+            "in_service": true
+        },
+        "load472": {
+            "etype": "load",
+            "bus": "bus472",
+            "p_mw":222,
+            "q_mvar":44.7,
+            "in_service": true
+        },
+
+          "load455": {
+            "etype": "load",
+            "bus": "bus455",
+            "p_mw":80.6,
+            "q_mvar":35.1,
+            "in_service": true
+        },
+        "load905": {
+            "etype": "load",
+            "bus": "bus905",
+            "p_mw":220,
+            "q_mvar":50,
+            "in_service": true
+        },
+
+        "load356": {
+            "etype": "load",
+            "bus": "bus356",
+            "p_mw":394,
+            "q_mvar":152,
+            "in_service": true
+        },
+
+          "load903": {
+            "etype": "load",
+            "bus": "bus903",
+            "p_mw":80,
+            "q_mvar":67.2, 
+            "in_service": true
+        },
+        "load907": {
+            "etype": "load",
+            "bus": "bus907",
+            "p_mw":55.7,
+            "q_mvar":14,
+            "in_service": true
+        },
+
+
+        "load801": {
+            "etype": "load",
+            "bus": "bus801",
+            "p_mw":265,
+            "q_mvar":20,
+            "in_service": true
+        },
+
+          "load805": {
+            "etype": "load",
+            "bus": "bus805",
+            "p_mw":322,
+            "q_mvar":88,
+            "in_service": true
+        },
+        "load840": {
+            "etype": "load",
+            "bus": "bus840",
+            "p_mw":20,
+            "q_mvar":4,
+            "in_service": true
+        },
+
+
+
+        "load831": {
+            "etype": "load",
+            "bus": "bus831",
+            "p_mw":386.3,
+            "q_mvar":59.8,
+            "in_service": true
+        },
+
+          "load843": {
+            "etype": "load",
+            "bus": "bus843",
+            "p_mw":195.3,
+            "q_mvar":45.3,
+            "in_service": true
+        },
+        "load30": {
+            "etype": "load",
+            "bus": "bus30",
+            "p_mw":12,
+            "q_mvar":3,
+            "in_service": true
+        },
+
+         
+
+        "load51": {
+            "etype": "load",
+            "bus": "bus51",
+            "p_mw":80,
+            "q_mvar":15,
+            "in_service": true
+        },
+
+          "load60": {
+            "etype": "load",
+            "bus": "bus60",
+            "p_mw":22,
+            "q_mvar":8,
+            "in_service": true
+        },
+        "load4727": {
+            "etype": "load",
+            "bus": "bus4727",
+            "p_mw":16,
+            "q_mvar":55,
+            "in_service": true
+        },
+
+        "load4703": {
+            "etype": "load",
+            "bus": "bus4703",
+            "p_mw":140,
+            "q_mvar":-35,
+            "in_service": true
+        },
+
+          "load4782": {
+            "etype": "load",
+            "bus": "bus4782",
+            "p_mw":-52.6,
+            "q_mvar":95,
+            "in_service": true
+        },
+        "load4705": {
+            "etype": "load",
+            "bus": "bus4705",
+            "p_mw":716,
+            "q_mvar":-196,
+            "in_service": true
+        },
+
+
+
+
+        "load10000": {
+            "etype": "load",
+            "bus": "bus10000",
+            "p_mw":-30,
+            "q_mvar":135,
+            "in_service": true
+        },
+
+          "load577": {
+            "etype": "load",
+            "bus": "bus577",
+            "p_mw":256,
+            "q_mvar":-33.8,
+            "in_service": true
+        },
+        "load4790": {
+            "etype": "load",
+            "bus": "bus4790",
+            "p_mw":100000,
+            "q_mvar":40000,
+            "in_service": true
+        },
+
+        "load4785": {
+            "etype": "load",
+            "bus": "bus4785",
+            "p_mw":584.8,
+            "q_mvar":40,
+            "in_service": true
+        },
+
+        "load1852": {
+            "etype": "load",
+            "bus": "bus1852",
+            "p_mw":1,
+            "q_mvar":1,
+            "in_service": true
+        },
+        "load1853": {
+            "etype": "load",
+            "bus": "bus1853",
+            "p_mw":178,
+            "q_mvar":40,
+            "in_service": true
+        },
+        "load9917": {
+            "etype": "load",
+            "bus": "bus9917",
+            "p_mw":146.3,
+            "q_mvar":-42.2,
+            "in_service": true
+        },
+
+        "load1631": {
+            "etype": "load",
+            "bus": "bus1631",
+            "p_mw":5,
+            "q_mvar":165,
+            "in_service": true
+        }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+    }
+}
