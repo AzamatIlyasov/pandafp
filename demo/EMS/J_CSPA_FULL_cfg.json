@@ -2444,8 +2444,8 @@
         "vm_pu": 1.11,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300017": {
         "name": "еэк-20-бл5-8",
@@ -2488,7 +2488,7 @@
         "vm_pu": 1.15,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
+        "min_q_mvar": "None",
         "max_q_mvar": 9
       },
       "300021": {
@@ -2609,8 +2609,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300032": {
         "name": "Капчагайская гэс-220",
@@ -2620,7 +2620,7 @@
         "vm_pu": 1.19,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
+        "min_q_mvar": "None",
         "max_q_mvar": 112
       },
       "300033": {
@@ -2631,7 +2631,7 @@
         "vm_pu": 1.14,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
+        "min_q_mvar": "None",
         "max_q_mvar": 112
       },
       "300034": {
@@ -2664,8 +2664,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300037": {
         "name": "Главная",
@@ -2829,7 +2829,7 @@
         "vm_pu": 1.97,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
+        "min_q_mvar": "None",
         "max_q_mvar": 9
       },
       "300052": {
@@ -2961,8 +2961,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300064": {
         "name": "Акжар",
@@ -3027,8 +3027,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300070": {
         "name": "Итатская",
@@ -3038,8 +3038,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300071": {
         "name": "Юрга",
@@ -3049,8 +3049,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300072": {
         "name": "Жана-арка",
@@ -3060,8 +3060,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300073": {
         "name": "Барсенгир",
@@ -3071,8 +3071,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300074": {
         "name": "Кумколь",
@@ -3093,8 +3093,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300076": {
         "name": "Никольская",
@@ -3104,8 +3104,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300077": {
         "name": "жтэц",
@@ -3137,8 +3137,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300080": {
         "name": "Kаражал",
@@ -3148,8 +3148,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300081": {
         "name": "Aгадырь-220",
@@ -3159,8 +3159,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300082": {
         "name": "АГАДЫРЬ-500",
@@ -3171,7 +3171,7 @@
         "sn_mva": "None",
         "in_service": false,
         "min_q_mvar": -360,
-        "max_q_mvar": 0
+        "max_q_mvar": "None"
       },
       "300083": {
         "name": "бтэц-110",
@@ -3192,8 +3192,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300085": {
         "name": "Акчтау",
@@ -3203,8 +3203,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300086": {
         "name": "Mоинты",
@@ -3214,8 +3214,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300087": {
         "name": "Каражингил",
@@ -3225,8 +3225,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300088": {
         "name": "Сарышаган",
@@ -3236,8 +3236,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300089": {
         "name": "Мынарал",
@@ -3247,8 +3247,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300090": {
         "name": "Кияхты",
@@ -3258,8 +3258,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300091": {
         "name": "юкгрэс",
@@ -3269,8 +3269,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300092": {
         "name": "Алматы",
@@ -3280,8 +3280,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300093": {
         "name": "тэц-3 2сш",
@@ -3302,8 +3302,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300095": {
         "name": "Бесагаш",
@@ -3313,8 +3313,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300096": {
         "name": "пс-62 АТ2",
@@ -3324,8 +3324,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300097": {
         "name": "Чилик",
@@ -3335,8 +3335,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300098": {
         "name": "пс-7",
@@ -3357,8 +3357,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300100": {
         "name": "Чиганак",
@@ -3368,8 +3368,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300101": {
         "name": "Сары-Озек",
@@ -3379,8 +3379,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300102": {
         "name": "Талдыкорганская-220",
@@ -3390,8 +3390,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300103": {
         "name": "Главная",
@@ -3412,8 +3412,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300105": {
         "name": "Таугуль",
@@ -3423,8 +3423,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300106": {
         "name": "Жидели",
@@ -3434,8 +3434,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300107": {
         "name": "Шу",
@@ -3445,8 +3445,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300108": {
         "name": "Аспара",
@@ -3456,8 +3456,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300109": {
         "name": "Жамбыл",
@@ -3467,8 +3467,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300110": {
         "name": "Бурное",
@@ -3478,8 +3478,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300111": {
         "name": "Каратау",
@@ -3489,8 +3489,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300112": {
         "name": "Опорная",
@@ -3500,8 +3500,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300113": {
         "name": "жгрэс-220",
@@ -3544,8 +3544,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300117": {
         "name": "Жамбыл Тяга",
@@ -3555,8 +3555,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300118": {
         "name": "Бурное Тяга",
@@ -3566,8 +3566,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300119": {
         "name": "Абдезим",
@@ -3577,8 +3577,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300120": {
         "name": "Шымкент-220",
@@ -3599,8 +3599,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300122": {
         "name": "Ванновка",
@@ -3610,8 +3610,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300123": {
         "name": "Бадам",
@@ -3621,8 +3621,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300124": {
         "name": "Арысь",
@@ -3632,8 +3632,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300125": {
         "name": "Монтайташ",
@@ -3643,8 +3643,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300126": {
         "name": "Жылга",
@@ -3654,8 +3654,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300127": {
         "name": "Кентау",
@@ -3665,8 +3665,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300128": {
         "name": "Шолаккорган",
@@ -3676,8 +3676,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300129": {
         "name": "Шымкентская",
@@ -3687,8 +3687,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300130": {
         "name": "Тюлькубас",
@@ -3698,8 +3698,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300131": {
         "name": "Кызылсай",
@@ -3709,8 +3709,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300132": {
         "name": "Кызылординская тэц",
@@ -3731,8 +3731,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300134": {
         "name": "Шиели",
@@ -3742,8 +3742,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300135": {
         "name": "Жанакорган",
@@ -3753,8 +3753,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300136": {
         "name": "Жалагаш",
@@ -3764,8 +3764,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300137": {
         "name": "Жусалы",
@@ -3775,8 +3775,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300138": {
         "name": "Бишкек",
@@ -3786,8 +3786,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300139": {
         "name": "ТАШ.ГРЭС",
@@ -3808,8 +3808,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300141": {
         "name": "Ириклинская грэс",
@@ -3830,8 +3830,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300143": {
         "name": "Иртышская",
@@ -3841,8 +3841,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300144": {
         "name": "Миргалимсай",
@@ -3852,8 +3852,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300145": {
         "name": "Сары-оба (т)",
@@ -3863,8 +3863,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300146": {
         "name": "Еркеншилик (т)",
@@ -3874,8 +3874,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300147": {
         "name": "Жолымбет",
@@ -3885,8 +3885,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300148": {
         "name": "цгпп",
@@ -3896,8 +3896,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300149": {
         "name": "Шортанды (т)",
@@ -3907,8 +3907,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300150": {
         "name": "Танкерис (т)",
@@ -3918,8 +3918,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300151": {
         "name": "Ельтай (т)",
@@ -3929,8 +3929,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300152": {
         "name": "Бурабай (т)",
@@ -3940,8 +3940,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300153": {
         "name": "Жалтыр (т)",
@@ -3951,8 +3951,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300154": {
         "name": "Тастак (т)",
@@ -3962,8 +3962,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300155": {
         "name": "Ирченко (т)",
@@ -3973,8 +3973,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300156": {
         "name": "Атбасар",
@@ -3984,8 +3984,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300157": {
         "name": "кгпп",
@@ -3995,8 +3995,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300158": {
         "name": "Красноармейская",
@@ -4006,8 +4006,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300159": {
         "name": "Киялы",
@@ -4017,8 +4017,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300160": {
         "name": "БАРНАУЛ-500",
@@ -4072,8 +4072,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300165": {
         "name": "ТУЛЕБЕРДЫЕВА",
@@ -4083,8 +4083,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300166": {
         "name": "Макинск",
@@ -4094,8 +4094,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300167": {
         "name": "Степная",
@@ -4127,8 +4127,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300170": {
         "name": "Сибирь",
@@ -4138,8 +4138,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300171": {
         "name": "Буран",
@@ -4149,8 +4149,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300172": {
         "name": "Уголки(т)",
@@ -4160,8 +4160,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300173": {
         "name": "Куйбышевская",
@@ -4171,8 +4171,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300174": {
         "name": "Кокшетауская-1150",
@@ -4182,8 +4182,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300175": {
         "name": "Урожайная",
@@ -4204,8 +4204,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300177": {
         "name": "Жаксы (т)",
@@ -4215,8 +4215,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300178": {
         "name": "КУРГАН",
@@ -4237,8 +4237,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300180": {
         "name": "Экибастузская тэц",
@@ -4248,7 +4248,7 @@
         "vm_pu": 1.97,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
+        "min_q_mvar": "None",
         "max_q_mvar": 9
       },
       "300181": {
@@ -4270,8 +4270,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300183": {
         "name": "Коян-Кос",
@@ -4281,8 +4281,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300184": {
         "name": "Шымкентская ТЭЦ-3",
@@ -4303,8 +4303,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300186": {
         "name": "Ру-6",
@@ -4314,8 +4314,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300187": {
         "name": "УЗБЕКИСТОН",
@@ -4325,8 +4325,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300188": {
         "name": "АЛТАЙ",
@@ -4358,8 +4358,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300191": {
         "name": "ЛОЧИН",
@@ -4369,8 +4369,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300192": {
         "name": "БАРАБИНСКАЯ",
@@ -4381,7 +4381,7 @@
         "sn_mva": "None",
         "in_service": false,
         "min_q_mvar": -180,
-        "max_q_mvar": 0
+        "max_q_mvar": "None"
       },
       "300193": {
         "name": "КУРЧАТОВСКАЯ",
@@ -4402,8 +4402,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300195": {
         "name": "ЮЖНОУРАЛЬСКАЯ ГРЭС-2",
@@ -4424,8 +4424,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300197": {
         "name": "Восход",
@@ -4435,8 +4435,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300198": {
         "name": "ВИТЯЗЬ",
@@ -4446,8 +4446,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": false,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300199": {
         "name": "КЕМИН",
@@ -4479,8 +4479,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300202": {
         "name": "Акжар",
@@ -4534,8 +4534,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300207": {
         "name": "Итатская",
@@ -4545,8 +4545,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300208": {
         "name": "Юрга",
@@ -4556,8 +4556,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
       "300209": {
         "name": "Барабинская-220",
@@ -4567,8 +4567,8 @@
         "vm_pu": 1,
         "sn_mva": "None",
         "in_service": true,
-        "min_q_mvar": 0,
-        "max_q_mvar": 0
+        "min_q_mvar": "None",
+        "max_q_mvar": "None"
       },
 
 
@@ -13269,7 +13269,7 @@
       "47090": {
         "etype": "ext_grid",
         "bus": 4709,   
-        "vm_pu": 1.0,
+        "vm_pu": 1.05,
 
         "name":"BAZA",
         "in_service":false

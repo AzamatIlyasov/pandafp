@@ -8,7 +8,7 @@ import pandapower.estimation as est
 
 import pandas as pd
 from flask import Flask, request
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from pandapower import LoadflowNotConverged
 
 import utils
@@ -245,13 +245,13 @@ def sim_request(data):
             #pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
         print("MEAS.: ", msrmt_index)
 
-    print("NET:", net)
-    print("NET_BUS:", net.bus)
-    print("NET_LOAD:", net.load)
-    print("NET_GEN:", net.gen)
-    print("NET_SHUNT:", net.shunt)
-    print("NET_LINE:", net.line)
-    print("NET_TRAFO:", net.trafo)
+    print("NET:\n", net)
+    print("NET_BUS:\n", net.bus)
+    print("NET_LOAD:\n", net.load)
+    print("NET_GEN:\n", net.gen)
+    print("NET_SHUNT:\n", net.shunt)
+    print("NET_LINE:\n", net.line)
+    print("NET_TRAFO:\n", net.trafo)
     #run (runpp, runpp_3ph, estimate)
     try:
         if is_three_phase:
@@ -263,7 +263,7 @@ def sim_request(data):
             print("isEstimated: ", res_est)
             pp.runpp(net, max_iteration=20)            
         else:
-            pp.runpp(net, max_iteration=20, tolerance_mva=1e-4, numba=False)                
+            pp.runpp(net, max_iteration=20, numba=False)                
     except LoadflowNotConverged:
         report = pp.diagnostic(net)#, report_style="compact")#, warnings_only=True)
         #report_full = pp.diagnostic(net)
@@ -277,10 +277,10 @@ def sim_request(data):
         print("Unknown exception has occured: " + str(e))
         #raise PPError("Unknown exception has occured: " + str(e))
     
-    print("RESULT RUNPP:")
+    print("RESULT RUNPP:\n")
     print(net.res_bus)
     print(net.res_line)
-    print("RESULT RUNEST:")
+    print("RESULT RUNEST:\n")
     print(net.res_bus_est)
     print(net.res_line_est)
 
@@ -313,24 +313,24 @@ def sim_request(data):
 # PROGRAM MAIN ENTRY POINT
 
 
-if __name__ == "__main__":
-    """ Entry point for program
-    Just calls run and starts listening for requests
-    """
-    load_dotenv()
-    host_addr = os.getenv("EBPP_HOST", "0.0.0.0")
-    host_port = os.getenv("EBPP_PORT", "1127")
-    debug_flag = False
-    argc = len(sys.argv)
-    if argc == 1:
-        print("No arguments passed. Using defaults.")
-    elif argc == 2:
-        if sys.argv[1] == "-d":
-            print("Running flask in debug mode.")
-            host_addr = "127.0.0.1"
-            debug_flag = True
-        else:
-            print(f"The flag {sys.argv[1]} is not a valid flag.")
-    else:
-        print("Invalid number of arguments given.")
-    app.run(host=host_addr, port=host_port, debug=debug_flag)
+# if __name__ == "__main__":
+#     """ Entry point for program
+#     Just calls run and starts listening for requests
+#     """
+#     load_dotenv()
+#     host_addr = os.getenv("EBPP_HOST", "0.0.0.0")
+#     host_port = os.getenv("EBPP_PORT", "1127")
+#     debug_flag = False
+#     argc = len(sys.argv)
+#     if argc == 1:
+#         print("No arguments passed. Using defaults.")
+#     elif argc == 2:
+#         if sys.argv[1] == "-d":
+#             print("Running flask in debug mode.")
+#             host_addr = "127.0.0.1"
+#             debug_flag = True
+#         else:
+#             print(f"The flag {sys.argv[1]} is not a valid flag.")
+#     else:
+#         print("Invalid number of arguments given.")
+#     app.run(host=host_addr, port=host_port, debug=debug_flag)

@@ -39,17 +39,18 @@ print("LEN:", len(_json))
 data=_json
 
 status = utils.get_or_error("status", data)
-resultRun = None,
+net = None,
 
 if status == "SIM_REQUEST":
-    resultRun = ebpp.sim_request(data)
+    net = ebpp.sim_request(data)
 
 #plotting
-pltly.simple_plotly(resultRun)
-#pltly.vlevel_plotly(resultRun)
-#pltly.pf_res_plotly(resultRun)
+#pltly.simple_plotly(net)
+#pltly.vlevel_plotly(net)
+#pltly.pf_res_plotly(net)
 
+pp.to_excel(net, "net_cspa.xlsx")
 
-print("RESULT:", resultRun)
+print("RESULT:", net)
 
-#plt.simple_plot(resultRun)
+#plt.simple_plot(net)
