@@ -29,7 +29,7 @@ print(net)
 
 #create measure
  # V at bus 1 and 2 (in pu)
-msrnt_index_vb = pp.create_measurement(net, meas_type="v", element_type="bus", value=1.006, std_dev=0.004, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
+msrnt_index_vb = pp.create_measurement(net, meas_type="v", element_type="bus", value=-0.1, std_dev=-0.1, element=b1, side=None, check_existing=True, index=None, name="b1_v_pu")
 pp.create_measurement(net, meas_type="v", element_type="bus", value=0.968, std_dev=0.004, element=b2, side=None, check_existing=True, index=None, name="b2_v_pu")
 
  # P and Q at bus2 (in MW, Mvar)
@@ -44,12 +44,16 @@ pp.create_measurement(net, meas_type="q", element_type="line", value=0.663, std_
 
 pp.create_measurement(net, meas_type="p", element_type="line", value=1.0, std_dev=0.008, element=l1, side=b3, name="l1_b1_b2_p_mwat")
 
-print(net.measurement)
-print("")
+print("MEAS.BEF1:\n",net.measurement)
+
 
 #go run
+res_chi2 = est.chi2_analysis(net, init="flat")
+print("isChi2: ", res_chi2)
 res_rn_max = remove_bad_data(net, init="flat", rn_max_threshold=3.0)
 print("isRemovedBadData: ", res_rn_max)
+
+print("MEAS.AFTER:\n",net.measurement)
 
 resEst = est.estimate(net, init="flat")
 
@@ -59,11 +63,14 @@ print(net.res_bus_est)
 
 #pp.runpp(net)
 #print(net.res_bus)
+pp.to_excel(net, "net_demo3_stest1.xlsx")
 
 #plotting
-pltly.simple_plotly(net)
-pltly.vlevel_plotly(net)
-pltly.pf_res_plotly(net)
+# pltly.simple_plotly(net)
+# pltly.vlevel_plotly(net)
+# pltly.pf_res_plotly(net)
 
-plt.simple_plot(net)
-plt.simple_plot(net, plot_loads=True, plot_gens=True, plot_sgens=True, plot_line_switches=True)
+# plt.simple_plot(net)
+# plt.simple_plot(net, plot_loads=True, plot_gens=True, plot_sgens=True, plot_line_switches=True)
+
+
