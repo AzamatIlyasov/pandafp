@@ -8,7 +8,7 @@ import pandapower.estimation as est
 
 import pandas as pd
 from flask import Flask, request
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 from pandapower import LoadflowNotConverged
 
 import utils
@@ -45,9 +45,28 @@ def conv_error(error):
 def index():
     return "Welcome to Electric Blocks Panda Power. Please visit <a href=\"https://github.com/Electric-Blocks\">https://github.com/Electric-Blocks</a> for more info."
 
+
+@app.route("/test", methods=["GET", "POST"])
+def test():
+    print("request:", request)
+    print("request.data:", request.data)
+    try:        
+        json.loads(request.data)
+    except:
+        raise JsonError("Could not parse json from request data")
+
+    status = utils.get_or_error("status", request.json)
+    if status == "KEEP_ALIVE":
+        return keep_alive()
+    else:
+        raise InvalidError(f"Status \"{status}\" is not a valid status code.")
+
+
 @app.route("/api", methods=["GET", "POST"])
 def api():
-    try:
+    print("request:", request)
+    print("request.data:", request.data)
+    try:        
         json.loads(request.data)
     except:
         raise JsonError("Could not parse json from request data")
@@ -66,6 +85,7 @@ def keep_alive():
     message = {}
     message["status"] = "KEEP_ALIVE"
     message["response"] = "Keep alive request acknowledged"
+    print("message:", message)
     return json.dumps(message)
 
 def sim_request(data):
@@ -290,7 +310,7 @@ def sim_request(data):
     print("Message results: ", message)
     
     #for DEBUG
-    return net
+    # return net
 
     for uuid,element in elements_dict.items():
         element_type = elements_dict[uuid]["etype"]
@@ -306,31 +326,31 @@ def sim_request(data):
         #print("ind results: ", index,results)
 
     message["elements"] = results
-    print("SUCCES")
+    print("SUCCES, message:", message)
     #print("message results: ", message)
     return json.dumps(message)
 
 # PROGRAM MAIN ENTRY POINT
 
 
-# if __name__ == "__main__":
-#     """ Entry point for program
-#     Just calls run and starts listening for requests
-#     """
-#     load_dotenv()
-#     host_addr = os.getenv("EBPP_HOST", "0.0.0.0")
-#     host_port = os.getenv("EBPP_PORT", "1127")
-#     debug_flag = False
-#     argc = len(sys.argv)
-#     if argc == 1:
-#         print("No arguments passed. Using defaults.")
-#     elif argc == 2:
-#         if sys.argv[1] == "-d":
-#             print("Running flask in debug mode.")
-#             host_addr = "127.0.0.1"
-#             debug_flag = True
-#         else:
-#             print(f"The flag {sys.argv[1]} is not a valid flag.")
-#     else:
-#         print("Invalid number of arguments given.")
-#     app.run(host=host_addr, port=host_port, debug=debug_flag)
+if __name__ == "__main__":
+    """ Entry point for program
+    Just calls run and starts listening for requests
+    """
+    load_dotenv()
+    host_addr = os.getenv("EBPP_HOST", "0.0.0.0")
+    host_port = os.getenv("EBPP_PORT", "1127")
+    debug_flag = False
+    argc = len(sys.argv)
+    if argc == 1:
+        print("No arguments passed. Using defaults.")
+    elif argc == 2:
+        if sys.argv[1] == "-d":
+            print("Running flask in debug mode.")
+            host_addr = "127.0.0.1"
+            debug_flag = True
+        else:
+            print(f"The flag {sys.argv[1]} is not a valid flag.")
+    else:
+        print("Invalid number of arguments given.")
+    app.run(host=host_addr, port=host_port, debug=debug_flag)

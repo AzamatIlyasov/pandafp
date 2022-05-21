@@ -1,5 +1,15 @@
 
 {
+    "status": $status,
+    "3phase": $3phase,
+    "est": $estimate,    
+    "invert": $aza,
+    "elements": $elements,
+    "measurements": $measurements,
+}
+
+
+{
     "status": "SIM_REQUEST",
     "3phase": false,
     "is_estimate": false,    
