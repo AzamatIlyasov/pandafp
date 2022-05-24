@@ -20,6 +20,13 @@ b3 = pp.create_bus(net, name="bus 3", vn_kv=1., index=3)
 #create bus elements
 pp.create_ext_grid(net, bus=b1,name="Grid Connection", index=10000)
 
+#create static gen
+pp.create_sgen(net, bus=b1,p_mw=1.1,q_mvar=0, sn_mva=None, name="Example static gen", index=None, scaling=1.0, type='wye', in_service=True, max_p_mw=None, min_p_mw=None, max_q_mvar=None, min_q_mvar=None, controllable=None, k=None, rx=None, current_source=True)
+
+#load
+pp.create_load
+
+
 #create branch elements
 l1 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b2, length_km=1., r_ohm_per_km=.01, x_ohm_per_km=.03, c_nf_per_km=0., max_i_ka=1)
 l2 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b3, length_km=1., r_ohm_per_km=.02, x_ohm_per_km=.05, c_nf_per_km=0., max_i_ka=1)
