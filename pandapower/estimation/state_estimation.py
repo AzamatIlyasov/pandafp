@@ -169,7 +169,7 @@ class StateEstimation:
         self.logger = logger
         if self.logger is None:
             self.logger = std_logger
-            # self.logger.setLevel(logging.DEBUG)
+            self.logger.setLevel(logging.DEBUG)
         self.net = net
         self.solver = ALGORITHM_MAPPING[algorithm](tolerance,
                                                    maximum_iterations, self.logger)

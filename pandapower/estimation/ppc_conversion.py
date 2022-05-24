@@ -107,7 +107,7 @@ def _add_measurements_to_ppci(net, ppci, zero_injection):
                               row["side"] in ("from", "to") else
                               net[row["element_type"]].at[row["element"], row["side"] + '_bus'] if
                               row["side"] in ("hv", "mv", "lv") else row["side"], axis=1)
-
+    
     # convert p, q, i measurement to p.u., u already in p.u.
     meas.loc[meas.measurement_type == "p", ["value", "std_dev"]] /= ppci["baseMVA"]
     meas.loc[meas.measurement_type == "q", ["value", "std_dev"]] /= ppci["baseMVA"]
