@@ -2,7 +2,31 @@ import pandapower as pp
 from pandapower import estimation as est
 from pandapower.estimation import remove_bad_data
 import numpy as np
+import logging.config
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'simple': {
+            'format': '%(levelname)s: %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['console'],
+        },
+    },
+}
+logging.config.dictConfig(LOGGING)
+logging.getLogger(__name__).debug('This is a debug message')
 
 #create empty net
 net = pp.create_empty_network() 
