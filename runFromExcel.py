@@ -5,31 +5,31 @@ import pandapower.plotting.plotly as pltly
 import pandapower.plotting as plt
 import pandapower.estimation as est
 import os
-import logging.config
+# import logging.config
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'simple': {
-            'format': '%(levelname)s: %(message)s'
-        },
-    },
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-        },
-    },
-    'loggers': {
-        '': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-        },
-    },
-}
-logging.config.dictConfig(LOGGING)
-logging.getLogger(__name__).debug('This is a debug message')
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'formatters': {
+#         'simple': {
+#             'format': '%(levelname)s: %(message)s'
+#         },
+#     },
+#     'handlers': {
+#         'console': {
+#             'level': 'DEBUG',
+#             'class': 'logging.StreamHandler',
+#         },
+#     },
+#     'loggers': {
+#         '': {
+#             'level': 'DEBUG',
+#             'handlers': ['console'],
+#         },
+#     },
+# }
+# logging.config.dictConfig(LOGGING)
+# logging.getLogger(__name__).debug('This is a debug message')
 
 #net = pp.from_excel(os.path.join("C:", "\FILES", "PROJECTS", "pandafp", "demo", "EMS", "net_cspa2.xlsx"), convert=False)
 net = pp.from_excel(os.path.join("C:", "\FILES", "PROJECTS", "pandafp", "demo", "WACS", "wacs_new1.xlsx"), convert=False)
@@ -50,16 +50,17 @@ for i, std_dev in enumerate(meas.std_dev):
     res /= 10
     #print(i, res)
          
-try:  
-    res_pp = pp.runpp(net)  
-    #pp.runpp(net, max_iteration=10,  numba=False) 
-    print("isRunPP: ", res_pp)  
+try:   
     res_chi2 = est.chi2_analysis(net, init="flat")
     print("isChi2: ", res_chi2)
     res_rn_max = est.remove_bad_data(net, init="flat", rn_max_threshold=3.0)
     print("isRemovedBadData: ", res_rn_max)
     res_est = est.estimate(net, init="flat")
     print("isEstimated: ", res_est) 
+    res_pp = pp.runpp(net)  
+    #pp.runpp(net, max_iteration=10,  numba=False) 
+    print("isRunPP: ", res_pp) 
+
 except Exception as e:
     print("ОШИБКА: " + str(e))
 
