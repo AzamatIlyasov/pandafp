@@ -120,9 +120,17 @@ def pf_res_plotly(net, cmap="Jet", use_line_geodata=None, on_map=False, projecti
     precision = 3
     hoverinfo = (
             net.bus.name.astype(str) + '<br />' +
-            'V_m = ' + net.res_bus.vm_pu.round(precision).astype(str) + ' pu' + '<br />' +
-            'V_m = ' + (net.res_bus.vm_pu * net.bus.vn_kv.round(2)).round(precision).astype(str) + ' kV' + '<br />' +
-            'V_a = ' + net.res_bus.va_degree.round(precision).astype(str) + ' deg').tolist()
+            net.res_bus.index.astype(str) + '<br />' +
+            'V_m = ' + net.res_bus.vm_pu.round(precision).astype(str) + ' pu' + '<br />' 
+            + 'V_m = ' + (net.res_bus.vm_pu * net.bus.vn_kv.round(2)).round(precision).astype(str) + ' kV' + '<br />' 
+            + 'V_a = ' + net.res_bus.va_degree.round(precision).astype(str) + ' deg' + '<br />' 
+            + 'P = ' + net.res_bus.p_mw.round(precision).astype(str) + ' MW' + '<br />' 
+            + 'Q = ' + net.res_bus.q_mvar.round(precision).astype(str) + ' MVar' + '<br />' 
+            #+ 'Pgen = ' + net.res_gen.p_mw.round(precision).astype(str) + ' MW' + '<br />' 
+            #+ 'Qgen = ' + net.res_gen.q_mvar.round(precision).astype(str) + ' MVar' + '<br />' 
+            #+ 'Pload = ' + net.res_load.p_mw.round(precision).astype(str) + ' MW' + '<br />' 
+            #+ 'Qload = ' + net.res_load.q_mvar.round(precision).astype(str) + ' MVar' + '<br />' 
+            ).tolist()
     hoverinfo = pd.Series(index=net.bus.index, data=hoverinfo)
     bus_trace = create_bus_trace(net, net.bus.index, size=bus_size, infofunc=hoverinfo, cmap=cmap,
                                  cbar_title='Bus Voltage [pu]', cmin=climits_volt[0], cmax=climits_volt[1],
@@ -139,10 +147,16 @@ def pf_res_plotly(net, cmap="Jet", use_line_geodata=None, on_map=False, projecti
         use_line_geodata = False
     # hoverinfo which contains name and pf results
     hoverinfo = (
-            net.line.name.astype(str) + '<br />' +
-            'I = ' + net.res_line.loading_percent.round(precision).astype(str) + ' %' + '<br />' +
-            'I_from = ' + net.res_line.i_from_ka.round(precision).astype(str) + ' kA' + '<br />' +
-            'I_to = ' + net.res_line.i_to_ka.round(precision).astype(str) + ' kA' + '<br />').tolist()
+            net.line.name.astype(str) + '<br />' +     
+            net.line.from_bus.astype(str) + '-' +net.line.to_bus.astype(str) + '<br />' 
+            'P_from = ' + net.res_line.p_from_mw.round(precision).astype(str) + ' MW' + '<br />' 
+            + 'P_to = ' + net.res_line.p_to_mw.round(precision).astype(str) + ' MW' + '<br />' 
+            + 'Q_from = ' + net.res_line.q_from_mvar.round(precision).astype(str) + ' MVar' + '<br />' 
+            + 'Q_to = ' + net.res_line.q_to_mvar.round(precision).astype(str) + ' MVar' + '<br />' 
+            + 'I = ' + net.res_line.loading_percent.round(precision).astype(str) + ' %' + '<br />' 
+            #+ 'I_from = ' + net.res_line.i_from_ka.round(precision).astype(str) + ' kA' + '<br />'
+            #+ 'I_to = ' + net.res_line.i_to_ka.round(precision).astype(str) + ' kA' + '<br />' 
+            ).tolist()
     hoverinfo = pd.Series(index=net.line.index, data=hoverinfo)
     line_traces = create_line_trace(net, use_line_geodata=use_line_geodata, respect_switches=True,
                                     width=line_width,

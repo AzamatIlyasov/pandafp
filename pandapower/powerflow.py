@@ -182,6 +182,13 @@ def _ppci_to_net(result, net):
 
     # raise if PF was not successful. If DC -> success is always 1
     if result["success"] != 1:
+        #for debug mode (by azamat) - if PF was not succes - try to understand ResultPF whith not covereged.
+        write_res_with_conv_false = True #net["_options"]["write_res_with_conv_false"]
+        if write_res_with_conv_false == True:
+            net["_ppc"] = result 
+            _extract_results(net, result)
+            _clean_up(net)
+        
         _clean_up(net, res=False)
         algorithm = net["_options"]["algorithm"]
         max_iteration = net["_options"]["max_iteration"]
