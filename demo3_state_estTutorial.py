@@ -47,9 +47,14 @@ pp.create_load
 
 
 #create branch elements
-l1 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b2, length_km=1., r_ohm_per_km=.01, x_ohm_per_km=.03, c_nf_per_km=0., max_i_ka=1)
-l2 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b3, length_km=1., r_ohm_per_km=.02, x_ohm_per_km=.05, c_nf_per_km=0., max_i_ka=1)
-l3 = pp.create_line_from_parameters(net, from_bus=b2, to_bus=b3, length_km=1., r_ohm_per_km=.03, x_ohm_per_km=.08, c_nf_per_km=0., max_i_ka=1)
+l1 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b2, length_km=1., r_ohm_per_km=.01, x_ohm_per_km=.03, c_nf_per_km=0., max_i_ka=1, index=1)
+l2 = pp.create_line_from_parameters(net, from_bus=b1, to_bus=b3, length_km=1., r_ohm_per_km=.02, x_ohm_per_km=.05, c_nf_per_km=0., max_i_ka=1, index=2)
+l3 = pp.create_line_from_parameters(net, from_bus=b2, to_bus=b3, length_km=1., r_ohm_per_km=.03, x_ohm_per_km=.08, c_nf_per_km=0., max_i_ka=1, index=3)
+
+
+sw_l1 = pp.create_switches(net, buses = [1,2], elements = [1,1], et=['l','l'], closed=True, type="CB", name="test_sw_l1", index=[1,2], z_ohm=0.01)
+sw_l2 = pp.create_switches(net, buses = [1,3], elements = [2,2], et=['l','l'], closed=True, type="CB", name="test_sw_l2", index=[3,4], z_ohm=0.01)
+
 
 print(net)
 
