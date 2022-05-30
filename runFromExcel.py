@@ -73,12 +73,16 @@ try:
     #init - flat slack results
     #algorithm - wls  irwls  wls_with_zero_constraint  opt  lp
     #estimator - wls  lav  ql  qc  shgm  shgm  lav
-    # res_chi2 = est.chi2_analysis(net, init="slack", maximum_iterations = 20)
+    # res_chi2 = est.chi2_analysis(net, init="flat")#, maximum_iterations = 30, tolerance=0.01)
     # print("isChi2: ", res_chi2)
-    res_rn_max = est.remove_bad_data(net, init="slack", rn_max_threshold=3.0, maximum_iterations = 30, tolerance=0.01)
-    print("isRemovedBadData: ", res_rn_max)
-    res_est = est.estimate(net, init="slack", maximum_iterations = 30, tolerance=0.01)
-    print("isEstimated: ", res_est) 
+    # res_rn_max = est.remove_bad_data(net, init="flat")#, rn_max_threshold=3.0, maximum_iterations = 30, tolerance=0.01)
+    # print("isRemovedBadData: ", res_rn_max)
+    res_est1 = est.estimate(net, init="flat")#, maximum_iterations = 30, tolerance=0.01)
+    res_est2 = est.estimate(net, init="flat", algorithm="irwls", estimator='shgm', a=5)
+    res_est3 = est.estimate(net, init="flat", algorithm="lp")    
+    res_est4 = est.estimate(net, init="flat", algorithm="opt", estimator="ql", a=3)  ######worked ?
+
+    print("isEstimated: ", res_est1, res_est2, res_est3, res_est4) 
 except Exception as e:
     print("ОШИБКА_EST: " + str(e))
     
