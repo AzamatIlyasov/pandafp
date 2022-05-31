@@ -37,7 +37,8 @@ class BaseAlgorithm:
 
     def check_observability(self, eppci: ExtendedPPCI, z):
         # Check if observability criterion is fulfilled and the state estimation is possible
-        if len(z) < 2 * eppci["bus"].shape[0] - 1:
+        count_buses = eppci["bus"].shape[0]
+        if len(z) < 2 * count_buses - 1:
             self.logger.error("System is not observable (cancelling)")
             self.logger.error("Measurements available: %d. Measurements required: %d" %
                               (len(z), 2 * eppci["bus"].shape[0] - 1))

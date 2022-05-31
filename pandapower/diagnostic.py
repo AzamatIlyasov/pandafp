@@ -918,3 +918,21 @@ def parallel_switches(net):
             'bus==@bus & element==@element & et==@et').index))
     if parallel_switches:
         return parallel_switches
+
+
+def runpp_conv_false(net, write_res_with_conv_false=True):
+    """   
+     INPUT:
+        **net** (pandapowerNet)         - pandapower network
+        **write_res_with_conv_false** (True)   - 
+     OUTPUT:
+        **net**         - net with result - when covereged false                                          
+
+    """    
+    try:
+        runpp(net)
+    except LoadflowNotConverged:
+        return net
+    return net
+
+

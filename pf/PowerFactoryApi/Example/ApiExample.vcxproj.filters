@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{149da1d7-73fd-4558-8786-84967ad0e4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\v2">
+      <UniqueIdentifier>{7fe75561-0891-4d7d-83d2-979e2dbe92ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ApiExample.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utils.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ExportImport.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ApiValue.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\v2\Application.hpp">
+      <Filter>include\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\v2\DataObject.hpp">
+      <Filter>include\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\v2\OutputWindow.hpp">
+      <Filter>include\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\v2\Api.hpp">
+      <Filter>include\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\v2\ExitError.hpp">
+      <Filter>include\v2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\include\digapivalue.lib">
+      <Filter>include</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
