@@ -29,7 +29,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import sys
-sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2021 SP1\Python\3.8')
+sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2021 SP3\Python\3.8')
 if __name__ == "__main__":
     import powerfactory as pf
 app = pf.GetApplication()
@@ -90,8 +90,8 @@ def getResults():
     return results
 #%% load flow
 #define project name and study case    
-projName =   '_TSI_nine_bus_system'
-study_case = '01_Study_Case.IntCase'
+projName =   'CSPA_Model_3105(2)'
+study_case = 'Study Case.IntCase'
 
 #activate project
 project = app.ActivateProject(projName)
